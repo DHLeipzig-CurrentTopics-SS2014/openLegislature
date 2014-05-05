@@ -26,21 +26,34 @@ public class App {
 	public static void main(String[] args) {
 		Logger.getInstance();
 
+		PDF2XMLConverter converter = new PDF2XMLConverter();
 		if ( !new File(Helpers.getUserDir() + "/data/bundestag").exists() ) {
+			Logger.info("Downloading all Bundestag protocols.");
 			new File(Helpers.getUserDir() + "/data/bundestag").mkdirs();
 			App.downloadAllBundestag();
 		}
 		else {
-			App.checkBundestagRSS();
+			Logger.info("Updating bundestag protocols.");
+			List<String> newProtocls = App.checkBundestagRSS();
+			for ( String p : newProtocls ) {
+				try {
+					File f = new File(p);
+					converter.setDestFolder(f.getParent());
+					converter.processPdf(f);
+				}
+				catch ( IOException e ) {
+					Logger.error("Error while converting pdf to xml.", p, e.toString());
+				}
+			}
 		}
 
-		if ( !new File(Helpers.getUserDir() + "/data/bundesrat").exists() ) {
+		/*if ( !new File(Helpers.getUserDir() + "/data/bundesrat").exists() ) {
 			new File(Helpers.getUserDir() + "/data/bundesrat").mkdirs();
 			App.downloadAllBundesrat();
 		}
 		else {
 			App.checkBundesratRSS();
-		}
+		}*/
 	}
 
 	private static void downloadAllBundestag() {
