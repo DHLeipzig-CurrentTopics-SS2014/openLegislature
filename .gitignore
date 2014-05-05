@@ -1,1 +1,8 @@
 /openLegislature/target/
+/openLegislature/nbactions.xml
+/openLegislature/data/*
+/openLegislature/config/*.properties
+/openLegislature/logs/*
+/openLegislature/.settings/*
+/openLegislature/.project
+/openLegislature/.classpath
