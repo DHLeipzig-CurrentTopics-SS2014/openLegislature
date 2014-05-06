@@ -94,11 +94,11 @@ public class App {
 					session++;
 				}
 				catch ( IOException e ) {
-					break;/*if ( session == 1 )
+					if ( session == 1 )
 						break;
 
 					period++;
-					session = 1;*/
+					session = 1;
 				}
 			}
 		}
