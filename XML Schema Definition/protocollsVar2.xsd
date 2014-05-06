@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<xs:element name="adjustment" type="xs:string"/>
+	<xs:element name="header" type="xs:string"/>
+	<xs:element name="interjection" type="xs:string"/>
+	<xs:element name="item" type="AttrElement"/>
+	<xs:element name="name" type="xs:string"/>
+	<xs:element name="party" type="xs:string"/>
+	<xs:element name="public_office" type="xs:string"/>
+
+	<xs:complexType name="AttrElement">
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute name="id" type="xs:string" use="required"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+
+	<xs:element name="attachment">
+		<xs:complexType mixed="true">
+			<xs:sequence>
+				<xs:element ref="item" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="agenda">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="item" maxOccurs="unbounded"/>
+				<xs:element ref="attachment"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="speaker">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="name"/>
+				<xs:element ref="party" minOccurs="0"/>
+				<xs:element ref="public_office" minOccurs="0"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="speech">
+		<xs:complexType mixed="true">
+			<xs:sequence>
+				<xs:element ref="speaker"/>
+				<xs:element ref="interjection" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="session">
+		<xs:complexType mixed="true">
+			<xs:sequence>
+				<xs:element ref="speech" maxOccurs="unbounded"/>
+				<xs:element ref="adjustment" minOccurs="0"/>
+				<xs:element ref="attachment"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="protocol">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="header"/>
+				<xs:element ref="agenda"/>
+				<xs:element ref="session"/>
+			</xs:sequence>
+			<xs:attribute name="session_number" type="xs:string" use="required"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
