@@ -30,13 +30,26 @@ public class App {
 		if ( !new File(Helpers.getUserDir() + "/data/bundestag").exists() ) {
 			Logger.info("Downloading all Bundestag protocols.");
 			new File(Helpers.getUserDir() + "/data/bundestag").mkdirs();
-			App.downloadAllBundestag();
+			List<String> newProtocls = App.downloadAllBundestag();
+
+			for ( String p : newProtocls ) {
+				try {
+					Logger.debug("Converting protocol: " + p);
+					File f = new File(p);
+					converter.setDestFolder(f.getParent());
+					converter.processPdf(f);
+				}
+				catch ( IOException e ) {
+					Logger.error("Error while converting pdf to xml.", p, e.toString());
+				}
+			}
 		}
 		else {
 			Logger.info("Updating bundestag protocols.");
 			List<String> newProtocls = App.checkBundestagRSS();
 			for ( String p : newProtocls ) {
 				try {
+					Logger.debug("Converting protocol: " + p);
 					File f = new File(p);
 					converter.setDestFolder(f.getParent());
 					converter.processPdf(f);
@@ -56,7 +69,9 @@ public class App {
 		}*/
 	}
 
-	private static void downloadAllBundestag() {
+	private static List<String> downloadAllBundestag() {
+		List<String> protocols = new ArrayList<>();
+
 		int period = 1, session = 1;
 		while ( true ) {
 			String p = (period < 10 ? "0" + period : "" + period);
@@ -73,16 +88,22 @@ public class App {
 				session++;
 			else {
 				try {
-					Logger.debug("Downloding protokol: " + p + s);
+					Logger.debug("Downloding protocol: " + p + s);
 					Helpers.saveURLToFile(url, file);
+					protocols.add(file);
 					session++;
 				}
 				catch ( IOException e ) {
+					break;/*if ( session == 1 )
+						break;
+
 					period++;
-					session = 1;
+					session = 1;*/
 				}
 			}
 		}
+
+		return protocols;
 	}
 
 	private static List<String> checkBundestagRSS() {

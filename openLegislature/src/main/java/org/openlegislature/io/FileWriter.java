@@ -10,9 +10,20 @@ import org.openlegislature.util.Helpers;
 /**
  *
  * @author jnphilipp
- * @version 0.0.2
+ * @version 0.0.3
  */
 public class FileWriter {
+	/**
+	 * Writes the given content to the given file.
+	 * @param file path to file
+	 * @param content content
+	 * @throws java.io.FileNotFoundException
+	 * @throws java.io.IOException
+	 */
+	public static void write(String file,String content) throws FileNotFoundException, IOException {
+		FileWriter.write(file, false, content);
+	}
+
 	/**
 	 * Writes the given content to the given file.
 	 * @param file path to file
