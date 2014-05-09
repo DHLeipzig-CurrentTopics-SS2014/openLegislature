@@ -67,7 +67,7 @@ public class PDF2XMLConverter {
 		}
 		doc = doc.replaceAll("kk", "ck");
 		doc = doc.replaceAll("\\([ABCD]\\)", "");
-		doc = doc.replaceAll("(\\d+)?(\\s+)?Deutscher\\sBundestag.+\\d+\\.\\sSitzung.+\\d+\\s+", "");
+		doc = doc.replaceAll("(\\d+)?(\\s+)?Deutscher\\sBundestag.+\\d+\\.\\sSitzung.+\\d+\\s+", "\n");
 
 		return doc;
 	}
