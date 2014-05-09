@@ -33,7 +33,7 @@ public class Helpers {
 	public static String getUserDir() {
 		return System.getProperty("user.dir");
 	}
-
+	
 	/**
 	 * Tags the content with the tag name.
 	 * @param tagname tag name
