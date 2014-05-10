@@ -6,8 +6,6 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.validator.routines.UrlValidator;
 import org.openlegislature.util.Helpers;
@@ -33,10 +31,6 @@ public class App {
 	public static void main(String[] args) throws InterruptedException, IOException {
 		downloadProtocolsIfNeeded();
 		updateProtocols();
-		System.in.read();
-		ExecutorService e = GuiceInjectorRetriever.getInjector().getInstance(ExecutorService.class);
-		e.shutdown();
-		while (!e.awaitTermination(1, TimeUnit.MINUTES));
 	}
 
 	private static void downloadProtocolsIfNeeded() {

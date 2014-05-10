@@ -5,8 +5,9 @@ import java.util.List;
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
+import java.util.concurrent.LinkedBlockingQueue;
+import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TimeoutException;
 
@@ -29,7 +30,12 @@ public class InjectableFixedExecutorService implements ExecutorService {
 
 	@Inject
 	public InjectableFixedExecutorService(OpenLegislatureConstants constants) {
-		e = Executors.newFixedThreadPool(constants.getMaxThreads());
+		int maxThreads = constants.getMaxThreads();
+		ThreadPoolExecutor delegateExecutor = new ThreadPoolExecutor(maxThreads, maxThreads,
+                constants.getThreadIdleTime(), TimeUnit.SECONDS,
+                new LinkedBlockingQueue<Runnable>());
+		delegateExecutor.allowCoreThreadTimeOut(true);
+		e = delegateExecutor;
 	}
 	
 	public boolean awaitTermination(long timeout, TimeUnit unit) throws InterruptedException {

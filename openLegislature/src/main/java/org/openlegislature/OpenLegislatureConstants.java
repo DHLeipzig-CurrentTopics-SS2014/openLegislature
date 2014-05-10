@@ -24,18 +24,20 @@ public class OpenLegislatureConstants {
 	private static final String VM_PARAM_MAXPERIOD = PREFIX + ".maxPeriod";
 	private static final String VM_PARAM_MAXTHREADS = PREFIX + ".maxThreads";
 	private static final String VM_PARAM_MAXSESSION = PREFIX + ".maxSession";
+	private static final String VM_THREAD_IDLE_TIME = PREFIX + ".threadIdleTime";
 	
 	private int maxPeriod;
 	private int maxSession;
 	private int maxThreads;
 	private Map<Integer, Integer> sessionMap = new HashMap<Integer, Integer>();
 	private boolean clean;
-
+	private int threadIdleTime;
 	
 	@Inject
 	public OpenLegislatureConstants() {
 		maxPeriod = Helpers.initparamInt(18, VM_PARAM_MAXPERIOD);
 		maxSession = Helpers.initparamInt(500, VM_PARAM_MAXSESSION);
+		threadIdleTime = Helpers.initparamInt(30, VM_THREAD_IDLE_TIME); // in seconds
 		sessionMap.put(1, 282);
 		sessionMap.put(2, 227);
 		sessionMap.put(3, 168);
@@ -87,6 +89,10 @@ public class OpenLegislatureConstants {
 	
 	public int getMaxThreads() {
 		return maxThreads;
+	}
+	
+	public int getThreadIdleTime() {
+		return threadIdleTime;
 	}
 	
 }
