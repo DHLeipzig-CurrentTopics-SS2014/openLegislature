@@ -47,7 +47,7 @@ public class DirectoryScanner {
 		this.list = dir.listFiles();
 		if ( list != null ) {
 			for ( File f : this.list ) {
-				Logger.debug(DirectoryScanner.class, f.getName());
+				Logger.getInstance().debug(DirectoryScanner.class, f.getName());
 		    if (f.isDirectory() ) { this.dircount++; this.dirList.add(f); }else{ this.fileList.add(f); }
 			}
 

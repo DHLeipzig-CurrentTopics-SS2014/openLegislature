@@ -1,11 +1,5 @@
 package org.openlegislature;
 
-import com.sun.syndication.feed.synd.SyndEntry;
-import com.sun.syndication.feed.synd.SyndFeed;
-import com.sun.syndication.io.FeedException;
-import com.sun.syndication.io.SyndFeedInput;
-import com.sun.syndication.io.XmlReader;
-
 import java.io.File;
 import java.io.IOException;
 import java.net.URL;
@@ -15,6 +9,15 @@ import java.util.List;
 
 import org.apache.commons.validator.routines.UrlValidator;
 import org.openlegislature.util.Helpers;
+
+import com.google.inject.Injector;
+import com.stumbleupon.async.Callback;
+import com.stumbleupon.async.Deferred;
+import com.sun.syndication.feed.synd.SyndEntry;
+import com.sun.syndication.feed.synd.SyndFeed;
+import com.sun.syndication.io.FeedException;
+import com.sun.syndication.io.SyndFeedInput;
+import com.sun.syndication.io.XmlReader;
 
 /**
  *
@@ -29,52 +32,56 @@ public class App {
 		Logger.getInstance();
 		downloadProtocolsIfNeeded();
 		updateProtocols();
-
-		/*if ( !new File(Helpers.getUserDir() + "/data/bundesrat").exists() ) {
-			new File(Helpers.getUserDir() + "/data/bundesrat").mkdirs();
-			App.downloadAllBundesrat();
-		}
-		else {
-			App.checkBundesratRSS();
-		}*/
 	}
 
 	private static void downloadProtocolsIfNeeded() {
-		PDF2XMLConverter converter = new PDF2XMLConverter();
 		File bundestagDir = bundestagDir();
-		Logger.info("Downloading all Bundestag protocols.");
 		bundestagDir.mkdirs();
-		List<String> newProtocls = new BundestagDownloader().downloadAllBundestagIfNotAlreadyDownloaded();
-		for (String p : newProtocls) {
-			try {
-				Logger.debug("Converting protocol: " + p);
-				convertPdfProtocolToTxt(converter, p);
-			} catch (IOException e) {
-				Logger.error("Error while converting pdf to xml.", p, e.toString());
-				e.printStackTrace();
+		Logger.getInstance().info("Downloading all Bundestag protocols.");
+		Injector injector = GuiceInjectorRetriever.getInjector();
+		BundestagDownloader downloader = injector.getInstance(BundestagDownloader.class);
+		OpenLegislatureConstants constants = injector.getInstance(OpenLegislatureConstants.class);
+		
+		for(int period = 1; period <= constants.getMaxPeriod(); period++ ){
+			for(int session = 1; session <= constants.getSessionMap().get(period); session++){
+				downloadAndConvertIfNeeded(downloader, period, session);
 			}
 		}
+		
 	}
 
-	private static void convertPdfProtocolToTxt(PDF2XMLConverter converter, String p) throws IOException {
-		File f = new File(p);
-		converter.setDestFolder(f.getParent());
-		converter.processPdf(f);
+	private static void downloadAndConvertIfNeeded(BundestagDownloader downloader, int period, int session) {
+		Deferred<File> futureFile = downloader.downloadProtocolAsynchronously(period, session);
+		PdfToTxtConverterCallback converterCallback = GuiceInjectorRetriever.getInjector().getInstance(PdfToTxtConverterCallback.class);
+		Callback<Void,Exception> errback = new Callback<Void, Exception>() {
+			@Override
+			public Void call(Exception arg) throws Exception {
+				Logger.getInstance().error("An error in the process chain occured:");
+				Logger.getInstance().error(arg.getLocalizedMessage());
+				return null;
+			}
+		};
+		futureFile.addCallbacks(converterCallback, errback);
 	}
 
 	private static void updateProtocols() {
-		PDF2XMLConverter converter = new PDF2XMLConverter();
-		Logger.info("Updating bundestag protocols.");
+		PDF2XMLConverter converter = GuiceInjectorRetriever.getInjector().getInstance(PDF2XMLConverter.class);
+		Logger.getInstance().info("Updating bundestag protocols.");
 		List<String> newProtocls = App.checkBundestagRSS();
 		for ( String p : newProtocls ) {
 			try {
-				Logger.debug("Converting protocol: " + p);
+				Logger.getInstance().debug("Converting protocol: " + p);
 				convertPdfProtocolToTxt(converter, p);
 			}
 			catch ( IOException e ) {
-				Logger.error("Error while converting pdf to xml.", p, e.toString());
+				Logger.getInstance().error("Error while converting pdf to xml.", p, e.toString());
 			}
 		}
+	}
+	
+	private static void convertPdfProtocolToTxt(PDF2XMLConverter converter, String p) throws IOException {
+		File f = new File(p);
+		converter.processPdfWhenNotAlreadyDone(f);
 	}
 
 	private static File bundestagDir() {
@@ -95,7 +102,7 @@ public class App {
 
 				String name = new File(((SyndEntry)entry).getLink()).getName();
 
-				Logger.debug("Protocol: " + name);
+				Logger.getInstance().debug("Protocol: " + name);
 
 				String period = name.substring(0, 2);
 				String file = Helpers.getUserDir() + "/data/bundestag/" + period + "/" + name;
@@ -107,17 +114,10 @@ public class App {
 			}
 		}
 		catch ( IllegalArgumentException | IOException | FeedException e ) {
-			Logger.error(e.toString());
+			Logger.getInstance().error(e.toString());
 		}
 
 		return protocols;
 	}
-
-	private static void downloadAllBundesrat() {
-		throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-	}
-
-	private static void checkBundesratRSS() {
-		throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-	}
+	
 }

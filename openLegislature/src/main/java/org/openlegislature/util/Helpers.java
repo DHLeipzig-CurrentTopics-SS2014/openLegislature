@@ -18,14 +18,31 @@ import java.util.Collection;
 import java.util.Locale;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
 import org.apache.commons.io.IOUtils;
 
 /**
  *
- * @author jnphilipp
- * @version 0.4.4
+ * @author jnphilipp, dhaeb
+ * @version 0.4.5
  */
 public class Helpers {
+	
+	/**
+	 * Extracts an int property from the VM parameters.
+	 * 
+	 * @param defaultValue The value which should be used if not other specified
+	 * @param propertyName The property name used to refer the System.getProperty
+	 * @return An integer representing the property
+	 */
+	public static int initparamInt(int defaultValue, String propertyName) {
+		String intValue = System.getProperty(propertyName);
+		if(intValue == null){
+			return defaultValue;
+		} else {
+			return Integer.parseInt(intValue);
+		}
+	}
 	/**
 	 * Returns path to the user directory.
 	 * @return path to user directory

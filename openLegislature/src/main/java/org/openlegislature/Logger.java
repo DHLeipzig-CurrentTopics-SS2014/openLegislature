@@ -61,7 +61,7 @@ public class Logger {
 	 * Logs debug message.
 	 * @param msg message
 	 */
-	public static void debug(final String msg) {
+	public void debug(final String msg) {
 		if ( logger.isDebugEnabled() )
 			logger.debug(msg);
 	}
@@ -70,7 +70,7 @@ public class Logger {
 	 * Logs debug message.
 	 * @param msg messages
 	 */
-	public static void debug(final String... msg) {
+	public void debug(final String... msg) {
 		if ( logger.isDebugEnabled() )
 			logger.debug(Helpers.join(msg, "\n\t- "));
 	}
@@ -80,7 +80,7 @@ public class Logger {
 	 * @param clazz Class
 	 * @param msg message
 	 */
-	public static void debug(final Class<?> clazz, final String msg) {
+	public void debug(final Class<?> clazz, final String msg) {
 		if ( LoggerFactory.getLogger(clazz).isDebugEnabled() )
 			LoggerFactory.getLogger(clazz).debug(msg);
 	}
@@ -90,7 +90,7 @@ public class Logger {
 	 * @param clazz Class
 	 * @param msg messages
 	 */
-	public static void debug(final Class<?> clazz, final String... msg) {
+	public void debug(final Class<?> clazz, final String... msg) {
 		if ( LoggerFactory.getLogger(clazz).isDebugEnabled() )
 			LoggerFactory.getLogger(clazz).debug(Helpers.join(msg, "\n\t- "));
 	}
@@ -99,7 +99,7 @@ public class Logger {
 	 * Logs error message.
 	 * @param msg message
 	 */
-	public static void error(final String msg) {
+	public void error(final String msg) {
 		if ( logger.isErrorEnabled() )
 			logger.error(msg);
 	}
@@ -108,7 +108,7 @@ public class Logger {
 	 * Logs error message.
 	 * @param msg messages
 	 */
-	public static void error(final String... msg) {
+	public void error(final String... msg) {
 		if ( logger.isErrorEnabled() )
 			logger.error(Helpers.join(msg, "\n\t- "));
 	}
@@ -118,7 +118,7 @@ public class Logger {
 	 * @param clazz Class
 	 * @param msg message
 	 */
-	public static void error(final Class<?> clazz, final String msg) {
+	public void error(final Class<?> clazz, final String msg) {
 		if ( LoggerFactory.getLogger(clazz).isErrorEnabled() )
 			LoggerFactory.getLogger(clazz).error(msg);
 	}
@@ -128,7 +128,7 @@ public class Logger {
 	 * @param clazz Class
 	 * @param msg messages
 	 */
-	public static void error(final Class<?> clazz, final String... msg) {
+	public void error(final Class<?> clazz, final String... msg) {
 		if ( LoggerFactory.getLogger(clazz).isErrorEnabled() )
 			LoggerFactory.getLogger(clazz).error(Helpers.join(msg, "\n\t- "));
 	}
@@ -137,7 +137,7 @@ public class Logger {
 	 * Logs info message.
 	 * @param msg message
 	 */
-	public static void info(final String msg) {
+	public void info(final String msg) {
 		if ( logger.isInfoEnabled() )
 			logger.info(msg);
 	}
@@ -146,7 +146,7 @@ public class Logger {
 	 * Logs info message.
 	 * @param msg messages
 	 */
-	public static void info(final String... msg) {
+	public void info(final String... msg) {
 		if ( logger.isInfoEnabled() )
 			logger.info(Helpers.join(msg, "\n\t- "));
 	}
@@ -156,7 +156,7 @@ public class Logger {
 	 * @param clazz Class
 	 * @param msg message
 	 */
-	public static void info(final Class<?> clazz, final String msg) {
+	public void info(final Class<?> clazz, final String msg) {
 		if ( LoggerFactory.getLogger(clazz).isInfoEnabled() )
 			LoggerFactory.getLogger(clazz).info(msg);
 	}
@@ -166,7 +166,7 @@ public class Logger {
 	 * @param clazz Class
 	 * @param msg messages
 	 */
-	public static void info(final Class<?> clazz, final String... msg) {
+	public void info(final Class<?> clazz, final String... msg) {
 		if ( LoggerFactory.getLogger(clazz).isInfoEnabled() )
 			LoggerFactory.getLogger(clazz).info(Helpers.join(msg, "\n\t- "));
 	}
@@ -175,7 +175,7 @@ public class Logger {
 	 * Logs warn message.
 	 * @param msg message
 	 */
-	public static void warn(final String msg) {
+	public void warn(final String msg) {
 		if ( logger.isWarnEnabled() )
 			logger.warn(msg);
 	}
@@ -184,7 +184,7 @@ public class Logger {
 	 * Logs warn message.
 	 * @param msg messages
 	 */
-	public static void warn(final String... msg) {
+	public void warn(final String... msg) {
 		if ( logger.isWarnEnabled() )
 			logger.warn(Helpers.join(msg, "\n\t- "));
 	}
@@ -194,12 +194,12 @@ public class Logger {
 	 * @param clazz Class
 	 * @param msg message
 	 */
-	public static void warn(final Class<?> clazz, final String msg) {
+	public void warn(final Class<?> clazz, final String msg) {
 		if ( LoggerFactory.getLogger(clazz).isWarnEnabled() )
 			LoggerFactory.getLogger(clazz).warn(msg);
 	}
 
-	public static void warn(final Class<?> clazz, final String... msg) {
+	public void warn(final Class<?> clazz, final String... msg) {
 		if ( LoggerFactory.getLogger(clazz).isWarnEnabled() )
 			LoggerFactory.getLogger(clazz).warn(Helpers.join(msg, "\n\t- "));
 	}

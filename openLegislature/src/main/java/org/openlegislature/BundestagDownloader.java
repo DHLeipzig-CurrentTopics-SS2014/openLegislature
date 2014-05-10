@@ -1,64 +1,77 @@
 package org.openlegislature;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
+import java.net.MalformedURLException;
+import java.util.concurrent.ExecutorService;
 
 import org.apache.commons.validator.routines.UrlValidator;
 import org.openlegislature.util.Helpers;
 
+import com.google.inject.Inject;
+import com.stumbleupon.async.Deferred;
+
+/**
+ * Downloader for specific protocols of the German Bundestag. 
+ * Downloads asynchronously. 
+ * It is threadsafe. 
+ * 
+ * @author dhaeb
+ *
+ */
 public class BundestagDownloader {
 
 	private static final String BUNSTAG_PROTOKOLL_URL = "http://dip21.bundestag.de/dip21/btp/{period}/{period}{session}.pdf";
 	
-	private int maxPeriod;
-	private int maxSession;
+	@Inject
+	private ExecutorService e;
 
-	private boolean sessionsExeeded; 
-	
-	public BundestagDownloader() {
-		maxPeriod = initparamInt(18, "openlegislature.maxPeriod");
-		maxSession = initparamInt(500, "openlegislature.maxPeriod");
-	}
-
-	private int initparamInt(int defaultValue, String propertyName) {
-		String intValue = System.getProperty(propertyName);
-		if(intValue == null){
-			return defaultValue;
-		} else {
-			return Integer.parseInt(intValue);
-		}
-	}
+	@Inject
+	public BundestagDownloader() {}
 	
 	/**
-	 * Returns a list of filenames which have been downloaded. 
+	 * Method to download a specific protocol in asynchronous fashion.  
 	 * 
-	 * @return
+	 * @param period The period for which a protocol should be downloaded
+	 * @param session The session identifying the protocol
+	 * @return A instance of type {@link Deferred} which triggers the appended callbacks automatically when the downloaded file is available
 	 */
-	public List<String> downloadAllBundestagIfNotAlreadyDownloaded() {
-		List<String> protocols = new ArrayList<>();
-		for (int period = 1; period <= maxPeriod; period++){
-			String p = createPeriodReplaceable(period);
-			String path = Helpers.getUserDir() + App.BUNDESTAG_DEFAULT_DIR + "/" + p;
-			createPathIfNeeded(path);
-			sessionsExeeded = false;
-			for(int session = 1; session <= maxSession && !sessionsExeeded; session++){
-				String s = createSessionReplaceable(session);
-				String file = path + "/" + p + s +".pdf";
-				String url = createCrawlableUrl(p, s);
-				if ( new UrlValidator().isValid(url) ) {
-					boolean isFileAlreadyExisting = new File(file).exists(); // and therefore already downloaded
-					if(!isFileAlreadyExisting){
-						downloadProtocolAndAddToResultlist(protocols, file, url);
-					}
+	public Deferred<File> downloadProtocolAsynchronously(final int period, final int session){
+		final Deferred<File> d = new Deferred<File>();
+		e.submit(new Runnable(){
+			@Override
+			public void run() {
+				Thread.currentThread().setName(String.format("DownloaderThread for period %d and session %d", period, session));
+				try {
+					d.callback(downloadProtocols(period, session));
+					Logger.getInstance().info("Downloaded successfully finished");
+				} catch (IOException e) {
+					d.callback(e);
+					Logger.getInstance().error(String.format("Download failed for period %d and session %d", period, session));
+					Logger.getInstance().error(e.getMessage());
 				}
-			}
-		}
-		return protocols;
+			}});
+		return d;
 	}
-
+	
+	private File downloadProtocols(int period, int session) throws IOException {
+		String p = createPeriodReplaceable(period);
+		String s = createSessionReplaceable(session);
+		String path = Helpers.getUserDir() + App.BUNDESTAG_DEFAULT_DIR + "/" + p;
+		createPathIfNeeded(path);
+		String filePath = createPdfFilePath(p, s, path);
+		File file = new File(filePath);
+		String url = createCrawlableUrl(p, s);
+		if(new UrlValidator().isValid(url)){
+			if(!file.exists()) {
+				Helpers.saveURLToFile(url, filePath);
+			}
+			return file;
+		} else {
+			throw new MalformedURLException("The url was not valid");
+		}
+	}
+	
 	private String createPeriodReplaceable(int period) {
 		return period < 10 ? "0" + period : "" + period;
 	}
@@ -68,6 +81,17 @@ public class BundestagDownloader {
 			new File(path).mkdirs();
 	}
 	
+	private String createPdfFilePath(String p, String s, String path) {
+		StringBuilder pathToTargetFile = new StringBuilder();
+		pathToTargetFile.append(path);
+		pathToTargetFile.append("/");
+		pathToTargetFile.append(p);
+		pathToTargetFile.append(s);
+		pathToTargetFile.append(".pdf");
+		String filePath = pathToTargetFile.toString();
+		return filePath;
+	}
+	
 	private String createSessionReplaceable(int session) {
 		return session < 10 ? "00" + session : "" + (session < 100 ? "0" + session : "" + session);
 	}
@@ -75,19 +99,4 @@ public class BundestagDownloader {
 	private String createCrawlableUrl(String p, String s) {
 		return BUNSTAG_PROTOKOLL_URL.replaceAll("\\{period\\}", p).replaceAll("\\{session\\}", s);
 	}
-	
-	private void downloadProtocolAndAddToResultlist(List<String> protocols, String file, String url) {
-		try {
-			Helpers.saveURLToFile(url, file);
-			protocols.add(file);
-			Logger.debug("Downloaded protocol: " + url + " to file: " + file);
-		} catch(FileNotFoundException e){
-			sessionsExeeded = true;
-			Logger.debug("There was no protocol for URL " + url);
-		} catch ( IOException e ) {
-			Logger.error(e.getMessage());
-			e.printStackTrace();
-		}
-	}
-	
 }
