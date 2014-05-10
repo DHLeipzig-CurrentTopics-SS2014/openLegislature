@@ -6,6 +6,7 @@ import java.util.Map;
 import org.openlegislature.util.Helpers;
 
 import com.google.inject.Inject;
+import com.google.inject.Singleton;
 
 /**
  * Simple constants class to be used by the main application. 
@@ -15,6 +16,7 @@ import com.google.inject.Inject;
  * @author dhaeb
  *
  */
+@Singleton
 public class OpenLegislatureConstants {
 	
 	private static final String PREFIX = "openlegislature";
@@ -53,7 +55,13 @@ public class OpenLegislatureConstants {
 		sessionMap.put(17, 253);
 		sessionMap.put(18, 33);
 		initClean();
+		Logger.getInstance().info("Constant-Values:");
 		maxThreads = Helpers.initparamInt(4, VM_PARAM_MAXTHREADS);
+		Logger.getInstance().info(VM_PARAM_CLEAN  + " : "  + clean);
+		Logger.getInstance().info(VM_PARAM_MAXPERIOD  + " : "  + maxPeriod);
+		Logger.getInstance().info(VM_PARAM_MAXSESSION  + " : "  + maxSession);
+		Logger.getInstance().info(VM_PARAM_MAXTHREADS  + " : "  + maxThreads);
+		Logger.getInstance().info("SessionMap : "  + sessionMap);
 	}
 
 	private void initClean() {

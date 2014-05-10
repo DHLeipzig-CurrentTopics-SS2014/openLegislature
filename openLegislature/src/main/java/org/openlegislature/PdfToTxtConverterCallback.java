@@ -34,6 +34,7 @@ public class PdfToTxtConverterCallback implements Callback<File, File> {
 				PDF2XMLConverter converter = GuiceInjectorRetriever.getInjector().getInstance(PDF2XMLConverter.class);
 				try {
 					converter.processPdfWhenNotAlreadyDone(arg);
+					Logger.getInstance().info("Finished file: " + arg);
 				} catch (IOException e) {
 					Logger.getInstance().error("Error while converting pdf to xml." + arg, e.toString());
 				}

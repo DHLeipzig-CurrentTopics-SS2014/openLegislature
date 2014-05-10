@@ -44,7 +44,7 @@ public class BundestagDownloader {
 				Thread.currentThread().setName(String.format("DownloaderThread for period %d and session %d", period, session));
 				try {
 					d.callback(downloadProtocols(period, session));
-					Logger.getInstance().info("Downloaded successfully finished");
+					Logger.getInstance().debug("Downloaded successfully finished");
 				} catch (IOException e) {
 					d.callback(e);
 					Logger.getInstance().error(String.format("Download failed for period %d and session %d", period, session));

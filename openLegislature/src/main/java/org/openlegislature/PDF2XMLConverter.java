@@ -1,18 +1,19 @@
 package org.openlegislature;
 
+import java.io.File;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+import org.openlegislature.io.FileWriter;
+
 import com.google.inject.Inject;
 import com.itextpdf.text.pdf.PdfReader;
 import com.itextpdf.text.pdf.parser.PdfReaderContentParser;
 import com.itextpdf.text.pdf.parser.SimpleTextExtractionStrategy;
 import com.itextpdf.text.pdf.parser.TextExtractionStrategy;
-
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
-import org.openlegislature.io.FileWriter;
 
 /**
  * Performs the convertion from pdf to txt. 
@@ -37,17 +38,21 @@ public class PDF2XMLConverter {
 	 * @param file	The file to be processed
 	 * @throws IOException When an error (also with parsing) occurs
 	 */
-	public void processPdfWhenNotAlreadyDone(File file) throws IOException {
-		this.processPdfWhenNotAlreadyDone(file, constants.isClean());
+	public List<File> processPdfWhenNotAlreadyDone(File file) throws IOException {
+		return this.processPdfWhenNotAlreadyDone(file, constants.isClean());
 	}
 
-	public void processPdfWhenNotAlreadyDone(File f, boolean regex) throws IOException {
+	public List<File> processPdfWhenNotAlreadyDone(File f, boolean regex) throws IOException {
+		List<File> resultingFiles = new ArrayList<File>();
 		String fname = f.getName().substring(0, f.getName().lastIndexOf("."));
 		String filepathToParsedFile = createTargetFilepath(f, fname, ".parsed.txt");
 		String filepathToCleanedFile = createTargetFilepath(f, fname, ".cleaned.txt");
 		String doc = "";
 		doc = createTxtRepresentation(f, fname, filepathToParsedFile, doc);
-		cleanTxtFile(regex, fname, filepathToCleanedFile, doc);
+		resultingFiles.add(new File(filepathToParsedFile));
+		resultingFiles.add(cleanTxtFile(regex, fname, filepathToCleanedFile, doc));
+		Logger.getInstance().debug(String.format("%s is processed and cleaned when needed", fname));
+		return resultingFiles;
 	}
 
 	private String createTargetFilepath(File f, String fname, String appendix) {
@@ -75,11 +80,12 @@ public class PDF2XMLConverter {
 			}
 
 			FileWriter.write(filepathToParsedFile, doc);
+			Logger.getInstance().debug(String.format("%s is now pdf processed", fname));
 		}
 		return doc;
 	}
 
-	private void cleanTxtFile(boolean regex, String fname, String filepathToCleanedFile, String doc) throws IOException {
+	private File cleanTxtFile(boolean regex, String fname, String filepathToCleanedFile, String doc) throws IOException {
 		boolean cleanedTxtALreadyExists = new File(filepathToCleanedFile).exists();
 		if(cleanedTxtALreadyExists ){
 			Logger.getInstance().debug(String.format("%s is already txt processed", fname));
@@ -90,6 +96,7 @@ public class PDF2XMLConverter {
 				Logger.getInstance().debug(String.format("Cleaned %s", fname));
 			}
 		}
+		return new File(filepathToCleanedFile);
 	}
 
 	private String clean(String doc) {
