@@ -7,6 +7,7 @@ import com.itextpdf.text.pdf.parser.SimpleTextExtractionStrategy;
 import com.itextpdf.text.pdf.parser.TextExtractionStrategy;
 
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -44,27 +45,9 @@ public class PDF2XMLConverter {
 		String fname = f.getName().substring(0, f.getName().lastIndexOf("."));
 		String filepathToParsedFile = createTargetFilepath(f, fname, ".parsed.txt");
 		String filepathToCleanedFile = createTargetFilepath(f, fname, ".cleaned.txt");
-		boolean processedTxtfilesBothExists = new File(filepathToCleanedFile).exists() && new File(filepathToParsedFile).exists();
-		if (processedTxtfilesBothExists) {
-			Logger.getInstance().info(String.format("%s is already processed", fname));
-		} else {
-
-			PdfReader reader = new PdfReader(f.getAbsolutePath());
-			PdfReaderContentParser parser = new PdfReaderContentParser(reader);
-			TextExtractionStrategy strategy;
-
-			String doc = "";
-			for (int i = 1; i <= reader.getNumberOfPages(); i++) {
-				strategy = parser.processContent(i, new SimpleTextExtractionStrategy());
-				doc += strategy.getResultantText() + "\n\n";
-			}
-
-			FileWriter.write(filepathToParsedFile, doc);
-			if (regex) {
-				doc = this.clean(doc);
-				FileWriter.write(filepathToCleanedFile, doc);
-			}
-		}
+		String doc = "";
+		doc = createTxtRepresentation(f, fname, filepathToParsedFile, doc);
+		cleanTxtFile(regex, fname, filepathToCleanedFile, doc);
 	}
 
 	private String createTargetFilepath(File f, String fname, String appendix) {
@@ -74,6 +57,39 @@ public class PDF2XMLConverter {
 		targetFilePathBuilder.append(fname);
 		targetFilePathBuilder.append(appendix);
 		return targetFilePathBuilder.toString();
+	}
+	
+	private String createTxtRepresentation(File f, String fname, String filepathToParsedFile, String doc) throws IOException {
+		boolean convertedTxtAlreadyExists = new File(filepathToParsedFile).exists();
+		if (convertedTxtAlreadyExists) {
+			Logger.getInstance().debug(String.format("%s is already pdf processed", fname));
+		} else {
+
+			PdfReader reader = new PdfReader(f.getAbsolutePath());
+			PdfReaderContentParser parser = new PdfReaderContentParser(reader);
+			TextExtractionStrategy strategy;
+
+			for (int i = 1; i <= reader.getNumberOfPages(); i++) {
+				strategy = parser.processContent(i, new SimpleTextExtractionStrategy());
+				doc += strategy.getResultantText() + "\n\n";
+			}
+
+			FileWriter.write(filepathToParsedFile, doc);
+		}
+		return doc;
+	}
+
+	private void cleanTxtFile(boolean regex, String fname, String filepathToCleanedFile, String doc) throws IOException {
+		boolean cleanedTxtALreadyExists = new File(filepathToCleanedFile).exists();
+		if(cleanedTxtALreadyExists ){
+			Logger.getInstance().debug(String.format("%s is already txt processed", fname));
+		} else {
+			if (regex) {
+				doc = this.clean(doc);
+				FileWriter.write(filepathToCleanedFile, doc);
+				Logger.getInstance().debug(String.format("Cleaned %s", fname));
+			}
+		}
 	}
 
 	private String clean(String doc) {
