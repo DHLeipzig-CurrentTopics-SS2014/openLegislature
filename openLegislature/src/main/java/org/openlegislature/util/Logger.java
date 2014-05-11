@@ -1,10 +1,11 @@
-package org.openlegislature;
+package org.openlegislature.util;
 
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
+
 import org.apache.log4j.PropertyConfigurator;
-import org.openlegislature.util.Helpers;
+import org.openlegislature.App;
 import org.slf4j.LoggerFactory;
 
 /**

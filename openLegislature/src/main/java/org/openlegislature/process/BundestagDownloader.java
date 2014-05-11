@@ -1,4 +1,4 @@
-package org.openlegislature;
+package org.openlegislature.process;
 
 import java.io.File;
 import java.io.IOException;
@@ -6,7 +6,9 @@ import java.net.MalformedURLException;
 import java.util.concurrent.ExecutorService;
 
 import org.apache.commons.validator.routines.UrlValidator;
+import org.openlegislature.App;
 import org.openlegislature.util.Helpers;
+import org.openlegislature.util.Logger;
 
 import com.google.inject.Inject;
 import com.stumbleupon.async.Deferred;

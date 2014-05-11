@@ -1,4 +1,4 @@
-package org.openlegislature;
+package org.openlegislature.util;
 
 import java.util.concurrent.ExecutorService;
 

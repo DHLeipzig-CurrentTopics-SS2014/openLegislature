@@ -8,7 +8,13 @@ import java.util.Collection;
 import java.util.List;
 
 import org.apache.commons.validator.routines.UrlValidator;
+import org.openlegislature.process.BundestagDownloader;
+import org.openlegislature.process.PDF2XMLConverter;
+import org.openlegislature.process.PdfToTxtConverterCallback;
+import org.openlegislature.util.GuiceInjectorRetriever;
 import org.openlegislature.util.Helpers;
+import org.openlegislature.util.Logger;
+import org.openlegislature.util.OpenLegislatureConstants;
 
 import com.google.inject.Injector;
 import com.stumbleupon.async.Callback;

@@ -1,9 +1,7 @@
-package org.openlegislature;
+package org.openlegislature.util;
 
 import java.util.HashMap;
 import java.util.Map;
-
-import org.openlegislature.util.Helpers;
 
 import com.google.inject.Inject;
 import com.google.inject.Singleton;

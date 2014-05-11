@@ -1,4 +1,4 @@
-package org.openlegislature;
+package org.openlegislature.process;
 
 import java.io.File;
 import java.io.IOException;
@@ -8,6 +8,8 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import org.openlegislature.io.FileWriter;
+import org.openlegislature.util.Logger;
+import org.openlegislature.util.OpenLegislatureConstants;
 
 import com.google.inject.Inject;
 import com.itextpdf.text.pdf.PdfReader;

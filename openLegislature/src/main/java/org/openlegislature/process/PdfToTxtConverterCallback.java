@@ -1,8 +1,11 @@
-package org.openlegislature;
+package org.openlegislature.process;
 
 import java.io.File;
 import java.io.IOException;
 import java.util.concurrent.ExecutorService;
+
+import org.openlegislature.util.GuiceInjectorRetriever;
+import org.openlegislature.util.Logger;
 
 import com.google.inject.Inject;
 import com.stumbleupon.async.Callback;

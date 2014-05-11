@@ -3,7 +3,8 @@ package org.openlegislature.io;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
-import org.openlegislature.Logger;
+
+import org.openlegislature.util.Logger;
 
 /**
  *

@@ -1,4 +1,4 @@
-package org.openlegislature;
+package org.openlegislature.util;
 
 import java.util.Collection;
 import java.util.List;
@@ -15,10 +15,10 @@ import com.google.inject.Inject;
 import com.google.inject.Singleton;
 
 /**
- * A {@link ExecutorService} which uses a thread pool of fixed size.
+ * An {@link ExecutorService} which uses a thread pool of fixed size.
  * It is also injectable by guice.
  * Basically this class just delegates all call to an private instance of {@link ExecutorService}.
- * The default max used threads is 4. 
+ * The default max used threads are 4. 
  * 
  * @author dhaeb
  *
