@@ -2,8 +2,6 @@ package org.openlegislature.process;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -19,7 +17,6 @@ import com.itextpdf.text.pdf.parser.TextExtractionStrategy;
 
 /**
  * Performs the convertion from pdf to txt. 
- * Will be also used to convert the txt to xml.
  *
  * @author riddlore, dhaeb
  * @version 0.0.2
@@ -40,21 +37,19 @@ public class Pdf2TxtConverter {
 	 * @param file	The file to be processed
 	 * @throws IOException When an error (also with parsing) occurs
 	 */
-	public List<File> processPdfWhenNotAlreadyDone(File file) throws IOException {
+	public File processPdfWhenNotAlreadyDone(File file) throws IOException {
 		return this.processPdfWhenNotAlreadyDone(file, constants.isClean());
 	}
 
-	public List<File> processPdfWhenNotAlreadyDone(File f, boolean regex) throws IOException {
-		List<File> resultingFiles = new ArrayList<File>();
+	public File processPdfWhenNotAlreadyDone(File f, boolean regex) throws IOException {
 		String fname = f.getName().substring(0, f.getName().lastIndexOf("."));
 		String filepathToParsedFile = createTargetFilepath(f, fname, ".parsed.txt");
 		String filepathToCleanedFile = createTargetFilepath(f, fname, ".cleaned.txt");
 		String doc = "";
 		doc = createTxtRepresentation(f, fname, filepathToParsedFile, doc);
-		resultingFiles.add(new File(filepathToParsedFile));
-		resultingFiles.add(cleanTxtFile(regex, fname, filepathToCleanedFile, doc));
+		File cleanTxtFile = cleanTxtFile(regex, fname, filepathToCleanedFile, doc);
 		Logger.getInstance().debug(String.format("%s is processed and cleaned when needed", fname));
-		return resultingFiles;
+		return cleanTxtFile;
 	}
 
 	private String createTargetFilepath(File f, String fname, String appendix) {
