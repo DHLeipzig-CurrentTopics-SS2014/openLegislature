@@ -9,15 +9,16 @@ import java.util.List;
 
 import org.apache.commons.validator.routines.UrlValidator;
 import org.openlegislature.process.BundestagDownloader;
+import org.openlegislature.process.ErrorCallback;
 import org.openlegislature.process.Pdf2TxtConverter;
 import org.openlegislature.process.PdfToTxtConverterCallback;
+import org.openlegislature.process.TxtToXmlConverterCallback;
 import org.openlegislature.util.GuiceInjectorRetriever;
 import org.openlegislature.util.Helpers;
 import org.openlegislature.util.Logger;
 import org.openlegislature.util.OpenLegislatureConstants;
 
 import com.google.inject.Injector;
-import com.stumbleupon.async.Callback;
 import com.stumbleupon.async.Deferred;
 import com.sun.syndication.feed.synd.SyndEntry;
 import com.sun.syndication.feed.synd.SyndFeed;
@@ -57,16 +58,11 @@ public class App {
 
 	private static void downloadAndConvertIfNeeded(BundestagDownloader downloader, int period, int session) {
 		Deferred<File> futureFile = downloader.downloadProtocolAsynchronously(period, session);
-		PdfToTxtConverterCallback converterCallback = GuiceInjectorRetriever.getInjector().getInstance(PdfToTxtConverterCallback.class);
-		Callback<Void,Exception> errback = new Callback<Void, Exception>() {
-			@Override
-			public Void call(Exception arg) throws Exception {
-				Logger.getInstance().error("An error in the process chain occured:");
-				Logger.getInstance().error(arg.getLocalizedMessage());
-				return null;
-			}
-		};
-		futureFile.addCallbacks(converterCallback, errback);
+		Injector injector = GuiceInjectorRetriever.getInjector();
+		PdfToTxtConverterCallback pdf2txtConverter = injector.getInstance(PdfToTxtConverterCallback.class);
+		TxtToXmlConverterCallback txt2xmlConverter = injector.getInstance(TxtToXmlConverterCallback.class);
+		futureFile.addCallbacks(pdf2txtConverter, new ErrorCallback("An error occured in the pdf to txt converting stage:"))
+		          .addCallbacks(txt2xmlConverter, new ErrorCallback("An error occured in the txt to xml converting stage:"));
 	}
 
 	private static void updateProtocols() {
