@@ -9,7 +9,7 @@ import java.util.List;
 
 import org.apache.commons.validator.routines.UrlValidator;
 import org.openlegislature.process.BundestagDownloader;
-import org.openlegislature.process.PDF2XMLConverter;
+import org.openlegislature.process.Pdf2TxtConverter;
 import org.openlegislature.process.PdfToTxtConverterCallback;
 import org.openlegislature.util.GuiceInjectorRetriever;
 import org.openlegislature.util.Helpers;
@@ -70,7 +70,7 @@ public class App {
 	}
 
 	private static void updateProtocols() {
-		PDF2XMLConverter converter = GuiceInjectorRetriever.getInjector().getInstance(PDF2XMLConverter.class);
+		Pdf2TxtConverter converter = GuiceInjectorRetriever.getInjector().getInstance(Pdf2TxtConverter.class);
 		Logger.getInstance().info("Updating bundestag protocols.");
 		List<String> newProtocls = App.checkBundestagRSS();
 		for ( String p : newProtocls ) {
@@ -84,7 +84,7 @@ public class App {
 		}
 	}
 	
-	private static void convertPdfProtocolToTxt(PDF2XMLConverter converter, String p) throws IOException {
+	private static void convertPdfProtocolToTxt(Pdf2TxtConverter converter, String p) throws IOException {
 		File f = new File(p);
 		converter.processPdfWhenNotAlreadyDone(f);
 	}

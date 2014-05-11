@@ -15,7 +15,7 @@ import com.stumbleupon.async.Callback;
  * The call method starts is triggered by the deferred if the resulting file was downloaded succesfully. 
  * Afterwards the file is processed asynchronously. 
  * In the moment, the process contains convert the PDF to txt and clean it using a simple regex.
- * For details, {@link PDF2XMLConverter} 
+ * For details, {@link Pdf2TxtConverter} 
  * @author dhaeb
  *
  */
@@ -34,7 +34,7 @@ public class PdfToTxtConverterCallback implements Callback<File, File> {
 			@Override
 			public void run() {
 				Thread.currentThread().setName(String.format("Converter Thread for file %s", arg.getName()));
-				PDF2XMLConverter converter = GuiceInjectorRetriever.getInjector().getInstance(PDF2XMLConverter.class);
+				Pdf2TxtConverter converter = GuiceInjectorRetriever.getInjector().getInstance(Pdf2TxtConverter.class);
 				try {
 					converter.processPdfWhenNotAlreadyDone(arg);
 					Logger.getInstance().info("Finished file: " + arg);

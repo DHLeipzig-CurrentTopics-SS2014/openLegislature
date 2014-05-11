@@ -24,13 +24,13 @@ import com.itextpdf.text.pdf.parser.TextExtractionStrategy;
  * @author riddlore, dhaeb
  * @version 0.0.2
  */
-public class PDF2XMLConverter {
+public class Pdf2TxtConverter {
 	private static final Pattern INDENTION2_PATTERN = Pattern.compile("(\r\n|\n)-(\r\n|\n)([a-zäöüß])");
 	private static final Pattern INDENTION_PATTERN = Pattern.compile("-(\r\n|\n)([a-zäöüß])");
 	private OpenLegislatureConstants constants;
 
 	@Inject
-	public PDF2XMLConverter(OpenLegislatureConstants constants) {
+	public Pdf2TxtConverter(OpenLegislatureConstants constants) {
 		this.constants = constants;
 	}
 	
