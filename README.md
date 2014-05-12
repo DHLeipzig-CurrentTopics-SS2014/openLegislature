@@ -3,14 +3,14 @@ openLegislature
 
 Welcome on our project page. The goal of this project is to gain insights of german politics using computer science. 
 We use the `http://dip21.bundestag.de/dip21/btp/{period}/{period}{session}.pdf` page to extract all protocols of the German Bundestag. 
-We will analyse those protocols to answer interessting questions regarding the whole history of the Federal Republic of Germany.
+We will analyse those protocols to answer interesting questions regarding the whole history of the Federal Republic of Germany.
 
 ## What kind of questions do we ask?
 
-The orignal intention was to find similarities in speeches of politicians from different parties. This could inticate that the speech is maybe written from the same (ghost)writer. The answer of this question is really hard, because there is no information about ghostwriters. 
+The orignal intention was to find similarities in speeches of politicians from different parties. This could indicate that the speech is maybe written from the same (ghost)writer. The answer of this question is really hard, because there is no information about ghostwriters. 
 
 So we will adjust our questions to be more historically and statistically and maybe we can still answer the former question in the future.
-For example it could be really interessting to answer questions like:
+For example it could be really interesting to answer questions like:
 
 - How many speakers spoke to the Bundestag?
 - How many speeches are given by some party?
@@ -38,8 +38,8 @@ Final note: The whole process is implemented in parallel and just performs the s
 
 Well we consider to use the following IR methods in our project:
 
-- NER (named entity regocnition)
+- NER (named entity recognition)
 - Clustering / Unsupervised machine learning algorithms
 - LDA (latent Dirichlet allocation)
 
-In the moment, we try to achieve better data quality so this part is not on our agenda yet.
+In the moment we try to achieve better data quality so this part is not on our agenda yet.
