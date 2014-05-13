@@ -6,3 +6,11 @@
 /openLegislature/.settings/*
 /openLegislature/.project
 /openLegislature/.classpath
+
+*.aux
+*.log
+*.nav
+*.out
+*.snm
+*.synctex.gz
+*.toc
