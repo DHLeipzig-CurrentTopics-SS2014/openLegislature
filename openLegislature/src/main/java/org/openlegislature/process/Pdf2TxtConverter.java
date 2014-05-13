@@ -1,29 +1,26 @@
 package org.openlegislature.process;
 
-import java.io.File;
-import java.io.IOException;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
-import org.openlegislature.io.FileWriter;
-import org.openlegislature.util.Logger;
-import org.openlegislature.util.OpenLegislatureConstants;
-
 import com.google.inject.Inject;
 import com.itextpdf.text.pdf.PdfReader;
 import com.itextpdf.text.pdf.parser.PdfReaderContentParser;
 import com.itextpdf.text.pdf.parser.SimpleTextExtractionStrategy;
 import com.itextpdf.text.pdf.parser.TextExtractionStrategy;
+import java.io.File;
+import java.io.IOException;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+import org.openlegislature.io.FileWriter;
+import org.openlegislature.util.Logger;
+import org.openlegislature.util.OpenLegislatureConstants;
 
 /**
  * Performs the convertion from pdf to txt. 
  *
- * @author riddlore, dhaeb
- * @version 0.0.2
+ * @author riddlore, dhaeb, jnphilipp
+ * @version 0.0.3
  */
 public class Pdf2TxtConverter {
-	private static final Pattern INDENTION2_PATTERN = Pattern.compile("(\r\n|\n)-(\r\n|\n)([a-zäöüß])");
-	private static final Pattern INDENTION_PATTERN = Pattern.compile("-(\r\n|\n)([a-zäöüß])");
+	private static final Pattern INDENTION_PATTERN = Pattern.compile("(\r\n|\n)?-(\r\n|\n)([a-zäöüß])");
 	private OpenLegislatureConstants constants;
 
 	@Inject
@@ -97,20 +94,13 @@ public class Pdf2TxtConverter {
 	}
 
 	private String clean(String doc) {
-		Matcher m = INDENTION2_PATTERN.matcher(doc);
-		while (m.find()) {
-			doc = doc.replaceAll(m.group(), m.group(3));
-		}
-
-		m = INDENTION_PATTERN.matcher(doc);
+		Matcher m = INDENTION_PATTERN.matcher(doc);
 		while (m.find()) {
 			doc = doc.replaceAll(m.group(), m.group(2));
 		}
 		doc = doc.replaceAll("kk", "ck");
 		doc = doc.replaceAll("\\([ABCD]\\)", "");
-		doc = doc.replaceAll(
-						"(\\d+)?(\\s+)?Deutscher\\sBundestag.+\\d+\\.\\sSitzung.+\\d+\\s+",
-						"\n");
+		doc = doc.replaceAll("(\\d+)?(\\s+)?Deutscher\\sBundestag.+\\d+\\.\\sSitzung.+\\d+\\s+", "\n");
 
 		return doc;
 	}
