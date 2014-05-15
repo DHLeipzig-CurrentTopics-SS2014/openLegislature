@@ -26,7 +26,9 @@ public class TxtToXmlConverter {
 			}
 			name=spline.substring(0, spline.indexOf("("));
 			if(spline.indexOf("(")==spline.lastIndexOf("(")){
-				party=spline.substring(spline.indexOf("(")+1, spline.indexOf(")"));
+				if(spline.indexOf(")")-spline.indexOf("(")>2){
+					party=spline.substring(spline.indexOf("(")+1, spline.indexOf(")"));
+				}else{party=spline.charAt(spline.indexOf("(")+1)+"";}
 				if(publicoffice.length()<2){
 					spline="<speaker><name>"+name+"</name><party>"+party+"</party></speaker>\n";
 				}else{
@@ -75,16 +77,19 @@ public class TxtToXmlConverter {
 		if(spline.matches(".*\\([A-ZÖÄÜ][A-ZÖÄÜ]*.?[A-ZÄÖÜ]*\\).*")){
 			for(int i=0;i<partbefore.length;i++ ){
 				if(partbefore[i].matches(".*\\([A-ZÖÄÜ][A-ZÖÄÜ]*.?[A-ZÄÖÜ]*\\).*")){
-					party=partbefore[i].substring(partbefore[i].indexOf("(")+1, partbefore[i].indexOf(")"));
+					if(partbefore[i].indexOf(")")-partbefore[i].indexOf("(")>2){
+						party=partbefore[i].substring(partbefore[i].indexOf("(")+1, partbefore[i].indexOf(")"));
+					}else{party=partbefore[i].charAt(partbefore[i].indexOf("(")+1)+"";}
 					spline=spline.replaceAll("\\([A-ZÖÄÜ][A-ZÖÄÜ]*.?[A-ZÄÖÜ]*\\)", "");
 				}
 			}
 			if(spline.contains("(")&&spline.contains(")")){
-				ort=spline.substring(spline.indexOf("("), spline.indexOf(")")+1);
-				//System.out.println(spline);
-				spline=spline.replaceAll(ort, "");
-				spline=spline.replaceAll("\\(", "");
-				spline=spline.replaceAll("\\)", "");
+				if(spline.indexOf(")")-spline.indexOf("(")>2){
+					ort=spline.substring(spline.indexOf("("), spline.indexOf(")")+1);
+					spline=spline.replaceAll(ort, "");
+					spline=spline.replaceAll("\\(", "");
+					spline=spline.replaceAll("\\)", "");
+				}
 
 			}	
 		}
