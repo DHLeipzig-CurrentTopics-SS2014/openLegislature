@@ -168,7 +168,7 @@ public class TxtToXmlConverter {
 		int count = 0;
 		BufferedReader in = null;
 		Writer writer = null;
-		System.out.println(zuparsen);
+		//System.out.println(zuparsen);
 		try {
 			in = new BufferedReader(new FileReader(zuparsen));
 			writer = new BufferedWriter(new OutputStreamWriter(
@@ -332,8 +332,8 @@ public class TxtToXmlConverter {
 									String scribe=speaker(teil,part[j]);
 									if(change){
 										writer.write("</speech>\n"+scribe);
-									}else{writer.write(scribe);}
-									puboffice=true;
+										puboffice=true;
+									}else{writer.write(zeile);}
 									break;
 								}
 							}
@@ -346,11 +346,16 @@ public class TxtToXmlConverter {
 						if(change){
 							writer.write("</speech>\n"+scribe);
 						}
-						else{writer.write(scribe);}
+						//else{writer.write(scribe);}
 					}
 					if (zeile.endsWith(":") || zeile.endsWith(": ")) {}
-					else {writer.write(zeile.substring(zeile.indexOf(":") + 1) + "\n");}
-					continue;
+					else {
+						if(change){
+							writer.write(zeile.substring(zeile.indexOf(":") + 1) + "\n");
+							}
+						}
+					if(change){continue;}
+
 				}
 		
 				if (count == 5
@@ -370,9 +375,9 @@ public class TxtToXmlConverter {
 									String scribe=speaker(teil,part[j]);
 									if(change){
 										writer.write("</speech>\n"+scribe);
-									}
-									else{
-										writer.write(scribe);
+									//}
+									//else{
+									//	writer.write(scribe);
 									}
 									found=true;
 									break;
@@ -383,8 +388,10 @@ public class TxtToXmlConverter {
 					}
 					if(found){
 						if (zeile.endsWith(":") || zeile.endsWith(": ")) {}
-						else {writer.write(zeile.substring(zeile.indexOf(":") + 1) + "\n");}
-						continue;
+						else {
+							if(change){writer.write(zeile.substring(zeile.indexOf(":") + 1) + "\n");}
+						}
+						if(change){continue;}
 					}
 				}
 				
