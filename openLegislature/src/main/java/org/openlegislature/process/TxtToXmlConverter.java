@@ -47,6 +47,8 @@ public class TxtToXmlConverter {
 		line=line.replaceAll("[ ,]?[0-9][0-9][0-9][0-9]* ?[A-ZÖÄÜ]? ?", "");
 		line=line.replaceAll("\\'", "");
 		line=line.replaceAll("\\s?-\\s?", "-");
+		line=line.replaceAll("Antrag[a-zäöü]*", "");
+
 		if(line.matches(".*\\([A-ZÖÄÜ][A-ZÖÄÜ]*.?[A-ZÄÖÜ]*\\).*")){
 			if(line.matches(".*\\([A-ZÖÄÜ][A-ZÖÄÜ]*.?[A-ZÄÖÜ]*\\),.*")){
 				line=line.substring(0, line.lastIndexOf(","));
@@ -77,7 +79,7 @@ public class TxtToXmlConverter {
 		}
 		if((name.length()>2&&party.length()>0)||(name.length()>2&&publicoffice.length()>0)){
 			change=true;
-			name=name.replaceAll("[ ]?[\\.,\\?!;:_—][ ]?", "");
+			name=name.replaceAll("[ ]*[\\.,\\?!;:_—]", "");
 			name=vorname+" "+name;
 			name=name.replaceAll("  ", " ");
 			if(name.startsWith(" ")){name=name.substring(1);}
@@ -92,6 +94,8 @@ public class TxtToXmlConverter {
 				if(testoff.contains(publicoffice)==false){testoff+=publicoffice+"; ";}}
 			line+="</speaker>\n";
 			spline=line;
+			spline=line.replaceAll("  *", " ");
+
 		}else{change=false;spline+=" "+publicoffice+" \n";}
 		return spline;
 	}
@@ -125,6 +129,7 @@ public class TxtToXmlConverter {
 		String ort="";
 		if(line.matches(".*\\(CDU CSU\\).*")){line=line.replaceAll("\\(CDU CSU\\)", "\\(CDU/CSU\\)");}
 		if(line.matches(".*\\(DIE LINKE\\).*")){line=line.replaceAll("\\(DIE LINKE\\)", "\\(DIE_LINKE\\)");}
+		line=line.replaceAll("Antrag[a-zäöü]*", "");
 
 		String[] partbefore=line.split(" ");
 		if(line.matches(".*\\([A-ZÖÄÜ]+.?[A-ZÄÖÜ]*\\).*")){
@@ -139,8 +144,8 @@ public class TxtToXmlConverter {
 			}
 		}
 		name=line;
-
-			name=name.replaceAll("[ ]?[\\.,\\?!;:_—][ ]?", "");
+//System.out.print(line+"; ");
+			name=name.replaceAll("[ ]*[\\.,\\?!;:_—]", "");
 			if((name.length()>2&&party.length()>0)||(name.length()>2&&publicoffice.length()>0)){
 				change=true;
 				if(name.endsWith(" ")){name=name.substring(0, name.length()-1);}
@@ -161,7 +166,8 @@ public class TxtToXmlConverter {
 					publicoffice=publicoffice.replaceAll("\\p{Punct}", "");
 					line+="<public_office>"+publicoffice+"</public_office>";}
 				line+="\n</speaker>\n";
-				spline=line;
+			
+				spline=line.replaceAll("  *", " ");
 		}else{spline+=" "+publicoffice+" \n";change=false;}
 		return spline;
 	}

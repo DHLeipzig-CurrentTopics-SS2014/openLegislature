@@ -117,9 +117,105 @@ http://dip21.bundestag.de/dip21/btp/ [Wahlperiode]/[Wahlperiode][Sitzung].pdf
 \begin{frame}
 \frametitle{Outlook}
 \begin{itemize}
-\item 
+\item Nächste Schritte
+\item Ziele Vorlesungszeit
+\item Ziele Semester
+\item Erweiterbarkeit
+\item Einschränkungen
 \end{itemize}
 \end{frame}
+
+\frame{
+\frametitle{Ausblick I: nächste Schritte}
+
+Nächste Schritte:
+\begin{itemize}
+	\item  erweitern der Metadaten-Datenbank mit Metadaten:
+		\begin{itemize}
+			\item aus bestehenden XML Files
+			\item aus zusätzlichen Quellen (z.B. Sitzverteilungen)
+	 	\end{itemize}
+	\item  Überführen der Strukturierten Daten im XML-Format in einen Document Store
+	\item  Analyse der Daten: 
+		\begin{itemize}
+			\item Clustering (Top-Down, Bottom-Up)
+			\item LDA (Latend Dirichlet Allocation)
+	 	\end{itemize}
+\end{itemize}
+}
+
+
+\frame{
+\frametitle{Ausblick II: Ziele Vorlesungszeit}
+
+Ziele bis Ende Vorlesungszeit:
+\begin{itemize}
+	\item XML-Daten in Document-Store ablegen
+	\item Metadaten-Datenbank mit weiteren Metadaten erweitern
+	\item analysieren der Daten mittels mind. zwei Clustering-Verfahren 
+	\item Cluster mit wahrscheinlich gleichen Schreiber (aber nicht Redner) finden und darstellen
+\end{itemize}
+}
+
+\frame{
+\frametitle{Ausblick III: Ziele Semester}
+
+Ziele bis Ende Semester:
+\begin{itemize}
+	\item Analyse mittels LDA
+	\item Visualisierung der Ergebnisse der LDA-Analysen
+	\item weitere Cluster-Verfahren nutzen
+	\item alle (sinnvollen) Ergebnisse vereinen und darstellen
+	\item Untersuchung warum manche Analysen fehlerhafte/schlechte Ergebnisse lieferten
+\end{itemize}
+}
+
+
+\frame{
+\frametitle{Ausblick IV: Erweiterbarkeit}
+
+Erweiterbarkeit wenn uns Zeit bleibt:
+\begin{itemize}
+	\item zusätzlichen Metadaten-Quellen auffinden und in die bestehende Metadaten-Datenbank überführen
+	\item weitere Metadaten erzeugen (Bsp. POS-Tagging, N-Gramme und Kookkurrenzen)
+	\item Anaylse-Verfahren erweitern 
+	\begin{itemize}
+		\item andere Cluster-Algorithmen
+		\item LDA mit anderen Parametern
+		\item LDA mit anderen Features
+	\end{itemize}
+	\item Visualisieren der Ergebnisse
+\end{itemize}
+}
+
+
+\frame{
+\frametitle{Ausblick V: Einschränkungen I}
+
+Einschränkungen wenn wir nicht alle Ziele schaffen:
+\begin{itemize}
+	\item weniger Analyseverfahren nutzen (Bsp. nur ein Clusteringverfahren)
+	\item Datenbereinigung verkürzen
+	\item weniger Metadaten als Feature nutzen
+\end{itemize}
+}
+
+
+\frame{
+\frametitle{Ausblick VI: Einschränkungen II}
+
+Wichtigste Ziele:
+\begin{itemize}
+	\item Daten in Datenbank strukturiert ablegen
+	\item Clustering-Verfahren auf unsere Daten anwenden
+	\item Interpretation der Ergebnisse
+\end{itemize}
+
+Neue Ziele:
+\begin{itemize}
+	\item vermutlich nicht
+\end{itemize}
+}
 
 \section{Sell you!}
 \begin{frame}
