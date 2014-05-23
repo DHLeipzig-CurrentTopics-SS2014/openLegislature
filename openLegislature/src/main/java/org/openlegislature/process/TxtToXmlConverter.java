@@ -15,13 +15,15 @@ public class TxtToXmlConverter {
 	String testpart="";
 	String [] publicoffices={"kanzler","Präsident","Schriftführer","minister","Staatssekretär","Berichterstatter","präsident"};
 	String [] anhaenge={"Frau", "Herr", "Fräulein", "herr", "Dr.","Dr ", "von", "Abgeordnet"};
+	String [] partys={"Parteilos","CDU","Z","NR","FDP","SPD","PDS","WAV","BP","NR","KPD"};
+	
 	Boolean change=false;
 	private String speakerAtt(String spline){
 		return speakerAtt(spline, "");
 	}
 	
 	private String speakerAtt(String spline, String publicoffice){
-		String vorname="";
+		String vorname=" ";
 		String line=spline;
 		for(int i=0;i<anhaenge.length;i++){
 			if(line.contains(anhaenge[i])){
@@ -80,14 +82,14 @@ public class TxtToXmlConverter {
 			name=name.replaceAll("  ", " ");
 			if(name.startsWith(" ")){name=name.substring(1);}
 			if(name.endsWith(" ")||name.endsWith("-")){name=name.substring(0, name.length()-1);}
-			if(testname.contains(name)==false){testname+=name+"\n";}
+			if(testname.contains(name)==false){testname+=name+"; ";}
 			line="<speaker><name>"+name+"</name>";
 			if(party.length()>0){line+="<party>"+party+"</party>";
-				if(testpart.contains(party)==false){testpart+=party+"\n";}}
+				if(testpart.contains(party)==false){testpart+=party+"; ";}}
 			if(publicoffice.length()>2){
 				publicoffice=publicoffice.replaceAll("\\p{Punct}", "");
 				line+="<public_office>"+publicoffice+"</public_office>";
-				if(testoff.contains(publicoffice)==false){testoff+=publicoffice+"\n";}}
+				if(testoff.contains(publicoffice)==false){testoff+=publicoffice+"; ";}}
 			line+="</speaker>\n";
 			spline=line;
 		}else{change=false;spline+=" "+publicoffice+" \n";}
@@ -122,6 +124,8 @@ public class TxtToXmlConverter {
 		String name="";
 		String ort="";
 		if(line.matches(".*\\(CDU CSU\\).*")){line=line.replaceAll("\\(CDU CSU\\)", "\\(CDU/CSU\\)");}
+		if(line.matches(".*\\(DIE LINKE\\).*")){line=line.replaceAll("\\(DIE LINKE\\)", "\\(DIE_LINKE\\)");}
+
 		String[] partbefore=line.split(" ");
 		if(line.matches(".*\\([A-ZÖÄÜ]+.?[A-ZÄÖÜ]*\\).*")){
 			for(int i=0;i<partbefore.length;i++ ){
@@ -129,6 +133,7 @@ public class TxtToXmlConverter {
 					if(partbefore[i].indexOf(")")-partbefore[i].indexOf("(")>2){
 						party=partbefore[i].substring(partbefore[i].indexOf("(")+1, partbefore[i].indexOf(")"));
 					}else{party=partbefore[i].charAt(partbefore[i].indexOf("(")+1)+"";}
+					if(party.contains("DIE_LINKE")){party="DIE LINKE";}
 					line=line.replaceAll("\\([A-ZÖÄÜ]+.?[A-ZÄÖÜ]*\\)", "");
 				}
 			}
@@ -140,7 +145,7 @@ public class TxtToXmlConverter {
 				change=true;
 				if(name.endsWith(" ")){name=name.substring(0, name.length()-1);}
 				if(ort.length()>1){name+=" "+ort;}
-				if(testname.contains(name)==false){testname+=name+"\n";}
+				if(testname.contains(name)==false){testname+=name+"; ";}
 				name=vorname+" "+name;
 				name=name.replaceAll("  ", " ");
 				if(name.startsWith(" ")){name=name.substring(1);}
@@ -148,11 +153,11 @@ public class TxtToXmlConverter {
 				line="<speech>\n<speaker>\n<name>"+name+"</name>";
 				if(party.length()>0){
 					if(party.endsWith(" ")){party=party.substring(0, party.length()-1);}
-					if(testpart.contains(party)==false){testpart+=party+"\n";}
+					if(testpart.contains(party)==false){testpart+=party+"; ";}
 					line+="<party>"+party+"</party>";}
 				if(publicoffice.length()>0){
 					if(publicoffice.endsWith(" ")){publicoffice=publicoffice.substring(0, publicoffice.length()-1);}
-					if(testoff.contains(publicoffice)==false){testoff+=publicoffice+"\n";}
+					if(testoff.contains(publicoffice)==false){testoff+=publicoffice+"; ";}
 					publicoffice=publicoffice.replaceAll("\\p{Punct}", "");
 					line+="<public_office>"+publicoffice+"</public_office>";}
 				line+="\n</speaker>\n";
@@ -168,6 +173,7 @@ public class TxtToXmlConverter {
 		int count = 0;
 		BufferedReader in = null;
 		Writer writer = null;
+		boolean sitzung=false;
 		//System.out.println(zuparsen);
 		try {
 			in = new BufferedReader(new FileReader(zuparsen));
@@ -176,6 +182,7 @@ public class TxtToXmlConverter {
 			String zeile = null;
 			while ((zeile = in.readLine()) != null) {
 				zeile=zeile.replaceAll("   *", " ");
+				zeile=zeile.replaceAll("Parteilos", "PARTEILOS");
 				if (count == 0 && zeile.matches(".*[0-9]\\. Sitzung.*")) {
 					writer.write("<protocol session_number=\""
 							+ zeile.substring(0, zeile.indexOf("Sitzung") + 7)
@@ -208,14 +215,26 @@ public class TxtToXmlConverter {
 					continue;
 				}
 				if (count == 2 && zeile.matches(".*Nächste Sitzung.*")) {count++;writer.write(zeile+"\n");continue;}
+				
+				
+				if(count==2&&zeile.matches(".*Sitzung.*eröffnet.*")){
+					count+=2;
+					writer.write("</agenda>\n<session>\n" + zeile + "\n");
+					continue;
+				}
 				if (count == 3 && zeile.matches(".*Sitzung.*")) {
 					count++;
 					writer.write("</agenda>\n<session>\n" + zeile + "\n");
 					continue;
 				}
-				
+				if(count==2&&zeile.matches(".*Sitzung.*")){sitzung=true;}
+				if(count==2&&sitzung==true&&zeile.matches(".*eröffne.*")){
+					count+=2;
+					writer.write("</agenda>\n<session>\n" + zeile + "\n");
+					continue;
+					}
 				if(count==2 && (zeile.matches("[^\\(\\*\\)a-z]*[A-ZÖÄÜ][a-zöäü]*[,][ ]?[A-ZÄÖÜ][^,]*")
-						||zeile.matches("[^\\(\\*\\)a-z]*[A-ZÖÄÜ][a-zöäü.]* [A-ZÄÖÜ][a-zäöü]*[,][ ]?[A-ZÄÖÜ].*"))
+						||zeile.matches("[^\\(\\*\\)a-z]*[A-ZÖÄÜ][a-zöäü\\.]* [A-ZÄÖÜ][a-zäöü]*[,][ ]?[A-ZÄÖÜ].*"))
 						&& zeile.matches("[A-ZÄÖÜ][A-ZÄÖÜ].*")==false){
 					boolean found=false;
 					for(int i=0;i<publicoffices.length;i++){
@@ -258,8 +277,8 @@ public class TxtToXmlConverter {
 				}
 				
 				if (count == 4
-						&& (zeile.matches("[^\\(\\*\\)a-z]*[A-ZÄÖÜ][a-zöäü]*[,.]? [A-ZÄÖÜ][a-zäöü]*:.*")
-								||zeile.matches("[^\\(\\*\\)a-z]*[A-ZÄÖÜ][a-zöäü]*[,.]? [A-ZÄÖÜ][a-zäöü]*[,.]? [A-ZÄÖÜ][a-zäöü]*.*:.*"))
+						&& (zeile.matches("[^\\(\\*\\)a-z]*[A-ZÄÖÜ][a-zöäü]*[,\\.]? [A-ZÄÖÜ][a-zäöü]*:.*")
+								||zeile.matches("[^\\(\\*\\)a-z]*[A-ZÄÖÜ][a-zöäü]*[,\\.]? [A-ZÄÖÜ][a-zäöü]*[,\\.]? [A-ZÄÖÜ][a-zäöü]*.*:.*"))
 						&& zeile.substring(0, zeile.indexOf(":")).split(" ").length<5
 						&& openBrace==false) {
 					String zeilevor=zeile.substring(0,zeile.indexOf(":"));
@@ -359,8 +378,8 @@ public class TxtToXmlConverter {
 				}
 		
 				if (count == 5
-						&& (zeile.matches("[^\\(\\*\\)a-z]*[A-ZÄÖÜ][a-zöäü]*[,.]? [A-ZÄÖÜ][a-zäöü]*:.*")
-								||zeile.matches("[^\\(\\*\\)a-z]*[A-ZÄÖÜ][a-zöäü]*[,.]? [A-ZÄÖÜ][a-zäöü]*[,.]? [A-ZÄÖÜ][a-zäöü]*.*:.*")) 
+						&& (zeile.matches("[^\\(\\*\\)a-z]*[A-ZÄÖÜ][a-zöäü]*[,\\.]? [A-ZÄÖÜ][a-zäöü]*:.*")
+								||zeile.matches("[^\\(\\*\\)a-z]*[A-ZÄÖÜ][a-zöäü]*[,\\.]? [A-ZÄÖÜ][a-zäöü]*[,\\.]? [A-ZÄÖÜ][a-zäöü]*.*:.*")) 
 						&& speech
 						&& openBrace==false
 						&& zeile.substring(0, zeile.indexOf(":")).split(" ").length<5) {
@@ -443,7 +462,7 @@ public class TxtToXmlConverter {
 			} catch (Exception ex) {
 			}
 		}
-		//System.out.println("File: "+zuparsen+"\n name: "+testname+"\n office: "+ testoff+"\n Party: "+testpart+"\n");
+		System.out.println("File: "+zuparsen+"\n name: "+testname+"\n office: "+ testoff+"\n Party: "+testpart+"\n");
 		return outputFile;
 	}
 

@@ -30,11 +30,15 @@ public class TestTxtToXmlConverter {
 		testable.convertToXml(new File("src/test/resources/protocols-txt/06148.cleaned.txt"), new File("target/test-classes/06148.xml"));
 		testable.convertToXml(new File("src/test/resources/protocols-txt/06149.cleaned.txt"), new File("target/test-classes/06149.xml"));
 		testable.convertToXml(new File("src/test/resources/protocols-txt/06150.cleaned.txt"), new File("target/test-classes/06150.xml"));
+		testable.convertToXml(new File("src/test/resources/protocols-txt/01002.cleaned.txt"), new File("target/test-classes/01002.cleaned.xml"));
+		testable.convertToXml(new File("src/test/resources/protocols-txt/01008.cleaned.txt"), new File("target/test-classes/01008.cleaned.xml"));
 
 		String expecptedString = IOUtils.toString(new FileInputStream(new File("src/test/resources/protocols-txt/01010.xml")));
 		String resultingString = IOUtils.toString(new FileInputStream(outputFile));
 		assertEquals(expecptedString, resultingString);
-		
+		assertEquals(IOUtils.toString(new FileInputStream(new File("src/test/resources/protocols-txt/01002.cleaned.xml"))), IOUtils.toString(new FileInputStream(new File("target/test-classes/01002.cleaned.xml"))));
+		assertEquals(IOUtils.toString(new FileInputStream(new File("src/test/resources/protocols-txt/01008.cleaned.xml"))), IOUtils.toString(new FileInputStream(new File("target/test-classes/01008.cleaned.xml"))));
+
 		assertEquals(IOUtils.toString(new FileInputStream(new File("src/test/resources/protocols-txt/02002.xml"))), IOUtils.toString(new FileInputStream(new File("target/test-classes/02002.xml"))));
 		assertEquals(IOUtils.toString(new FileInputStream(new File("src/test/resources/protocols-txt/03006.xml"))), IOUtils.toString(new FileInputStream(new File("target/test-classes/03006.xml"))));
 		assertEquals(IOUtils.toString(new FileInputStream(new File("src/test/resources/protocols-txt/04030.xml"))), IOUtils.toString(new FileInputStream(new File("target/test-classes/04030.xml"))));
