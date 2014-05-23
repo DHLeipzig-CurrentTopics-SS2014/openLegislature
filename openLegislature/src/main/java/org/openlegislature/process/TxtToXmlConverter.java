@@ -13,7 +13,7 @@ public class TxtToXmlConverter {
 	String testoff="";
 	String testname="";
 	String testpart="";
-	String [] publicoffices={"kanzler","Präsident","Schriftführer","minister","Staatssekretär","Berichterstatter","präsident"};
+	String [] publicoffices={"kanzler","Präsident","Schriftführer","minister","Staatssekretär","Berichterstatter","berichterstatter","präsident"};
 	String [] anhaenge={"Frau", "Herr", "Fräulein", "herr", "Dr.","Dr ", "von", "Abgeordnet"};
 	String [] partys={"Parteilos","CDU","Z","NR","FDP","SPD","PDS","WAV","BP","NR","KPD"};
 	
@@ -23,6 +23,9 @@ public class TxtToXmlConverter {
 	}
 	
 	private String speakerAtt(String spline, String publicoffice){
+		publicoffice=publicoffice.replaceAll("[—,\\.!\\?\\-;_]", "");
+		publicoffice=publicoffice.replaceAll("\\*\\)", "");
+
 		String vorname=" ";
 		String line=spline;
 		for(int i=0;i<anhaenge.length;i++){
@@ -79,10 +82,15 @@ public class TxtToXmlConverter {
 		}
 		if((name.length()>2&&party.length()>0)||(name.length()>2&&publicoffice.length()>0)){
 			change=true;
-			name=name.replaceAll("[ ]*[\\.,\\?!;:_—]", "");
+			name=name.replaceAll("[ ]*[\\.]", "");
 			name=vorname+" "+name;
-			name=name.replaceAll("  ", " ");
+			name=name.replaceAll("[ ]*[,\\?!;:_—]", "");
+			name=name.replaceAll("\\-", " ");
+			name=name.replaceAll("  *", " ");
+			name=name.replaceAll("\\*\\)", "");
+
 			if(name.startsWith(" ")){name=name.substring(1);}
+			if(name.endsWith(" ")||name.endsWith("-")){name=name.substring(0, name.length()-1);}
 			if(name.endsWith(" ")||name.endsWith("-")){name=name.substring(0, name.length()-1);}
 			if(testname.contains(name)==false){testname+=name+"; ";}
 			line="<speaker><name>"+name+"</name>";
@@ -105,6 +113,8 @@ public class TxtToXmlConverter {
 	}
 	
 	private String speaker(String spline, String publicoffice){
+		publicoffice=publicoffice.replaceAll("\\*\\)", "");
+		publicoffice=publicoffice.replaceAll("—", "");
 		spline=spline.replaceAll("[ ]?-[ ]?", "-");
 		spline=spline.replaceAll("'", "");
 		String line=spline;
@@ -150,12 +160,16 @@ public class TxtToXmlConverter {
 				change=true;
 				if(name.endsWith(" ")){name=name.substring(0, name.length()-1);}
 				if(ort.length()>1){name+=" "+ort;}
-				if(testname.contains(name)==false){testname+=name+"; ";}
+				name=name.replaceAll("[ ]*[\\.]", "");
 				name=vorname+" "+name;
-				name=name.replaceAll("  ", " ");
+				name=name.replaceAll("[ ]*[,\\?!;:_—]", "");
+				name=name.replaceAll("  *", " ");
+				name=name.replaceAll("\\*\\)", "");
 				if(name.startsWith(" ")){name=name.substring(1);}
 				if(name.endsWith(" ")||name.endsWith("-")){name=name.substring(0, name.length()-1);}
+				if(name.endsWith(" ")||name.endsWith("-")){name=name.substring(0, name.length()-1);}
 				line="<speech>\n<speaker>\n<name>"+name+"</name>";
+				if(testname.contains(name)==false){testname+=name+"; ";}
 				if(party.length()>0){
 					if(party.endsWith(" ")){party=party.substring(0, party.length()-1);}
 					if(testpart.contains(party)==false){testpart+=party+"; ";}

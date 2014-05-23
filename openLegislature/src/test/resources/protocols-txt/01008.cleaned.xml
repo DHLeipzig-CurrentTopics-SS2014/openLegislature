@@ -18,7 +18,7 @@ Fortsetzung der Aussprache über die Erklärung der Bundesregierung . . .
 Unterbrechung der Sitzung . . 	 152B 
 <speaker><name>Löfflad</name><party>WAV</party></speaker>
 <speaker><name>Dr. Miessner</name><party>NR</party></speaker>
-Dr. Ott (Parteilos) 
+<speaker><name>Dr. Ott</name><party>PARTEILOS</party></speaker>
 	 155A 
 Nächste Sitzung 	 156 C 
 </agenda>
@@ -105,7 +105,7 @@ es als höchst ungewöhnlich, daß über eine so wichtige und einschneidende, f�
 </speech>
 <speech>
 <speaker>
-<name>Dr. Köhler</name><public_office>—Präsident</public_office>
+<name>Dr. Köhler</name><public_office>Präsident</public_office>
 </speaker>
  Herr Abgeordneter, darf ich 
 Sie einen Moment unterbrechen. Nach § 83 der Geschäftsordnung dürfen sich die Bemerkungen zur 
@@ -2057,7 +2057,12 @@ ihren Häusern wollen wir sie erkennen".
 </speaker>
  Das Wort hat jetzt der 
 herr Abgeordnete Dr. Ott. 
-Dr. Ott (Parteilos): Meine Damen und Herren! 
+</speech>
+<speech>
+<speaker>
+<name>Dr. Ott</name><party>PARTEILOS</party>
+</speaker>
+ Meine Damen und Herren! 
 Viel Bejahung, viel Verneinung und viel Ergänzung hat die Regierungserklärung unseres Herrn 
 Bundeskanzlers erfahren. Ich will nur ganz kurz 
 zwei Punkte herausgreifen. 
