@@ -316,7 +316,9 @@ public class TxtToXmlConverter {
 			zeile = zeile.replaceAll("   *", " ");
 			zeile = zeile.replaceAll("Parteilos", "PARTEILOS");
 			if (count == 0 && zeile.matches(".*[0-9]\\. Sitzung.*")) {
-				writeXml(writer, "<protocol session_number=\"" + zeile.substring(0, zeile.indexOf("Sitzung") + 7) + "\" >\n<header>\n");
+				writeXml(writer, String.format("<%s session_number=\"", PROTOCOL)
+                                + escapeString(zeile.substring(0, zeile.indexOf("Sitzung") + 7))
+                                + String.format("\" >\n%s\n", createTagFrom(HEADER)));
 				count++;
 				continue;
 			}
@@ -325,12 +327,14 @@ public class TxtToXmlConverter {
 			}
 
 			if (count == 1 && (zeile.matches(".*[0-9]\\..* [A-Z][a-z]*.* [12][0-9][0-9][0-9].*"))) {
-				writeXml(writer, zeile + "\n</header>\n<agenda>\n");
+				writeXml(writer, escapeString(zeile) + String.format("\n%s\n%s\n", createClosingTagFrom(HEADER), createTagFrom(AGENDA)));
 				count++;
 				continue;
 			}
 			if (count == 1 && (zeile.matches(".*[Ii]nhalt.*"))) {
-				writeXml(writer, "</header>\n<agenda>\n" + zeile);
+				writeXml(writer, String.format("%s\n%s\n%s", createClosingTagFrom(HEADER),
+                                                                        createTagFrom(AGENDA),
+                                                                        escapeString(zeile)));
 				count++;
 				continue;
 			}
@@ -338,24 +342,27 @@ public class TxtToXmlConverter {
 			if (count == 2 && zeile.matches(".*Nächste Sitzung.*Sitzung.*")) {
 				String part = zeile.substring(0, zeile.lastIndexOf("Sitzung"));
 				String part2 = zeile.substring(zeile.lastIndexOf("Sitzung"), zeile.length());
-				writeXml(writer, part + "\n" + "</agenda>\n<session>\n" + part2 + "\n");
+				writeXml(writer, String.format("%s\n%s\n%s\n%s\n", escapeString(part),
+                                                                 createClosingTagFrom(AGENDA),
+                                                                 createTagFrom(SESSION),
+                                                                escapeString(part2)));
 				count += 2;
 				continue;
 			}
 			if (count == 2 && zeile.matches(".*Nächste Sitzung.*")) {
 				count++;
-				writeXml(writer, zeile + "\n");
+				writeXml(writer, escapeString(zeile + "\n"));
 				continue;
 			}
 
 			if (count == 2 && zeile.matches(".*Sitzung.*eröffnet.*")) {
 				count += 2;
-				writeXml(writer, "</agenda>\n<session>\n" + zeile + "\n");
+				writeXml(writer, "</agenda>\n<session>\n" + escapeString(zeile) + "\n");
 				continue;
 			}
 			if (count == 3 && zeile.matches(".*Sitzung.*")) {
 				count++;
-				writeXml(writer, "</agenda>\n<session>\n" + zeile + "\n");
+				writeXml(writer, "</agenda>\n<session>\n" + escapeString(zeile) + "\n");
 				continue;
 			}
 			if (count == 2 && zeile.matches(".*Sitzung.*")) {
@@ -363,7 +370,7 @@ public class TxtToXmlConverter {
 			}
 			if (count == 2 && sitzung == true && zeile.matches(".*eröffne.*")) {
 				count += 2;
-				writeXml(writer, "</agenda>\n<session>\n" + zeile + "\n");
+				writeXml(writer, "</agenda>\n<session>\n" + escapeString(zeile) + "\n");
 				continue;
 			}
 			if (count == 2
@@ -491,7 +498,7 @@ public class TxtToXmlConverter {
 									writeXml(writer, "</speech>\n" + scribe);
 									puboffice = true;
 								} else {
-									writeXml(writer, zeile);
+									writeXml(writer, escapeString(zeile));
 								}
 								break;
 							}
@@ -549,7 +556,7 @@ public class TxtToXmlConverter {
 					if (zeile.endsWith(":") || zeile.endsWith(": ")) {
 					} else {
 						if (change) {
-							writeXml(writer, zeile.substring(zeile.indexOf(":") + 1) + "\n");
+							writeXml(writer, escapeString(zeile.substring(zeile.indexOf(":") + 1) + "\n"));
 						}
 					}
 					if (change) {
@@ -561,7 +568,7 @@ public class TxtToXmlConverter {
 			if ((zeile.matches(".*Schlu[ß(ss)] .* Sitzung.*") || zeile.matches(".*Sitzung.*geschlossen.*")) && count == 5) {
 				speech = false;
 				count++;
-				writeXml(writer, zeile + "\n</speech>\n<attachement>\n");
+				writeXml(writer, escapeString(zeile) + "\n</speech>\n<attachement>\n");
 				continue;
 			}
 
