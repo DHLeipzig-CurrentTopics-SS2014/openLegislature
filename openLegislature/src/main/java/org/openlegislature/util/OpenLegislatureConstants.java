@@ -23,12 +23,14 @@ public class OpenLegislatureConstants {
 	private static final String VM_PARAM_MAXTHREADS = PREFIX + ".maxThreads";
 	private static final String VM_PARAM_MAXSESSION = PREFIX + ".maxSession";
 	private static final String VM_THREAD_IDLE_TIME = PREFIX + ".threadIdleTime";
+    private static final String VM_PARAM_XML = PREFIX + ".processXml";
 	
 	private int maxPeriod;
 	private int maxSession;
 	private int maxThreads;
 	private Map<Integer, Integer> sessionMap = new HashMap<Integer, Integer>();
 	private boolean clean;
+    private boolean processXml;
 	private int threadIdleTime;
 	
 	@Inject
@@ -54,19 +56,21 @@ public class OpenLegislatureConstants {
 		sessionMap.put(16, 233);
 		sessionMap.put(17, 253);
 		sessionMap.put(18, 33);
-		initClean();
-		Logger.getInstance().info("Constant-Values:");
+		this.clean = initBoolean(VM_PARAM_CLEAN, true);
+        this.processXml = initBoolean(VM_PARAM_XML, false);
 		maxThreads = Helpers.initparamInt(4, VM_PARAM_MAXTHREADS);
-		Logger.getInstance().info(VM_PARAM_CLEAN  + " : "  + clean);
+        Logger.getInstance().info("Constant-Values:");
+        Logger.getInstance().info(VM_PARAM_CLEAN  + " : "  + clean);
 		Logger.getInstance().info(VM_PARAM_MAXPERIOD  + " : "  + maxPeriod);
 		Logger.getInstance().info(VM_PARAM_MAXSESSION  + " : "  + maxSession);
 		Logger.getInstance().info(VM_PARAM_MAXTHREADS  + " : "  + maxThreads);
+        Logger.getInstance().info(VM_PARAM_XML  + " : "  + processXml);
 		Logger.getInstance().info("SessionMap : "  + sessionMap);
 	}
 
-	private void initClean() {
-		String clean = System.getProperty(VM_PARAM_CLEAN);
-		this.clean = clean == null ? true : clean.equals("true");
+	private boolean initBoolean(String propertyName, boolean defaultBool) {
+		String bool = System.getProperty(propertyName);
+		return bool == null ? defaultBool : bool.equals("true");
 	}
 
 	public int getMaxPeriod() {
@@ -92,5 +96,8 @@ public class OpenLegislatureConstants {
 	public int getThreadIdleTime() {
 		return threadIdleTime;
 	}
-	
+
+    public boolean isProcessXml() {
+        return processXml;
+    }
 }
