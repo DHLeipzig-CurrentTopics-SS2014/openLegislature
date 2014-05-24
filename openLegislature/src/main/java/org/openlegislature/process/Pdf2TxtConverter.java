@@ -73,7 +73,7 @@ public class Pdf2TxtConverter {
 				doc += strategy.getResultantText() + "\n\n";
 			}
 
-			FileWriter.write(filepathToParsedFile, doc);
+			FileWriter.write(filepathToParsedFile, doc, constants.getEncoding());
 			Logger.getInstance().debug(String.format("%s is now pdf processed", fname));
 		}
 		return doc;
@@ -86,7 +86,7 @@ public class Pdf2TxtConverter {
 		} else {
 			if (regex) {
 				doc = this.clean(doc);
-				FileWriter.write(filepathToCleanedFile, doc);
+				FileWriter.write(filepathToCleanedFile, doc, constants.getEncoding());
 				Logger.getInstance().debug(String.format("Cleaned %s", fname));
 			}
 		}

@@ -24,14 +24,17 @@ public class OpenLegislatureConstants {
 	private static final String VM_PARAM_MAXSESSION = PREFIX + ".maxSession";
 	private static final String VM_THREAD_IDLE_TIME = PREFIX + ".threadIdleTime";
     private static final String VM_PARAM_XML = PREFIX + ".processXml";
-	
-	private int maxPeriod;
+	private static final String VM_PARAM_ENCODING = PREFIX + ".encoding";
+    private static final String DEFAULT_ENCODING = "UTF-8";
+
+    private int maxPeriod;
 	private int maxSession;
 	private int maxThreads;
 	private Map<Integer, Integer> sessionMap = new HashMap<Integer, Integer>();
 	private boolean clean;
     private boolean processXml;
 	private int threadIdleTime;
+    private String encodingName;
 	
 	@Inject
 	public OpenLegislatureConstants() {
@@ -58,6 +61,9 @@ public class OpenLegislatureConstants {
 		sessionMap.put(18, 33);
 		this.clean = initBoolean(VM_PARAM_CLEAN, true);
         this.processXml = initBoolean(VM_PARAM_XML, false);
+        String encoding = System.getProperty(VM_PARAM_ENCODING);
+        this.encodingName = encoding == null ? DEFAULT_ENCODING : encoding;
+
 		maxThreads = Helpers.initparamInt(4, VM_PARAM_MAXTHREADS);
         Logger.getInstance().info("Constant-Values:");
         Logger.getInstance().info(VM_PARAM_CLEAN  + " : "  + clean);
@@ -65,6 +71,7 @@ public class OpenLegislatureConstants {
 		Logger.getInstance().info(VM_PARAM_MAXSESSION  + " : "  + maxSession);
 		Logger.getInstance().info(VM_PARAM_MAXTHREADS  + " : "  + maxThreads);
         Logger.getInstance().info(VM_PARAM_XML  + " : "  + processXml);
+        Logger.getInstance().info(VM_PARAM_ENCODING  + " : "  + encodingName);
 		Logger.getInstance().info("SessionMap : "  + sessionMap);
 	}
 
@@ -99,5 +106,9 @@ public class OpenLegislatureConstants {
 
     public boolean isProcessXml() {
         return processXml;
+    }
+
+    public String getEncoding(){
+        return encodingName;
     }
 }
