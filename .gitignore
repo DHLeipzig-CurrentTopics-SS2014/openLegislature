@@ -6,7 +6,7 @@
 /openLegislature/.settings/*
 /openLegislature/.project
 /openLegislature/.classpath
-
+/openLegislature/.idea
 *.aux
 *.log
 *.nav

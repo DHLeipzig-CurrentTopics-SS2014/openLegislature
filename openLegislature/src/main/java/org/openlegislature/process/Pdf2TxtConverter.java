@@ -6,12 +6,11 @@ import com.itextpdf.text.pdf.parser.PdfReaderContentParser;
 import com.itextpdf.text.pdf.parser.SimpleTextExtractionStrategy;
 import com.itextpdf.text.pdf.parser.TextExtractionStrategy;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.IOException;
+import java.io.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import org.apache.commons.io.IOUtils;
 import org.openlegislature.io.FileWriter;
 import org.openlegislature.util.Logger;
 import org.openlegislature.util.OpenLegislatureConstants;
@@ -35,22 +34,21 @@ public class Pdf2TxtConverter {
 	/**
 	 * Process a pdf file if it is not already converted to txt.
 	 * 
-	 * @param file
+	 * @param pdfFile
 	 *            The file to be processed
 	 * @throws IOException
 	 *             When an error (also with parsing) occurs
 	 */
-	public File processPdfWhenNotAlreadyDone(File file) throws IOException {
-		return this.processPdfWhenNotAlreadyDone(file, constants.isClean());
+	public File processPdfWhenNotAlreadyDone(File pdfFile) throws IOException {
+		return this.processPdfWhenNotAlreadyDone(pdfFile, constants.isClean());
 	}
 
-	public File processPdfWhenNotAlreadyDone(File f, boolean regex) throws IOException {
-		String fname = f.getName().substring(0, f.getName().lastIndexOf("."));
-		String filepathToParsedFile = createTargetFilepath(f, fname, ".parsed.txt");
-		String filepathToCleanedFile = createTargetFilepath(f, fname, ".cleaned.txt");
-		String doc = "";
-		doc = createTxtRepresentation(f, fname, filepathToParsedFile, doc);
-		File cleanTxtFile = cleanTxtFile(regex, fname, filepathToCleanedFile, doc);
+	public File processPdfWhenNotAlreadyDone(File pdfFile, boolean isCleaning) throws IOException {
+		String fname = pdfFile.getName().substring(0, pdfFile.getName().lastIndexOf("."));
+		String filepathToParsedFile = createTargetFilepath(pdfFile, fname, ".parsed.txt");
+		String filepathToCleanedFile = createTargetFilepath(pdfFile, fname, ".cleaned.txt");
+		String doc = createTxtRepresentation(pdfFile, fname, filepathToParsedFile);
+		File cleanTxtFile = cleanTxtFile(isCleaning, fname, filepathToCleanedFile, doc);
 		Logger.getInstance().debug(String.format("%s is processed and cleaned when needed", fname));
 		return cleanTxtFile;
 	}
@@ -64,13 +62,16 @@ public class Pdf2TxtConverter {
 		return targetFilePathBuilder.toString();
 	}
 
-	private String createTxtRepresentation(File f, String fname, String filepathToParsedFile, String doc) throws IOException {
-		boolean convertedTxtAlreadyExists = new File(filepathToParsedFile).exists();
+	private String createTxtRepresentation(File pdfFile, String fname, String filepathToParsedFile) throws IOException {
+        String doc = "";
+        File cleandedFile = new File(filepathToParsedFile);
+        boolean convertedTxtAlreadyExists = cleandedFile.exists();
 		if (convertedTxtAlreadyExists) {
 			Logger.getInstance().debug(String.format("%s is already pdf processed", fname));
+            doc = IOUtils.toString(new BufferedReader(new InputStreamReader(new FileInputStream(cleandedFile), constants.getEncoding())));
 		} else {
 
-			PdfReader reader = new PdfReader(f.getAbsolutePath());
+			PdfReader reader = new PdfReader(pdfFile.getAbsolutePath());
 			PdfReaderContentParser parser = new PdfReaderContentParser(reader);
 			TextExtractionStrategy strategy;
 
@@ -99,9 +100,8 @@ public class Pdf2TxtConverter {
 		return new File(filepathToCleanedFile);
 	}
 
-	private void cleanDoc(String fname, String filepathToCleanedFile, String doc) throws FileNotFoundException, IOException {
-		doc = this.clean(doc);
-		FileWriter.write(filepathToCleanedFile, doc, constants.getEncoding());
+	private void cleanDoc(String fname, String filepathToCleanedFile, String doc) throws IOException {
+		FileWriter.write(filepathToCleanedFile, this.clean(doc), constants.getEncoding());
 		Logger.getInstance().debug(String.format("Cleaned %s", fname));
 	}
 

@@ -22,6 +22,7 @@ import com.sun.syndication.feed.synd.SyndFeed;
 import com.sun.syndication.io.FeedException;
 import com.sun.syndication.io.SyndFeedInput;
 import com.sun.syndication.io.XmlReader;
+import sun.misc.IOUtils;
 
 /**
  *
@@ -79,6 +80,7 @@ public class App {
                 e.printStackTrace();
             }
         } while (!currentQuery.equals("quit"));
+        inscanner.close();
     }
 
 	private static void updateProtocols() {
