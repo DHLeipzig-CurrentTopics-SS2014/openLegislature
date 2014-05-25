@@ -24,7 +24,9 @@ public class TxtToXmlConverter {
     private final String SESSION = "session";
     private final String PUBLIC_OFFICE = "public_office";
     private final String INTERJECTION = "interjection";
-
+    private final String ITEM = "item";
+    private final String ADJUSTMENT = "adjustment";
+    private final String ATTACHEMENT = "attachement";
 
 	private String testpart = "";
 	private String testoff = "";
@@ -297,6 +299,9 @@ public class TxtToXmlConverter {
 	}
 
 	private void parseSpeachAndWriteBack(BufferedReader in, Writer writer) throws IOException {
+		boolean anlage=false;
+		boolean berichtigung=false;
+		int id=0;
 		int count = 0;
 		String zeile = null;
 		boolean openBrace = false;
@@ -318,14 +323,17 @@ public class TxtToXmlConverter {
 			}
 
 			if (count == 1 && (zeile.matches(".*[0-9]\\..* [A-Z][a-z]*.* [12][0-9][0-9][0-9].*"))) {
-				writeXml(writer, escapeString(zeile) + String.format("\n%s\n%s\n", createClosingTagFrom(HEADER), createTagFrom(AGENDA)));
+				writeXml(writer, escapeString(zeile)
+								+ String.format("\n%s\n%s\n", createClosingTagFrom(HEADER), createTagFrom(AGENDA))
+								+ String.format("<%s id=\""+id, ITEM));
+				id++;
 				count++;
 				continue;
 			}
 			if (count == 1 && (zeile.matches(".*[Ii]nhalt.*"))) {
-				writeXml(writer, String.format("%s\n%s\n%s", createClosingTagFrom(HEADER),
-                                                                        createTagFrom(AGENDA),
-                                                                        escapeString(zeile)));
+				writeXml(writer, String.format("%s\n%s\n%s", createClosingTagFrom(HEADER), createTagFrom(AGENDA), escapeString(zeile))
+								+ String.format("<%s id=\""+id, ITEM));
+				id++;
 				count++;
 				continue;
 			}
@@ -334,6 +342,7 @@ public class TxtToXmlConverter {
 				String part = zeile.substring(0, zeile.lastIndexOf("Sitzung"));
 				String part2 = zeile.substring(zeile.lastIndexOf("Sitzung"), zeile.length());
 				writeXml(writer, String.format("%s\n%s\n%s\n%s\n", escapeString(part),
+																 createClosingTagFrom(ITEM),
                                                                  createClosingTagFrom(AGENDA),
                                                                  createTagFrom(SESSION),
                                                                 escapeString(part2)));
@@ -348,12 +357,12 @@ public class TxtToXmlConverter {
 
 			if (count == 2 && zeile.matches(".*Sitzung.*er.ffnet.*")) {
 				count += 2;
-				writeXml(writer, "</agenda>\n<session>\n" + escapeString(zeile) + "\n");
+				writeXml(writer, "</item>\n</agenda>\n<session>\n" + escapeString(zeile) + "\n");
 				continue;
 			}
 			if (count == 3 && zeile.matches(".*Sitzung.*")) {
 				count++;
-				writeXml(writer, "</agenda>\n<session>\n" + escapeString(zeile) + "\n");
+				writeXml(writer, "</item></agenda>\n<session>\n" + escapeString(zeile) + "\n");
 				continue;
 			}
 			if (count == 2 && zeile.matches(".*Sitzung.*")) {
@@ -361,7 +370,7 @@ public class TxtToXmlConverter {
 			}
 			if (count == 2 && sitzung == true && zeile.matches(".*eröffne.*")) {
 				count += 2;
-				writeXml(writer, "</agenda>\n<session>\n" + escapeString(zeile) + "\n");
+				writeXml(writer, "</item></agenda>\n<session>\n" + escapeString(zeile) + "\n");
 				continue;
 			}
 			if (count == 2
@@ -577,6 +586,39 @@ public class TxtToXmlConverter {
 				}
 			}
 
+			
+			
+			if(count==6 && zeile.matches(".*[Aa]nlage.*")){
+				anlage=true;
+				writeXml(writer, "<attachement>\n"+escapeString(zeile));
+				count++;
+				continue;
+			}
+			if(count==6){continue;}
+			if(count==6 && zeile.matches(".*Berichtigung.*")){
+				berichtigung=true;
+				writeXml(writer, "<adjustment>\n"+escapeString(zeile));
+				count++;
+				continue;
+			}
+			if(count==7&&anlage&&zeile.matches(".*Berichtigung.*")){
+				anlage=false;
+				berichtigung=true;
+				writeXml(writer, "</attachement>\n<adjustment>\n"+escapeString(zeile));
+				count++;
+				continue;
+			}
+			if(count==7&&berichtigung&&zeile.matches(".*[Aa]nlage.*")){
+				berichtigung=false;
+				anlage=true;
+				writeXml(writer, "</adjustment>\n<attachement>\n"+escapeString(zeile));
+				count++;
+				continue;
+			}
+			
+			
+			
+			
 			if (openBrace) {
 				if (zeile.matches(".*\\).*")) {
 					writeXml(writer, memory + escapeString(zeile) + "\n</interjection>\n");
@@ -593,7 +635,15 @@ public class TxtToXmlConverter {
 		if (speech) {
 			writeXml(writer, "</speech>\n<attachement>\n");
 		}
-		writeXml(writer, "</attachement>\n</session>\n</protocol>\n");
+		if(anlage){
+			writeXml(writer, "</attachement>\n");
+
+		}
+		if(berichtigung){
+			writeXml(writer, "</adjustment>\n");
+		}
+		
+		writeXml(writer, "</session>\n</protocol>\n");
 	}
 
     private void writeXml(Writer w, String writable) throws IOException {
