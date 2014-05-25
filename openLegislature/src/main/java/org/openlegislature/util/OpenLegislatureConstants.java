@@ -25,14 +25,16 @@ public class OpenLegislatureConstants {
 	private static final String VM_THREAD_IDLE_TIME = PREFIX + ".threadIdleTime";
     private static final String VM_PARAM_XML = PREFIX + ".processXml";
 	private static final String VM_PARAM_ENCODING = PREFIX + ".encoding";
+	private static final String VM_XPATH_IN_MEM = PREFIX + ".xpathinmemory";
     private static final String DEFAULT_ENCODING = "UTF-8";
-
+    
     private int maxPeriod;
 	private int maxSession;
 	private int maxThreads;
 	private Map<Integer, Integer> sessionMap = new HashMap<Integer, Integer>();
 	private boolean clean;
     private boolean processXml;
+    private boolean xpathInMemory;
 	private int threadIdleTime;
     private String encodingName;
 	
@@ -61,6 +63,7 @@ public class OpenLegislatureConstants {
 		sessionMap.put(18, 33);
 		this.clean = initBoolean(VM_PARAM_CLEAN, true);
         this.processXml = initBoolean(VM_PARAM_XML, false);
+        this.xpathInMemory = initBoolean(VM_XPATH_IN_MEM, false);
         String encoding = System.getProperty(VM_PARAM_ENCODING);
         this.encodingName = encoding == null ? DEFAULT_ENCODING : encoding;
 
@@ -111,4 +114,8 @@ public class OpenLegislatureConstants {
     public String getEncoding(){
         return encodingName;
     }
+    
+    public boolean isXpathInMemory() {
+		return xpathInMemory;
+	}
 }

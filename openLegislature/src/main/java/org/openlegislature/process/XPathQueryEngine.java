@@ -1,10 +1,16 @@
 package org.openlegislature.process;
 
-import com.google.inject.Inject;
-import com.google.inject.Singleton;
-import org.w3c.dom.Document;
-import org.w3c.dom.NodeList;
-import org.xml.sax.SAXException;
+import static javax.xml.parsers.DocumentBuilderFactory.newInstance;
+
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.List;
+import java.util.Map;
+import java.util.Vector;
+import java.util.concurrent.ConcurrentHashMap;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -15,45 +21,45 @@ import javax.xml.transform.TransformerException;
 import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
-import javax.xml.xpath.*;
-import java.io.*;
-import java.util.List;
-import java.util.Vector;
+import javax.xml.xpath.XPath;
+import javax.xml.xpath.XPathConstants;
+import javax.xml.xpath.XPathExpression;
+import javax.xml.xpath.XPathExpressionException;
+import javax.xml.xpath.XPathFactory;
 
-import static javax.xml.parsers.DocumentBuilderFactory.newInstance;
+import org.openlegislature.util.OpenLegislatureConstants;
+import org.w3c.dom.Document;
+import org.w3c.dom.NodeList;
+import org.xml.sax.SAXException;
+
+import com.google.inject.Inject;
+import com.google.inject.Singleton;
 
 @Singleton
 public class XPathQueryEngine {
 
     private static final DocumentBuilderFactory FACTORY = newInstance();
 
-    private ThreadLocal<DocumentBuilder> builderLocale = new ThreadLocal<DocumentBuilder>() {
-
-        @Override
-        protected DocumentBuilder initialValue() {
-            try {
-                return FACTORY.newDocumentBuilder();
-            } catch (ParserConfigurationException e) {
-                throw new RuntimeException("Can't initialize XML Parser");
-            }
-        }
-
-    };
-
-
-    private List<Document> fileList = new Vector<Document>();
+    private volatile List<File> fileList = new Vector<File>();
+    private volatile Map<File, Document> docChache = new ConcurrentHashMap<File, Document>();
+    private volatile OpenLegislatureConstants constants;
+    
     private XPathFactory xPathfactory = XPathFactory.newInstance();
     private Transformer nodePrinter;
 
     @Inject
-    public XPathQueryEngine() throws ParserConfigurationException, TransformerConfigurationException {
-        nodePrinter = TransformerFactory.newInstance().newTransformer();
+    public XPathQueryEngine(OpenLegislatureConstants constants) throws ParserConfigurationException, TransformerConfigurationException {
+        this.constants = constants;
+		nodePrinter = TransformerFactory.newInstance().newTransformer();
     }
 
-    public void add(File xmlFile) throws IOException, SAXException {
+    public void add(File xmlFile) throws Exception {
         try {
-            Document doc = builderLocale.get().parse(xmlFile);
-            fileList.add(doc);
+        	fileList.add(xmlFile);
+        	if(constants.isXpathInMemory()){
+        		DocumentBuilder db = FACTORY.newDocumentBuilder();
+        		docChache.put(xmlFile, db.parse(xmlFile));
+        	} 
             System.err.println(fileList.size());
         } catch (Exception e) {
             PrintWriter pw = new PrintWriter(new FileOutputStream(new File("fail-files.txt"), true));
@@ -61,23 +67,33 @@ public class XPathQueryEngine {
             pw.println(e.toString());
             pw.close();
             throw e;
-        } finally{
-            builderLocale.get().reset();
         }
     }
 
-    public void query(String xpath) throws XPathExpressionException, TransformerException {
-        System.out.println(xpath);
+    public void query(String xpath) throws XPathExpressionException, TransformerException, SAXException, IOException, ParserConfigurationException {
         System.out.println(fileList.size());
         XPath xpathExpr = xPathfactory.newXPath();
         XPathExpression expr = xpathExpr.compile(xpath);
-        for(Document doc : fileList){
-            NodeList nodeList = (NodeList) expr.evaluate(doc, XPathConstants.NODESET);
-            for(int i = 0; i < nodeList.getLength(); i++){
-                nodePrinter.transform(new DOMSource(nodeList.item(i)), new StreamResult(new BufferedWriter(new PrintWriter(System.out))));
-            }
-
+        for(File file: fileList){
+        	try {
+        		Document doc;
+        		if(constants.isXpathInMemory()){
+					doc = FACTORY.newDocumentBuilder().parse(file);
+        		} else {
+        			doc = docChache.get(file);
+        		}
+				applyXPathExpression(expr, doc);
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
         }
     }
+
+	private void applyXPathExpression(XPathExpression expr, Document doc) throws XPathExpressionException, TransformerException {
+		NodeList nodeList = (NodeList) expr.evaluate(doc, XPathConstants.NODESET);
+		for(int i = 0; i < nodeList.getLength(); i++){
+		    nodePrinter.transform(new DOMSource(nodeList.item(i)), new StreamResult(new BufferedWriter(new PrintWriter(System.out))));
+		}
+	}
 
 }

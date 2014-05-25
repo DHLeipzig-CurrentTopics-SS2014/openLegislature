@@ -23,8 +23,6 @@ import com.sun.syndication.io.FeedException;
 import com.sun.syndication.io.SyndFeedInput;
 import com.sun.syndication.io.XmlReader;
 
-import javax.xml.xpath.XPathExpressionException;
-
 /**
  *
  * @author jnphilipp, dhaeb
