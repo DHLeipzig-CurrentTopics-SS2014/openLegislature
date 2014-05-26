@@ -3,7 +3,6 @@
 \usepackage{amsfonts}
 \usepackage{amssymb}
 \usepackage{tikz}
-
 \usetheme{Frankfurt}
 \usecolortheme{seagull}
 \usepackage{xltxtra,fontspec}
@@ -38,10 +37,12 @@
 %\logo{\includegraphics[scale=0.25]{./LGD_Logo.png}}
 %\setbeamersize{text margin left=7mm, text margin right=7mm}
 
-%\usepackage[backend=bibtex8,style=numeric,subentry]{biblatex}
 %\usepackage[babel]{csquotes}
 %\defbibheading{bibliography}{}
 %\bibliography{quellen}
+
+\usepackage[backend=biber,style=numeric]{biblatex}
+\addbibresource{lit.bib}
 
 \begin{document}
 \section{}
@@ -49,31 +50,23 @@
 \titlepage
 \end{frame}
 
-%\only<presentation| handout:0> {
-%	\AtBeginSection[]{%
-%		\begin{frame}
-%		\frametitle{Gliederung}
-%		\tableofcontents[currentsection]
-%		\end{frame}
-%	}% AtBeginSection
-%}
+\only<presentation| handout:0> {
+	\AtBeginSection[]{%
+		\begin{frame}
+		\frametitle{Gliederung}
+		\tableofcontents[currentsection]
+		\end{frame}
+	}% AtBeginSection
+}
 
-%\only<2| handout:1>{
+\only<2| handout:1>{
 	\begin{frame}
 		\frametitle{Outline}
 		\tableofcontents
 	\end{frame}
-%}
+}
 
 \section{Introduction}
-\begin{frame}
-\frametitle{Introduction}
-\begin{itemize}
-\item Korpus
-\item Fragestellungen
-\end{itemize}
-\end{frame}
-
 \subsection{Korpus}
 \begin{frame}{Informationen}
 \textbf{Plenarprotokolle des Bundestages}
@@ -91,7 +84,7 @@
 \begin{itemize}
 \item öffentlich
 \item frei zugänglich
-\item http://suche.bundestag.de/plenarprotokolle/search.form\\[1em]
+\item siehe \cite{bundestag} \\[1em]
 \end{itemize}
 \textbf{Download per Funktionen von:}
 \begin{itemize}
@@ -142,30 +135,65 @@ Die Politik muss sich langsam dem 21 Jahrhundert annähern.
 werden Wahlen noch immer mit ZETTEL und STIFT geführt!
 
 \end{frame}
-\section{Methods}
+\section{Methoden}
+\subsection{Vorgehensweise}
 \begin{frame}
-\frametitle{Methods}
+\frametitle{Methoden 1}
+\textbf{Preprocessing:}
 \begin{itemize}
-\item 
+\item Lemmatizing
+\item ggfs. Part of Speech Analyse  
+\item Vergleichen von N-Grammen zur Ähnlichkeitsüberprüfung
+\item Keine Stopwortentfernung, da dadurch Informationen verloren gehen!
 \end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Methoden 2}
+\textbf{IR Methoden:}
+\begin{itemize}
+\item Kookkurrenz auf verschiedenen Ebenen (Reden per Partei, Redner, Gesammt)
+\item Clustering
+\end{itemize}
+\textbf{IR Algorithmen}
+\begin{itemize}
+\item Ähnlichkeitsmaße berechen und vergleichen 
+\item Topic Modell / LDA 
+\end{itemize}
+\textit {"Latent Dirichlet allocation (LDA) is a generative probabilistic
+	model of a corpus. The basic idea is that documents are represented as
+ 	random mixtures over latent topics, where each topic is characterized by a
+ 	distribution over words."}, siehe \cite{blatent}
+%  	
+\end{frame} 
+
+\subsection{Ergebnisse}
+\begin{frame}
+\frametitle{Vorläufige Ergebnisse}
+\begin{itemize}
+\item Unstrukturierte Textdateien liegen vor (PDF / TXT)
+\item Semistrukturierte XML Dateien aus TXT erzeugt
+\item Metadatenbank angelegt
+\item Erste einfache XPath Anfragen auf Dateien realisiert 
+\end{itemize}
+\end{frame}
+\begin{frame}
+  \frametitle{Architektur Prozess Datenextraktion und -aufbereitung }
+  \begin{itemize}
+  \item Nutzung des Listener Patterns \cite{javainsel9}
+  \item Verwendung der Github-Library Async \cite{async} zur einfachen Erstellung Nebenläufiger Prozessketten
+  \end{itemize}  
+  \begin{center}
+    \includegraphics[width=1\textwidth]{../../doc/process-overview.png}
+  \end{center}
 \end{frame}
 
 
 \section{Outlook}
+
+\subsection{Anstehende Aufgaben}
 \begin{frame}
-\frametitle{Outlook}
-\begin{itemize}
-\item Nächste Schritte
-\item Ziele Vorlesungszeit
-\item Ziele Semester
-\item Erweiterbarkeit
-\item Einschränkungen
-\end{itemize}
-\end{frame}
-
-\frame{
 \frametitle{Ausblick I: nächste Schritte}
-
 Nächste Schritte:
 \begin{itemize}
 	\item  erweitern der Metadaten-Datenbank mit Metadaten:
@@ -179,11 +207,11 @@ Nächste Schritte:
 			\item Clustering (Top-Down, Bottom-Up)
 			\item LDA (Latend Dirichlet Allocation)
 	 	\end{itemize}
-\end{itemize}
-}
+	\end{itemize}
+\end{frame}
 
-
-\frame{
+\subsection{Ziele}
+\begin{frame}
 \frametitle{Ausblick II: Ziele Vorlesungszeit}
 
 Ziele bis Ende Vorlesungszeit:
@@ -193,9 +221,9 @@ Ziele bis Ende Vorlesungszeit:
 	\item analysieren der Daten mittels mind. zwei Clustering-Verfahren 
 	\item Cluster mit wahrscheinlich gleichen Schreiber (aber nicht Redner) finden und darstellen
 \end{itemize}
-}
+\end{frame}
 
-\frame{
+\begin{frame}
 \frametitle{Ausblick III: Ziele Semester}
 
 Ziele bis Ende Semester:
@@ -206,10 +234,10 @@ Ziele bis Ende Semester:
 	\item alle (sinnvollen) Ergebnisse vereinen und darstellen
 	\item Untersuchung warum manche Analysen fehlerhafte/schlechte Ergebnisse lieferten
 \end{itemize}
-}
+\end{frame}
 
-
-\frame{
+\subsection{Projektumfang}
+\begin{frame}
 \frametitle{Ausblick IV: Erweiterbarkeit}
 
 Erweiterbarkeit wenn uns Zeit bleibt:
@@ -224,10 +252,10 @@ Erweiterbarkeit wenn uns Zeit bleibt:
 	\end{itemize}
 	\item Visualisieren der Ergebnisse
 \end{itemize}
-}
+\end{frame}
 
 
-\frame{
+\begin{frame}
 \frametitle{Ausblick V: Einschränkungen I}
 
 Einschränkungen wenn wir nicht alle Ziele schaffen:
@@ -236,10 +264,10 @@ Einschränkungen wenn wir nicht alle Ziele schaffen:
 	\item Datenbereinigung verkürzen
 	\item weniger Metadaten als Feature nutzen
 \end{itemize}
-}
+\end{frame}
 
 
-\frame{
+\begin{frame}
 \frametitle{Ausblick VI: Einschränkungen II}
 
 Wichtigste Ziele:
@@ -251,9 +279,11 @@ Wichtigste Ziele:
 
 Neue Ziele:
 \begin{itemize}
-	\item vermutlich nicht
+	\item Einfaches Query Interface (ähnlich Google) um Nutzern Zugang zu Daten zu
+	geben
+	\item Query Interface als Webanwendung 
 \end{itemize}
-}
+\end{frame}
 
 \section{Give us your money!}
 \begin{frame}
@@ -268,6 +298,9 @@ really interessting in the following sence:
 We could also make this dataset that we just created more human accessible by 
 developping an easy user interface (something like google).
 Our work would contribute to more transparent german politics, in which every 
-citizen has the power to validate and measure politicians by there speeches. 
+citizen has the power to validate and measure politicians by there speeches.
 \end{frame}
+
+\printbibliography
+
 \end{document}
