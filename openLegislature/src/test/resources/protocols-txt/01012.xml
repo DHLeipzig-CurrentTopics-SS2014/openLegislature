@@ -3,6 +3,7 @@
 Bonn, Donnerstag, den 20. Oktober 1949. 
 </header>
 <agenda>
+<item id="0" >
 Geschäftliche Mitteilungen . . 260A, 269B, 506D 
 Niederlegung des Mandats durch die Abgeordneten Dr. Amelunxen u. Dr. Hilpert 260B 
 Ausscheiden des Abgeordneten Dr. Dorls 
@@ -12,8 +13,8 @@ Interfraktioneller Antrag, betr. Überweisung von Anträgen an die Ausschüsse
 Erste Beratung des Amnestiegesetzes (Antrag der Zentrumsfraktion, Drucksache 
 Nr. 17) 260C 
 <speaker><name>Dr. Reismann</name><party>Z</party></speaker>
-<speaker><name>Dr. Dehler</name><public_office>Bundesminister</public_office></speaker>
-Justiz 	 262A 
+<speaker><name>Dr. Dehler</name><public_office>Bundesminister der</public_office></speaker>
+Justiz 262A 
 <speaker><name>Kiesinger</name><party>CDU</party></speaker>
 <speaker><name>Dr. Arndt</name><party>SPD</party></speaker>
 Erste Beratung des Gesetzes über 
@@ -21,29 +22,29 @@ Bundesfarben und Bundesflagge (Antrag der
 Zentrumsfraktion, Drucksache Nr. 25) . 263C 
 <speaker><name>Dr. Reismann</name><party>Z</party></speaker>
 <speaker><name>Farke</name><party>DP</party></speaker>
-<speaker><name>Dr. Dehler</name><public_office>Bundesminister</public_office></speaker>
-Justiz 	 265C 
+<speaker><name>Dr. Dehler</name><public_office>Bundesminister der</public_office></speaker>
+Justiz 265C 
 <speaker><name>Kiesinger</name><party>CDU</party></speaker>
-	 266B 
+ 266B 
 Interfraktioneller Antrag, betr. Ausschluß 
 der Öffentlichkeit bei Ausschußberatungen (Drucksache Nr. 113) 268A 
 <speaker><name>Dr. Brentano</name><party>CDU</party></speaker>
-steller 	 268A 
+steller 268A 
 <speaker><name>Renner</name><party>KPD</party></speaker>
 Antrag der Fraktion der DP, betr. 
 Wiederherstellung der Selbstverwaltung in der 
 Sozialversicherung 
 (Drucksache Nr. 43) . 269C 
 <speaker><name>Frau Kalinke</name><party>DP</party></speaker>
-	 269C 
+ 269C 
 <speaker><name>Richter</name><party>SPD</party></speaker>
 <speaker><name>Arndgen</name><party>CDU</party></speaker>
 <speaker><name>Dr. Wellhausen</name><party>FDP</party></speaker>
-	 270B 
+ 270B 
 Antrag der Fraktion der DP, betr. Kündigungsschutz für ältere Angestellte 
-(Drucksache Nr. 37) 	 270C 
+(Drucksache Nr. 37) 270C 
 <speaker><name>Frau Kalinke</name><party>DP</party></speaker>
-Antragstellerin 	 270D, 271D, 272A, B 
+Antragstellerin 270D, 271D, 272A, B 
 <speaker><name>Blank</name><party>CDU</party></speaker>
 <speaker><name>Richter</name><party>SPD</party></speaker>
 <speaker><name>Blücher</name><public_office>Bundeskanzlers</public_office></speaker>
@@ -55,25 +56,25 @@ Nr. 75) 272B
 <speaker><name>Karpf</name><party>CDU</party></speaker>
 Antrag der Abg. Ollenhauer und Gen., 
 betr. Mutterschutzgesetz (Drucksache 
-Nr. 79) 	 273A 
+Nr. 79) 273A 
 <speaker><name>Frau Kipp Kaule</name><party>SPD</party></speaker>
-Antragstellerin 	 273 A 
+Antragstellerin 273 A 
 <speaker><name>Frau Niggemeyer</name><party>CDU</party></speaker>
-<speaker><name>Storch</name><public_office>Bundesminister</public_office></speaker>
+<speaker><name>Storch</name><public_office>Bundesminister für Arbeit</public_office></speaker>
 <speaker><name>Frau Thiele</name><party>KPD</party></speaker>
 <speaker><name>Frau Kalinke</name><party>DP</party></speaker>
 Anträge der Fraktionen der KPD und der 
 DP und der Abg. Ollenhauer und Gen., 
 betr. sozialen Wohnungsbau (Drucksachen 
-Nr. 10, 39 und 73) . . . . . . . . 	 274A 
+Nr. 10, 39 und 73) . . . . . . . . 274A 
 <speaker><name>Paul</name><party>KPD</party></speaker>
 <speaker><name>Frau Kalinke</name><party>DP</party></speaker>
 <speaker><name>Stierle</name><party>SPD</party></speaker>
 <speaker><name>Wirths</name><party>FDP</party></speaker>
 <speaker><name>Etzel</name><party>CDU</party></speaker>
 <speaker><name>Dr. Etzel</name><party>BP</party></speaker>
-<speaker><name>Wildermuth</name><public_office>Bundesminister</public_office></speaker>
-Wohnungsbau 	 283A 
+<speaker><name>Wildermuth</name><public_office>Bundesminister für</public_office></speaker>
+Wohnungsbau 283A 
 Anträge der Fraktion der CDU/CSU, der 
 Abg. Ollenhauer u. Gen., der Abg. Goetzendorff u. Gen. und der Fraktion der 
 BP, betr. Heimatvertriebene, Flüchtlinge 
@@ -83,7 +84,7 @@ lebende Deutsche (Drucksachen Nr. 61,
 <speaker><name>Ollenhauer</name><party>SPD</party></speaker>
 <speaker><name>Kuntscher</name><party>CDU</party></speaker>
 <speaker><name>Reitzner</name><party>SPD</party></speaker>
-Unterbrechung der Sitzung . 	 288B 
+Unterbrechung der Sitzung . 288B 
 <speaker><name>Dr. Ziegler</name><party>BP</party></speaker>
 <speaker><name>Goetzendorff</name><party>WAV</party></speaker>
 <speaker><name>Dr. Trischler</name><party>FDP</party></speaker>
@@ -94,7 +95,7 @@ für Flüchtlingswesen . . . . . . 295A
 <speaker><name>Krause</name><party>Z</party></speaker>
 <speaker><name>Clausen</name><party>SSW</party></speaker>
 <speaker><name>Donhauser</name><party>BP</party></speaker>
-<speaker><name>Dr. Lukaschek</name><public_office>Bundesminister</public_office></speaker>
+<speaker><name>Dr. Lukaschek</name><public_office>Bundesminister für</public_office></speaker>
 Angelegenheiten der Vertriebenen . 300B 
 
 Mündlicher Bericht des Ausschusses für 
@@ -102,7 +103,7 @@ Heimatvertriebene über den Antrag der
 Fraktion der CDU/CSU, betr. bevorzugte 
 Einstellung von Heimatvertriebenen beim 
 Aufbau d. Bundesbehörden (Drucksachen 
-Nr. 29 und 93) 	 301A 
+Nr. 29 und 93) 301A 
 <speaker><name>Höfler</name><party>CDU</party><public_office>Berichterstatter</public_office></speaker>
 <speaker><name>Dr. Seelos</name><party>BP</party></speaker>
 <speaker><name>Dr. Kather</name><party>CDU</party></speaker>
@@ -112,7 +113,8 @@ Antrag der Fraktion der KPD, betr. Besatzungskosten (Drucksache Nr. 8) . . . 304
 <speaker><name>Rische</name><party>KPD</party></speaker>
 Antrag der Fraktion der CDU/CSU, betr. 
 Maßnahmen für im Ausland zurückgehaltene Deutsche (Drucksache Nr. 60) . . 306C 
-Nächste Sitzung 	 306D 
+Nächste Sitzung 306D 
+</item>
 </agenda>
 <session>
 Die Sitzung wird um 9 Uhr 13 Minuten durch 
@@ -329,7 +331,12 @@ erfolgen. Ich darf das Einverständnis des Hauses voraus,setzen, daß im Hinblic
 des Gesetzentwurfs von diesem Verfahren abgesehen wird. 
 Ich eröffne die Aussprache und erteile als erstem 
 das Wort dem Herrn Bundesjustizminister. 
-Dr. Dehler, Bundesminister der Justiz: Meine 
+</speech>
+<speech>
+<speaker>
+<name>Dr. Dehler</name><public_office>Bundesminister der Justiz</public_office>
+</speaker>
+ Meine 
 Damen und Herren! Die Regierung hat von sich 
 aus die Vorlage eines Straffreiheitsgesetzes gefertigt und wird sie umgehend dem Bundesrat zur 
 Behandlung zuleiten. Es ist wohl zweckmäßig, 
@@ -1092,7 +1099,12 @@ Hauses die Drucksache Nr. 113 in Händen haben? —
 Ich höre keinen Widerspruch. 
 Das Wort zur Begründung des Antrages hat der 
 Herr Abgeordnete Dr. von Brentano. 
-Dr. von Brentano (CDU), Antragsteller: Meine 
+</speech>
+<speech>
+<speaker>
+<name>Dr. von Brentano</name><party>CDU</party>
+</speaker>
+ Meine 
 Damen und Herren! Die Fraktionen der CDU/CSU, 
 der SPD, der FDP, der DP, der BP, der WAV und 
 des Zentrums haben dem Hohen Hause den Antrag Drucksache Nr. 113 unterbreitet. Er geht dahin, das Haus möge beschließen: 
@@ -4784,7 +4796,12 @@ haben gestern im Ältestenrat von einer Begrenzung der Redezeit für die Behandl
 Tagesordnung stehenden Beratungspunkte abgesehen. Der Verlauf ist bisher auch insoweit befriedigend. Da wir aber zweifellos alle den Wunsch 
 haben, bis heute abend gegen 7 Uhr die Tagesordnung zu beenden, darf ich an die folgenden 
 Redner appellieren, sich für die Diskussion entsprechend einzurichten. 
-Ich erteile nunmehr das Wort dem Herrn Abgeordneten Clausen.Clausen (SSW): Meine Damen und Herren! Gestatten Sie mir ganz kurz einige Worte in dieser 
+</speech>
+<speech>
+<speaker>
+<name>Herrn Abgeordneten ClausenClausen</name><party>SSW</party>
+</speaker>
+ Meine Damen und Herren! Gestatten Sie mir ganz kurz einige Worte in dieser 
 Diskussion. Bei der Debatte über die Regierungserklärung habe ich von dieser Stelle zu der Regierung gesagt: neben dem Lastenausgleich ist der 
 Bevölkerungsausgleich ebenso wichtig, ja vielleicht 
 noch wichtiger. Ich begrüße es außerordentlich, daß 
@@ -4896,7 +4913,7 @@ nicht etwa nur im Interesse der Alteingesessenen,
 sondern darüber hinaus ganz besonders gerade im 
 Interesse der Flüchtlinge selbst liegt. Denn es ist 
 
-300 	 Deutscher Bundestag — 12. Sitzung. Bonn, Donerstag, den 20. Oktober 
+300 Deutscher Bundestag — 12. Sitzung. Bonn, Donerstag, den 20. Oktober 
  1949 
 <interjection>(Donhauser) </interjection>
 nicht von ungefähr, daß beispielsweise im Land 
@@ -4932,7 +4949,12 @@ gesamtdeutsche Nachkriegslast einigermaßen gleichmäßig auf alle deutschen Sch
 Hause noch gewünscht? — Ich stelle fest, daß das 
 nicht der Fall ist. Dann erteile ich dem Herrn 
 Bundesminister für Angelegenheiten der Vertriebenen das Wort. 
-Dr. Lukaschek, Bundesminister für Angelegenheiten der Vertriebenen: Hohes Haus, meine Damen und Herren! Ich will nicht große Ausführungen zur Sache machen. Das ist auch nicht notwendig, nachdem die heutige Diskussion in so großer 
+</speech>
+<speech>
+<speaker>
+<name>Dr. Lukaschek</name><public_office>Bundesminister für Angelegenheiten der Vertriebenen</public_office>
+</speaker>
+ Hohes Haus, meine Damen und Herren! Ich will nicht große Ausführungen zur Sache machen. Das ist auch nicht notwendig, nachdem die heutige Diskussion in so großer 
 Einmütigkeit verlaufen ist. Ich darf meine Freude 
 darüber zum Ausdruck bringen, daß das ungeheuerliche Problem der Heimatvertriebenen hier 
 so einhellig behandelt wird. Ich will nur einiges 
@@ -5705,9 +5727,5 @@ Sitzung in dem üblichen Sitzungszimmer einfinden
 zu wollen. 
 Die Sitzung ist geschlossen. 
 </speech>
-<attachement>
-(Schluß der Sitzung: 17 Uhr 49 Minuten.) 
-
-</attachement>
 </session>
 </protocol>

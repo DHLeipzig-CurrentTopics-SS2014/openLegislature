@@ -1,17 +1,19 @@
 <protocol session_number="2. Sitzung" >
 <header>
-Bonn, Freitag, den 9. Oktober 1953. 	 
+Bonn, Freitag, den 9. Oktober 1953. 
 </header>
 <agenda>
-Geschäftliche Mitteilungen 	 7 B, C 
+<item id="0" >
+Geschäftliche Mitteilungen 7 B, C 
 Übertritt des Abg. Heix zur Fraktion der 
-CDU/CSU 	 7 C 
+CDU/CSU 7 C 
 Glückwünsche zu Geburtstagen der Abg. Kortmann, Dr. Kather, Walter, Freidhof, Dr. von 
 Buchka, Dewald, Fiedler und Gengler . . 7 C 
-Wahl des Bundeskanzlers 	 7 D 
-Wahlergebnis 	 8 B 
+Wahl des Bundeskanzlers 7 D 
+Wahlergebnis 8 B 
 Annahmeerklärung des Abg. Dr. Adenauer 8 C 
-Nächste Sitzung 	 8 D 
+Nächste Sitzung 8 D 
+</item>
 </agenda>
 <session>
 Die Sitzung wird um 12 Uhr 3 Minuten durch 
@@ -156,10 +158,10 @@ Meine Damen und Herren, ich eröffne die unterbrochene Sitzung wieder.
 Ich gebe das vorläufige*) Ergebnis der Wahl des 
 Bundeskanzlers bekannt. Von stimmberechtigten 
 *) Endgültiges Ergebnis: 
-Abgegebene Stimmen 	 467 
-Ja-Stimmen 	 305 
-Nein-Stimmen 	 148 
-Enthaltungen 	 14 
+Abgegebene Stimmen 467 
+Ja-Stimmen 305 
+Nein-Stimmen 148 
+Enthaltungen 14 
 Abgeordneten sind 466 Stimmen abgegeben worden, von Berliner Abgeordneten 22 Stimmen. Von 
 den abgegebenen Stimmen der stimmberechtigten 
 Abgeordneten lauten auf Ja 304 Stimmen, auf Nein 
@@ -204,8 +206,5 @@ daß diese Sitzung keinesfalls vor Donnerstag nächster Woche stattfinden wird. 
 Damit schließe ich die zweite Sitzung des Deutschen Bundestages. 
 (Schluß der Sitzung: 13 Uhr 12 Minuten.) 
 </speech>
-<attachement>
-
-</attachement>
 </session>
 </protocol>

@@ -3,6 +3,7 @@
 Bonn, den 12. Dezember 1957 
 </header>
 <agenda>
+<item id="0" >
 Inhalt: 
 Glückwünsche zu den Geburtstagen der Abg. 
 Diel (Burg-Leyen), Nieberg und Frau Nadig 161 A 
@@ -74,7 +75,7 @@ von Munition, Bomben u. dgl.
 <speaker><name>Dr. Werber</name><party>CDU/CSU</party></speaker>
 Wahl der Mitglieder des Wahlmännerausschusses (Drucksache 73), 
 Wahl der Mitglieder kraft Wahl des Richterwahlausschusses (Drucksache 74) 
-Ergebnis 	 183 A 
+Ergebnis 183 A 
 Wahl der Vertreter der Bundesrepublik 
 Deutschland zur Beratenden Versammlung 
 des Europarates (Drucksache 75) 171 B 
@@ -188,14 +189,15 @@ auf Angliederung des Regierungsbezirks
 Pfalz an das Land Bayern; Bericht des Ausschusses für Wahlprüfung, Immunität und 
 Geschäftsordnung (Drucksache 68) 
 <speaker><name>Dr. Dittrich</name><party>CDU/CSU</party></speaker>
-Berichterstatter 	 215 A 
+Berichterstatter 215 A 
 Interfraktioneller Antrag betr. Ü berweisung 
 von Anträgen an die Ausschüsse (Umdruck 1) 215 B 
 Kundgebung gegen Beschlüsse der sowjetzonalen Volkskammer: Erschwerung von 
 Reisen in die Bundesrepublik, Knebelung 
 der Freizügigkeit 
-Vizepräsident Dr. Jaeger 	 215 C 
-Nächste Sitzung 	 215 D 
+Vizepräsident Dr. Jaeger 215 C 
+Nächste Sitzung 215 D 
+</item>
 </agenda>
 <session>
 Anlagen: Liste der beurlaubten Abgeordneten, Schriftliche Berichte, Änderungsanträge 217 ff.6. Sitzung 
@@ -821,7 +823,12 @@ der Autobahnen zu beseitigen und sie ihrem eigentlichen Zweck
 als Schnellverkehrsstraßen wieder zuzuführen? 
 Die Antwort erteilt der Herr Staatssekretär des 
 Verkehrsministeriums, Herr Dr. Seiermann. 
-Dr. Seiermann, Staatssekretär im Bundesministerium für Verkehr: Herr Präsident! Meine Damen 
+</speech>
+<speech>
+<speaker>
+<name>Dr. Seiermann</name><public_office>Staatssekretär im Bundesministerium für Verkehr</public_office>
+</speaker>
+ Herr Präsident! Meine Damen 
 und Herren! Ich habe die Ehre, in Vertretung 
 meines noch im Krankheitsurlaub befindlichen Herrn 
 Ministers die Frage des Herrn Abgeordneten Professor Dr. Friedensburg wie folgt zu beantworten. 
@@ -876,7 +883,12 @@ Regelungen in keiner Weise ausreichen, zumal im
 Hinblick auf die unaufhörlichen Sperrungen auf den 
 Autobahnen, eine glatte Verkehrsabwicklung zu 
 gewährleisten? 
-Dr. Seiermann, Staatssekretär im Bundesministerium für Verkehr: Die Schwierigkeiten des 
+</speech>
+<speech>
+<speaker>
+<name>Dr. Seiermann</name><public_office>Staatssekretär im Bundesministerium für Verkehr</public_office>
+</speaker>
+ Die Schwierigkeiten des 
 Straßenverkehrs, auf die der Herr Abgeordnete 
 hingewiesen hat, sind uns selbstverständilch bekannt. Ob eine Erhöhung der Mindestgeschwindigkeit etwa auf 50 Stundenkilometer eine nennenswerte Besserung der Lage bringen würde, wollen 
 wir gerne prüfen. Das Ergebnis dieser Prüfung darf 
@@ -1058,7 +1070,12 @@ des Bundesgebietes vorlegen wird, nachdem sechs Volksbegehren
 erfolgreich abgeschlossen worden sind? 
 Diese Frage wird vom Herrn Bundesminister des 
 Innern beantwortet. 
-Dr. Schröder, Bundesminister des Innern: Herr 
+</speech>
+<speech>
+<speaker>
+<name>Dr. Schröder</name><public_office>Bundesminister des Innern</public_office>
+</speaker>
+ Herr 
 Präsident! Meine Damen und Herren! Die Antwort 
 auf die Frage lautet: Nein. Die Bundesregierung 
 ist der Meinung, daß bei den gegebenen Verhältnissen eine Neugliederung des Bundesgebiets zur 
@@ -1073,7 +1090,12 @@ des Saarlandes in Betracht gezogen werden müssen.
 </speaker>
  Herr Minister, eine Zusatzfrage: Ist die Bundesregierung auch nicht bereit, einen Entwurf vorzulegen, der Teillösungen 
 für jene Gebietsteile vorsieht, in denen Volksbegehren erfolgreich gewesen sind? 
-Dr. Schröder, Bundesminister des Innern: Die 
+</speech>
+<speech>
+<speaker>
+<name>Dr. Schröder</name><public_office>Bundesminister des Innern</public_office>
+</speaker>
+ Die 
 Bundesregierung hält Teillösungen für nicht zulässig. 
 
 </speech>
@@ -1083,7 +1105,12 @@ Bundesregierung hält Teillösungen für nicht zulässig.
 </speaker>
 Ist die Bundesregierung bereit, einen Entwurf vorzulegen, der einen Volksentscheid in jenen Gebietsteilen ermöglicht, in denen die Volksbegehren 
 erfolgreich waren? 
-Dr. Schröder, Bundesminister des Innern: Für 
+</speech>
+<speech>
+<speaker>
+<name>Dr. Schröder</name><public_office>Bundesminister des Innern</public_office>
+</speaker>
+ Für 
 diese Frage gilt, was ich vorhin gesagt habe. 
 </speech>
 <speech>
@@ -1111,7 +1138,12 @@ Mittelfreigabe liege,
 und ich frage weiter, welche Schritte die Bundesregierung 
 beabsichtigt, soweit es die Witterung rechtfertigt, durch rechtzeitige Freigabe etatmäßiger Baumittel eine Beschleunigung geplanter Arbeiten sicherzustellen. 
 Die Frage wird durch Herrn Staatssekretär Seiermann beantwortet. 
-Dr. Seiermann, Staatssekretär im Bundesministerium für Verkehr: Herr Präsident! Meine Damen 
+</speech>
+<speech>
+<speaker>
+<name>Dr. Seiermann</name><public_office>Staatssekretär im Bundesministerium für Verkehr</public_office>
+</speaker>
+ Herr Präsident! Meine Damen 
 und Herren! Ich beantworte die Frage des Herrn 
 Abgeordneten Ritzel wie folgt: Es ist dem Bundesminister für Verkehr bekannt, daß der Bayerische Bauindustrie-Verband darauf hingewiesen hat, daß eine 
 wesentlich größere Arbeitslosigkeit unter den 
@@ -1282,7 +1314,12 @@ Haben die vorgenommenen Prüfungen ergeben, daß eine durchgehende Bepflanzung d
 Unfällen durch Hinüberwechseln auf eine andere Fahrbahn zu 
 verringern? 
 Das Wort hat der Herr Staatssekretär Dr. Seiermann. 
-Dr. Seiermann, Staatssekretär im Bundesministerium für Verkehr: Herr Präsident! Meine Damen 
+</speech>
+<speech>
+<speaker>
+<name>Dr. Seiermann</name><public_office>Staatssekretär im Bundesministerium für Verkehr</public_office>
+</speaker>
+ Herr Präsident! Meine Damen 
 und Herren! Ich beantworte die Frage des Herrn 
 Abgeordneten Schmitt (Vockenhausen) wie folgt. 
 Die ,Bepflanzung der Mittelstreifen auf Straßen 
@@ -1600,7 +1637,12 @@ auch berücksichtigt worden, daß der Bundesgerichtshof in der
 Strafsache gegen Dagmar Imgart durch Urteil vom 28. Juni 1956 
 (3 StR 366/55) ausgesprochen hat, daß Todesurteile des sogenannten „Volksgerichtshofs&quot; und deren Vollstreckung „eine vorsätzliche rechtswidrige Tötung unter dem Deckmantel der Strafrechtspflege&quot; waren? 
 Das Wort hat Herr Bundesminister Schröder. 
-Dr. Schröder, Bundesminister des Innern: Herr 
+</speech>
+<speech>
+<speaker>
+<name>Dr. Schröder</name><public_office>Bundesminister des Innern</public_office>
+</speaker>
+ Herr 
 Präsident! Meine Damen und Herren! Die Antwort 
 lautet zunächst: Im Einklang mit den gesetzlichen 
 Bestimmungen. 
@@ -2338,7 +2380,12 @@ durch Lebensmittel ausreichend zu schützen.
 </speaker>
  Das Wort hat der 
 Herr Bundesminister des Innern. 
-Dr. Schröder, Bundesminister des Innern: Herr 
+</speech>
+<speech>
+<speaker>
+<name>Dr. Schröder</name><public_office>Bundesminister des Innern</public_office>
+</speaker>
+ Herr 
 Präsident! Meine Damen und Herren! Die sozialdemokratische Bundestagsfraktion hat die Regierung hier überrundet. Sie ist uns in der Fixigkeit 
 also offensichtlich überlegen gewesen. Ob sie uns 
 in der Richtigkeit überlegen sein wird, das bleibt 
@@ -4941,7 +4988,12 @@ Erste Beratung des Entwurfs eines Gesetzes
 zur Reinhaltung der Bundeswasserstraßen 
 (WStrRG) (Drucksache 46). 
 Zur Begründung der Herr Staatssekretär im Bundesminisiterium für Verkehr. 
-Dr. Seiermann, Staatssekretär im Bundesministerium für Verkehr: Herr Präsident! Meine Damen und Herren! Ich gehe davon aus, daß dem 
+</speech>
+<speech>
+<speaker>
+<name>Dr. Seiermann</name><public_office>Staatssekretär im Bundesministerium für Verkehr</public_office>
+</speaker>
+ Herr Präsident! Meine Damen und Herren! Ich gehe davon aus, daß dem 
 Hohen Hause der Inhalt des Entwurfs eines Gesetzes zur Reinhaltung der Bundeswasserstraßen im 
 wesentlichen bekannt ist. Ich will deswegen nur 
 einige tragende Gedanken des Entwurfs herausstellen und zu einigen besonders wichtigen Fragen 
@@ -5733,7 +5785,7 @@ Die Sitzung ist geschlossen.
 <attachement>
 (Schluß: 18.44 Uhr.)Anlage 1 
 Liste der beurlaubten Abgeordneten 
-Abgeordnete(r) 	 beurlaubt bis einschließlich 
+Abgeordnete(r) beurlaubt bis einschließlich 
 a) Beurlaubungen 
 Dr. Atzenroth 12. 12. 
 Bauer (Wasserburg) 14. 12. 
@@ -5771,7 +5823,7 @@ Zühlke 31. 12.
 b) Urlaubsantrag 
 Abgeordneter bis einschließlich 
 Dr. Brönner 25. 1. 
-Anlage 2 	 Drucksache 65 
+Anlage 2 Drucksache 65 
 Schriftlicher Bericht 
 des Außenhandelsausschusses (17. Ausschuß) über 
 den Entwurf einer Ersten Verordnung zur Änderung des Deutschen Zolltarifs 1958 (Überleitungs-
@@ -5805,7 +5857,7 @@ Entwurf der Bundesregierung einstimmig zu.
 Bonn, den 6. Dezember 1957 
 Dr. Löhr 
 Berichterstatter 
-Anlage 3 	 zu Drucksache 64 
+Anlage 3 zu Drucksache 64 
 Schriftlicher Bericht 
 des Ausschusses für Sozialpolitik (20. Ausschuß) 
 über den von der Fraktion der CDU/CSU eingebrachten Entwurf eines Gesetzes zur Einführung 
@@ -6060,7 +6112,7 @@ Ollenhauer und Fraktion
 der FDP 
 betr. Verordnung zur 
 Verkehr, Post- und Fernmeldewesen 
-Änderung der Straßenverkehrs-Zulassungs-Ordnung 	 und 
+Änderung der Straßenverkehrs-Zulassungs-Ordnung und 
 der Straßenverkehrs
 -
 Ordnung (Abmessungen und Gewichte) — 

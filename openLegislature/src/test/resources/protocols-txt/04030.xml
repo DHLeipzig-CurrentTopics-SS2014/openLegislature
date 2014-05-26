@@ -3,13 +3,14 @@
 Bonn, den 16. Mai 1962 
 </header>
 <agenda>
+<item id="0" >
 Inhalt: 
-Nachruf auf den Abg. Reitzner 	 1245 A 
+Nachruf auf den Abg. Reitzner 1245 A 
 Abg. D. Hahn (Heidelberg) tritt in den 
-Bundestag ein 	 1245 B 
+Bundestag ein 1245 B 
 Begrüßung einer Parlamentarierdelegation 
-aus Uruguay 	 1257 A 
-Erweiterung der Tagesordnung 	 1245 C 
+aus Uruguay 1257 A 
+Erweiterung der Tagesordnung 1245 C 
 Fragestunde (Drucksachen IV/ 388, IV/ 399) 
 Frage des Abg. Peiter: 
 Prüfung ärztliche Verordnungen 
@@ -17,7 +18,7 @@ Prüfung ärztliche Verordnungen
 <speaker><name>Peiter</name><party>SPD</party></speaker>
 Frage des Abg. Fritsch: 
 Ansprüche aus Lebens- und Rentenversicherungen 
-Dr. Strauß, Staatssekretär . . . 	 1246 D 
+Dr. Strauß, Staatssekretär . . . 1246 D 
 <speaker><name>Fritsch</name><party>SPD</party></speaker>
 Frage des Abg. Dr. Mommer: 
 Kraftfahrzeugsteuer 
@@ -42,7 +43,7 @@ Absatz landwirtschaftlicher Veredelungsprodukte aus USA
 <speaker><name>Dr. Hüttebräuker</name><public_office>Staatssekretär</public_office></speaker>
 Frage des Abg. Schmitt-Vockenhausen: 
 „Dienst für die öffentliche Meinung&quot; 
-Stücklen, Bundesminister . 	 1249 D, 1250 A 
+Stücklen, Bundesminister . 1249 D, 1250 A 
 <speaker><name>Schmitt Vockenhausen</name><party>SPD</party></speaker>
 Frage des Abg. Dr. Imle: 
 Untersagung der Errichtung von Fertigbauten 
@@ -51,7 +52,7 @@ Untersagung der Errichtung von Fertigbauten
 
 IIFrage des Abg. Dr. Kohut: 
 Annahme von Geschenken durch Bundesminister 
-Höcherl, Bundesminister . 	 1251 A, B, C, D, 
+Höcherl, Bundesminister . 1251 A, B, C, D, 
 1252 A 
 <speaker><name>Dr. Kohut</name><party>FDP</party></speaker>
 <speaker><name>Dr. Schäfer</name><party>SPD</party></speaker>
@@ -72,15 +73,15 @@ Frage des Abg. Höhmann (Hessisch
 Lichtenau) : 
 Verlegung des Zonengrenzüberganges 
 Herleshausen-Wartha 
-Höcherl, Bundesminister . . 	 1254 B, C, D 
+Höcherl, Bundesminister . . 1254 B, C, D 
 <speaker><name>Höhmann (Hessisch Lichtenau)</name><party>SPD</party></speaker>
 Frage des Abg. Berberich: 
 Gelände für militärische Anlagen 
-Strauß, Bundesminister 	 1254 D 
+Strauß, Bundesminister 1254 D 
 Frage des Abg. Riegel (Göppingen) : 
 Tiefflüge von Düsenjägern über dem 
 Kindererholungsheim Nordalb 
-Strauß, Bundesminister . 	 1255 A, B, C, D, 
+Strauß, Bundesminister . 1255 A, B, C, D, 
 1256 A, B 
 <speaker><name>Riegel (Göppingen)</name><party>SPD</party></speaker>
 <speaker><name>Wittrock</name><party>SPD</party></speaker>
@@ -95,7 +96,7 @@ Tirschenreuth
 Strauß, Bundesminister . . . . . 1257 B 
 Frage des Abg. Lohmar: 
 Bericht des Wehrbeauftragten 
-Strauß, Bundesminister 	 1257 C 
+Strauß, Bundesminister 1257 C 
 Frage des Abg. Dr. Imle: 
 Deckung der Lebensmittelversorgung 
 der Truppe 
@@ -128,10 +129,11 @@ und dritte Beratung —
 <speaker><name>Cramer</name><party>SPD</party></speaker>
 <speaker><name>Rommerskirchen</name><party>CDU/CSU</party></speaker>
 <speaker><name>Dr. Mommer</name><party>SPD</party></speaker>
-Nächste Sitzung 	 1304 C 
+Nächste Sitzung 1304 C 
+</item>
 </agenda>
 <session>
-Anlagen 	 30. Sitzung 
+Anlagen 30. Sitzung 
 Bonn, den 16. Mai 1962 
 Stenographischer Bericht 
 Beginn: 15.03 Uhr 
@@ -342,7 +344,12 @@ Kann die Bundesregierung die Voraussetzungen dafür schaffen, daß die heim Verk
 Fahrzeugs nicht verbrauchten Steuern auf die Steuerschuld für 
 ein zum gleichen Zeitpunkt ,gekauftes anderes Fahrzeug angerechnet werden können? 
 Der Fragesteller wird vertreten vom Abgeordneten Dr. Schäfer. — Bitte, Herr Staatssekretär.. 
-Dr. Hettlage, Staatssekretär des Bundesministeriums der Finanzen: Herr Abgeordneter, während 
+</speech>
+<speech>
+<speaker>
+<name>Dr. Hettlage</name><public_office>Staatssekretär des Bundesministeriums der Finanzen</public_office>
+</speaker>
+ Herr Abgeordneter, während 
 der Geltungszeit des alten Kraftfahrzeugsteuergesetzes — bis Ende 1960 — war es möglich, eine 
 Kraftfahrzeugsteuerkarte bei Veräußerungen von 
 einem Fahrzeug auf ein anderes zu übertragen. Das 
@@ -372,7 +379,12 @@ gestellten Frage ausdehnen, wo es heißt, daß die
 Verrechnung doch auch möglich sein sollte, wenn 
 der bisherige Steuerschuldner ein neugekauftes 
 Fahrzeug zur Zulassung anmeldet. Das ist der Inhalt der Frage. 
-Dr. Hettlage, Staatssekretär des Bundesministeriums der Finanzen: In diesem Fall tritt nach 
+</speech>
+<speech>
+<speaker>
+<name>Dr. Hettlage</name><public_office>Staatssekretär des Bundesministeriums der Finanzen</public_office>
+</speaker>
+ In diesem Fall tritt nach 
 heutigem Recht kein Schaden ein, Herr Abgeordneter, weil der Steuerschuldner für sein altes Fahrzeug, für das eine neue Steuerkarte auf den neuen 
 Halter ausgestellt wird, die Steuer auf den Tag zurückbekommt. 
 </speech>
@@ -388,7 +400,12 @@ Halter ausgestellt wird, die Steuer auf den Tag zurückbekommt.
 </speaker>
  Herr Staatssekretär, sicherlich ist der derzeitige Zustand so, aber halten Sie 
 ihn nicht rein arbeitsmäßig für eine Verschlechterung im Vergleich zu der bisherigen Regelung? 
-Dr. Hettlage, Staatssekretär des Bundesministeriums der Finanzen: Ich sehe einen Nachteil 
+</speech>
+<speech>
+<speaker>
+<name>Dr. Hettlage</name><public_office>Staatssekretär des Bundesministeriums der Finanzen</public_office>
+</speaker>
+ Ich sehe einen Nachteil 
 darin, daß heute bei einer Veräußerung des Kraftfahrzeugs und Neuanmeldung eines neuen Kraftfahrzeugs auf volle Monatsbeträge abgerundet wird. 
 Das würde nur durch eine Gesetzesänderung geändert werden können. 
 </speech>
@@ -411,7 +428,12 @@ um folgendes: Wenn ich ein Fahrzeug abmelde, weil
 ich ein neues gekauft habe, und dieses anmelde, 
 dann bekomme ich jetzt die Steuer zurückgezahlt 
 und zahle sie dann wieder ein, statt daß sie verrechnet werden kann, wie das bisher möglich war. 
-Dr. Hettlage, Staatssekretär des Bundesministeriums der Finanzen: Das gebe ich Ihnen zu, Herr 
+</speech>
+<speech>
+<speaker>
+<name>Dr. Hettlage</name><public_office>Staatssekretär des Bundesministeriums der Finanzen</public_office>
+</speaker>
+ Das gebe ich Ihnen zu, Herr 
 Abgeordneter; es bedürfte aber einer Gesetzesänderung. 
 </speech>
 <speech>
@@ -431,7 +453,12 @@ eines Kraftfahrzeuges, und es kann doch an sich
 dem Fiskus egal sein, welches Kraftfahrzeug. Zunächst ist doch zu fragen — das ist meine Frage an 
 Sie —, warum man nicht, wenn nötig durch Gesetzesänderung, einen ganz einfachen Tatbestand 
 schafft, der sich auf den Besitz des Fahrzeugs bezieht. 
-Dr. Hettlage, Staatssekretär des Bundesministeriums der Finanzen: Herr Abgeordneter, ich bestätige Ihnen die Richtigkeit Ihrer Grundüberlegung. 
+</speech>
+<speech>
+<speaker>
+<name>Dr. Hettlage</name><public_office>Staatssekretär des Bundesministeriums der Finanzen</public_office>
+</speaker>
+ Herr Abgeordneter, ich bestätige Ihnen die Richtigkeit Ihrer Grundüberlegung. 
 Ich darf wiederholen, daß das geltende Gesetz leider keine Möglichkeit gibt, in der alten Weise 
 durch Übertragung der Steuerkarte zu verfahren. 
 Mir ist gesagt worden, daß bei Beratung des neuen 
@@ -453,7 +480,12 @@ aus an die Beseitigung dieses unleidlichen Zustands
 durch einen Vorschlag auf Änderung des geltenden 
 Rechts denkt? 
 
-Dr. Hettlage, Staatssekretär des Bundesministeriums der Finanzen: Herr Abgeordneter, das 
+</speech>
+<speech>
+<speaker>
+<name>Dr. Hettlage</name><public_office>Staatssekretär des Bundesministeriums der Finanzen</public_office>
+</speaker>
+ Herr Abgeordneter, das 
 Bundesfinanzministerium würde diesen Vorschlag 
 aufnehmen. Es ist mir allerdings zweifelhaft, ob nur 
 aus diesem Grunde eine Novelle zum Kraftfahrzeugsteuergesetz eingebracht werden sollte. 
@@ -475,7 +507,12 @@ auf:
 Was hat der Herr Bundesfinanzminister bezüglich der Auflegung der Bundesanleihen, die zum Ausgleich des Haushalts 
 1962 erforderlich sind, nunmehr vorgesehen? 
 Bitte, Herr Staatssekretär. 
-Dr. Hettlage, Staatssekretär des Bundesministeriums der Finanzen: Herr Abgeordneter Seuffert, 
+</speech>
+<speech>
+<speaker>
+<name>Dr. Hettlage</name><public_office>Staatssekretär des Bundesministeriums der Finanzen</public_office>
+</speaker>
+ Herr Abgeordneter Seuffert, 
 der Bund wird in absehbarer Zeit eine Anleihe begeben. Über den Zeitpunkt und über die Bedingungen und die Höhe dieser Anleihe schweben zur Zeit 
 Besprechungen mit der Deutschen Bundesbank und 
 dem Bundesanleihekonsortium. 
@@ -487,7 +524,12 @@ dem Bundesanleihekonsortium.
  Herr Staatssekretär, halten Sie 
 1) es nicht für zweckmäßig, den Anleihemarkt rechtzeitig und bald über die Anforderungen, die an ihn 
 gestellt werden, und über die Bedingungen zu unterrichten? 
-Dr. Hettlage, Staatssekretär des Bundesministeriums der Finanzen: Gerade zu diesem Zweck 
+</speech>
+<speech>
+<speaker>
+<name>Dr. Hettlage</name><public_office>Staatssekretär des Bundesministeriums der Finanzen</public_office>
+</speaker>
+ Gerade zu diesem Zweck 
 schweben die Besprechungen mit dem Kapitalmarktausschuß sowie mit der Deutschen Bundesbank. 
 </speech>
 <speech>
@@ -501,7 +543,12 @@ schweben die Besprechungen mit dem Kapitalmarktausschuß sowie mit der Deutschen
 <name>Seuffert</name><party>SPD</party>
 </speaker>
  Glauben Sie einen Zeitpunkt angeben zu können, zu dem das Ergebnis dieser Besprechungen vorliegen wird? 
-Dr. Hettlage, Staatssekretär des Bundesministeriums der Finanzen: Als Zeitpunkt, zu dem das 
+</speech>
+<speech>
+<speaker>
+<name>Dr. Hettlage</name><public_office>Staatssekretär des Bundesministeriums der Finanzen</public_office>
+</speaker>
+ Als Zeitpunkt, zu dem das 
 Ergebnis der Besprechungen vorliegt, kann ich die 
 Mitte des nächsten Monats in Aussicht stellen. 
 </speech>
@@ -516,7 +563,12 @@ zu der Frage III/ 1 — des Abgeordneten Dr. Imle —:
 Hat die Bundesregierung in Anbetracht der Überhitzung der 
 Baukonjunktur die Absicht, die Einfuhr von Baufertigteilen weiterhin mit 9 bzw. 11 v. H. Zoll (Binnen- und Außenzoll) plus 
 4 v. H. Ausgleichsteuer zu belasten? 
-Dr. Westrick, Staatssekretär im Bundesministerium für Wirtschaft: Die Zollsituation für Baufertigteile bedarf zunächst einer Klarstellung. Wie 
+</speech>
+<speech>
+<speaker>
+<name>Dr. Westrick</name><public_office>Staatssekretär im Bundesministerium für Wirtschaft</public_office>
+</speaker>
+ Die Zollsituation für Baufertigteile bedarf zunächst einer Klarstellung. Wie 
 bereits am 14. Februar und am 5. April auf entsprechende Anfragen hier mitgeteilt wurde, sind sowohl 
 zerlegbare Holzhäuser als auch Betonfertigteile bei 
 der Einfuhr aus Mitgliedstaaten der EWG seit Beginn dieses Jahres zollfrei. Darüber hinaus bereitet 
@@ -552,7 +604,12 @@ ausgegeben werden, nur um den privaten Bedarf beim Großhandel zu decken, und da
 Einkauf beim legitimen Einzelhandel ausfallen? 
 Zur Beantwortung der Herr Staatssekretär im 
 Bundesministerium für Wirtschaft. 
-Dr. Westrick, Staatssekretär im Bundesministerium für Wirtschaft: Wandergewerbescheine und 
+</speech>
+<speech>
+<speaker>
+<name>Dr. Westrick</name><public_office>Staatssekretär im Bundesministerium für Wirtschaft</public_office>
+</speaker>
+ Wandergewerbescheine und 
 Stadterlaubnisscheine werden infolge Änderung der 
 gesetzlichen Bestimmungen der Gewerbeordnung 
 nicht mehr erteilt; an ihre Stelle ist die Reisegewerbekarte getreten. 
@@ -592,7 +649,12 @@ Scheines seine Tätigkeit nicht ausüben muß und
 vor allen Dingen, daß aus diesem Schein nicht die 
 Verpflichtung herzuleiten ist, die Waren nur zum 
 Zwecke des Wiederverkaufs aufzukaufen? 
-Dr. Westrick, Staatssekretär im Bundesministerium für Wirtschaft: Nach meiner Meinung ist 
+</speech>
+<speech>
+<speaker>
+<name>Dr. Westrick</name><public_office>Staatssekretär im Bundesministerium für Wirtschaft</public_office>
+</speaker>
+ Nach meiner Meinung ist 
 diese Gewerbekarte, wenn der Betreffende sie nur 
 benutzen will, um seinen privaten Bedarf zu decken, 
 unter falschen Voraussetzungen erteilt worden und 
@@ -612,7 +674,12 @@ sollte daher von den Behörden eingezogen werden.
 auch der Meinung, daß der Einzelhandel einer Gemeinde ausfällt, wenn in einer Gemeinde von 4000 
 Einwohnern über 1000 dieser Scheine ausgestellt 
 werden? 
-Dr. Westrick, Staatssekretär im Bundesministerium für Wirtschaft: Ich bin der Meinung, daß das 
+</speech>
+<speech>
+<speaker>
+<name>Dr. Westrick</name><public_office>Staatssekretär im Bundesministerium für Wirtschaft</public_office>
+</speaker>
+ Ich bin der Meinung, daß das 
 ein sehr großer Prozentsatz ist. Ich wäre dem Herrn 
 Abgeordneten dankbar, wenn er uns einmal diesen 
 Fall darstellte. Dann würden wir die entsprechende 
@@ -630,7 +697,12 @@ Landwirtschaft und Forsten:
 Teilt die Bundesregierung die Auffassung des Präsidenten 
 der EWG, Prof. Dr. Hallstein, wonach im Zuge der Verwirklichung des EWG-Agrarmarktes die Absatzmöglichkeiten für 
 landwirtschaftliche Veredelungsprodukte aus den USA sich wesentlich verbessern? 
-Dr. Hüttebräuker, Staatssekretär im Bundesministerium für Ernährung, Landwirtschaft und Forsten: Herr Abgeordneter, im Zuge der Wohlstandsentwicklung der letzten Jahre hat der Verbrauch an 
+</speech>
+<speech>
+<speaker>
+<name>Dr. Hüttebräuker</name><public_office>Staatssekretär im Bundesministerium für Ernährung Landwirtschaft und Forsten</public_office>
+</speaker>
+ Herr Abgeordneter, im Zuge der Wohlstandsentwicklung der letzten Jahre hat der Verbrauch an 
 landwirtschaftlichen Veredelungsprodukten, vor 
 allen Dingen der Verbrauch von Geflügelfleisch in 
 den Ländern der Gemeinschaft, insbesondere in der 
@@ -3337,7 +3409,7 @@ auf den Energiemarkt geben. Die Folge davon ist,
 daß sich zahlreiche Investitionen innerhalb des Kohlenbergbaus bereits heute als Fehlinvestitionen herausstellen. Ein Teil der in den letzten Jahren 
 
 Deutscher .Bundestag — 4. Wahlperiode — 30. Sitzung. Bonn, Mittwoch, .den 16. Mai 1962 
-	 1277 
+ 1277 
 Dr. Deist 
 neu abgeteuften Schächte, moderne Anlagen mit 
 Kosten von 50 und 100 Millionen DM, werden stillgesetzt. 
@@ -4854,7 +4926,12 @@ beschränken, von der Hand in den Mund zu leben.
 </speaker>
  Das Wort hat der 
 Herr Abgeordnete Dr. Friedensburg. 
-Dr. Dr. h. c. Friedensburg (CDU/CSU) : Herr 
+</speech>
+<speech>
+<speaker>
+<name>Dr. Dr. Friedensburg</name><party>CDU/CSU</party>
+</speaker>
+ Herr 
 Präsident! Meine Damen und Herren! Meinen 
 Wunsch, meine Wortmeldung zurückzuziehen, habe 
 ich nach den letzten Ausführungen des Herrn Kollegen Deist aufgegeben. Ich frage ihn in der Tat, 
@@ -4877,7 +4954,12 @@ einen Fortschritt von 50 %, in Worten: fünfzig Prozent, erreicht.
 </speaker>
  Herr Abgeordneter 
 Dr. Friedensburg, gestatten Sie leine Frage des Abgeordneten Dr. Deist? 
-Dr. Dr. h. c. Friedensburg (CDU/CSU) : Ja, natürlich. 
+</speech>
+<speech>
+<speaker>
+<name>Dr. Dr. Friedensburg</name><party>CDU/CSU</party>
+</speaker>
+ Ja, natürlich. 
 </speech>
 <speech>
 <speaker>
@@ -4897,7 +4979,12 @@ Krise das genaue Spiegelbild der Tatsache ist, daß
 100- bis 150 000 Menschen aus dem Kohlenbergbau 
 herausgedrückt wurden und sich damit rechnerisch 
 diese Leistungssteigerung ergeben mußte? 
-Dr. Dr. h. c. Friedensburg (CDU/CSU) : Herr 
+</speech>
+<speech>
+<speaker>
+<name>Dr. Dr. Friedensburg</name><party>CDU/CSU</party>
+</speaker>
+ Herr 
 Kollege Deist, Sie wissen, daß der Steinkohlenbergbau eine dringende Nachfrage nach Leuten hat, daß 
 er also diese Kräfte gar nicht gern abgibt, daß er 
 aber unter dem Zwang der Verhältnisse rationalisiert hat. 
@@ -4952,7 +5039,12 @@ heute wird sie von der Hoesch AG wieder betrieben. Meinen Sie nicht auch, daß h
 ein sehr deutlicher und sichtbarer Beweis dafür ge-Arendt (Wattenscheid) 
 liefert wurde, daß ein Austausch der Grubenfelder 
 erforderlich ist? 
-Dr. Dr. h. c. Friedensburg (CDU/CSU) : Ich bin 
+</speech>
+<speech>
+<speaker>
+<name>Dr. Dr. Friedensburg</name><party>CDU/CSU</party>
+</speaker>
+ Ich bin 
 mit Ihnen völlig der Ansicht, daß das eine sehr 
 gesunde und notwendige Entwicklung ist. Ich habe 
 auch keineswegs den Eindruck, daß das auf dem 
@@ -6125,68 +6217,8 @@ nächste Sitzung &apos;ein auf Freitag, den 18. Mai, 9 Uhr.
 (Schluß der Sitzung: 20.51 Uhr.)Anlage 1 
 </speech>
 <attachement>
-Liste der beurlaubten Abgeordneten 
-Abgeordnete (r) 	 beurlaubt bis einschließlich 
-a) Beurlaubungen 
-Dr. Achenbach * 18.5. 
-Altmaier * 18.5. 
-Bauer (Würzburg) * 18.5. 
-Berkhan * 18.5. 
-Biegler 17. 5. 
-Biermann 16.5. 
-Fürst von Bismarck * 18.5. 
-Blachstein * 18. 5. 
-Dr. Bleiß 18.5. 
-Dr. h. c. Brauer 18.5. 
-Brese 22.5. 
-Burckardt 18.5. 
-Döring (Düsseldorf) * 18.5. 
-Dr. Dörinkel 16.5. 
-Drachsler 26.5. 
-Dürr 16.5. 
-Eichelbaum 18.5. 
-Eschmann 18.5. 
-Felder 18.5. 
-Frau Dr. Flitz (Wilhelmshaven) * 18.5. 
-Dr. Furler * 18.5. 
-Geiger 18.5. 
-Gerns * 18.5. 
-Gewandt 4. 6. 
-Dr. Gleissner 18.5. 
-Glombig 11.6. 
-Gscheidle 18.5. 
-Hammersen 18.5. 
-Heiland 18.5. 
-Frau Herklotz 17.5. 
-Dr. Hesberg 31.5. 
-Hesemann 16.5. 
-Höfler * 18. 5. 
-Frau Dr. Hubert * 18.5. 
-Jacobs 31.5. 
-Frau Kalinke 18.5. 
-Dr. Klein (Berlin) 1. 7. 
-Klein (Saarbrücken) 18.5. 
-Dr. Kliesing (Honnef) * 18.5. 
-Koenen (Lippstadt) 9. 6. 
-Dr. Kopf * 18.5. 
-Kraus 18.5. 
-Kriedemann 18. 5. 
-Frau Dr. Kuchtner 31.5. 
-Kühn (Bonn) 18.5. 
-Kühn (Köln) 16.5. 
-Lenze (Attendorn) * 18.5. 
-Lermer * 18.5. 
-Lücker (München) 18.5. 
-Margulies 16. 5. 
-Mauk 18.5. 
-Frau Dr. Maxein * 18.5. 
-Frau Meermann 25.5. 
-Dr. Menzel 31.5. 
-Metzger 18.5. 
-Dr. Meyer (Frankfurt) * 18.5. 
-Neubauer 18. 5. 
 Anlagen zum Stenographischen Bericht 
-Abgeordnete (r) 	 beurlaubt bis einschließlich 
+Abgeordnete (r) beurlaubt bis einschließlich 
 Neumann (Allensbach) 11. 6. 
 Oetzel 25.5. 
 Paul * 18.5. 
@@ -6244,7 +6276,7 @@ vertretbar, daß der weitere Teil für andere als energiepolitische Zwecke verwe
 zwingt die derzeitige Lage im Steinkohlenbergbau 
 zu noch stärkerer Rationalisierung; hierfür müssen 
 rechtzeitig die notwendigen Mittel bereitstehen. 
-Anlage 3 	 Umdruck 98 
+Anlage 3 Umdruck 98 
 Antrag der Fraktion der SPD zur Großen Anfrage der SPD — Drucksache IV/ 297 — betr. Maßnahmen der Bundesregierung auf dem Gebiet der 
 Energie- und Kohlewirtschaft 
 Der Bundestag wolle beschließen: 
@@ -6266,7 +6298,7 @@ sind, um zu sichern, daß die Entwicklung der
 Energiewirtschaft den volkswirtschaftlichen Gesamtinteressen entspricht. 
 Bonn, den 15. Mai 1962 
 Ollenhauer und Fraktion 
-Anlage 4 	 Umdruck 99 
+Anlage 4 Umdruck 99 
 Antrag der Fraktion der SPD zur Großen Anfrage der Fraktion der SPD — Drucksache IV/ 212 — 
 betr. Auswirkungen des Bundesbaugesetzes und 
 sonstiger Maßnahmen der Bundesregierung auf die 
@@ -6280,7 +6312,7 @@ Steigerung der Bodenwerte und der Bodenpreise
 entstanden sind. 
 Bonn, den 16. Mai 1962 
 Ollenhauer und Fraktion 
-Anlage 5 	 Umdruck 100 (neu) 
+Anlage 5 Umdruck 100 (neu) 
 Änderungsantrag der Fraktion der SPD zur 
 zweiten Beratung des Entwurfs eines Gesetzes zur 
 Änderung des Wehrsoldgesetzes (Drucksachen 
@@ -6345,7 +6377,7 @@ durch die Zahl „300&quot; und die Zahl „250&quot; durch
 die Zahl „360&quot; ersetzt. 
 Bonn, den 16. Mai 1962 
 Ollenhauer und Fraktion 
-Anlage 6 	 Umdruck 101 (neu) 
+Anlage 6 Umdruck 101 (neu) 
 Antrag der Fraktionen der CDU/CSU, FDP zur 
 Großen Anfrage der SPD betr. Maßnahmen der Bundesregierung auf dem Gebiet der Energie- und 
 Kohlewirtschaft (Drucksache IV/ 297). 

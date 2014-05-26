@@ -3,8 +3,9 @@
 Bonn, Freitag, den 22. Oktober 1971 
 </header>
 <agenda>
+<item id="0" >
 Inhalt: 
-Erweiterung der Überweisung eines Gesetzentwurfs 	 8363 A 
+Erweiterung der Überweisung eines Gesetzentwurfs 8363 A 
 Amtliche Mitteilungen . . . . . . . . 8363 B 
 Abwicklung der Tagesordnung . 8363 D, 8365 A, 
 8376 C 
@@ -124,12 +125,12 @@ Strauß, Lemmrich, Dr. Probst, Dr. Althammer, Dr. Müller-Hermann, Dr. Pohle,
 Gerlach [Obernau], Niegel, Schedl, 
 Mursch (Soltau-Harburg) und Fraktion 
 der CDU/CSU) (Drucksache VI/2494) . . 8408 B 
-Absetzung des Punktes 13 von der Tagesordnung 	 8408 B 
+Absetzung des Punktes 13 von der Tagesordnung 8408 B 
 Fragestunde (Drucksache VI/2720) 
 Frage des Abg. Baier (CDU, CSU) : 
 Veröffentlichung der Gesamtdokumentation über das Schicksal der deutschen Kriegsgefangenen 
 Moersch, Parlamentarischer 
-Staatssekretär . . . 	 8408 C, D, 8409 A 
+Staatssekretär . . . 8408 C, D, 8409 A 
 <speaker><name>Baier</name><party>CDU/CSU</party></speaker>
 <speaker><name>Niegel</name><party>CDU/CSU</party></speaker>
 Frage des Abg. Niegel (CDU/CSU) :   
@@ -138,7 +139,7 @@ Moersch, Parlamentarischer
 Staatssekretär 8409 B, C, D, 8410 A, B, C 
 <speaker><name>Niegel</name><party>CDU/CSU</party></speaker>
 <speaker><name>Baier</name><party>CDU/CSU</party></speaker>
-Nächste Sitzung . . . . . . . . 	 . 8410 D 
+Nächste Sitzung . . . . . . . . . 8410 D 
 Anlagen 
 Anlage 1 
 Liste der beurlaubten Abgeordneten . . 8411 A 
@@ -187,7 +188,7 @@ Frage des Abg. Dr. Jenninger (CDU/CSU)
 betr. Pressemeldungen über die Kritik 
 des Bundesrechnungshofes an dem 
 früheren Bundesverteidigungsminister 
-Strauß 	 8415 A 
+Strauß 8415 A 
 
 IVAnlage 12 
 Schriftliche Antwort auf die Mündliche 
@@ -404,6 +405,7 @@ Anlage 57
 Schriftliche Antwort auf die Schriftliche 
 Frage der Abg. Frau Dr. Walz (CDU/ 
 CSU) betr. Stellenwert der Bildungsforschung im Rahmen der Bildungs- und 
+</item>
 </agenda>
 <session>
 Wissenschaftspolitik der Bundesregierung 8432 D146. Sitzung 
@@ -1563,7 +1565,7 @@ auf, Ihre Gesetzentwürfe zurückzuziehen
 und sie durch neue Vorlagen, die solide finanziert 
 sind, zu ersetzen. 
 <interjection>
-(Beifall bei den Regierungsparteien. 	 
+(Beifall bei den Regierungsparteien. 
 Abg. Dr. Hammans: Das könnte Ihnen so passen! — Abg. Härzschel: Zur Sache nichts gesagt!) 
 </interjection>
 Präsident von Hassel: Das Wort hat der Abgeordnete Spitzmüller. Für ihn ist eine Redezeit von 
@@ -2608,7 +2610,7 @@ jederzeit machen, denn die Finanzmittel dafür haben
 Sie; Sie können also nicht auf die fehlenden Finanzen abstellen. 
 <interjection>
 (Zurufe von der SPD: Nehmen Sie Rücksicht 
-auf die Stenographen! 	 Das sind Übertreibungen!) 
+auf die Stenographen! Das sind Übertreibungen!) 
 </interjection>
 — Wer hier heute morgen übertrieben hat, das wird 
 man ja nachlesen können, und deshalb lege ich sehr 
@@ -4434,7 +4436,12 @@ Sie Ihre Identnummer für die Abstimmung nachher
 schon heraussuchten und einstellten. 
 Das Wort hat der Abgeordnete Freiherr Osturan 
 von der Leye. 
-Freiherr Ostman von der Leye (SPD) : Herr 
+</speech>
+<speech>
+<speaker>
+<name>Freiherr von Ostman Leye</name><party>SPD</party>
+</speaker>
+ Herr 
 Präsident! Meine sehr verehrten Damen und Herren! 
 Angesichts der Tatsache, daß Ihnen auf Drucksache 
 M/2721 ein ausführlicher Bericht vorliegt, kann ich 
@@ -4549,7 +4556,12 @@ Wir stimmen dem Gesetz zu.
 </speaker>
 Das Wort hat die Frau Abgeordnete Dr. Diemer-
 Nicolaus. 
-Frau Dr. Diemer -Nicolaus (FDP) : Herr Präsident! Meine sehr verehrten Kollegen und Kolleginnen! Gestern wurde Kritik daran geübt, daß 
+</speech>
+<speech>
+<speaker>
+<name>Frau Dr. Diemer-Nicolaus</name><party>FDP</party>
+</speaker>
+ Herr Präsident! Meine sehr verehrten Kollegen und Kolleginnen! Gestern wurde Kritik daran geübt, daß 
 alles immer schon zwischen den beiden Koalitionsfraktionen vorher abgesprochen und in den Ausschüssen praktisch nicht mehr echt beraten werde. 
 Ich glaube, Sie haben heute — wenn auch nur 
 noch wenige da sind — bei der Beratung des 11. und 
@@ -5067,7 +5079,7 @@ CDU/CSU
 betr. Fortführung der Entwicklungsarbeiten 
 für ein landgebundenes Hochleistungsschnellverkehrssystem 
 — Drucksache VI/2494 — 
-Wünscht jemand das Wort? 	 Das ist nicht der 
+Wünscht jemand das Wort? Das ist nicht der 
 Fall. 
 Der Ältestenrat empfiehlt die Überweisung an 
 den Ausschuß für Verkehr und für das Post- und 
@@ -5352,7 +5364,7 @@ Die Sitzung ist geschlossen.
 <attachement>
 (Schluß der Sitzung: 13.38 Uhr.)Anlage 1 
 Liste der beurlaubten Abgeordneten 
-Abgeordnete(r) 	 beurlaubt bis einschließlich 
+Abgeordnete(r) beurlaubt bis einschließlich 
 Dr. Achenbach * 23. 10. 
 Adams * 23. 10. 
 Dr. Ahrens ** 22. 10. 
@@ -5424,7 +5436,7 @@ Parlaments
 *** Für die Teilnahme an Sitzungen der Versammlung 
 der Westeuropäischen Union 
 Anlagen zum Stenographischen Bericht 
-Abgeordnete(r) 	 beurlaubt bis einschließlich 
+Abgeordnete(r) beurlaubt bis einschließlich 
 Müller (Aachen-Land) * 22. 10. 
 Frau Dr. Orth * 23. 10. 
 Pieroth 22.10. 
@@ -6142,60 +6154,60 @@ Die Bundesregierung hat ab 1961 den Bau von
 Turn- und Sportstätten aus Mitteln des Goldenen 
 Planes von 1960 und der Zonenrandförderung mit 
 folgenden Jahresbeiträgen unterstützt: 
-1961 	 20,0 Millionen DM 
-1962 	 19,0 Millionen DM 
+1961 20,0 Millionen DM 
+1962 19,0 Millionen DM 
 dazu 5,0 Millionen DM Zonenrandgebiet 
 = 24,0 Millionen DM 
-1963 	 21,1 Millionen DM 
+1963 21,1 Millionen DM 
 dazu 4,8 Millionen DM Zonenrandgebiet 
 = 25,9 Millionen DM 
 1964 24,0 Millionen DM 
 dazu 6,0 Millionen DM Zonenrandgebiet 
 = 30,0 Millionen DM 
-1965 	 19.9 Millionen DM 
+1965 19.9 Millionen DM 
 dazu 4,6 Millionen DM Zonenrandgebiet 
 = 24,5 Millionen DM 
-1966 	 26,54 Millionen DM 
+1966 26,54 Millionen DM 
 dazu 4,6 Millionen DM Zonenrandgebiet 
 = 31,14 Millionen DM 
-1967 	 30,7 Millionen DM 
+1967 30,7 Millionen DM 
 dazu 8,4 Millionen DM Zonenrandgebiet 
 (Konjunkturförderungsprogramm) 
 = 39,1 Millionen DM 
-1968 	 26,4 Millionen DM 
+1968 26,4 Millionen DM 
 dazu 5,8 Millionen DM Zonenrandgebiet 
 = 32,2 Millionen DM 
-1969 	 21,3 Millionen DM 
+1969 21,3 Millionen DM 
 dazu 7,6 Millionen DM Zonenrandgebiet 
 = 28,9 Millionen DM 
 
-1970 	 8,4 Millionen DM 
+1970 8,4 Millionen DM 
 dazu 7,4 Millionen DM Zonenrandgebiet 
 = 15,8 Millionen DM 
-1971 	 7,5 Millionen DM 
+1971 7,5 Millionen DM 
 dazu 16,0 Millionen DM Zonenrandgebiet 
 23,5 Millionen DM 
 Die Bundeszuwendungen werden nach einem besonderen Schlüssel auf die einzelnen Länder prozentual aufgeteilt. 
 1. Für den Goldenen Plan ist folgender Schlüssel 
 anzuwenden (Einwohnerzahl) : 
-Baden-Württemberg 	 13,81 % 
-Bayern 	 16,96 % 
-Berlin 	 3,94 0/0 
-Bremen 	 1,26 % 
-Hamburg 	 3,28 % 
-Hessen 	 8,55 5 
+Baden-Württemberg 13,81 % 
+Bayern 16,96 % 
+Berlin 3,94 0/0 
+Bremen 1,26 % 
+Hamburg 3,28 % 
+Hessen 8,55 5 
 Niedersachsen 11,75 % 
-Nordrhein-Westfalen 	 28,32 5 
-Rheinland-Pfalz 	 6,10 % 
-Saarland 	 1,90 % 
-Schleswig-Holstein 	 4,13 % 
+Nordrhein-Westfalen 28,32 5 
+Rheinland-Pfalz 6,10 % 
+Saarland 1,90 % 
+Schleswig-Holstein 4,13 % 
 2. Für die Zonenrandförderung wird ein vom 
 BMWF errechneter Schlüssel angewendet. 
-Bayern 	 34,08 % 
-Hessen 	 13,32 % 
+Bayern 34,08 % 
+Hessen 13,32 % 
 Niedersachsen 28,54 % 
 Schleswig-Holstein 24,06 % 
-Berlin 	 jeweils 500 000 bis 600 000 DM 
+Berlin jeweils 500 000 bis 600 000 DM 
 von der Gesamtsumme vor Ermittlung der prozentualen Landesquoten. 
 Bei der Verabschiedung des Goldenen Planes im 
 Jahre 1960 wurde eine Beteiligung des Bundes in 
@@ -6212,11 +6224,11 @@ Bei der Finanzreform im Jahre 1970 ist der Goldene Plan nicht als Gemeinschaftsa
 Grundgesetz aufgenommen worden und läuft deshalb 1974 aus. 
 Die Haushaltsansätze sind für die Auslaufzeit 
 wie folgt in den Bundeshaushalt bzw. den Finanzplan aufgenommen worden: 
-1970 	 8,4 Millionen DM 
-1971 	 7,5 Millionen DM 
-1972 	 5,5 Millionen DM 
-1973 	 3,5 Millionen DM 
-1974 	 1,5 Millionen DM 
+1970 8,4 Millionen DM 
+1971 7,5 Millionen DM 
+1972 5,5 Millionen DM 
+1973 3,5 Millionen DM 
+1974 1,5 Millionen DM 
 Die Ansätze für die Zonenrandförderung sind mit 
 Inkrafttreten des Zonenrandförderungsgesetzes vom 
 5. August 1971 (BGBl. I S. 1237 ff.) von 7,0 Millionen DM im Jahre 1970 auf 16,0 Millionen DM im 
@@ -6825,7 +6837,7 @@ für die zusätzlichen Langsamfahrstellen aus oberbautechnischen Gründen erst i
 beendete europäische Fahrplankonferenz trägt dieser Lage Rechnung. Ab Sommerfahrplan 1972 werden die erforderlichen längeren Fahrzeiten eingeplant sein. 
 Bis dahin wird die Deutsche Bundesbahn versuchen, den Verspätungsgrad der Reisezüge mit Hilfe 
 
-8428 	 Deutscher Bundestag — 6. Wahlperiode — 146, Sitzung. Bonn, Freitag, den 22. Oktober 1971 
+8428 Deutscher Bundestag — 6. Wahlperiode — 146, Sitzung. Bonn, Freitag, den 22. Oktober 1971 
 organisatorischer Maßnahmen (sorgfältige Baubetriebsplanung, scharfe Überwachung der Züge durch 
 alle Kontrollorgane) so gering wie möglich zu halten. 
 Anlage 44 

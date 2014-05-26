@@ -3,6 +3,7 @@
 Bonn, Donnerstag, den 21. Oktober 1971 
 </header>
 <agenda>
+<item id="0" >
 Inhalt: 
 Erweiterung der Tagesordnung . . . . . 8311 A 
 Amtliche Mitteilungen . . . . . . . . 8311 B 
@@ -62,7 +63,7 @@ VI /2306)
 <speaker><name>Strauß</name><party>CDU/CSU</party></speaker>
 <speaker><name>Kirst</name><party>FDP</party></speaker>
 Dr. Freiherr von Weizsäcker 
-(CDU/CSU) 	 8350 A 
+(CDU/CSU) 8350 A 
 <speaker><name>Dr. Ehmke</name><public_office>Bundesminister</public_office></speaker>
 Entwurf eines Gesetzes zur Änderung des 
 Außenwirtschaftsgesetzes (SPD, FDP) 
@@ -81,7 +82,7 @@ Fragen des Abg. Dr. Wagner (Trier)
 (CDU/CSU) : 
 Gemeinsame Versendung von Werbeschriften der Bundesregierung und der 
 Koalitionsparteien 
-Ahlers, Staatssekretär 	 8352 C, D, 8353 A 
+Ahlers, Staatssekretär 8352 C, D, 8353 A 
 <speaker><name>Dr. Wagner (Trier)</name><party>CDU/CSU</party></speaker>
 8353 A 
 Fragen des Abg. Wohlrabe (CDU/CSU) :   
@@ -93,7 +94,7 @@ Fragen des Abg. Ott (CDU/CSU) :
 Vermögenswirksame Leistungen als arbeitsrechtliche Bestandteile der Löhne 
 und Gehälter 
 Rosenthal, Parlamentarischer 
-Staatssekretär . . . 	 8353 C, D, 8354 A 
+Staatssekretär . . . 8353 C, D, 8354 A 
 <speaker><name>Ott</name><party>CDU/CSU</party></speaker>
 Fragen des Abg. Strohmayr (SPD) :   
 Bescheinigungsverfahren für den Nachweis des gezahlten Konjunkturzuschlags 
@@ -104,15 +105,15 @@ Staatssekretär . 8354 B, D, 8355 A, B, C
 <speaker><name>Dr. Sperling</name><party>SPD</party></speaker>
 Gestaltung von befristeten Arbeitsverträgen für Wissenschaftler an Forschungsinstituten 
 Hermsdorf, Parlamentarischer 
-Staatssekretär . . . 	 8355 D, 8356 B, C 
+Staatssekretär . . . 8355 D, 8356 B, C 
 <speaker><name>Dr. Sperling</name><party>SPD</party></speaker>
 <speaker><name>Dr. Kempfler</name><party>CDU/CSU</party></speaker>
 Befreiung der Zinsen aus Bausparguthaben von der Einkommensteuer 
 Hermsdorf, Parlamentarischer 
-Staatssekretär . . . 	 8356 B, 8357 A, C 
+Staatssekretär . . . 8356 B, 8357 A, C 
 <speaker><name>Dr. Kempfler</name><party>CDU/CSU</party></speaker>
 <speaker><name>Ott</name><party>CDU/CSU</party></speaker>
-Nächste Sitzung 	 8357 C 
+Nächste Sitzung 8357 C 
 Anlagen 
 Anlage 1 
 Liste der beurlaubten Abgeordneten . . 8358 A 
@@ -144,6 +145,7 @@ Anlage 7
 Schriftliche Antwort auf die Mündlichen 
 Fragen des Abg. Dr. Pfeifer (CDU/CSU) 
 betr. Ursachen für den verspäteten Abschluß der Ermittlung der Studienbewerber in Fächern mit Numerus clausus — 
+</item>
 </agenda>
 <session>
 Beschleunigung des Zulassungsverfahrens 8362 C145. Sitzung 
@@ -635,7 +637,7 @@ Abgeordnete von Bülow.
 </speech>
 <speech>
 <speaker>
-<name>Dr. Bülow</name><party>SPD</party>
+<name>Dr. von Bülow</name><party>SPD</party>
 </speaker>
  Herr Präsident! Meine 
 sehr verehrten Damen und Herren! Ich möchte kurz 
@@ -670,7 +672,7 @@ Zwischenfrage des Abgeordneten Althammer?
 </speech>
 <speech>
 <speaker>
-<name>Dr. Bülow</name><party>SPD</party>
+<name>Dr. von Bülow</name><party>SPD</party>
 </speaker>
  — einen Augenblick, ich 
 würde gern erst noch diesen Gedanken zu Ende 
@@ -697,7 +699,7 @@ worden sind?
 </speech>
 <speech>
 <speaker>
-<name>Dr. Bülow</name><party>SPD</party>
+<name>Dr. von Bülow</name><party>SPD</party>
 </speaker>
  Herr Althammer, Sie wissen aber auf der anderen Seite ganz genau, daß das 
 mit der Auseinandersetzung zwischen Bund und Ländern über einen um 3 % höheren Anteil der Länder 
@@ -761,7 +763,7 @@ Sie haben die hier aufgebaut.
 (Zuruf von der CDU/CSU: Wer sind denn 
 die „Schreibtischtäter&quot;?) 
 </interjection>
-Aber haben Sie keine Sorge, Herr Kollege Jenninger, diese Bundesregierung 	 —
+Aber haben Sie keine Sorge, Herr Kollege Jenninger, diese Bundesregierung —
 <interjection>
 (Zuruf von der CDU/CSU: Ist schlecht! -- 
 Abg. Ott: Ist unfähig!) 
@@ -774,7 +776,7 @@ dem lieben Gott und der CSU? Ich habe gesagt: Den
 Sie meinen kenne ich nicht. Darauf sagte er: Der 
 liebe Gott weiß alles, die CSU weiß alles besser. 
 <interjection>
-(Heiterkeit und Beifall bei den Regierungsparteien. 	 Zurufe von der CDU/ 
+(Heiterkeit und Beifall bei den Regierungsparteien. Zurufe von der CDU/ 
 CSU: So ein langer Bart! — Kalauer!) 
 </interjection>
 -- Vielleicht waren Sie sogar dabei, Herr Kollege, 
@@ -1117,7 +1119,7 @@ Arbeitsplätze gesagt hat. Er hat wiederum eine Garantie der Vollbeschäftigung 
 Bundeskanzler ist jetzt nicht da. Ich habe Verständnis dafür, daß er heute morgen etwas später hier 
 erscheinen wird; ich nehme ihm das persönlich gar 
 nicht übel. 
-<interjection>(Zurufe von der SPD. 	 Unruhe.) </interjection>
+<interjection>(Zurufe von der SPD. Unruhe.) </interjection>
 lch muß jetzt an den leeren Stuhl meine Formulierungen richten; ich habe den Kanzler gestern noch 
 auf diese Dinge angesprochen. 
 
@@ -1206,7 +1208,7 @@ die Bundesregierung, wie gesagt, sehr ernst nimmt,
 ein. Sicherlich werden hier eine Reihe von Maßnahmen ergriffen, um mit den Dingen draußen im 
 Lande besser fertig zu werden, als Sie in den Jahren 1966 und 1967 damit fertig geworden sind. 
 <interjection>
-(Lachen bei der CDU/CSU. 	 Abg. Dr. 
+(Lachen bei der CDU/CSU. Abg. Dr. 
 Stark [Nürtingen] : Abwarten!) 
 </interjection>
 Ich komme nun zur Frage der Renten, die Sie 
@@ -2864,7 +2866,7 @@ noch gefördert, als sie schließlich offen ausgebrochen
 war, und das ist auch schon etwas, meine Damen 
 und Herren. 
 <interjection>(Beifall bei den Regierungsparteien.) </interjection>
-Seien Sie doch in diesem Punkte wenigstens 	 
+Seien Sie doch in diesem Punkte wenigstens 
 nicht der Regierung wegen, sondern Ihrer eigenen 
 Ausgangsplattform, Ihrer Position wegen gerechter, als Sie es bisher haben sein können. Ich finde, 
 daß der Teil der Schillerschen Einbringungsrede, der 
@@ -3120,7 +3122,7 @@ seinen Freunden und denen, die in diesem Zusammenhang linksradikal genannt werde
 <interjection>(Beifall bei den Regierungsparteien.) </interjection>
 Ich wäre also froh, wenn ich auch diesen Passus aus 
 Ihrer Münchener Rede heute mit als erledigt betrachten könnte, Herr Kollege Barzel. 
-Es ist erst wenige Tage her 	 es war am 17. Oktober — daß Sie gesagt haben: Wenn Sie ihr Programm durchsetzen, dann würde — jetzt zitiere ich 
+Es ist erst wenige Tage her es war am 17. Oktober — daß Sie gesagt haben: Wenn Sie ihr Programm durchsetzen, dann würde — jetzt zitiere ich 
 wörtlich — „nicht eintreten, was und ich wäge 
 mein Wort — droht. Es droht, daß wir im Innern 
 sozialistisch und nach außen abhängig von der Sowjetunion werden.&quot; 
@@ -3746,7 +3748,7 @@ Marktes wurden in den Wind geschlagen. Im
 Inland ging der Zins auf sagenhafte Höhen wie noch 
 nie in der Geschichte der Bundesrepublik. Der Kredit wurde verknappt. Der kleine Mann konnte sich 
 
-8346 	 Deutscher Bundestag — 
+8346 Deutscher Bundestag — 
 6. Wahlperiode — 145. Sitzung. Bonn, Donnerstag, den 21. Oktober 1971 
 Strauß 
 den Kredit nur in verkürzter Form und zu abenteuerlich hohen Kosten erwerben. Der andere hat 
@@ -4190,7 +4192,12 @@ Mittel für die Gemeinden und Länder.
 </speaker>
  Das Wort hat der 
 Abgeordnete von Weizsäcker. 
-Dr. Freiherr von Weizsäcker (CDU/CSU) : Frau 
+</speech>
+<speech>
+<speaker>
+<name>Dr. Freiherr von Weizsäcker</name><party>CDU/CSU</party>
+</speaker>
+ Frau 
 Präsidentin! Meine Damen und Herren! Es ist schon 
 spät, und das Haus nicht mehr gut besetzt, vor allem 
 auf der Seite der Regierung. Aber der Vormittag 
@@ -4288,7 +4295,12 @@ des Haushaltsausschusses ausfällt. Der Haushaltsausschuß tritt aber morgen um 
 Sitzung zusammen. 
 Das Wort hat Herr Bundesminister Professor 
 Ehmke. 
-Dr. Ehmke, Bundesminister für besondere Aufgaben: Frau Präsidentin! Meine sehr verehrten Kolleginnen und Kollegen! Ich bin Herrn von Weizsäcker sehr dankbar, daß er die Diskussion mit seiner Schlußbemerkung zu dem guten Ansatz zurückgeführt hat, den wir heute morgen in der Rede von 
+</speech>
+<speech>
+<speaker>
+<name>Dr. Ehmke</name><public_office>Bundesminister für besondere Aufgaben</public_office>
+</speaker>
+ Frau Präsidentin! Meine sehr verehrten Kolleginnen und Kollegen! Ich bin Herrn von Weizsäcker sehr dankbar, daß er die Diskussion mit seiner Schlußbemerkung zu dem guten Ansatz zurückgeführt hat, den wir heute morgen in der Rede von 
 Herrn Dr. Barzel und in den Antworten von Herrn 
 Kollegen Wehner und dem Herrn Bundeskanzler 
 gehabt haben. Herr von Weizsäcker, wir werden 
@@ -5047,7 +5059,7 @@ Die Sitzung ist geschlossen.
 <attachement>
 (Schluß der Sitzung: 14.21 Uhr.)Anlage 1 
 Liste der beurlaubten Abgeordneten 
-Abgeordnete (r) 	 beurlaubt bis einschließlich 
+Abgeordnete (r) beurlaubt bis einschließlich 
 Dr. Achenbach * 23. 10. 
 Adams * 23. 10. 
 Dr. Aigner * 22. 10. 
@@ -5106,7 +5118,7 @@ Parlaments
 *** Für die Teilnahme an Sitzungen der Versammlung 
 der Westeuropäischen Union 
 Anlagen zum Stenographischen Bericht 
-Abgeordnete (r) 	 beurlaubt bis einschließlich 
+Abgeordnete (r) beurlaubt bis einschließlich 
 Richter *** 25. 10. 
 Riedel (Frankfurt) * 23. 10. 
 Dr. Rinderspacher *** 25. 10. 

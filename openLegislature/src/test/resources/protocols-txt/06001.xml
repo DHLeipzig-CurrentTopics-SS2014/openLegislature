@@ -3,16 +3,18 @@
 Bonn, den 20. Oktober i 969 
 </header>
 <agenda>
-Inhalt: Eröffnung der Sitzung durch den Alterspräsidenten 	 1 A 
+Inhalt: <item id="0" >
+Eröffnung der Sitzung durch den Alterspräsidenten 1 A 
 Namensaufruf der Abgeordneten und Wahl 
 des Präsidenten 
-Alterspräsident Borm 	 3 D 
-Schriftführer Berger 	 3 D 
+Alterspräsident Borm 3 D 
+Schriftführer Berger 3 D 
 <speaker><name>Dr. Barzel</name><party>CDU/CSU</party></speaker>
-von Hassel (CDU/CSU) 	 5 A 
+von Hassel (CDU/CSU) 5 A 
 Amtsübernahme durch den Präsidenten 
-von Hassel 	 5 A 
-Nächste Sitzungen 	 6 C1. 
+von Hassel 5 A 
+Nächste Sitzungen 6 C1. 
+</item>
 </agenda>
 <session>
 Sitzung 
@@ -509,8 +511,5 @@ Die erste Sitzung des 6. Deutschen Bundestages
 ist geschlossen. 
 (Schluß der Sitzung: 18.03 Uhr.) 
 </speech>
-<attachement>
-
-</attachement>
 </session>
 </protocol>
