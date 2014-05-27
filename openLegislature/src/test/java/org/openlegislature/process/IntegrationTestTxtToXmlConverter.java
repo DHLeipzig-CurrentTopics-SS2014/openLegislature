@@ -43,7 +43,7 @@ public class IntegrationTestTxtToXmlConverter {
                 {"src/test/resources/protocols-txt/01002", "target/test-classes/01002.xml"},
                 {"src/test/resources/protocols-txt/01008", "target/test-classes/01008.xml"},
                 {"src/test/resources/protocols-txt/01012", "target/test-classes/01012.xml"},
-                //{"src/test/resources/protocols-txt/01018", "target/test-classes/01018.xml"}
+                {"src/test/resources/protocols-txt/01018", "target/test-classes/01018.xml"}
         });
     }
 

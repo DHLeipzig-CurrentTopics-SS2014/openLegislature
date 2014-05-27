@@ -1,36 +1,25 @@
-<protocol session_number="4. Sitzung" >
-<header>
+Deutscher Bundestag 
+4. Sitzung 
 Bonn, den 10. November 1965 
-</header>
-<agenda>
-<item id="0" >
 Inhalt: 
 Glückwünsche zu den Geburtstagen der 
 Abg. Dr. Conring und Dr. Wuermeling . . 17 A 
 Abgabe einer Erklärung der Bundesregierung 
 Dr. Dr. h. c. Erhard, Bundeskanzler 17 B 
-Nächste Sitzung 33 D4. 
-</item>
-</agenda>
-<session>
-Sitzung 
+Nächste Sitzung 	 33 D4. Sitzung 
 Bonn, den 10. November 1965 
 Stenographischer Bericht 
 Beginn: 11.01 Uhr 
-<speech>
-<speaker>
-<name>Dr. Gerstenmaier</name><public_office>Präsident</public_office>
-</speaker>
- Die Sitzung 
+Präsident D. Dr. Gerstenmaier: Die Sitzung 
 ist eröffnet. 
 Meine Damen und Herren, vor Eintritt in die 
 Tagesordnung spreche ich die Glückwünsche des 
 Hauses dem Herrn Abgeordneten Dr. Conring zum 
 71. Geburtstag am 4. November, 
-<interjection>(Beifall) </interjection>
+(Beifall) 
 dem Herrn Abgeordneten Dr. Wuermeling zum 
 65. Geburtstag am 8. November aus. 
-<interjection>(Beifall.) </interjection>
+(Beifall.) 
 Ich komme zum einzigen Punkt der Tagesordnung: 
 Abgabe einer Erklärung der Bundesregierung 
 Das Wort hat der Herr Bundeskanzler. 
@@ -65,7 +54,7 @@ nach dem Jahre 1945. Alle Generationen unseres
 Volkes tragen zwar an den Folgen einer im deutschen Namen von 1933 bis 1945 geübten Politik. Die 
 Bezugspunkte in der Arbeit des 5. Deutschen Bundestages und der Politik der Bundesregierung dürfen dennoch nicht mehr der Krieg und die Nachkriegszeit sein. Sie liegen nicht hinter uns, sondern 
 vor uns. Die Nachkriegszeit ist zu Ende! 
-<interjection>(Beifall bei den Regierungsparteien.) </interjection>
+(Beifall bei den Regierungsparteien.) 
 Deutschland ist geteilt, ist zur Hälfte dem Machtanspruch einer Siegernation unterworfen. So wahr 
 das ist und so schwer wir das empfinden, würden 
 wir uns dennoch irren, wollten wir darauf bauen, 
@@ -82,12 +71,12 @@ Phase, die wir als Nachkriegszeit bezeichnen — die
 Nachkriegszeit, in der die Bundesrepublik entstand, 
 in der sie zunächst als Objekt der Weltpolitik, später als aktiv handelnde Macht Gewicht erlangte. Die 
 Nachkriegszeit war weltpolitisch betrachtet keine 
-„Friedenszeit&quot;. Sie war Jahre hindurch bestimmt 
+„Friedenszeit". Sie war Jahre hindurch bestimmt 
 durch den Zerfall der im Kriege siegreichen Mächte
 -
 Koalition in zwei Blöcke. In der Nachkriegszeit war 
 der Bundesrepublik die außenpolitische Linie klar 
-vorgezeichnet: Eine Politik „zwischen den Blöcken&quot; 
+vorgezeichnet: Eine Politik „zwischen den Blöcken" 
 wäre utopisch und am Ende sogar selbstmörderisch 
 gewesen. 
 
@@ -99,7 +88,7 @@ Freundschaftsvertrages voll auszuschöpfen.
 Viel weniger vorgegeben — im Gegenteil immerfort hart umkämpft, von innen wie von außen kritisiert oder angefeindet waren die Leitlinien unseres 
 wirtschaftlichen Aufstiegs und der sozialen Gesundung unseres Volkes. Inzwischen wurde dieser wesentliche politische Inhalt deutscher Nachkriegszeit 
 über die Parteien hinweg zur allgemeinen Grundlage deutscher Innenpolitik. Unser deutsches Modell 
-einer modernen Wirtschafts- und Sozialordnung gerät aus dem Höhenflug des einstmals als „Wunder&quot; 
+einer modernen Wirtschafts- und Sozialordnung gerät aus dem Höhenflug des einstmals als „Wunder" 
 erschienenen Erfolges in die natürliche Phase alltäglicher Bewährung. Es stellt sich uns die Frage, ob 
 wir eingetretene Verkrustungen dieser Ordnung 
 lösen, bislang außerhalb der sozialen Marktwirtschaft gebliebene Schutzbereiche in den Fortschrittsprozeß organisch einbeziehen und damit der immer 
@@ -112,7 +101,7 @@ Mochte in der Nachkriegszeit mit einfachen Alternativen von schwarz und weiß, g
 und richtig die eine oder die andere innen- oder 
 außenpolitische Illusion parlamentarischer Einzelgänger noch hingehen; heute indessen muß vor 
 jeder öffentlichen Äußerung die Frage nach der politischen Verantwortbarkeit derlei individueller Aussagen stehen. 
-<interjection>(Beifall bei den Regierungsparteien.) </interjection>
+(Beifall bei den Regierungsparteien.) 
 In dem permanenten Spannungsverhältnis zwischen 
 dem kurzfristig oft leicht Durchsetzbaren und dem 
 langfristig Richtigen und Notwendigen werden Bundestag und Bundesregierung in den kommenden 
@@ -130,8 +119,8 @@ Staatsfinanzen kann nicht ohne Sorge betrachtet
 werden. Sie unterscheidet sich aber in einem grundsätzlich von wirtschaftlichen Vorgängen der zwanziger und dreißiger Jahre. Heute sind wir dank besserer Einsichten und auf Grund eines weit entwickelten Instrumentariums in der Lage, Ursachen klar 
 zu erkennen und — wenn wir wollen — auch Abhilfe zu schaffen. Wir stehen dank der unlösbaren 
 weltwirtschaftlichen Verflechtung Schwierigkeiten 
-dann nicht machtlos gegenüber, wenn der Staat — 
-die Bundesregierung und alle öffentlichen Hände —
+dann nicht machtlos gegenüber, wenn der Staat  — 
+die  Bundesregierung und alle öffentlichen Hände —
 vor allem aber auch Arbeitgeber und Gewerkschaften bereit sind, unsere stabile und sozial-verpflichtete, freiheitliche Wirtschaftsordnung zu erhalten 
 und sie gegen jede Aufweichung zu verteidigen. Das 
 wiederum ist angesichts der verfassungsrechtlichen 
@@ -164,11 +153,11 @@ Deutschland stützen können. Die uns gezollte Achtung und Anerkennung der Welt 
 vom deutschen Volk bezeugten demokratischen Haltung der gesellschaftlichen Ordnung, die wir aus 
 dem Chaos schufen, und dem erstaunlich raschen 
 und erfolgreichen Wiederaufbau. Auf diese WeiseBundeskanzler Dr. Dr. h. c. Erhard 
- sind wir — ich sage es ohne Überheblichkeit — 
+ sind wir — ich sage  es ohne Überheblichkeit — 
 wieder etwas geworden. Das deutsche Kräftepotential hat innerhalb des Bündnisses Gewicht erlangt; 
 dies wird auch im gegnerischen Lager, wenn auch 
 mit anderen Vorzeichen, registriert. 
-Was aber macht das deutsche Kräftepotential aus? 
+Was aber macht das  deutsche Kräftepotential aus? 
 Es sind die Menschen, ihr Wille und ihre Fähigkeit 
 zu arbeiten, geistige und wirtschaftliche Leistungen 
 zu vollbringen. Dieses Potential erwächst aus der 
@@ -179,22 +168,22 @@ wirtschaftlich-technischen und sozialen Anstrengungen.
 Nach den geschichtlichen Erfahrungen unseres Volkes, die das Bewußtsein der Abhängigkeit aller von 
 allen geweckt und bestärkt haben, hat die deutsche 
 Gesellschaft den Charakter einer Klassengesellschaft 
-verloren. An ihre Stelle ist eine Leistungsgemeinschaft getreten. Trotzdem dürfen wir nicht verkennen, daß diese noch von innen bedroht ist, nämlich durch allzu viele Versuche, partiellen Interessen 
+verloren. An ihre Stelle ist eine Leistungsgemeinschaft getreten. Trotzdem dürfen wir nicht verkennen, daß diese noch von innen bedroht ist,  nämlich durch allzu viele Versuche, partiellen Interessen 
 ein Übergewicht zu verschaffen. 
 Wollen wir auf dem Weg des bisherigen Erfolges, 
 des Fortschritts, des politischen und sozialen Friedens bleiben, so muß die deutsche Gesellschaft 
 weitere Schritte in jene moderne Ordnung tun, die 
 ich als formierte Gesellschaft charakterisiere. 
-<interjection>(Lachen und Aha-Rufe bei der SPD.) </interjection>
+(Lachen und Aha-Rufe bei der  SPD.)  
 Sie wird nicht durch eine Aktion geschaffen, sondern 
 entfaltet sich aus einem Prozeß. Sie ist auch nicht 
 ständestaatlich gegliedert; vielmehr beruht sie auf 
 der Überzeugung, daß die Menschen nicht nur durch 
 Gesetze, sondern aus Einsicht das ihrem eigenen 
 Wohle Dienende zu tun bereit sind. 
-<interjection>(Beifall bei der CDU/CSU.) </interjection>
+(Beifall bei der CDU/CSU.) 
 Die formierte Gesellschaft ist jedoch alles andere 
-als eine philantropische Vision. Sie geht also nicht 
+als eine philantropische Vision. Sie  geht also nicht 
 von einem weltfremden idealtypischen Menschenbild 
 aus. Diese moderne Leistungsgesellschaft ist gewiß 
 auch nicht frei von Interessengegensätzen. Aber 
@@ -218,24 +207,18 @@ auslösen muß, sondern daß der verständnisvolle
 Ausgleich ein gutes Mittel demokratischer Politik 
 ist. 
 Eine so formierte Gesellschaft setzt eine informierte Gesellschaft voraus. 
-<interjection>
 (Lachen bei der SPD. — Beifall bei den 
 Regierungsparteien.) 
-</interjection>
 Der Bürger kann sich nur richtig verhalten, wenn 
 er Bescheid weiß. 
-<interjection>
 (Erneutes Lachen bei der SPD und Beifall 
 bei Iden Regierungsparteien.) 
-</interjection>
 Über Handlungen und Absichten des Staates muß er 
 rasch, korrekt und umfassend unterrichtet werden. 
-<interjection>
-(Zurufe von der SPD: Korrekt! — Lachen 
+(Zurufe von  der  SPD: Korrekt! — Lachen 
 bei der SPD.) 
-</interjection>
 — Das kritisieren Sie ja. 
-<interjection>(Erneute Zurufe von der SPD.) </interjection>
+(Erneute Zurufe von der SPD.) 
 Da .die Informationsnotwendigkeit auch in umgekehrter Richtung für den Staat besteht, ist die Ausnutzung neuester technischer Möglichkeiten sowie die 
 rasche Auswertung wissenschaftlicher Erkenntnisse 
 erforderlich. 
@@ -293,7 +276,7 @@ der ursprünglichen Sätze ausmachen, die deutsche
 handelspolitische Position schwächer geworden ist. 
 Wir dürfen nicht an der Erkenntnis vorübergehen, 
 daß diese Verschlechterung wesentlich auf der inneren Über-Nachfrage beruht. Eine weitere fortdauernde Aufblähung der Einkommen und eine anhaltende Kostensteigerung müßten unsere Wettbewerbsfähigkeit ernsthaft gefährden. 
-<interjection>(Beifall bei der CDU/CSU.) </interjection>
+(Beifall bei der CDU/CSU.) 
 Die Rechnung konnte eben nicht aufgehen, wenn 
 der Zuwachs des Sozialprodukts wesentlich hinter 
 dem privaten Verbrauch, den Ausgaben der öffentlichen Hand und den Investitionen zurückblieb. Das 
@@ -302,8 +285,8 @@ Sozialprodukt von rund 20 Milliarden DM zur Verfügung steht, während für die 
 40 Milliarden DM verausgabt werden. Dieses Problem ist auch nicht durch eine Um- oder Andersverteilung des Volkseinkommens zu lösen, denn mit 
 solchen Prozeduren läßt sich die kaufkräftige Nachfrage nicht verringern. 
 Bundesregierung und Bundestag stehen heute 
-nicht vor einem „Soll&quot;, sondern vor einem harten 
-„Muß&quot;. In ihrer H and und der von Ländern und 
+nicht vor einem „Soll", sondern vor einem harten 
+„Muß". In ihrer H and und der von Ländern und 
 Gemeinden liegt es, die überaus starke Zunahme 
 der öffentlichen Ausgaben mindestens auf das noch 
 vertretbare Maß der Steuereinnahmen zu reduzieren. 
@@ -322,7 +305,7 @@ Bevölkerungsentwicklung weniger Erwerbstätige
 zur Verfügung stehen werden als gegenwärtig. Der 
 Schaden würde sich noch potenzieren, wenn dazu 
 mit einer weiteren Verkürzung der Arbeitszeit gerechnet werden müßte. 
-<interjection>(Beifall bei den Regierungsparteien.) </interjection>
+(Beifall bei den Regierungsparteien.) 
 3. Ein Volk, das sich vor gewaltige politische 
 Aufgaben gestellt sieht, das um seiner Sicherheit 
 willen Opfer bringen muß, das Wiedergutmachung 
@@ -336,23 +319,21 @@ Aussage des Internationalen Arbeitsamtes in Genf
 von allen Ländern der freien Welt bereits die höchsten Leistungen tätigt; — ein solches Volk sollte 
 sich nicht Überlegungen nach Verkürzung der 
 Arbeitszeit hingeben. 
-<interjection>(Beifall bei den Regierungsparteien.) </interjection>
+(Beifall bei den Regierungsparteien.) 
 Es muß sich vielmehr ernsthaft, und zwar nicht nur 
 theoretisch, die Frage stellen — und ich tue es 
 hier in aller Form —, ob es ihm nicht besser anstünde und ob es in seiner Lage nicht zweckmäßiger 
 und sinnvoller wäre, die tariflich vereinbarte wöchentliche Arbeitszeit um eine Stunde zu erhöhen. 
-<interjection>
 (Beifall bei der CDU/CSU und bei der FDP 
 — Unruhe bei der SPD.) 
-</interjection>
 Dieses Problem kann und darf kein Tabu sein. 
-<interjection>(Anhaltende Unruhe und Zurufe von der SPD.) </interjection>
+(Anhaltende Unruhe und Zurufe von der SPD.) 
 Wenn es auch außerordentlich schwer ist, die Auswirkungen einer solchen Maßnahme rechnerisch 
 exakt zu ermitteln, kann doch kein Zweifel bestehen, daß ein Mehr an geleisteten Arbeitsstunden 
 zu einer zusätzlichen Steigerung des Sozialprodukts, 
 zu höherem Warenangebot, zu besserem Marktausgleich und damit sowohl zu einer Preisberuhigung als auch zu einem höheren Steueraufkommen 
 führen würde. 
-<interjection>(Beifall bei den Regierungsparteien.) </interjection>
+(Beifall bei den Regierungsparteien.) 
 Eines steht in jedem Falle fest, die Nutznießer einer 
 solchen Neuorientierung werden alle sein. Des-Bundeskanzler Dr. Dr. h. c. Erhard 
 halb dürfen wir nicht zögern, die notwendigen Verhandlungen über diese Frage unverzüglich aufzunehmen. 
@@ -362,7 +343,7 @@ möglich wäre, die Beengung des Arbeitsmarktes
 nicht grundlegend verändern. Die Obergrenze des 
 möglichen Wirtschaftswachstums wird in den nächsten Jahren unter den heute gegebenen Bedingungen keinesfalls höher liegen als bisher. Es gibt 
 keinen anderen Ausweg: Wir müssen unsere Ansprüche zurückstecken oder mehr arbeiten. 
-<interjection>(Beifall bei den Regierungsparteien.) </interjection>
+(Beifall bei den Regierungsparteien.) 
 5. Jede Fehlentscheidung in der Wirtschafts-, 
 Finanz- und Sozialpolitik wiegt unter diesen Umständen besonders schwer. Deutlicher als in der 
 zurückliegenden Zeit stürmischen Wirtschaftswachstums werden sich die schädlichen Wirkungen ausprägen, wenn wir den Grundsatz höchster Rationalität in der Wirtschaft mißachten. Großzügigkeit in 
@@ -373,7 +354,7 @@ produktiveren Tätigkeiten gehört daher zu den Anpassungsvorgängen, die von de
 zu fördern sind, wenn diese zugleich alles tut, um 
 soziale Härten zu vermeiden, und den Betroffenen 
 sogar zu besserer und sicherer Berufsausübung verhilft. 
-<interjection>(Zuruf von der SPD: Späte Erkenntnis!) </interjection>
+(Zuruf von der SPD: Späte Erkenntnis!) 
 6. Aus der Sorge um die Erhaltung weiteren Wirtschaftswachstums unter Wahrung der Stabilität wird 
 die Bundesregierung bei den finanzpolitischen Entscheidungen strengste Maßstäbe anlegen. Das Problem des Bundeshaushalts 1966 ist nicht nur eine 
 Frage der Finanzierung oder Deckung; es schließt 
@@ -391,7 +372,7 @@ müßte. Wir würden die hart erarbeiteten Reserven
 vergeuden. 
 9. Der von Jahr zu Jahr steigende Subventionsaufwand der öffentlichen Hand nimmt bedenkliche 
 Ausmaße an und ist geeignet, die Durchschlagskraft 
-der Kreditpolitik zu schmälern. Im Rahmen eines 
+der Kreditpolitik zu schmälern. Im Rahmen eines  
 längerfristigen Programms muß das Subventionsvolumen systematisch abgebaut werden. 
 Insbesondere gilt das für die Deutsche Bundesbahn, deren Defizit nach Gesetz vom Bund zu decken 
 ist. Wenn dieses Defizit bereits für den Bundeshaushalt 1966 mit 3,2 Milliarden DM angemeldet 
@@ -400,10 +381,8 @@ Maßnahmen sich der Fehlbetrag von Jahr zu Jahr
 ins Ungemessene erhöhen müßte. Unbeschadet bestimmter, aber doch auch begrenzter Tariferhöhungen wird die Bundesregierung in Kürze einen längerfristigen Plan vorlegen, der durch Rationalisierungsmaßnahmen und Personaleinsparungen zu 
 einer fortschreitenden finanziellen Gesundung der 
 Bundesbahn führen wird. 
-<interjection>
 (Beifall in der Mitte. — Zuruf von der 
 SPD: Das klingt so neu!) 
-</interjection>
 Die dafür von der Bundesregierung eingesetzte 
 Kommission wird noch in diesem Jahr ihre Arbeiten 
 beenden. 
@@ -412,7 +391,7 @@ nicht darauf verzichten, auch Ausgabeverpflichtungen auf Grund bereits bestehend
 Ausgleichsprogramm einzubeziehen. Sie hat das 
 mehrfach vor den Bundestagswahlen vor aller 
 Öffentlichkeit angekündigt. 
-<interjection>(Lachen bei der SPD.) </interjection>
+(Lachen bei der SPD.) 
 — Ich kann Ihnen den Nachweis erbringen. Der 
 Haushalt 1966 wird ein Volumen von 69,4 Milliarden DM haben. Das bedeutet eine Erhöhung 
 gegenüber dem Vorjahr um rund 5,5 Milliarden DM. 
@@ -427,7 +406,7 @@ verbleibende Deckungslücke in Höhe von 2,9 Milliarden DM geschlossen werden so
 Die Bundesregierung ist für die Zukunft gewillt, 
 neue Gesetze, die zu Mehrausgaben oder Einnahmeausfällen führen, von schwerwiegenden Sonderfällen abgesehen, erst dann einzubringen, wenn sichergestellt ist, daß die erforderlichen Deckungsmittel 
 bereits zum Zeitpunkt des Inkrafttretens neuer Gesetze auch tatsächlich zur Verfügung stehen. 
-<interjection>(Beifall bei den Regierungsparteien.) </interjection>
+(Beifall bei den Regierungsparteien.) 
 Die Bundesregierung bittet das Hohe Haus, diese 
 Bemühungen zu unterstützen und insbesondere bei 
 der Einbringung haushaltswirksamer Anträge die 
@@ -458,7 +437,7 @@ gesamtwirtschaftlichen Erfordernissen angepaßt werden. Diese Aufgabe verlangt, 
 und nach Maßgabe sachlicher und politischer Dringlichkeit geordneter Rahmenpläne vollzogen werden. 
 Eine umfassende Reform des Haushaltsrechts ist 
  auch im Hinblick auf diese Aufgabe vordringlich. 
-Ein Schwerpunkt unserer künftigen Arbeit wird 
+Ein Schwerpunkt unserer  künftigen Arbeit wird 
 die Finanzreform sein. Die im März 1964 eingesetzte 
 Sachverständigenkommission wird noch vor Ende 
 dieses Jahres ihre Vorschläge vorlegen. Neben der 
@@ -477,7 +456,7 @@ Bundes Vorsorge zu treffen. Es dürfte auch Übereinstimmung darüber bestehen, 
 bedarf. 
 Die Vorschläge der Finanzreform-Kommission zur 
 Finanzierung von Gemeinschaftsaufgaben sollen 
-durch die Errichtung eines Deutschen Gemeinschaftswerkes ergänzt werden. Dieses Deutsche Gemeinschaftswerk soll in voller Wahrung des föderalistischen Prinzips die Zusammenarbeit zwischen Bund 
+durch die Errichtung eines Deutschen Gemeinschaftswerkes ergänzt werden. Dieses Deutsche Gemeinschaftswerk soll in voller Wahrung des föderalistischen Prinzips die Zusammenarbeit zwischen Bund  
 und Ländern bei der gemeinsamen Programmierung 
 und Finanzierung von überregionalen Gemeinschaftsaufgaben fördern. Insbesondere soll das 
 Gemeinschaftswerk mehrjährige Investitionsprogramme aufstellen, die im Rahmen einer sachlichen 
@@ -508,17 +487,15 @@ Das gleiche Maß an Disziplin, das das deutsche
 Volk mit Recht vom Staat verlangt, muß aber auch 
 von den Sozialpartnern hinsichtlich der Preis-, Lohn- 
 und Arbeitspolitik gefordert werden. 
-<interjection>
 (Beifall bei Abgeordneten der 
 Regierungsparteien.) 
-</interjection>
 Die Bundesregierung steht auf dem Boden freier 
 Unternehmerentscheidung und der Tarifautonomie, 
 die beide und zusammen unverzichtbare Bestandteile unserer freiheitlichen Wirtschafts- und Sozialordnung sind. Die Sozialpartner verletzen jedoch 
 ihre Pflicht, wenn sie sich auf Kosten der Allgemeinheit einigen.Bundeskanzler Dr. Dr. h. c. Erhard 
  Aus grundsätzlichen rechtlichen, volkswirtschaftlichen und politischen Erwägungen kann sich die 
 Bundesregierung zu einer Ausdehnung der Mitbestimmung über den Montanbereich hinaus nicht verstehen. 
-<interjection>(Beifall bei Abgeordneten der Regierungsparteien. — Hört! Hört! bei der SPD.) </interjection>
+(Beifall bei Abgeordneten der Regierungsparteien. — Hört! Hört! bei der SPD.) 
 Andererseits wendet sie sich aber gegen Bestrebungen, die dem bewußten und erkennbaren Zweck 
 einer Aushöhlung der gegenwärtigen qualifizierten 
 Mitbestimmung dienen. 
@@ -530,7 +507,7 @@ wirtschaftlichen und sozialen Entwicklung zu stärken, klare Rechts- und Zustän
 zu schaffen, wie umgekehrt, alles zu unterlassen, 
 was in- und ausländische Kapitalanleger hindern 
 könnte, sich an deutschen Unternehmungen zu beteiligen und Wertpapiere zu erwerben. 
-<interjection>(Zurufe von der SPD.) </interjection>
+(Zurufe von der SPD.) 
 Dieser Gesichtspunkt erlangt um so mehr Bedeutung, als mit der Freizügigkeit des Kapitalflusses in 
 immer größer werdenden Märkten vergleichende 
 Überlegungen hinsichtlich der Qualität und Geschlossenheit der Unternehmensführung angestellt 
@@ -540,12 +517,12 @@ besteht, wie sie dem Modell innerhalb des deutschen Montanbereiches entspricht. 
 die Bundesregierung im Betriebsverfassungsgesetz 
 eine in der ganzen Welt als vorbildlich anerkannte 
 Form der Mitberatung und Mitwirkung der Arbeitnehmer am Schicksal des Unternehmens verwirklicht. 
-<interjection>(Beifall bei Abgeordneten der CDU/CSU.) </interjection>
+(Beifall bei Abgeordneten der CDU/CSU.) 
 Um die Einsicht in die gesamtwirtschaftlichen 
 Notwendigkeiten und ein entsprechendes Verhalten 
 zu fördern, wird die Bundesregierung mit den Repräsentanten aller wichtigen sozialen Gruppen einen 
 regelmäßigen, häufigeren, umfassenden und intensiven Dialog einleiten. 
-<interjection>(Beifall bei der CDU/CSU.) </interjection>
+(Beifall bei der CDU/CSU.) 
 Die Bundesregierung wird sich im internationalen 
 Bereich weiterhin für ein höheres Maß an Koordinierung der Osthandelspolitik einsetzen. Die Kreditpolitik gegenüber den Oststaaten bedarf nach Art, 
 Umfang und Laufzeit sowohl nach wirtschaftlichen 
@@ -568,7 +545,7 @@ aus gesellschaftspolitischen Gründen darum bemüht
 sein, die Wettbewerbsfähigkeit der Mittel- und 
 Kleinbetriebe gegenüber den Großunternehmen zu 
 stärken, um die Begründung selbständiger wirtschaftlicher Existenzen zu fördern. 
-<interjection>(Beifall bei Abgeordneten der CDU/CSU.) </interjection>
+(Beifall bei Abgeordneten der CDU/CSU.) 
 Sie ist bestrebt, dabei die Voraussetzungen für die 
 Eigenkapitalausstattung zu verbessern. Es ist nicht 
 zu verkennen, daß der wirtschaftliche und technische Fortschritt, der europäische Großmarkt und 
@@ -615,7 +592,7 @@ sollen. Die Bundesregierung lehnt die Einführung
 eines derartigen staatlichen Totalversicherungssystems aus grundsätzlichen Erwägungen ab. Sie 
 erblickt in einer Totalversicherung den Ansatz zu 
 einer sich selbst nährenden inflationistischen Entwicklung. 
-<interjection>(Beifall bei den Regierungsparteien.) </interjection>
+(Beifall bei den Regierungsparteien.) 
 Sie möchte aber auch ein ungewolltes Hineingleiten 
 des einzelnen in die immer stärkere Abhängigkeit 
 vom Staat vermeiden. 
@@ -657,12 +634,12 @@ Wir sind stolz darauf, daß die Bundesrepublik in
 ihren sozialen Leistungen an der Spitze der westlichen Industrienationen steht. Aber wir haben auch 
 Grund zur Sorge, daß sich hinter diesen Leistungen 
 zum Teil lediglich Zahlungen und Subventionen verbergen, die auf längere Sicht unsere Leistungsfähigkeit und damit unsere soziale Sicherheit nicht fördern, sondern schwächen. 
-<interjection>(Beifall bei den Regierungsparteien.) </interjection>
+(Beifall bei den Regierungsparteien.) 
 Gerade deshalb wird die Bundesregierung alles 
 tun, um zu verhindern, daß durch eine opportunistische Befriedigung von Gruppeninteressen die 
 Sozialpolitik zu einer Hypothek für die Leistungs- 
 und Konkurrenzfähigkeit unserer Wirtschaft wird. 
-<interjection>(Unruhe bei der SPD.) </interjection>
+(Unruhe bei der SPD.) 
 Eine Politik, wie sie die Bundesregierung im Auge 
 hat, fordert angesichts der hohen Kosten aller dieser Maßnahmen, daß Prioritäten, Rangfolgen und 
 Schwerpunkte der einzelnen Maßnahmen längerfristig festgelegt werden. Die Bundesregierung wird 
@@ -703,10 +680,10 @@ Die außerschulische Bildung und Erziehung
 unserer Jugend erlangt von Jahr zu Jahr größere Bedeutung. Auf ihre Einbeziehung in die gesamte Bildungsplanung kann nicht mehr verzichtet werden. 
 Die Bundesregierung erblickt hier eine wichtige Aufgabe des neuen Bildungsrates. Sie hält eine sinnvolle, sachgerechte Koordinierung für unerläßlich 
 und strebt daher an, den Bundesjugendplan weiterzuentwickeln. 
-<interjection>(Beifall in der Mitte.) </interjection>
+(Beifall in der Mitte.) 
 Die Bundesregierung wird ihren Teil dazu beitragen, daß alle bildungswilligen und bildungsfähigen jungen Menschen in unserem Volke unabhängig 
 von wirtschaftlichen Voraussetzungen die Ausbildung erhalten, die ihrer Begabung und Neigung entspricht. 
-<interjection>(Beifall in der Mitte.) </interjection>
+(Beifall in der Mitte.) 
 Es gehört ferner zu den Aufgaben der kommenden Jahre, die Familienpolitik fortzuentwickeln. Das 
 gilt auch für den Familienlastenausgleich. Die Familienpolitik darf sich aber nicht nur in materiellen 
 Leistungen erschöpfen. Deshalb begrüßt die Bundesregierung den Beschluß des 4. Deutschen Bundestages, daß alle zwei Jahre ein Bericht über die Lage 
@@ -716,7 +693,7 @@ diesem Gebiet allein nicht alles Erforderliche und
 Wünschenswerte tun kann. Dies ergibt sich schon 
 aus der immer größeren Differenzierung unserer 
 Lebensverhältnisse. Sie hält deshalb eine engere 
-Zusammenarbeit mit den Ländern und Kommunen 
+Zusammenarbeit mit  den Ländern und Kommunen 
 für unerläßlich mit dem Ziel, die familienpolitischen 
 Vorstellungen und Leistungen aufeinander abzustimmen und ihnen gezielt die größtmögliche Wirksamkeit zu geben. 
 Die Bedeutung der Gesundheitspolitik für die moderne Industriegesellschaft brauche ich nicht eigens 
@@ -730,7 +707,7 @@ Einige Aufgaben dürften besonders geeignet sein,
 im Rahmen eines Deutschen Gemeinschaftswerks 
 verwirklicht zu werden. Ich denke dabei an die 
 Modernisierung von Krankenhäusern, an die Förderung der Aus- und Fortbildung von Angehörigen der 
-Heil- und Hilfsberufe und die Aufklärung der Bevölkerung in gesundheitlichen Fragen durch eine eigene 
+Heil- und Hilfsberufe und die Aufklärung der  Bevölkerung in gesundheitlichen Fragen durch eine eigene 
 Bundeszentrale. 
 Andere Aufgaben stehen in so engem Zusammenhang mit der Gesetzgebung, daß die Frage berechtigt 
 ist, ob die derzeitigen Gesetzgebungskompetenzen 
@@ -738,9 +715,9 @@ des Bundes auf dem Gebiete des Gesundheitswesens,
 wie sie von der Mehrheit der Länder ausgelegt werden, den neuzeitlichen Anforderungen noch entsprechen. Wichtige Gesetzesvorhaben aus der Mitte des 
 Bundestages sind bekanntlich in der vergangenen 
 Legislaturperiode an ,dieser Auslegung gescheitert. 
-<interjection>(Abg. Dr. Barzel: Sehr wahr!) </interjection>
+(Abg. Dr. Barzel: Sehr wahr!) 
 Es ist meine Absicht, hierüber bald mit den Regierungschefs der Länder freimütig zu sprechen. 
-<interjection>(Beifall bei den Regierungsparteien.) </interjection>
+(Beifall bei den Regierungsparteien.) 
 Die bisher getroffenen Maßnahmen zum Schutz 
 der Gewässer, zur Reinhaltung der Luft und zur 
 Bekämpfung des Lärms haben bereits einen großen 
@@ -750,10 +727,10 @@ diese Regierung sich gestellt hat, können nur erreicht werden, wenn die Frauen 
 Familie, sondern auch im Beruf und im öffentlichen 
 Leben alle Möglichkeiten haben, voll mitzuarbeiten 
 und echte Mitverantwortung zu übernehmen. 
-<interjection>(Beifall in der Mitte.) </interjection>
+(Beifall in der Mitte.) 
 Die von der Bundesregierung in Auftrag gegebene 
 Enquete über die Stellung der Frau wird uns wertvolle Hilfe geben. 
-Die Förderung von Turnen und Sport, gleichviel 
+Die  Förderung von Turnen und Sport, gleichviel 
 ob in den Schulen, in Vereinen oder auf andere 
 Weise betrieben, ist in unserer Gesellschaft auch 
 eine öffentliche Aufgabe. Die Bundesregierung wird 
@@ -766,13 +743,13 @@ bedarf es noch weiterer Maßnahmen. Neben einer
 19. Novelle zum Lastenausgleich nach Maßgabe 
 vorhandener und liquide zu machender Reserven 
 wird ein Gesetz zum Währungsausgleich für Deutsche aus der SBZ als Weiterführung gleichstellender 
-Maßnahmen möglichst bald in Angriff zu nehmen 
+Maßnahmen möglichst bald  in  Angriff zu nehmen 
 sein. Die Bundesregierung läßt sich auch in Zukunft 
 die Eingliederung vertriebener und geflüchteter 
 Bauern angelegen sein. Im Rahmen der finanziellen 
 Möglichkeiten werden wir uns um einen Abschluß 
 der Kriegsfolgengesetzgebung bemühen. 
-Sowohl die durch den Krieg verursachten Veränderungen wie auch die Fortentwicklung der Indu- 
+Sowohl die durch den Krieg verursachten Veränderungen wie auch die  Fortentwicklung der  Indu- 
 
 Bundeskanzler Dr. Dr. h. c. Erhard 
 strialisierung haben zu einem tiefgreifenden Wandel 
@@ -790,7 +767,7 @@ Die Grundsätze der Raumordnung müssen auch bei
 der Neuverteilung der Einnahmen und Ausgaben 
 von Bund, Ländern und Gemeinden berücksichtigt 
 werden. . 
-<interjection>(Abg. Dr. Barzel: Sehr wahr!) </interjection>
+(Abg. Dr. Barzel: Sehr wahr!) 
 Ebenso ist die baldige Verabschiedung des Städtebauförderungsgesetzes geboten. Außer der notwendigen Gesundung und Erneuerung unserer Städte 
 und Dörfer wird es immer dringlicher, zum Zwecke 
 regionaler Strukturverbesserung kleine und mittlere 
@@ -799,12 +776,12 @@ Der soziale Wohnungsbau wird als Gemeinschaftsaufgabe von Bund, Ländern und Gem
 im gesamt en Bundesgebiet fortgeführt. Die Bildung von Wohnungseigentum für breite Schichten 
 des Volkes behält aber ihren Vorrang. Die Bundesregierung ist sich überdies bewußt, daß die Förderung des sozialen Wohnungsbaues zugunsten kinderreicher Familien, alter Menschen und junger 
 Ehepaare ihre Bedeutung behält. 
-<interjection>(Beifall bei der CDU/CSU.) </interjection>
+(Beifall bei der CDU/CSU.) 
 Die unter großem Einsatz von öffentlichen Mitteln 
 geschaffenen 3 1/2 Millionen Sozialwohnungen sollen auch in Zukunft dem gesetzlich bestimmten Personenkreis erhalten bleiben. 
 Zum Zwecke verstärkter Eigentumsbildung müssen die Gemeinden in die Lage versetzt werden, 
 das Angebot an baureifen Grundstücken zu erhöhen und neues Bauland zu erschließen. 
-<interjection>(Lachen bei der SPD.) </interjection>
+(Lachen bei der SPD.) 
 Die Verwirklichung der vor uns liegenden großen Aufgaben im Bereich der Raumordnung, des 
 Städtebaues und des Wohnungswesens bedarf auch 
 der Mithilfe der unternehmerischen Wohnungswirtschaft. Deren Rechte aber müssen in Übereinstimmung mit den heutigen gesellschaftspolitischen 
@@ -813,7 +790,7 @@ Recht der gemeinnützigen Wohnungsunternehmen
 mit der Bemühung der Bundesregierung um die 
 Schaffung von privatem Eigentum an der Wohnung 
 in Einklang zu bringen. 
-<interjection>(Beifall bei den Regierungsparteien.) </interjection>
+(Beifall bei den Regierungsparteien.) 
 Nun zur deutschen Landwirtschaft. Sie hat — gefördert durch die Grünen Pläne — ein Produktivität 
 erzielt, die noch vor wenigen Jahren nicht für erreichbar gehalten wurde. Trotzdem bedarf die Landwirtschaft angesichts der besonderen und erschwerten Bedingungen im Gemeinsamen Markt für die 
 Erzeugung und den Absatz ihrer Produkte auch 
@@ -864,7 +841,7 @@ Sektors eine hohe Priorität zu.
 Besonders stellt die unvermindert stark anwachsende Motorisierung die Verantwortlichen vor große 
 und dringliche Aufgaben. Die bisherigen außerordentlichen Anstrengungen des Bundes für den Ausbau des Fernstraßennetzes werden fortgesetzt werden. Der gleiche Rang kommt aber nicht minder der 
 Verbesserung der Verkehrsverhältnisse in den Gemeinden zu. Gestützt auf die von der sogenannten 
-Enquete-Kommission ausgesprochenen Empfehlungen hat die &apos;Bundesregierung die Initiative ergriffen, 
+Enquete-Kommission ausgesprochenen Empfehlungen hat die 'Bundesregierung die Initiative ergriffen, 
 um in enger Zusammenarbeit mit den Ländern rasche 
 und wirksame Hilfe zu leisten. 
 Über die besondere Lage und Problematik der 
@@ -904,7 +881,7 @@ grundsätzliches Einvernehmen auch über die Errichtung des Bildungsrates erziel
 Mit vielen gewichtigen Stimmen der Wissenschaft, 
 Wirtschaft und Publizistik weiß sich die Bundesregierung darin einig, daß die schnelle Entwicklung 
 von Forschung und Technik erheblicher zusätzlicher 
-Anstrengungen bedarf. Nur so kann die Bundesrepublik ihre Stellung als eine der führenden Industrienationen behaupten. Man hat mit Recht gesagt, daß 
+Anstrengungen bedarf. Nur so kann die  Bundesrepublik ihre Stellung als eine der führenden Industrienationen behaupten. Man hat mit Recht gesagt, daß 
 die Forschung von heute der Wohlstand von morgen 
 ist. 
 Wir werden diesen Vorrang der Aufwendungen 
@@ -937,14 +914,14 @@ Besonders wichtig erscheint mir auch die Feststellung, daß die Bundesregierung 
 Verjährungsfrist die weitere Untersuchung und 
 strafrechtliche Verfolgung der nationalsozialistischen Gewaltverbrechen sicherzustellen. Die Bundesregierung richtet in diesem Zusammenhang erneut den Appell an die Welt, sie bei diesem Bestreben zu unterstützen und ihr insbesondere vorhandenes Beweismaterial zur Verfügung zu stellen. 
 Ich komme nunmehr zur Außenpolitik. 
-<interjection>(Zuruf von der SPD: Hoffentlich etwas Konkretes!) </interjection>
+(Zuruf von der SPD: Hoffentlich etwas Konkretes!) 
 Vor zehn Jahren, am 5. Mai 1955, hat die Bundesrepublik Deutschland ihre Souveränität erlangt; 
 gleichzeitig trat sie dem nordatlantischen Bündnis 
  bei. 
 Damals standen sich in der Welt zwei große 
 Machtblöcke gegenüber. Der Graben, der sie 
 trennte, schien unüberbrückbar zu sein. Die Völker 
-lebten in der Furcht, der „Kalte Krieg&quot; könne zu 
+lebten in der Furcht, der „Kalte Krieg" könne zu 
 einer großen atomaren Auseinandersetzung führen. 
 Im Spannungszentrum aber stand das geteilte 
 Deutschland. 
@@ -957,28 +934,28 @@ Ziele die Welt an den Rand einer Katastrophe zu
 treiben. Hier und da hat sich die Erstarrung im Verhältnis der beiden großen Machtblöcke zueinander 
 etwas gelöst; die begrenzten Fortschritte reichen 
 jedoch nicht hin, um bereits von einer echten Entspannung sprechen zu können. 
-<interjection>(Abg. Dr. Barzel: Sehr wahr!) </interjection>
+(Abg. Dr. Barzel: Sehr wahr!) 
 Eine Frage aber ist von dieser Entwicklung unberührt geblieben: das Problem des geteilten deutschen Volkes. 
-<interjection>(Abg. Dr. Barzel: Sehr wahr!) </interjection>
+(Abg. Dr. Barzel: Sehr wahr!) 
 Als im September vor zehn Jahren die Bundesregierung und die sowjetische Regierung übereingekommen waren, diplomatische Beziehungen aufzunehmen, erklärten sie in einem Kommuniqué: 
 Beide Seiten gehen davon aus, daß die Herstellung und Entwicklung normaler Beziehungen zwischen der Bundesrepublik Deutschland 
 und der Sowjetunion zur Lösung der ungeklärten Fragen, die das ganze Deutschland betreffen, beitragen und damit auch zur Lösung des 
-nationalen Hauptproblems des gesamten deutschen Volkes — der Wiederherstellung eines 
+nationalen Hauptproblems des  gesamten deutschen Volkes — der Wiederherstellung eines 
 deutschen demokratischen Staates — verhelfen 
 werden. 
-<interjection>(Abg. Dr. Barzel: Hört! Hört!) </interjection>
+(Abg. Dr. Barzel: Hört! Hört!) 
 Diese Hoffnung hat sich nicht erfüllt. Das lag 
 weder an mangelndem Willen noch an Trägheit oder 
 an doktrinärer Unbeweglichkeit der deutschen Politik, sondern allein an der Tatsache, daß die Sowjetunion die Wiedervereinigung des deutschen Volkes 
 in Freiheit bisher nicht gewollt hat und noch immer 
 nicht will. 
-<interjection>(Zustimmung bei der CDU/CSU.) </interjection>
+(Zustimmung bei der CDU/CSU.) 
 Noch vor zehn Jahren, in der Direktive der Regierungschefs der Vier Mächte vom 23. Juli 1955, hatte 
 die Sowjetunion, wie es wörtlich hieß, einer Lösung 
 der Frage der „Wiedervereinigung Deutschlands 
 durch freie Wahlen im Einklang mit den nationalen 
 Interessen des deutschen Volkes sowie im Interesse 
-der europäischen Sicherheit&quot; zugestimmt. Auch dieses Versprechen wurde nicht eingelöst. 
+der europäischen Sicherheit" zugestimmt. Auch dieses Versprechen wurde nicht eingelöst. 
 Sie hat im Gegenteil im Herbst 1958 mit einem 
 massiven Druck auf Berlin begonnen und ihre Absicht bekundet, diese Stadt von uns zu trennen, d. h. 
 sie zunächst zu einem dritten, selbständigen Teil 
@@ -987,7 +964,7 @@ SBZ einzugliedern. Das ist dank der Standhaftigkeit
 unserer Verbündeten, unserem festen Willen, aber 
 vor allem dank der tapferen Haltung der Berliner 
 nicht gelungen. 
-<interjection>(Beifall bei den Regierungsparteien.) </interjection>
+(Beifall bei den Regierungsparteien.) 
 Die Zukunft Berlins wird auch künftig auf folgenden Grundsätzen und Grundforderungen beruhen, 
 die wir verteidigen: auf der Anwesenheit der drei 
 Verbündeten in Berlin, dem uneingeschränkten 
@@ -995,7 +972,7 @@ freien Zugang nach Berlin, der Zugehörigkeit Berlins
 zum freien Teil Deutschlands, dem Verlangen, daß 
 jede Vereinbarung über Berlin den eindeutigen 
 Willen der Berliner zu respektieren hat. 
-<interjection>(Beifall bei den Regierungsparteien.) </interjection>
+(Beifall bei den Regierungsparteien.) 
 Nachdem die Sowjetunion mit ihren ultimativen 
 Drohungen nicht zum Ziel ihrer Deutschlandpolitik 
 kam, versucht sie nunmehr, den gegenwärtigen Status zunächst einmal sanktionieren zu lassen, indem 
@@ -1006,23 +983,21 @@ politische Einheit hinzustellen. Sie unternimmt große
 Anstrengungen, den Eindruck zu erwecken, als störe 
 der Wunsch des deutschen Volkes nach Wiedervereinigung die Entspannung in der Weltpolitik. Sie 
 bezeichnet die Wiedervereinigung als Sache der, 
-wie sie behauptet, „beiden deutschen Staaten&quot; und 
+wie sie behauptet, „beiden deutschen Staaten" und 
 möchte sich selbst willkürlich aus der Vier- Mächte-
 Verpflichtung lösen. 
 Die Bundesregierung besteht darauf, daß das 
 ganze deutsche Volk in Selbstbestimmung über sein 
 Schicksal entscheiden kann und daß die vier Mächte 
 ihre Verpflichtung einlösen. 
-<interjection>
 (Beifall bei den Regierungsparteien und 
 bei Abgeordneten der SPD.)Bundeskanzler Dr. Dr. h. c. Erhard 
-</interjection>
 Die Bundesregierung hat ebenso wie ihre Verbündeten immer wieder die Lösung der Deutschlandfrage auf der Grundlage dieser beiden Prinzipien 
 gefordert. Um unserem Volke und der Weltöffentlichkeit die Intensität dieser Bemühungen erneut vor 
 Augen zu führen, wird die Bundesregierung darüber 
 ein Weißbuch veröffentlichen. 
 Der Sowjetunion gegenüber hat sich die Bundesregierung mehrfach bereit erklärt, falls eine Einigung über das wichtigste zwischen uns und der Sowjetunion bestehende Problem, nämlich die Wiedervereinigung, nicht sofort möglich sei, doch Schritte 
-zur Verbesserung des gegenseitigen Verhältnisses 
+zur Verbesserung des  gegenseitigen Verhältnisses 
 zu unternehmen. Sie hat zu erkennen gegeben, daß 
 sie über vieles mit sich reden lasse, darunter auch 
 — wie ich hier am 15. Oktober 1964 erklärt habe — 
@@ -1039,36 +1014,36 @@ der Klarheit vor aller Welt willen, keinen politischen Preis dafür zahlen. Insb
 uns zu keinen Maßnahmen bereit finden, die geeignet 
 sind, die Bedingungen für eine Wiedervereinigung 
 in Freiheit zu verschlechtern. Denn wir haben auch 
-für unsere Landsleute in der Zone einzustehen und 
+für unsere Landsleute in  der Zone einzustehen und 
 für deren große Hoffnung, eines Tages endlich wieder unter einer freiheitlichen und demokratischen 
 Ordnung in einem wiedervereinigten Deutschland 
 leben zu dürfen. 
-<interjection>(Beifall bei den Regierungsparteien.) </interjection>
+(Beifall bei den Regierungsparteien.) 
 Den Leistungen, die unsere deutschen Landsleute 
 unter schwersten Bedingungen beim Wiederaufbau 
 in der Zone vollbringen, zollen wir um so mehr Bewunderung, als sie in einem unwürdigen und unfruchtbaren Gesellschaftssystem erzielt werden. 
-<interjection>(Beifall in .der Mitte.) </interjection>
+(Beifall in .der Mitte.) 
 Ein Regime, das aus Angst um seine Existenz dazu 
 greift, in der geteilten Hauptstadt Berlin eine Mauer 
 zu errichten und sich mit Stacheldraht und Wachttürmen zu umgeben, verurteilt sich selbst und kann nur 
 Ablehnung und Verachtung finden. 
-<interjection>(Beifall bei den Regierungsparteien.) </interjection>
+(Beifall bei den Regierungsparteien.) 
 Die Bundesregierung hält seit ihrem Bestehen an 
 ihrem Alleinvertretungsrecht für alle Deutschen fest. 
 Das heißt, daß wir in einer Anerkennung oder einer 
 internationalen Aufwertung der Zone einen unfreundlichen Akt erblicken würden, der sich gegen 
 die Wiederherstellung der deutschen Einheit richtet. 
-<interjection>(Beifall in der Mitte.) </interjection>
+(Beifall in der Mitte.)  
 Wir werden in unseren Anstrengungen, eine solche 
 Entwicklung zu verhindern, nicht nachlassen, selbst 
 auf die Gefahr hin, da oder dort als Störenfried zu 
 gelten. 
-<interjection>(Beifall an der Mitte.) </interjection>
+(Beifall an der Mitte.) 
 Wie würden andere Nationen handeln, wenn sie in 
 unserer Lage wären? Ich bin gewiß, kein Volk von 
 geschichtlichem Anspruch wäre ,bereit, seine Einheit 
 und sein Recht preiszugeben. 
-<interjection>(Anhaltender Beifall bei den Regierungsparteien.) </interjection>
+(Anhaltender Beifall bei den Regierungsparteien.) 
 Die sowjetische Propaganda wirft uns vor, daß 
 unser Wunsch, die Sowjetunion möge unseren 
 Landsleuten das Recht auf Selbstbestimmung gewähren, ein Element der Spannung in die Weltpolitik trage. Diese Agitation stellt die Tatsachen auf 
@@ -1076,7 +1051,7 @@ den Kopf. Würde nämlich die Sowjetunion den
 Deutschen in der Zone das Selbstbestimmungsrecht 
 gewähren und damit die Wiedervereinigung unseres Volkes ermöglichen, so würde sie vielmehr ein 
 entscheidendes Hindernis für eine dauernde Entspannung zwischen Ost und West beseitigen. 
-<interjection>(Beifall in der Mitte.) </interjection>
+(Beifall in der Mitte.) 
 Wir wünschen nicht weniger Entspannung, wir wünschen mehr Entspannung. 
 Dieser Weg mag weit sein. Er wird von uns auch 
 Entbehrungen und Opfer fordern. Wir werden ihn 
@@ -1124,7 +1099,7 @@ die unselige Teilung Europas durch Stacheldraht,
 Minenfelder und Mauern, das ist das Unrecht, das 
 ist die Unmenschlichkeit. Nur die Freiheit kann den 
 Frieden geben, nur die Sicherheit gibt uns Freiheit. 
-<interjection>(Beifall bei den Regierungsparteien.) </interjection>
+(Beifall bei den Regierungsparteien.) 
 Deutschland kann sich nicht allein verteidigen, 
 aber ohne Deutschland kann auch Europa nicht verteidigt werden. Europa kann seine Freiheit nicht 
 ohne Amerika bewahren, aber auch Amerikas Freiheit ist im letzten von der Verteidigung Europas 
@@ -1147,7 +1122,7 @@ muß die nukleare wie die konventionelle Rüstung
 einschließen, es muß alle Staaten verpflichten, auf 
 die es ankommt, und es darf kein Land diskriminieren. 
 Eine zweite grundsätzliche Forderung, die im Einklang mit uns viele andere Regierungen erheben, 
-geht dahin, daß die Abrüstungsmaßnahmen &apos;das 
+geht dahin, daß die Abrüstungsmaßnahmen 'das 
 Kräftegleichgewicht weder global noch regional einseitig verschieben dürfen. 
 Und drittens: Es muß sich um ein Gesamtprogramm handeln, auch wenn dieses nur stufenweise 
 verwirklicht werden kann. 
@@ -1159,16 +1134,16 @@ Entspannungs- oder Sicherheitsmaßnahmen auf der
 Konzeption eines geteilten Deutschlands errichtet 
 wird und dadurch die Spaltung unseres Landes noch 
 mehr vertieft wird. 
-<interjection>(Beifall bei den Regierungsparteien.) </interjection>
+(Beifall bei den Regierungsparteien.) 
 Ich möchte an dieser Stelle nochmals in Erinnerung rufen, daß die Bundesrepublik Deutschland im 
 Jahre 1954 ihren Verbündeten gegenüber freiwillig 
 darauf verzichtet hat, ABC-Waffen auf ihrem Gebiet 
 herzustellen. Wir würden es begrüßen, wenn möglichst viele andere Staaten diesem deutschen Beispiel folgten. 
-<interjection>(Sehr gut! bei den Regierungsparteien.) </interjection>
+(Sehr gut! bei den Regierungsparteien.) 
 Mit dieser Verpflichtung haben wir das wesentliche 
 Element eines Vertrages über die Nichtweitergabe 
 von Atomwaffen vor bereits elf Jahren erfüllt. 
-<interjection>(Beifall bei den Regierungsparteien.) </interjection>
+(Beifall bei den Regierungsparteien.) 
 Das nordatlantische Bündnis hat sich bewährt. Die 
 große militärische Macht unserer Allianz hat Westeuropa geschützt und schützt es weiterhin. Die 
 NATO bildet die Grundlage unserer Verteidigungspolitik. 
@@ -1192,11 +1167,11 @@ ergeben, daß nunmehr einige Mitglieder der Allianz
 über eigene Kernwaffen verfügen, andere aber nicht. 
 An der nuklearen Verteidigung müssen indessen 
 die Bundesgenossen nach dem Grad ihrer Bedrohung und dem Grad ihrer Leistungen beteiligt werden. 
-<interjection>(Zustimmung in der Mitte.) </interjection>
+(Zustimmung in der Mitte.) 
 Wir denken dabei an Formen einer gemeinsamen 
 nuklearen Organisation und beteiligen uns an Beratungen mit den verbündeten Mächten. Wir haben 
 wiederholt bekundet, daß wir keine nationale Kontrolle über Kernwaffen anstreben. Wir sollten aber 
-nicht von jeder nuklearen Beteiligung deshalb ferngehalten werden, weil wir ein geteiltes Land sind. 
+nicht von jeder nuklearen Beteiligung deshalb ferngehalten werden, weil wir ein geteiltes Land  sind. 
  Die Spaltung Deutschlands ist ein Unrecht. Dem darf 
 nicht ein zweites dadurch hinzugefügt werden, daß 
 man uns, die wir Wesentliches für das westliche 
@@ -1217,14 +1192,12 @@ die einen unverzichtbaren Bestandteil der gemeinsamen Verteidigung ausmachen. Si
 und die Verbindung zu dieser Stadt zu erhalten. 
 Unser Lebensinteresse gebietet uns, mit den USA 
 politisch und militärisch eng zusammenzuarbeiten. 
-<interjection>
 (Beifall bei den Regierungsparteien und bei 
 Abgeordneten der SPD.) 
-</interjection>
 Lassen Sie mich aber im besonderen von Europa 
 sprechen: Der große Plan eines europäischen Zusammenschlusses war, ist und bleibt Ziel unserer 
 Politik. 
-<interjection>(Beifall bei den Regierungsparteien.) </interjection>
+(Beifall bei den Regierungsparteien.) 
 Der Gedanke und der Glaube an ein geeintes 
 Europa haben unseren politischen Willen geprägt 
 und uns Hoffnung gegeben. Die alte, die überlieferte europäische Ordnung genügt nicht mehr dem 
@@ -1232,7 +1205,7 @@ Geist und den Erfordernissen unseres Jahrhunderts.
 Mit Allianzen, Verträgen und Einzelabsprachen alten Stils ist es nicht mehr getan. Ein neues, ein vereintes und großes Europa muß neben den Vereinigten Staaten und der Sowjetunion jene Geltung erlangen, die der geschichtlichen, geistigen und kulturellen Leistung seiner Völker entspricht. Europa 
 muß sich politisch, wirtschaftlich und militärisch 
 formieren. 
-<interjection>(Heiterkeit bei der SPD.) </interjection>
+(Heiterkeit bei der SPD.) 
 Die Entwicklung in den letzten beiden Jahrzehnten hat uns in der Erkenntnis bestärkt, daß hierin 
 die einzige Chance liegt, unserem alten Kontinent 
 auf fester und dauerhafter Grundlage weltpolitischen Rang zu sichern. 
@@ -1246,13 +1219,13 @@ wird die deutsche Politik in ihrem Streben nach der
 Einigung Europas nicht nachlassen. Unser Ziel bleibt 
 unverändert. 
 Wir werden insbesondere alles tun, um zu erhalten und zu bewahren, was die drei europäischen 
-Gemeinschaften bereits erreicht haben. Wir wollen 
+Gemeinschaften bereits erreicht haben. Wir wollen  
 dabei nicht dogmatisch vorgehen, aber wir werden 
 andererseits auch sorgsam die Gefahren bedenken, 
 die dem schon weit gediehenen Werk drohen, falls 
 die Grundlagen der geschlossenen und gültigen Verträge in Frage gestellt würden. Wir sind bereit, unseren wirtschaftlichen Beitrag zur Einigung Europas 
 auch weiterhin zu leisten. Dabei erwarten wir allerdings, daß sich der Fortschritt in den wesentlichen 
-Teilbereichen des Gemeinsamen Marktes gleichzeitig vollzieht. Hierzu gehört vor allem ein ausgewogenes Verhältnis der wirtschaftlichen Weiterentwicklung der Gemeinschaften auf allen Gebieten. 
+Teilbereichen des  Gemeinsamen Marktes gleichzeitig vollzieht. Hierzu gehört vor allem ein ausgewogenes Verhältnis der wirtschaftlichen Weiterentwicklung der Gemeinschaften auf allen Gebieten. 
 Es wird langwieriger, schwieriger Verhandlungen 
 bedürfen, um eine Übereinstimmung der Interessen 
 der europäischen Völker herbeizuführen. 
@@ -1283,7 +1256,7 @@ auch unseren Wunsch respektieren, die Teilung
 unseres Landes durch freie Selbstbestimmung des 
 gesamten deutschen Volkes zu überwinden, und uns 
 in ihrer Haltung dabei unterstützen. 
-<interjection>(Beifall bei den Regierungsparteien.) </interjection>
+(Beifall bei den Regierungsparteien.) 
 Wir verlangen damit nicht mehr als die Achtung 
 und Anerkennung eines Grundsatzes, auf dem die 
 Existenz der meisten dieser jungen Staaten beruht. 
@@ -1304,7 +1277,7 @@ ist und ob das Hilfe empfangende Land auch für
 Deutschland die Prinzipien der Selbstbestimmung 
 und der nationalen Einheit anerkennt, die es für 
 sich selbst in Anspruch nimmt. 
-<interjection>(Beifall bei den Regierungsparteien.) </interjection>
+(Beifall bei den Regierungsparteien.) 
 In diesem Zusammenhang ein Wort über den 
 Stand unserer Beziehungen zu den arabischen Staaten. Wir verstehen das Streben der arabischen Völker nach Einheit und ihren Wunsch nach wirtschaftlichem und sozialem Fortschritt. Wir haben beides 
 unterstützt. Wir sind bereit, diese Unterstützung 
@@ -1312,7 +1285,7 @@ auch in Zukunft zu gewähren. Voraussetzung ist
 allerdings, daß die arabischen Staaten Verständnis 
 zeigen für die Lage, in der sich Deutschland auf 
 Grund der gewaltsamen Teilung befindet. 
-<interjection>(Beifall.) </interjection>
+(Beifall.) 
 Voraussetzung ist ferner, daß die arabischen Völker 
 Verständnis dafür aufbringen, wie sehr uns Deutschen daran gelegen sein muß, normale Beziehungen zu Israel zu unterhalten. Wir wollen den arabischen Regierungen, die in diesem Frühjahr den 
 bedauerlichen Schritt des Abbruchs diplomatischer 
@@ -1323,13 +1296,13 @@ des Dankes für die besonnene und ausgewogene
 Politik an die Regierungen jener arabischen Staaten 
 richten, die sich jenem Schritt nicht angeschlossen 
 haben. 
-<interjection>(Beifall bei den Regierungsparteien.) </interjection>
+(Beifall bei den Regierungsparteien.) 
 Der Botschafteraustausch mit Israel, 20 Jahre nach 
 dem Ende des NS-Staates, ist ein entscheidender 
 Beitrag zu einem Neubeginn. Er eröffnet Möglichkeiten einer friedlichen Zusammenarbeit mit einer 
 aufstrebenden Nation und der Fortsetzung eines 
 fruchtbaren geistigen Dialogs mit einem alten Kulturvolk. 
-<interjection>(Beifall.) </interjection>
+(Beifall.) 
 Die Bedeutung der auswärtigen Kulturpolitik 
 kann kaum hoch genug veranschlagt werden. Sie 
 ist, unabhängig von den Veränderungen der jeweils 
@@ -1337,7 +1310,7 @@ aktuellen Lage, in hohem Maße berufen, den wechselnden Konstellationen der Inte
 Deutschland, indem sie von den Leistungen unserer 
 Zivilisation, der Größe ihrer Tradition, der Lebendigkeit ihrer Gegenwart Kunde gibt. Die Chancen 
 der auswärtigen Kulturpolitik sind freilich nicht 
-allein von der Bundesrepublik bestimmbar, die 
+allein von der Bundesrepublik bestimmbar, die  
 dazu nur Mittel und politische Unterstützung sowie 
 Instrumente und Administration stellen kann. Im 
 eigentlichen und letzten hängen sie ab von der Kraft 
@@ -1357,7 +1330,7 @@ Geltung zu verschaffen suchen, auf die sie nach Verbreitung und Bedeutung Anspru
 das Bild Deutschlands, das als Handels- und Industrienation der Welt geläufig ist, durch jene Züge 
 ergänzen, die zum Bild Deutschlands gehören: die 
 Züge des Geistes und der menschlichen Gesittung. 
-<interjection>(Beifall bei den Regierungsparteien.) </interjection>
+(Beifall bei den Regierungsparteien.) 
 Die Bundeswehr wird während der kommenden 
 Legislaturperiode ihr inneres Gefüge weiter zu festigen und ihre Kampfkraft so zu erhöhen haben, daß 
 sie in der Lage ist, auf der dann erreichten geistigen, 
@@ -1375,7 +1348,7 @@ Unterstützung des Bundestages und der wachsenden
 Anteilnahme unseres Volkes an den Aufgaben und 
 Anliegen unserer Soldaten. 
 Die militärische Verteidigung bliebe ohne den 
-großen Bereich dessen, was wir „zivile Verteidigung&quot; nennen, nur ein Torso. In ihrem Aufbau sieht 
+großen Bereich dessen, was wir „zivile Verteidigung" nennen, nur ein Torso. In ihrem Aufbau sieht 
 die Bundesregierung auch einen finanziell wichtigen 
 Beitrag zur NATO wie zur WEU. 
 Zur zivilen Verteidigung gehört auch das Problem 
@@ -1394,7 +1367,7 @@ Bundesregierung wird alles daransetzen, daß in dieser Legislaturperiode die zah
 bewältigt und insbesondere die Vorbehaltsrechte 
 auch auf diesem Gebiet endlich durch ein deutsches 
 Gesetz abgelöst werden. 
-<interjection>(Beifall bei den Regierungsparteien.) </interjection>
+(Beifall bei den Regierungsparteien.) 
 Die innere Sicherheit unseres Staates ruht auf 
 einer breiten und festen Grundlage. Dies zeigt nicht 
 zuletzt die deutliche Absage, die unser Volk allen 
@@ -1409,7 +1382,7 @@ nach außen vor neue Aufgaben stellt, zu neuen
 Pflichten ruft, daß eine neue Lage mit neuen Mitteln gemeistert werden muß, daß eine Periode nüchterner Besinnung vor uns liegt. 
 Der Aufstieg der Bundesrepublik, die Wandlung 
 Deutschlands und der Deutschen, die sich darin 
-manifestiert, ist ständig von einer kritischen öffentlichen Meinung begleitet gewesen, die uns wohl vor 
+manifestiert, ist ständig von einer kritischen öffentlichen Meinung begleitet gewesen, die uns wohl vor  
 der Versuchung der Selbstzufriedenheit bewahrt hat, 
 die aber auch oft genug die Identifikation der Deutschen mit ihrem Staat und mit ihrer Leistung nach 
 dem Kriege erschwerte. Ich möchte darum sagen, 
@@ -1418,7 +1391,7 @@ daß gerade ein Volk, das geteilt ist wie das deutsche,
 die Überzeugung an das eigene Recht, die eigene 
 Aufgabe braucht, den Glauben an die Legitimität 
 seiner Politik und seiner Interessen. 
-<interjection>(Beifall bei den Regierungsparteien.) </interjection>
+(Beifall bei den Regierungsparteien.) 
 Diesen Tatbestand sollte auch die politische Kritik 
 respektieren; sie mag im übrigen meine Regierung 
 und mich angreifen, wie es ihr Gesinnung, Anlässe 
@@ -1435,26 +1408,16 @@ Bundesregierung auf: Lassen Sie uns prüfen, was
 zu tun ist; lassen Sie uns streiten, wo noch Zweifel 
 herrscht, über das Richtige; lassen Sie uns gemeinsam handeln, wo Gewißheit besteht; lassen Sie uns 
 einstehen für das Recht, die Freiheit und die Einheit des Landes, dem wir dienen. 
-<interjection>
 (Anhaltender lebhafter Beifall bei den 
 Regierungsparteien.) 
-</interjection>
-</speech>
-<speech>
-<speaker>
-<name>Dr. Gerstenmaier</name><public_office>Präsident</public_office>
-</speaker>
- Meine Damen 
+Präsident D. Dr. Gerstenmaier: Meine Damen 
 und Herren! Sie haben die Erklärung der Bundesregierung gehört. Die Aussprache findet am Mittwoch, dem 24. November, 9.00 Uhr, statt. Ich berufe 
 dazu die nächste Sitzung des Deutschen Bundestages 
 ein. 
 Die Sitzung ist geschlossen. 
-</speech>
-<attachement>
-<item id="1" >
 (Schluß der Sitzung 13.04 Uhr.)Anlage 
 Liste der beurlaubten Abgeordneten 
-Abgeordnete (r) beurlaubt bis einschließlid 
+Abgeordnete (r) 	 beurlaubt bis einschließlid 
 a) Beurlaubungen 
 Dr. Adenauer 30. 11. 
 Dr. Adolf Arndt (Berlin /Köln) 10. 11. 
@@ -1469,7 +1432,7 @@ Dr. Kempfler 11. 11.
 Koenen (Lippstadt) 20. 11. 
 Lücker (München)* 10. 11. 
 Mengelkamp 20. 11. 
-Abgeordnete (r) beurlaubt bis einschließlich 
+Abgeordnete (r) 	 beurlaubt bis einschließlich 
 Metzger 10. 11. 
 Riedel (Frankfurt) 10. 11. 
 Frau Schimschok 10. 11. 
@@ -1490,7 +1453,3 @@ Wieninger 24. 11.
 
 
 
-</item>
-</attachement>
-</session>
-</protocol>

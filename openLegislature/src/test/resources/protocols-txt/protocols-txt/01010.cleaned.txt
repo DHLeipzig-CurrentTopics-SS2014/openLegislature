@@ -1,70 +1,59 @@
-<protocol session_number="10. Sitzung" >
-<header>
+10. Sitzung 
 Bonn, Donnerstag, den 29. September 1949. 
-</header>
-<agenda>
-<item id="0" >
-Geschäftliche Mitteilungen 175D 
+Geschäftliche Mitteilungen 	 175D 
 Fortsetzung der Aussprache über die Erklärung der Bundesregierung: 
-<speaker><name>Dr. Schmid</name><party>SPD</party></speaker>
-Unterbrechung der Sitzung . . 185D 
-<speaker><name>Dr. Adenauer</name><public_office>Bundeskanzler</public_office></speaker>
+Dr. Schmid (SPD) 	 176A 
+Unterbrechung der Sitzung . . 	 185D 
+Dr. Adenauer, Bundeskanzler . . 	 186B 
 Erklärung der Bundesregierung über die Besprechungen mit den drei Hohen Kommissaren: 
-<speaker><name>Dr. Adenauer</name><public_office>Bundeskanzler</public_office></speaker>
+Dr. Adenauer, Bundeskanzler . . . 185D 
 interfraktioneller Antrag, betreffend Einsetzung von Ausschüssen (Drucksache Nr. 45) 188C 
 Anträge der Fraktionen auf Bildung von 
 Ausschüssen (Drucksachen Nr. 51 bis 58) 188D 
 Ausschuß für innergebietliche Neuordnung: 
-<speaker><name>Dr. Falkner</name><party>BP</party></speaker>
-<speaker><name>Dr. Schmid</name><party>SPD</party></speaker>
+Dr. Falkner (BP) 	 188D 
+Dr. Schmid (SPD) 	 189B 
 Ausschuß für Fragen der öffentlichen 
-Fürsorge 189B 
-<speaker><name>Dr. Kleindinst</name><party>CSU</party></speaker>
-<speaker><name>Dr. Goetzendorff</name><party>WAV</party></speaker>
-Ausschuß für Fragen des Gesundheitswesens 189D 
+Fürsorge 	 189B 
+Dr. Kleindinst (CSU) 	 189C 
+Dr. Goetzendorff (WAV) 	 189C 
+Ausschuß für Fragen des Gesundheitswesens 	 189D 
 Ausschuß für Fragen der Jugendfürsorge: 
-<speaker><name>Dr. Besold</name><party>BP</party></speaker>
-<speaker><name>Frau Dr. Weber</name><party>CDU</party></speaker>
-<speaker><name>Strauß</name><party>CSU</party></speaker>
+Dr. Besold (BP) 	 190A 
+Frau Dr. Weber (CDU) 	 190B 
+Strauß (CSU) 	 190C 
 Ausschuß für Fragen der Presse, des 
 Rundfunks und des Films: 
-<speaker><name>Dr. Besold</name><party>BP</party></speaker>
-Ausschuß gemäß Artikel 15 des Grundgesetzes 191B 
+Dr. Besold (BP) 	 190D 
+Ausschuß gemäß Artikel 15 des Grundgesetzes 	 191B 
 Ausschuß für Bau- und Bodenrecht , 
- 191B 
+	 191B 
 Ausschuß für Kulturpolitik: 
-<speaker><name>Mayer</name><party>FDP</party></speaker>
-<speaker><name>Dr. Besold</name><party>BP</party></speaker>
-<speaker><name>Dr. Laforet</name><party>CSU</party></speaker>
-<speaker><name>Euler</name><party>FDP</party></speaker>
-Ausschuß zur Förderung von Wissenschaft und Forschung 192D 
+Mayer (FDP) 	 191D 
+Dr. Besold (BP)  	 192A 
+Dr. Laforet (CSU) 	 192C 
+Euler (FDP) 	 192C 
+Ausschuß zur Förderung von Wissenschaft und Forschung 	 192D 
 Beschlußfassung über die Mitgliederzahl der 
-Ausschüsse und Verfahren zu ihrer Besetzung (Drucksachen Nr. 48 und 64) . 193A 
-<speaker><name>Schoettle</name><party>SPD</party></speaker>
-<speaker><name>Scharnberg</name><party>CDU</party></speaker>
-<speaker><name>Dr. Miessner</name><party>NR</party></speaker>
-<speaker><name>Dr. Reismann</name><party>Z</party></speaker>
-<speaker><name>Euler</name><party>FDP</party></speaker>
-Dr. von Brentano 195B, 198D 
-<speaker><name>Loritz</name><party>WAIT</party></speaker>
-<speaker><name>Dr. Merkatz</name><party>DP</party></speaker>
-<speaker><name>Renner</name><party>KPD</party></speaker>
-<speaker><name>Dr. Seelos</name><party>BP</party></speaker>
-<speaker><name>Kinat</name><party>SPD</party></speaker>
-Unterbrechung der Sitzung . . 202C 
-<speaker><name>Dr. Schäfer</name><party>FDP</party></speaker>
-<speaker><name>Dr. Miessner</name><party>NR</party></speaker>
-Nächste Sitzung 202D, 203C, D 
-</item>
-</agenda>
-<session>
+Ausschüsse und Verfahren zu ihrer Besetzung (Drucksachen Nr. 48 und 64) .   193A 
+Schoettle (SPD) 193B, 194D, 195A, 196B, 200B 
+Scharnberg (CDU)  193D 
+Dr. Miessner (NR) . . . 193D, 198D, 2014 
+Dr. Reismann(Z) 194A; 195D, 196A, 197C, 200C 
+Euler (FDP) 	 194C, 197A 
+Dr. von Brentano 	 195B, 198D 
+Loritz (WAIT) 	 197D 
+Dr. von Merkatz (DP) 	 199A 
+Renner (KPD) . . . . . . . . 	 199B 
+Dr. Seelos (BP) 	 201C 
+Kinat (SPD) 	 201C 
+Unterbrechung der Sitzung . . 	 202C 
+Dr. Schäfer (FDP) (zur Geschäftsordnung) 	 202D 
+Dr. Miessner (NR) 	 203A, C 
+Nächste Sitzung 	 202D, 203C, D 
 Die Sitzung wird um 14 Uhr 10 Minuten durch 
 den Präsidenten Dr. Köhler eröffnet. 
-<speech>
-<speaker>
-<name>Dr. Köhler</name><public_office>Präsident</public_office>
-</speaker>
- Meine Damen und Herren! 
+Präsident Dr. Köhler: Meine Damen und Herren! 
 Ich eröffne die 10. Sitzung des Deutschen Bundestags. 
 Die Tagesordnung liegt Ihnen gemäß Abmachung 
 im Ältestenrat vor. Ich darf gleich hinzufügen, daß 
@@ -85,23 +74,13 @@ des Saales sich schnellstens hier einfinden.
 Ich darf dann den Herrn Schriftführer bitten, die 
 heute abwesenden Mitglieder bekanntzugeben. 
 
-</speech>
-<speech>
-<speaker>
-<name>Karpf</name><public_office>Schriftführer</public_office>
-</speaker>
- In der heutigen Sitzung sind 
+Karpf, Schriftführer: In der heutigen Sitzung sind 
 beurlaubt wegen Krankheit die Abgeordneten 
 Professor Dr. Baur, Kuhlemann und Dr. Schumacher, auf Grund von Entschuldigungen die Abgeordneten Dirscherl, Dr. Horlacher, Bauknecht, 
 Marx, Dr. Baumgartner, Frühwald, Margulies, 
 von Aretin; Farke, Walter, Hellwege, Dr. Dresbach, 
 Wallner und Nowak. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Köhler</name><public_office>Präsident</public_office>
-</speaker>
- Meine Damen und Herren! 
+Präsident Dr. Köhler: Meine Damen und Herren! 
 Bevor wir in die Tagesordnung eintreten, möchte 
 ich noch mitteilen, daß sich der Herr Bundeskanzler 
 und einige andere Mitglieder des Kabinetts zur Zeit 
@@ -114,12 +93,7 @@ Fortsetzung der Aussprache über die Erklärung
 der Bundesregierung. 
 Ich erteile dem Herrn Abgeordneten Professor 
 Dr. Schmid das Wort. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Schmid</name><party>SPD</party>
-</speaker>
- Meine Damen und Herren! Es 
+Dr. Schmid '(SPD): Meine Damen und Herren! Es 
 ist in diesem Raum eine gute Woche lang sehr viel 
 von Demokratie und fast noch mehr von Freiheit 
 gesprochen worden. Vielleicht werden die Geschichtsschreiber einst dieses Gebäude noch das 
@@ -136,18 +110,18 @@ die Gefahren der Planwirtschaft, die man seltsamerweise in diesem Hause so gern 
 nennt, so als könnten sich manche Leute Planung 
 und Ordnung nicht anders denn als Produkt von 
 Kommando und Zwang vorstellen. 
-<interjection>(Zuruf rechts: Staatliches Kommando!) </interjection>
+(Zuruf rechts: Staatliches Kommando!) 
 Dabei schien gestern noch die Planwirtschaft gar 
 nicht .so abwegig zu sein! Ich erinnere Sie, meine 
 Damen und Herren auf den Bänken vor mir, an 
 den Artikel 5 Ihres Ahlener Programms, den der 
 Abgeordnete Blank so beredt und so seltsam ausgelegt hat, wie es ein Geschäftsführer des weiland 
 Hansa-Bundes, nicht besser hätte tun können. 
-<interjection>(Beifall bei der SPD.) </interjection>
+(Beifall bei der SPD.) 
 Es ist schade, daß unser Kollege von Brentano 
 nicht da ist; ich hätte ihn daran erinnert, wie freudig er sich seinerzeit zur hessischen Verfassung bekannt hat, die nicht nur die Planwirtschaft, sondern, 
 Herr Kollege Euler, ich glaube auch die Sozialisierung zum Inhalt des Staatsgrundgesetzes von 
-Hessen machte. Sehen&apos; Sie, in solchen Dingen, die 
+Hessen machte. Sehen' Sie, in solchen Dingen, die 
 weit jenseits der Sphäre liegen, wo Güte und Bosheit der Menschen etwas zu bewirken vermögen, 
 manifestiert sich gelegentlich ein sehr altes Phänomen, das den Betrachter der Zeitläufe melancholisch stimmen kann — das Phänomen nämlich, daß 
 im ersten Schock eines Zusammenbruchs fast alle 
@@ -157,7 +131,7 @@ klarer sehen, was die tieferen Ursachen des Zusammenbruchs gewesen sind, und da�
 Auflockerung durch den Schock — es gibt auch politisch eine Schocktherapie — bereiter als sonst sind, 
 Konsequenzen zu ziehen. Nach der ersten Erholung 
 beruhigt man sich, man atmet auf — „die Dinge 
-sind ja längst nicht so schlimm&quot; —, das Gesetz der 
+sind ja längst nicht so schlimm" —, das Gesetz der 
 Trägheit wirkt, und man strebt nach dem Ruhebett 
 des Gewohnten zurück. 
 Meine Damen und Herren, ich sagte einleitend, 
@@ -186,12 +160,12 @@ gibt es kaum ein einleuchtenderes Beispiel als die
 bekannte Rede eines gewissen Junkers Otto von 
 Bismarck aus dem Jahre 1847, wo er als göttlichem 
 und menschlichem Recht widerstreitend darstellte, 
-daß die adligen Grundbesitzer zur gleichen Grundsteuer herangezogen werden sollen wie die bürgerlichen. Das war durchaus „sittlich&quot; gemeint und 
+daß die adligen Grundbesitzer zur gleichen Grundsteuer herangezogen werden sollen wie die bürgerlichen. Das war durchaus „sittlich" gemeint und 
 keine Tartufferie. 
 Meine Damen und Herren, was hier in diesen 
 Tagen im Namen der individuellen Freiheit vertreten worden ist, das waren zum großen Teil Relikte des Nationalliberalismus der Wilhelminischen 
 Zeit. 
-<interjection>(Hört! Hört!) </interjection>
+(Hört! Hört!) 
 Es war weitgehend der sehr respektable Honoratioren-Liberalismus von Besitz und Bildung — der 
 zu seiner Zeit wohl eine höchst moderne und die 
 Welt reich befruchtende Sache gewesen ist. Aber 
@@ -199,13 +173,13 @@ leider haben heute in unserem Volk nur wenige
 den dafür erforderlichen Besitz, und die Bildung 
 ist leider nicht immer dort, wo solcher Besitz sich 
 findet. 
-<interjection>(Sehr richtig!) </interjection>
+(Sehr richtig!) 
 Was einigen der Vertreter und Lobpreiser dieses 
 Wesens im Denkbild vorschwebt, das wirkt sich 
 real aus — nicht gewollt, aber es wirkt sich nun 
 eben einmal aus als die Freiheit des reichen Mannes, der sein Gesinde und seine Klientel ordentlich 
 behandelt. 
-<interjection>(Abg. Euler: Ein großes Mißverständnis!) </interjection>
+(Abg. Euler: Ein großes Mißverständnis!) 
 — Ich glaube nicht, Herr Kollege Euler, obwohl 
 vielleicht bei Ihnen die Generationenfrage eine Rolle(Dr. Schmid) 
 spielen mag. 
@@ -224,28 +198,28 @@ Brot zu stehlen!
 Herr Dr. Ewers hat uns ein Idealbild seiner Demokratie und seiner sozialen Gerechtigkeit entrollt, 
 ein Bild, auf dem ich manche Züge entdeckte, die 
 mir in meiner — frühen — Jugend die Lektüre 
-von Gustav Freytags „Soll und Haben&quot; so sympathisch gemacht haben. Aber so ehrenwert das alles 
+von Gustav Freytags „Soll und Haben" so sympathisch gemacht haben. Aber so ehrenwert das alles 
 ist — und es ist durchaus ehrenwert —, es ist das 
 die Sozialphilosophie des weiland Junkers von der 
 Marwitz. Das ist die gute alte Zeit. Es ist die Welt 
-des Immermannschen „Oberhof&quot;. Aber wo dieser 
+des Immermannschen „Oberhof". Aber wo dieser 
 Oberhof einst stand, Herr Dr. Bucerius, da stehen 
 heute — Ihnen wohl bekannt — Zechen und Hütten. 
 Und die Probleme, die dieser Wandel aufwirft, löst 
 man nicht mit der sozialökonomischen Weisheit 
 Onkel Bräsigs, daß die Armut von der Powerteh 
 komme. 
-<interjection>(Zustimmung und Heiterkeit.) </interjection>
+(Zustimmung und Heiterkeit.) 
 Letzten Endes läßt sich diese Auffassung von Demokratie in dem Satz resumieren: Demokratie ist 
 dort, wo die Leute einem glauben, daß sie Ursache 
 haben, mit ihrem Los zufrieden zu sein; und die 
-Feinde der Demokratie — die „subversiven Elemente&quot;, wie man sie einstmals nannte —, das sind 
+Feinde der Demokratie — die „subversiven Elemente", wie man sie einstmals nannte —, das sind 
 jene, die den armen Leuten Zweifel darüber erwecken, daß diese Welt der Väter die beste aller 
 möglichen Welten sei. 
 Dagegen steht unsere Auffassung, von Demokratie, die lautet: Demokratie ist nur dort eine lebendige Wirklichkeit, wo man bereit ist, im Anruf des 
 jeweiligen Hier und Jetzt die sozialen und ökonomischen Konsequenzen aus ihren Postulaten zu 
 ziehen. 
-<interjection>(Beifall bei der SPD.) </interjection>
+(Beifall bei der SPD.) 
 Dazu gehört einiges. Dazu gehört, daß man den 
 Menschen herausnimmt aus der bloßen Objektsituation — nicht nur im formalpolitischen Bereich, 
 sondern auch und gerade dort, wo der Schwerpunkt seines Lebens liegt, nämlich im ökonomischen und im sozialen Bereich. Es lohnt sich 
@@ -257,18 +231,18 @@ Sie einige der schönsten Seiten gelesen haben, die
 je einen Beitrag zu einer humanistischen Konzeption des Verhältnisses des Menschen zur Welt gegeben haben. Wir müssen aber den Menschen aus 
 dieser Objektsituation unter den Gegebenheiten 
 dieses Jahrhunderts herausnehmen, das — wenn 
-Sie wollens: Gott sei&apos;s geklagt — ein Jahrhundert 
+Sie wollens: Gott sei's geklagt — ein Jahrhundert 
 der Maschine ist und ein Jahrhundert der Vermassung. 
 Weiter muß man dann den Menschen herausnehmen wollen aus dem Verfallensein an die Krisen, die das notwendige Produkt der zügellosen 
 Wirtschaft sind, die Sie so gerne und so idyllisch 
-die „freie&quot; nennen. Dazu gehört weiter, daß man 
+die „freie" nennen. Dazu gehört weiter, daß man 
 dem Menschen, der zur Lohnarbeit gezwungen ist, 
 erträgliche Arbeits- und Lohnbedingungen schafft 
 durch die Brechung des Monopols der Eigentümer 
 der Produktionsmittel bei der Bestimmung der Arbeitsbedingungen. Und da muß man zuerst die 
 industrielle Reservearmee demobilisieren, die Sie 
 von Frankfurt aus mobilisiert haben! 
-<interjection>(Lebhafter, Beifall bei der SPD.) </interjection>
+(Lebhafter, Beifall bei der SPD.) 
 Das erfordert einige Strukturveränderungen in 
 unserer Gesellschaftsverfassung. Es erfordert, daß 
 man den Betrieben - das heißt dort, wo die Menschen dieses Volkes den größten Teil ihres Lebens 
@@ -277,7 +251,7 @@ Jahren im Staate geschaffen hat. Es bedingt weiter, daß die Wirtschaft — mit 
 natürlich — geplant und gelenkt werden muß, und 
 zwar unter gleichwertiger Beteiligung der Organisationen der Arbeiterschaft. Als ich am ersten Tage 
 von da drüben rechts einen Zwischenruf hörte: „Na, 
-da wird was Schönes herauskommen!&quot;, da habe ich 
+da wird was Schönes herauskommen!", da habe ich 
 mich ein kleines bißchen geschämt. 
 Es bedingt weiter, daß man die Schlüssel- und 
 Grundstoffindustrien in Gemeineigentum überführt. 
@@ -287,16 +261,16 @@ wo die Schalthebel der Wirtschaft nicht in Händen
 von Gruppen liegen, denen , ihre wirtschaftliche 
 Macht die Möglichkeit gibt, sich der demokratischen 
 Kontrolle — jedenfalls einer wirksamen demokratischen Kontrolle — zu entziehen. 
-<interjection>(Sehr richtig! bei der SPD.) </interjection>
+(Sehr richtig! bei der SPD.) 
 Wenn Sie hierbei von Kommandowirtschaft sprechen und wenn es Ihnen beliebt, Parallelen zur 
-Hitlerschen Zwangs- und Kriegswirtschaft zu ziehen, dann frage ich Sie: Gibt es denn als Kontrast 
+Hitlerschen Zwangs- und Kriegswirtschaft zu ziehen, dann frage ich Sie:  Gibt es denn als Kontrast 
  
 zu Gesetzlosigkeit und Planlosigkeit nichts anderes 
 als den Kasernenhof? Kann man sich als Kontrast 
 denn nicht vorstellen, daß an die Stelle eines erbarmungslosen Mechanismus eine Ordnung tritt, die 
 der vorsorgende Verstand des Menschen geschaffen 
 hat? 
-<interjection>(Lebhafter Beifall bei der SPD.) </interjection>
+(Lebhafter Beifall bei der SPD.) 
 Es ist seltsam, daß sich sehr warmherzige Menschen, die hier gesprochen haben, so gegen diese 
 Möglichkeit sträuben. Aber, meine Damen und 
 Herren, Warmherzigkeit konsumiert sich nicht darin, daß man der Arbeiterschaft versichert, wie leid 
@@ -306,9 +280,9 @@ wünsche, sondern sie erfüllt sich darin, daß man
 ohne Ressentiment die Konsequenzen daraus zieht, 
 daß die kapitalistische Wirtschaftsordnung in Gottes oder in Teufels Namen die Arbeiterschaft eben 
 weithin proletarisiert hat 
-<interjection>(Sehr wahr! bei der SPD) </interjection>
+(Sehr wahr! bei der SPD) 
 und daß sie bewirkt hat, daß auch die „kleine 
-selbständige Existenz&quot; das Privileg weniger geworden ist. 
+selbständige Existenz" das Privileg weniger geworden ist. 
 Wenn man hier den Versuch gemacht hat, Karl 
 Marx und was sich über ihn hinaus entwickelt hat, 
 mit Adam Smith zu widerlegen, so darf ich sagen, 
@@ -316,11 +290,11 @@ meine Damen und Herren: die Wirtschaftsgeschichte
 des 19. und des halben 20. Jahrhunderts ist doch 
 ein einziges Zeugnis dafür, daß man gezwungen 
 war, wenigstens etwas von dem zu korrigieren, was 
-die Epigonen von Adam Smith über die Menschheit gebracht haben. 
+die Epigonen von Adam  Smith  über die Menschheit gebracht haben. 
 Man hat hier den Wagemut des unternehmenden 
 Menschen gelobt, man hat die Zeiten gelobt, die 
 
-<interjection>(Dr. Schmid) </interjection>
+(Dr. Schmid) 
 charakterisiert sind durch Reglementslosigkeit 
 - gut! —, man hat hier an den Pioniergeist der 
 Neuen Welt appelliert. Aber, meine Damen und 
@@ -328,12 +302,12 @@ Herren, alle diese Dinge hatten ihren Preis, und
 dieser Preis war die Brutalität des Menschen gegen 
 den Menschen. Der Preis, den man dafür zu zahlen 
 hatte, war das Gesetz des Dschungels! 
-<interjection>(Sehr gut! bei der SPD.) </interjection>
+(Sehr gut! bei der SPD.) 
 Jenen, denen der Pioniergeist so gefällt, 
-<interjection>(Zurufe rechts) </interjection>
-nöchte ich das Wort der „Pioniere&quot; in Erinnerung 
-rufen: „Nur ein toter Indianer ist ein guter Indianer!&quot; — Die Indianer haben für den Pioniergeist bezahlt! 
-<interjection>(Widerspruch und Zurufe rechts.) </interjection>
+(Zurufe rechts) 
+nöchte ich das Wort der „Pioniere" in Erinnerung 
+rufen: „Nur ein toter Indianer ist ein guter Indianer!" — Die Indianer haben für den Pioniergeist bezahlt! 
+(Widerspruch und Zurufe rechts.) 
 Und wie ist es mit dem Wagemut und mit der Reglementslosigkeit? Meine Damen und Herren, wenn 
 Sie nicht wissen sollten, was sich in der klassischen 
 Zeit der Herrschaft dieser Theorien ereignet hat: 
@@ -346,91 +320,84 @@ sozialpolitische Maßnahmen einführte, insbesondere
 die Sozialveisicherung. Aber ich erinnere mich 
 — aus der Literatur — , daß, als diese Dinge eingeführt wurden, auf den rechten Bänken des Reichstags davon gesprochen wurde, daß es unmoralisch 
 sei, die Menschen zwangsweise zu versichern. 
-<interjection>(Abg. Schütz: Als die Linke dagegengestimmt hat!) </interjection>
+(Abg. Schütz: Als die Linke dagegengestimmt hat!) 
 Dann hat man versucht, eine neue Wirtschaftsgesinnung lebendig zu machen, und es sind hier einige 
 große Dinge geschehen. Ich nenne nur den Bischof 
 Ketteler, und ich nenne eine so leuchtende Persönlichkeit wie Wichern. Ich spreche nicht von denen, 
 die sich plötzlich des Arbeiters erinnerten, weil sie 
 fahen, daß sie eine Klientel verlieren könnten; ich 
-spreche von denen, denen es ernst gewesen ist. — 
-Aber auch diesen Menschen hielt man manches 
+spreche  von  denen, denen es ernst gewesen ist.  — 
+Aber  auch diesen Menschen hielt man manches 
 entgegen und sprach von der Sünde der Selbsterlösung, zu der sie die Versuchung anlegten. 
 Dann kam die nächste Etappe: der Versuch, das 
 Arbeitsrecht zu modernisieren, charakterisiert dadurch, daß an die Stelle der Gesindeordnung der 
 Tarifvertrag getreten ist. Ich habe mich in meiner 
 Dissertation noch damit abquälen müssen, nachzuweisen, daß der Tarifvertrag nicht gegen die guten 
 Sitten verstößt. 
-<interjection>
 (Sehr gut! bei der SPD. — Abg. Dr. Wellhausen: 
 Das tut kein Mensch mehr!) 
-</interjection>
 - So historisch ist das nicht. Sie haben damals 
 alle schon gelebt, meine Damen und Herren! 
 Und nun muß man weitergehen. Wo man stillsteht, geht man zurück. Man muß weitergehen zur 
 strukturellen Wandlung unserer Gesellschafts- und 
 Sozialverfassung. 
-<interjection>(Lebhafter Beifall bei der SPD. — Zurufe rechts.) </interjection>
+(Lebhafter Beifall bei der SPD. — Zurufe rechts.) 
 — Meine Damen und Herren, es gibt manchen, der 
 es nicht merkt, daß er Marxist in seinem Anderssein ist. — Der Groschen fällt schon, warten Sie 
 mal! 
-<interjection>(Große Heiterkeit.) </interjection>
+(Große Heiterkeit.) 
 Sie sprechen so gern von den ewigen Gesetzen 
 der Wirtschaft. 
-<interjection>(Abg. Dr. Wellhausen: Sagt auch kein Mensch!) </interjection>
+(Abg. Dr. Wellhausen: Sagt auch kein Mensch!) 
 Die Wirtschaftsgesetze sind nicht ewig, sie sind 
 historisch. 
-<interjection>(Zuruf rechts: Warten Sie mal ab!) </interjection>
+(Zuruf rechts: Warten Sie mal ab!) 
 Auch der Marxismus ist nicht ewig! 
-<interjection>
 (Bravorufe und Händeklatschen rechts und in 
-der Mitte. — Zurufe von den Sozialdemokraten. — Große Heiterkeit.) 
-</interjection>
+der Mitte. — Zurufe von den Sozialdemokraten. — 
+Große Heiterkeit.) 
 — Ich gönne Ihnen die Freude, meine Damen und 
-Herren, sich uns turmhoch überlegen fühlen zu können. — Diese &apos;Gesetze sind abhängig von bestimmten Gegebenheiten, die die Zeit schafft und wegnimmt, und darum wandeln sich diese Gegebenheiten in jeder Generation, und so wandeln sich 
+Herren, sich uns turmhoch überlegen fühlen zu können. — Diese 'Gesetze sind abhängig von bestimmten Gegebenheiten, die die Zeit schafft und wegnimmt, und darum wandeln sich diese Gegebenheiten in jeder Generation, und so wandeln sich 
 auch die Anliegen, in denen sich der Kampf des 
 Menschen gegen die Tyrannei des Mechanismus der 
 gesellschaftlichen Gebilde verkörpert. Wer da 
 glaubt, es genüge, sozial im sozialkonservativen 
 Sinne zu sein, um dem Gebot der Zeit gerecht zu 
-werden - das kleine Häuschen und der Schrebergarten für „die Leute&quot; —, der mißversteht die 
+werden - das kleine Häuschen und der Schrebergarten für „die Leute" —, der mißversteht die 
 Impulse, die seit hundert Jahren die Arbeiterbewegung tragen. 
-<interjection>(Sehr wahr! bei der SPD.) </interjection>
+(Sehr wahr! bei der SPD.) 
 Der Arbeiter will nicht, daß man ihm aus guter 
 Gesinnung etwas schenkt. 
-<interjection>
 (Erneute lebhafte Zustimmung bei der SPD 
 und rechts.) 
-</interjection>
-Er will keinen Paternalismus à la Salazar. Ihm genügt nicht, daß man „es gut mit ihm meint&quot;. Man 
+Er will keinen Paternalismus à la Salazar. Ihm genügt nicht, daß man „es gut mit ihm meint". Man 
 sollte sich sein Bild von der deutschen Arbeiterschaft nicht allzusehr aus den Romanen Rudolf 
 Herzogs holen. 
-<interjection>
 (Beifall bei der SPD und rechts. - Zuruf 
 des Abg. Dr. von Rechenberg.) 
-</interjection>
 — Da wäre es schon besser, Herr von Rechenberg, 
 wenn man sich das Bild der Unternehmerschaft aus 
-der „Union der festen Hand&quot; eines gewissen Erik 
+der „Union der festen Hand" eines gewissen Erik 
 Reger holen würde, 
-<interjection>(Sehr richtig! und Händeklatschen bei der SPD) </interjection>
-den Sie jetzt im „Tagesspiegel&quot; lieber lesen, als Sie 
+(Sehr richtig! und Händeklatschen bei der SPD) 
+den Sie jetzt im „Tagesspiegel" lieber lesen, als Sie 
 ihn vor 15 Jahren gelesen hätten. 
-<interjection>(Zuruf rechts.) </interjection>
+(Zuruf rechts.) 
 — Es ist schade, daß Sie das Buch nicht kennen. 
 Sie würden sehr viel darin wiederfinden, was Ihnen 
 autobiographisch bekannt sein dürfte. 
-<interjection>(Heiterkeit links.) </interjection>
+(Heiterkeit links.) 
 Meine Damen und Herren, die Arbeiterschaft ist 
-nicht mehr „Gesinde&quot;, der Kumpel ist - trotz der 
+nicht mehr „Gesinde", der Kumpel ist - trotz der 
 schönen Knappentracht eines Kollegen im Hause — 
-nicht mehr der „Knappe&quot;, und der Unternehmer 
-ist nicht mehr der „Meister&quot;. Die Arbeiterschaft 
+nicht mehr der „Knappe", und der Unternehmer 
+ist nicht mehr der „Meister". Die Arbeiterschaft 
 verlangt, daß man sie als Klasse — und nicht als 
 romantischen Berufsstand - in die Lage versetzt, 
 in rechtlich geordneter Weise über sich und die 
 ökonomischen und politischen Voraussetzungen 
 ihrer sozialen Existenz zu bestimmen. 
-<interjection>(Sehr richtig! bei der SPD. — Zuruf rechts.) </interjection>
+(Sehr richtig! bei der SPD. — Zuruf rechts.) 
 Das macht gewisse — bedeutsame - strukturelle 
 Veränderungen innerhalb unserer Ökonomie und 
 Soziologie notwendig. Solange diese Dinge nicht in 
@@ -438,45 +405,45 @@ Angriff genommen werden, wird es, fürchte ich,
 unruhig bleiben in diesem Lande. 
 Die Arbeiterbewegung ist doch nicht nur eine 
 Lohnbewegung, sie ist eine Freiheitsbewegung! 
-<interjection>(Händeklatschen bei der SPD und in der Mitte.) </interjection>
+(Händeklatschen bei der SPD und in der Mitte.) 
 Sie ist der Aufbruch derer, die bisher für ihr tägliches Brot Fremden zu gehorchen hatten, einer 
 Welt zu, in der die Gebotstafeln für den Erwerb 
 des täglichen Brotes von ihnen selber aufgerichtet 
 sein würden. Ich weiß, man sagt in Ihren Reihen(Dr. Schmid) 
 gern: Utopie, ganz schön, Schwarmgeister usw. 
 Aber, meine Damen und Herren, haben Sie denn 
-keinen Sinn für die Großartigkeit und für den 
+keinen Sinn  für die Großartigkeit und für den 
 Realismus dieser Impulse? Diese Impulse sind so 
 großartig und so realistisch, wie die Ihrer geistigen 
 Väter und Ihrer wirklichen Vorväter 1789 und 1848 
 einst gewesen sind. 
-<interjection>(Händeklatschen bei der SPD.) </interjection>
+(Händeklatschen bei der SPD.) 
 Damals sagte man auch: „Na, was sollen denn diese 
-„Bürger&quot; regieren können! Haben sie ja nicht gelernt!&quot; Wer da glaubt, wir meinten, auf diese Weise 
+„Bürger" regieren können! Haben sie ja nicht gelernt!" Wer da glaubt, wir meinten, auf diese Weise 
 würde auf dieser Erde ein Paradies erblühen, das 
 den Schmerz und das Leid nicht kennt, der täuscht 
 sich. Es wird auch dann, wenn wir das, was wir 
 verwirklichen müssen und wollen, verwirklicht 
 haben werden, noch Raum genug geben für christliche Nächstenliebe! 
-<interjection>(Sehr richtig! bei der CSU. — Zurufe rechts.) </interjection>
-- Wenn Sie glauben, mir darauf antworten zu 
+(Sehr richtig! bei der CSU. — Zurufe rechts.) 
+- Wenn Sie  glauben, mir darauf antworten zu 
 können, alle diese Dinge seien ja leicht in Ordnung 
 zu bringen, wenn man die rechte und gute Gesinnung habe, und wenn Sie den Geist von Caux beschwören und anrufen, — meine Damen und 
 Herren, es gibt leider auf dieser Welt einige harte 
 Dinge, wie Angebot und Nachfrage, Verzinsung und 
 Rendite, die dem guten Willen gelegentlich Schranken anlegen. 
-<interjection>(Sehr wahr! bei der SPD.) </interjection>
+(Sehr wahr! bei der SPD.) 
 Ich habe, als ich einige Redner hier hörte, manchmal an Verse einer sehr unheiligen Oper denken 
 müssen: „Ein edler Mensch, wer wäre es nicht 
 gerne? Doch leider, die Verhältnisse, die sind nicht 
-so!&quot; Es ist die Drei-Groschen-Oper, wenn Sie es 
+so!" Es ist die Drei-Groschen-Oper, wenn Sie es 
 nicht wissen sollten. 
-<interjection>(Heiterkeit.) </interjection>
+(Heiterkeit.) 
 Es ist hier auch vom Klassenkampf gesprochen 
 worden. Manche Ausführungen darüber schienen 
 mir fleißige Lektüre weiland Rumpelstilzchens zu 
 verraten. 
-<interjection>(Erneute Heiterkeit.) </interjection>
+(Erneute Heiterkeit.) 
 Meine Damen und Herren, der Klassenkampf ist 
 nicht von den bösen Sozis erfunden worden, den 
 haben sie vorgefunden, und die Arbeiterschaft 
@@ -484,42 +451,36 @@ brauchte ihn lediglich aufzunehmen. Hätte sie ihn
 nicht aufgenommen — Herr Kollege Gockeln, Sie 
 haben mir zugenickt —, stünden die Arbeiter dann 
 heute da, wo sie jetzt stehen? 
-<interjection>(Abg. Gockeln: Nein!) </interjection>
+(Abg. Gockeln: Nein!) 
 — Nein, sie stünden nicht dort. 
-<interjection>(Zurufe.) </interjection>
+(Zurufe.) 
 Und nun will ich Ihnen etwas sagen: im demokratisch kontrollierten Staat, in dem das Machtmonopol übermäßig zusammengeballten wirtschaftlichen Eigentums gebrochen ist, kann ein gutes 
 Stück Klassenkampf in seiner elementaren Form 
 überflüssig werden. 
-<interjection>(Lebhafte Rufe rechts: Sehr gut!) </interjection>
+(Lebhafte Rufe rechts: Sehr gut!) 
 Aber dieser Staat wird dann nicht als ein Staat 
 konzipiert werden, der in erster Linie als Besitzschutzmaschine konstruiert wird. 
-<interjection>(Sehr richtig! bei der SPD.) </interjection>
+(Sehr richtig! bei der SPD.) 
 Dieser Staat muß dann die res publica sein. 
-<interjection>(Zurufe rechts: Jawohl, richtig!) </interjection>
+(Zurufe rechts: Jawohl, richtig!) 
 Der aufgeblähte Staat ist scheußlich, 
-<interjection>
 (Lebhafter Beifall bei der SPD, in der Mitte 
 und rechts) 
-</interjection>
 und jede Verabsolutierung des Staates ist unmenschlich. 
-<interjection>(Lebhafte Bravorufe und Händeklatschen rechts.) </interjection>
+(Lebhafte Bravorufe und Händeklatschen rechts.) 
 — Wie freue ich mich, daß Sie rechts so klatschen! 
-<interjection>(Heiterkeit.) </interjection>
+(Heiterkeit.) 
 Vor Zeiten hat man auf Ihren Bänken vom Staate 
 gesprochen als dem rocher de bronze! 
-<interjection>
 (Lebhafter Beifall bei der SPD und Rufe: 
 Sehr gut!) 
-</interjection>
 Bei Ihnen kultivierte man die Märchen vom Alten 
 Fritz! 
-<interjection>(Zuruf rechts: Sprechen Sie von der Gegenwart!) </interjection>
+(Zuruf rechts: Sprechen Sie von der Gegenwart!) 
 In Ihren Schulbüchern pries man den Vater Friedrichs des Großen mit dem Korporalstock als den 
-Begründer des „modernen&quot; Staates. 
-<interjection>
+Begründer des „modernen" Staates. 
 (Lebhafte Zustimmung und Händeklatschen bei 
 der SPD. — Zurufe rechts.) 
-</interjection>
 Es ist eine seltsame Sache, meine Damen und 
 Herren: in gewissen Zeiten und bei gewissen Gelegenheiten sind es besonders die reichen Leute, die 
 so wenig Staat als möglich haben wollen — die 
@@ -527,25 +488,25 @@ Polizei ausgenommen natürlich —, und wenn man
 genau hinsieht, dann erscheint ihnen der Staat 
 offensichtlich dort am scheußlichsten, wo er als 
 Finanzamt in Erscheinung tritt. 
-<interjection>(Sehr richtig! links und Heiterkeit.) </interjection>
-Wenn man sich bei Ihnen heute so über die Beamtenschaft aufregt — nun, vor Tische las man&apos;s 
+(Sehr richtig! links und Heiterkeit.) 
+Wenn man sich bei Ihnen heute so über die Beamtenschaft aufregt — nun, vor Tische las man's 
 da gelegentlich anders. Als man bei Ihnen das Monopol der Ämterpatronage hatte, meine Damen und 
 Herren, da fand man den Staat nur dort richtig gefügt, wo recht viele Beamte als Säulen der Gesellschaft aufgereiht werden konnten. 
-<interjection>(Zuruf: Sie reden ja, als ob. wir im 19. Jahrhundert lebten.) </interjection>
+(Zuruf: Sie reden ja, als ob. wir im 19. Jahrhundert lebten.) 
 - Herr Kollege Hilpert, Sie haben offenbar keine 
 Ahnung, wie virulent das 19. Jahrhundert im 20. 
 Jahrhundert noch sein kann. — Sehen Sie, meine 
 Damen und Herren, wenn Sie mit Ihren Zwischenrufen über die Stellenvermittlungsbüros der Parteien kommen, — erinnern Sie sich nicht mehr eines 
 seligen Kösener SCs, erinnern Sie sich nicht mehr 
 der Stellenvermittlungsbüros bei den Altherrenschaften der Korporationen? 
-<interjection>(Sehr gut! bei der SPD und KPD.) </interjection>
+(Sehr gut! bei der SPD und KPD.) 
 - Ich sehe, daß sich in diesem Augenblick manche 
 Anwesende mit viel Intensität in das Studium 
 ihrer Akten vertiefen. — 
-<interjection>(Heiterkeit bei der SPD.) </interjection>
+(Heiterkeit bei der SPD.) 
 Meine Damen und Herren, wir wollen sowenig 
 Staat als möglich, aber soviel Staat als nötig! 
-<interjection>(Beifall bei der SPD.) </interjection>
+(Beifall bei der SPD.) 
 Man stellt gelegentlich in diesem Zusammenhang 
 auch die Kontroverse Unitarismus — Zentralismus. 
 Meine Damen und Herren, das ist falsch gesehen! 
@@ -565,15 +526,15 @@ nach Ihren Rezepten nicht korrigieren; das kann
 man nur korrigieren, indem man sehr viel mehr 
 staatliche Gewalt auf die Gemeinden verlagert, als 
 es heute der Fall ist. 
-<interjection>(Beifall.) </interjection>
+(Beifall.) 
 Dann bringen Sie den einzelnen Menschen nahe, 
 sehr viel näher an die res publica heran. Aber ob 
 der Staat fünf Millionen Einwohner oder sechzig 
 Millionen Einwohner hat, das spielt im Verhältnis 
-des einzelnen zur „Obrigkeit&quot; keine Rolle mehr. 
+des einzelnen zur „Obrigkeit" keine Rolle mehr. 
 Man hat uns die Segnungen des Föderalismus in 
 bewegten Worten gepriesen, 
-<interjection>(Zurufe in der Mitte) </interjection>
+(Zurufe in der Mitte) 
 — ich werde dazu noch etwas sagen, lieber Herr 
 Landsmann —, insbesondere die Sprecher der 
 Bayernpartei. Sie haben den Anspruch erhoben, für 
@@ -582,10 +543,10 @@ die existentielle Interpretation des Bayerntums, die
 Sie und Herr Dr. Besold gegeben haben, die richtige 
 ist. Ich weiß es nicht. Vielleicht haben die beiden 
 Herren auch nur Spaß gemacht. 
-<interjection>(Heiterkeit.) </interjection>
+(Heiterkeit.) 
 Aber wenn sie so bewegt darüber geklagt haben, 
-daß man sie in die Bundesrepublik „hineinvergewaltigt&quot; habe — was meinen Sie denn, Herr Seelos, 
-was ein Nürnberger „Föderalist&quot; im Jahre 1803 
+daß man sie in die Bundesrepublik „hineinvergewaltigt" habe — was meinen Sie denn, Herr Seelos, 
+was ein Nürnberger „Föderalist" im Jahre 1803 
 gegen München gesagt haben mag? Oder ein Augsburger? Sehen Sie, die Geschichte geht nun einmal 
 gelegentlich in Sprüngen voran. Das läßt sich nicht 
 vermeiden, das ist ihre Gefährlichkeit und ihre 
@@ -594,10 +555,8 @@ ein schöner Föderalist! Sie haben in Ihrer Rede verlangt, daß man dem Lande B
 gibt. Stellen Sie sich einmal vor, es sagte nun einer: 
 die Bayern erhalten doch Bundesmittel, also muß 
 man doch kontrollieren, wie sie verwendet werden ... 
-<interjection>
 (Beifall und Heiterkeit links. — Abg. Dr. Seelos: 
 So ein amüsanter Marxist ist doch etwas Großartiges!) 
-</interjection>
 — Etwas interessanter — finden Sie nicht auch? — 
 als ein langweiliger Föderalist! 
 Der Föderalismus scheint es so an sich zu haben, 
@@ -606,12 +565,10 @@ Nr. 40 eingebracht, wo es heißt: bei der Zuwendung
 von Mitteln des Bundes an Berlin soll die Verwendung dieser Mittel an die Zustimmung eines von 
 der Bundesregierung zu bestellenden Bundeskommissars gebunden sein. Vielleicht ist das sachlich 
 richtig. Aber dann darf man nicht aus kleinen Liebhabereien 
-<interjection>(Abg. Frau Kalinke: Marxistische Versuche!) </interjection>
+(Abg. Frau Kalinke: Marxistische Versuche!) 
 eine Religion des Absoluten machen wollen. 
-<interjection>
 (Abg. Frau Kalinke: Sie haben mich ganz gut 
 verstanden!) 
-</interjection>
 - Sie haben ein ausgesprochenes Talent, sich klar 
 auszudrücken! 
 Herr Dr. Etzel hat einen Dithvrambus auf das 
@@ -620,26 +577,26 @@ Auch ich bin der Meinung, daß in dem bündischen
 Prinzip eine sehr humane und sehr schöpferische 
 Kraft liegt. Aber das bündische Prinzip wollen wir 
 doch heute nicht im Masstabe Krähwinkels aktualisieren, sondern im europäischen Maßstab! 
-<interjection>(Lebhafter Beifall.) </interjection>
+(Lebhafter Beifall.) 
 Einer von Ihnen hat einmal gesagt, die deutschen 
 Länder müßten im Gänsemarsch in Europa einmarschieren. Meine Damen und Herren, Europa ist 
 kein Hühnerhof! So wird es nicht kommen. 
-<interjection>(Zuruf rechts: Wer hat das gesagt?) </interjection>
+(Zuruf rechts: Wer hat das gesagt?) 
 — Einer von Ihnen, nicht gestern, sondern schon 
 vor längerer Zeit. 
 Nun werde ich noch etwas sagen, und jetzt werde 
 ich sehr ernst. Sie haben auch Ö sterreich angesprochen. Ich will Ihnen nicht die Unehre antun, 
-zu glauben, als ob Sie etwas wie „Anschluß&quot; nazistischer Art gemeint hätten. Das haben Sie nicht 
+zu glauben, als ob Sie etwas wie „Anschluß" nazistischer Art gemeint hätten. Das haben Sie nicht 
 getan. Was aber hier geschehen ist, ist höchst gefährlich, denn es klang, etwas an von. dem Mythos 
-des „Heiligen Reichs der Deutschen&quot;, als Mythos 
+des „Heiligen Reichs der Deutschen", als Mythos 
 großartig, aber als Realität eine bittere und gefährliche Sache. 
-<interjection>(Zurufe.) </interjection>
+(Zurufe.) 
 Sehen Sie, diese Art von Romantik hat die Eigenschaft, über ihre Begründer hinauszuwachsen. Es 
 lohnt sich manchmal, ein bißchen Hegelsche Logik 
 zu studieren, Herr Seelos! Sehen Sie, solche Dinge 
 pflegen in der nächsten Generation umzuschlagen. 
 Ein Mann wie Constantin Frantz ist auch ein Verläufer des Nazismus gewesen, 
-<interjection>(Zurufe) </interjection>
+(Zurufe) 
 nicht nur wegen seines Antisemitismus! Sehen Sie: 
 es hat wenig Dinge zu Beginn des 19. Jahrhunderts 
 gegeben, die so großartig und lauter und rein gewesen wären wie die deutsche Nationalbewegung, 
@@ -649,19 +606,17 @@ Treitschke, und damit wurde sie pervertiert: sie
 wurde zum Impuls des kleindeutschen Preußen
 -
 Deutschland und machte dieses zur imperialistischen Macht Kontinental-Europas. 
-<interjection>(Sehr richtig! rechts.) </interjection>
+(Sehr richtig! rechts.) 
 Weil ich mir vorstellen muß, daß auch Ihr neuer 
 romantischer Überschwang einmal seinen Treitschke 
 finden könnte, deswegen rufe ich Ihnen zu — im 
 Guten —, meine Herren: 
-<interjection>(Zuruf rechts: Gegen die deutsche Verfassung!) </interjection>
+(Zuruf rechts: Gegen die deutsche Verfassung!) 
 Nehmen Sie diesen Traum von Ihrer Stirn und 
 kehren Sie zurück zu einer nüchternen Betrachtung 
 dieser Dinge! 
-<interjection>
 (Zuruf rechts: Nicht Mythos, sondern 
 ethnologische Wirklichkeit!) 
-</interjection>
 Herr Dr. Richter hat hier in einem anderen Ton 
 von ähnlichen Dingen gesprochen. Das war schon 
 eher alldeutscher Anspruch virulenter Art! Wir 
@@ -671,44 +626,42 @@ das Geschichtsbild eines Linzer Realschülers namens
 Adolf Hitler gebildet haben. Und, Herr Kollege 
 Richter, durch die Lektüre Mosleys ist es nicht 
 besser geworden. 
-<interjection>(Heiterkeit und Zurufe.) </interjection>
+(Heiterkeit und Zurufe.) 
 Ich glaube, daß Anlaß besteht — und damit erweise 
 ich Ihnen eine Ehre —, auf diese Dinge genau zu 
 achten und rechtzeitig das Paroli zu bieten, das wir 
 seinerzeit zu bieten vergessen haben! 
-<interjection>(Beifall bei der SPD.) </interjection>
+(Beifall bei der SPD.) 
 Sie haben sich, Herr Dr. Richter, darüber beklagt, daß in diesem Hause einige dagegen gewesen 
-sind, daß „Einigkeit und Recht und Freiheit&quot; gesungen wurde, und Sie haben gemeint, diesen 
+sind, daß „Einigkeit und Recht und Freiheit" gesungen wurde, und Sie haben gemeint, diesen 
 Leuten liege offenbar nichts an Einigkeit und Recht 
 und Freiheit. So einfach ist es nicht. Wir wollen(Dr. Schmid) 
 kein Lied zur Nationalhymne haben, das dadurch 
 entehrt worden ist, daß dieses Volk es zwölf Jahre 
 lang zur ersten Strophe des Horst-Wessel-Liedes 
 degradiert hat! 
-<interjection>(Beifall bei der SPD.) </interjection>
+(Beifall bei der SPD.) 
 Sie haben, Herr Dr. Richter, mit bewegten Worten über das Unrecht geklagt, das nach Abschluß 
 der Kämpfe den Deutschen im Osten und Westen 
 zugefügt worden ist. Hierzu ist zu sagen, daß wahrlich viel geschehen ist, was sich neben Tatbestände 
 stellen kann, für die man in Landsberg Leute gehängt hat. 
-<interjection>(Sehr richtig! bei der SPD.) </interjection>
+(Sehr richtig! bei der SPD.) 
 Aber das Recht, hier moralisch anzuklagen, haben 
 doch wohl nur diejenigen, die sich seinerzeit über 
 Sauckel, über die Austreibung und Ausrottung der 
 Juden und Polen, über Lidice, über Auschwitz und 
 über Oradour wenigstens geschämt haben! 
-<interjection>(Stürmischer Beifall bei der SPD und in der Mitte.) </interjection>
+(Stürmischer Beifall bei der SPD und in der Mitte.) 
 Wenn hier von einigen Fällen späterwachten 
 Widerstandsgeistes gesprochen worden ist, dann 
 sage ich, meine Damen und Herren: Konversionen 
 nach Stalingrad sind demokratisch uninteressant. 
-<interjection>(Sehr gut! bei der SPD und in der Mitte.) </interjection>
+(Sehr gut! bei der SPD und in der Mitte.) 
 Die Regierung hat ein lautes Bekenntnis zu den 
 föderativen Grundlagen des Grundgesetzes abgegeben. Herr Dr. Seelos, Sie waren wirklich undankbar gegen die Alliierten; denen verdanken wir doch 
 das meiste davon. 
-<interjection>
 (Abg. Dr. Seelos: Kennen Sie die Bayern nicht? — 
 Heiterkeit.) 
-</interjection>
 Der Föderalismus, zu dem sich die Regierung bekannt hat, regt in mir zwei Fragen an: Meinen Sie 
 Föderalismus assoziativ oder dissoziativ? Meinen 
 Sie Föderalismus als Vereinigung dessen, was getrennt ist, oder als Trennung von etwas, was vereint ist? Wir sagen Ja nur zu der ersten Möglichkeit, Herr Kollege Kiesinger, und da sagen wir 
@@ -720,10 +673,10 @@ Diese Regierung wird, wenn wir sie ganz richtig
 bezeichnen wollen, von uns als Regierung Adenauer
 -
 Schäffer bezeichnet werden müssen. 
-<interjection>(Sehr gut! bei der SPD.) </interjection>
+(Sehr gut! bei der SPD.) 
 Einige der Hüter der Verfassung haben seinerzeit 
 gegen dieses Grundgesetz gestimmt, 
-<interjection>(Sehr wahr! bei der SPD) </interjection>
+(Sehr wahr! bei der SPD) 
 weil es ihnen zu unerträglich zentralistisch erschien. 
 Da haben wir nun den Verdacht — Sie sollten sich 
 also über unsere Zweifel nicht wundern, Herr von 
@@ -732,13 +685,13 @@ denken könnten, jetzt auf organisatorischem Wege
 das schaffen zu können, was ihnen in Bonn zu 
 schaffen nun einmal nicht gelungen ist. Wir werden 
 darüber wachen, daß Deutschland nicht weiter dissoziiert wird 
-<interjection>(Abg. Dr. von Brentano: Ist nicht unsere Absicht!) </interjection>
+(Abg. Dr. von Brentano: Ist nicht unsere Absicht!) 
 und daß damit der Preis, den Sie, Herr Bundeskanzler, für den bayerischen Suckurs zahlen 
 mußten, nicht allzusehr auf Kosten der deutschen 
 Zukunft geht. 
-<interjection>(Sehr richtig!) </interjection>
+(Sehr richtig!) 
 Vielleicht werden wir dabei auch Sie zum Bundesgenossen erhalten, Herr Bundeskanzler. 
-<interjection>(Heiterkeit und Beifall bei der SPD.) </interjection>
+(Heiterkeit und Beifall bei der SPD.) 
 Wenn man sich anschaut, was sich in gewissen 
  Ländern in den Staatskanzleien alles an politischer 
 Energie und an Politikfreudigkeit zusammengeballt 
@@ -746,31 +699,28 @@ hat, dann kann man — konnte man — gelegentlich
 Bilder unbeschreiblicher Komik sehen. Manche 
 Staatskanzleien trieben nämlich Außenpolitik gegen 
 andere Staatskanzleien. 
-<interjection>(Heiterkeit. — Zuruf: Auch in Tübingen!) </interjection>
-Es gab da etwas wie eine Doktrin des innerdeutschen Gleichgewichts. — Sie rufen „Tübingen&quot;. Ich 
+(Heiterkeit. — Zuruf: Auch in Tübingen!) 
+Es gab da etwas wie eine Doktrin des innerdeutschen Gleichgewichts. — Sie rufen „Tübingen". Ich 
 will Ihnen gleich etwas sagen. Die Tübinger Staatskanzlei bestand zu meiner Zeit aus zwei Beamten, 
 als die Freiburger aus 34 bestand. 
-<interjection>
 (Große Heiterkeit. — Abg. Hilbert: Haben wir 
-jetzt noch nicht, dann kennen Sie unsern Etat schlecht!) 
-</interjection>
+jetzt noch nicht, dann kennen Sie unsern 
+Etat schlecht!) 
 Vielleicht war das notwendig. Man hat damals Legationsräte noch und noch eingestellt, Gott sei 
 Dank, denn jetzt haben wir wenigstens Protokollchefs zur Verfügung .... 
-<interjection>(Heiterkeit.) </interjection>
+(Heiterkeit.) 
 Aber abseits dieser Scherze, meine Damen und 
 Herren: nichts ist heute für dieses Volk notwendiger als eine ernsthafte und konsequente Außenpolitik, und hier muß ich sagen, daß mir die Zurückhaltung des Herrn Bundeskanzlers, kein Auswärtiges Amt zu errichten, höchst weise erscheint. 
 Ob das aus Erkenntnis geschehen ist oder weil die 
 Schaffung eines solchen Amtes die Geburtswehen 
 der Kabinettsbildung verschlimmert hätte, das ist 
 gleichgültig; wir freuen uns des Resultats. 
-<interjection>
 (Große Heiterkeit. — Beifall bei der SPD. — 
 Abg. Renner: Zudem war es auch verboten!) 
-</interjection>
 Unser Staat ist noch nicht in der Lage, eine institutionelle Außenpolitik im klassischen Sinn zu treiben. Zu einer solchen Politik gehören eine Reihe 
 von Voraussetzungen, von denen die wichtigste die 
 Möglichkeit ist, sich seine Partner frei zu wählen. 
-(Sehr gut!) , 
+(Sehr gut!) ,  
 Die haben wir nicht. Es gehört dazu die Möglichkeit der Universalität der politischen Beziehungen. 
 Es gehört dazu die Möglichkeit, dies zu einem 
 System korrespondierender Röhren auszubauen, 
@@ -784,77 +734,75 @@ vollzieht. Jeder staatliche Akt, der darüber hinausreichen wollte, würde sich 
 Kommission brechen müssen. 
 Außerdem: wir müssen noch ein wenig warten, 
 bis gewisse Traditionen der Wilhelmstraße ausgestorben sind. 
-<interjection>(Beifall bei der SPD.) </interjection>
+(Beifall bei der SPD.) 
 Es gibt mehr Nadolnys, als die Nadolnys selber 
 wissen. 
-<interjection>(Erneuter Beifall.) </interjection>
+(Erneuter Beifall.) 
 Wir können und wollen mit einer Tradition, die 
-letztlich nur Ausspielen von Ost und West, „Rückversicherungsverträge&quot; usw. kannte, nichts mehr 
+letztlich nur Ausspielen von Ost und West, „Rückversicherungsverträge" usw. kannte, nichts mehr 
 anfangen. 
-<interjection>(Sehr richtig!) </interjection>
+(Sehr richtig!) 
 Wir können auch nichts anfangen mit einer neuesten Tradition des Wilhelmstraßenfortsatzes: mit 
 
-182 Deutscher Bundestag — 10. Sitzung. Bonn, Donnerstag, den 29. September 1949 
-<interjection>(Dr. Schmid) </interjection>
+182 	 Deutscher  Bundestag — 10. Sitzung. Bonn, Donnerstag, den 29. September 1949 
+(Dr. Schmid) 
 den Abendlandrezepten im Sinne einer Option für 
 die Politik westlicher Staaten, indem man Deutschland zum Instrument dieser Politik anbietet. 
-<interjection>(Zustimmung bei der SPD.) </interjection>
+(Zustimmung bei der SPD.) 
 Auch dafür stehen schon Spezialisten in Deutschland an. Man sollte nicht den Fehler machen, im 
 freudigen Streben, den Nationalismus früherer 
 Zeiten in den Orkus zu werfen, zu glauben, Antinationalismus bedinge, daß eine deutsche Politik 
 notwendig Funktion der nationalen Interessenpolitik fremder Länder sein müsse, 
-<interjection>(Sehr gut!) </interjection>
+(Sehr gut!) 
 liegen diese Länder nun östlich oder mögen sie 
 westlich liegen. 
-<interjection>(Beifall bei der SPD und rechts.) </interjection>
+(Beifall bei der SPD und rechts.) 
 Wenn man dabei, wie es gelegentlich geschieht, 
 vor der Gefahr der Selbstisolierung warnt — es 
 gibt Zeiten, wo Isolierung das beste Mittel ist, um 
 sich vor dem Aufgefressenwerden zu schützen. Denken Sie an das unvorsichtige Rotkäppchen! 
-<interjection>(Heiterkeit.) </interjection>
+(Heiterkeit.) 
 Vielleicht sollten wir ein wenig an gewisse Maximen des letzten Jahrhunderts denken. Ich denke da 
 an ein Wort Cavours: Italia fara da sè, Germania 
 farà da sè! Deutschland wird sich aus sich selber 
 bilden! 
-<interjection>(Abg. Dr. Seelos: Das paßt ja nicht!) </interjection>
+(Abg. Dr. Seelos: Das paßt ja nicht!) 
 — Herr Seelos, Sie haben auf Außenpolitik studiert; ich weiß es. Ich bitte Sie um die Erlaubnis, 
 als Dilettant gelegentlich einen Fehler begehen zu 
 dürfen. 
-<interjection>(Heiterkeit.) </interjection>
+(Heiterkeit.) 
 Und, meine Damen und Herren, die Leute, die eine 
 solche deutsche Politik in ein System bringen könnten, sind als Team noch nicht vorhanden. Wir sollten uns daran gewöhnen, in der Geduld nicht nur 
 ein Nichttun zu sehen, sondern eine höchst wirksame Kraft. 
-<interjection>
 (Lebhafter Beifall bei der SPD, in der Mitte 
 und rechts.) 
-</interjection>
 Sie würden mich äußerst mißverstehen, wenn Sie 
 glaubten, daß diese Worte Ausdruck defaitistischer 
 Gesinnung seien. Auch ohne Auswärtiges Amt und 
 auch ohne Gesandtschaften und Botschaften ist ein 
 Land wie Deutschland ein Agens der Politik in der 
 Welt. 
-<interjection>(Sehr richtig!) </interjection>
+(Sehr richtig!) 
 Deutschland ist durch sein Dasein, seine Masse, seinen Ort und durch seine Zukunft ein außenpolitisches Agens in potentia. 
-<interjection>(Sehr gut! in der Mitte.) </interjection>
+(Sehr gut! in der Mitte.) 
 Dieses immanente Potential gilt es von Fall zu Fall 
 zu aktualisieren. 
 Wir müssen als Volk eine deutsche Politik anlegen, das heißt eine Politik, die nicht Funktion 
 fremden Willens ist, sondern Produkt des Willens 
 dieses Volkes. Wir müssen es tun, um eine europäische Politik machen zu können, 
-<interjection>(Beifall bei der SPD — Sehr gut! rechts) </interjection>
+(Beifall bei der SPD — Sehr gut! rechts) 
 das heißt eine Politik, in der begriffen ist, daß 
 alles, was ist, Funktion gesamteuropäischer Ursachen ist und daß alles, was wir zu tun haben, auf 
 Europa hinführen muß, sei es unmittelbar, sei es 
 mittelbar im Reflex. 
 Man hat vom Primat der Außenpolitik gesprochen. Aber mir will scheinen, als ob einige der 
-Kollegen, die es taten, damit das „Innere&quot; der 
+Kollegen, die es taten, damit das „Innere" der 
 Politik zu weit in den Hintergrund geschoben 
-hätten. Jede Außenpolitik hat ihr „inneres&quot; Substrat. Beide müssen aneinander angepaßt sein; sonst 
+hätten. Jede Außenpolitik hat ihr „inneres" Substrat. Beide müssen aneinander angepaßt sein; sonst 
 gibt es einen Bruch. Es ist keine wirksame Außenpolitik möglich ohne das rechte Verhältnis eines 
 Volkes zu sich selbst. Solange ein Volk mit dem 
 nicht fertig geworden ist, was ihm zu tun obliegt, 
-um „in Verfassung&quot; zu kommen — nicht im Verstande der Staatsrechtslehrer; ich meine das so, 
+um „in Verfassung" zu kommen — nicht im Verstande der Staatsrechtslehrer; ich meine das so, 
 wie Lassalle das Wort verstanden hat, wenigstens 
 im Sinne des Durchbruchs zum Entschluß, in Verfassung zu kommen —, kann es höchstens eine 
 fragmentarische oder eine hysterische Außenpolitik 
@@ -865,7 +813,7 @@ Heute ist diesem Volke aufgegeben, sich im
 Kampf um die Verwirklichung einer lebendigen 
 Demokratie zu integrieren — Demokratie als die 
 politische Form des Willens eines Volkes zur Selbstbehauptung, zur Selbstbestimmung und zur Selbstachtung verstanden. 
-<interjection>(Beifall bei der SPD.) </interjection>
+(Beifall bei der SPD.) 
 Das bedingt aber, meine Damen und Herren — und 
 hier muß ich mich wiederholen —, daß man die 
 sozialen und strukturellen Konsequenzen der Postulate der Demokratie, wie sie dieses 20. Jahrhundert 
@@ -885,16 +833,16 @@ den eigenen, sondern auch über die Schatten der
 Zeit. Es gibt kein Betrugen gegen die Fakten; es 
 gibt darum auch kein Überspringen von Etappen. 
 Man sollte nie aus dem Sinn lassen, daß man nur 
-machen kann .,la politique de ses moyens&quot;, die Politik der Mittel, die einem zur Verfügung stehen. 
+machen kann .,la politique de ses moyens", die Politik der Mittel, die einem zur Verfügung stehen. 
 Aber man sollte heute von den Mitteln, die uns 
 zur Verfügung stehen, nicht zu gering denken! 
 Man sollte nicht vergessen, daß es auf bestimmten Gebieten und in bestimmten Situationen eine potentielle Überlegenheit des Besiegten über den Sieger gibt. Wir sollten uns weiter davor hüten, uns in Fiktionen abdrängen zu 
 lassen: man wird uns im Laufe der Zeit eine Reihe 
-von „Freiheiten&quot; anbieten; aber jede „Freiheit&quot; 
+von „Freiheiten" anbieten; aber jede „Freiheit" 
 engagiert korrespondierende Verantwortungen, das 
 heißt, daß nur dort echte Freiheit ist, wo man 
 funktionsmäßig in der Lage ist, sie zu realisieren. 
-Manche „Freiheiten&quot; darf man nicht annehmen, 
+Manche „Freiheiten" darf man nicht annehmen, 
 weil man sonst vielleicht die Freiheit schlechthin 
 gefährden könnte. Der praktische und tätige Hinweis darauf, daß jeder, der sich auf die Totalität 
 eines Sieges und auf gewisse Vorbehaltsbefugnisse 
@@ -903,13 +851,13 @@ mit erhöhter Verantwortung bezahlen muß, wird
 von uns manchen Verzicht auf halbe Lösungen bedingen; es wird aber der einzige Weg sein, um zur 
 ganzen Lösung des Problems zu kommen, und damit zur Freiheit und Einheit Deutschlands. Das(Dr. Schmid) 
 Schädlichste, was es in der Politik gibt, ist, was 
-Niccoio Macchiavelli „la via del mezzo&quot; genannt 
+Niccoio Macchiavelli „la via del mezzo" genannt 
 hat. Er meint nicht den goldenen Mittelweg, sondern die Politik des halben Weges. 
 Es ist ganz klar, daß das erste konkrete Ziel der 
 Außenpolitik der Regierung die Schaffung eines 
 rechten Verhältnisses zu den Besatzungsmächten 
 sein muß. Die äußere Form, in der dieses Verhältnis sich allein gestalten kann, ist das Besatzungsstatut. Man muß das richtig sehen. Das Besatzungsstatut ist kein Ausführungsgesetz zur Haager Landkriegsordnung. 
-<interjection>(Sehr gut! bei der SPD.)&apos; </interjection>
+(Sehr gut! bei der SPD.)' 
 Die heutige Besetzung Deutschlands ist keine 
 Sicherheitsbesetzung im Sinne der Haager Landkriegsordnung, sondern eine interventionistische 
 Besetzung, das heißt eine Besetzung zu dem Zweck. 
@@ -918,10 +866,10 @@ zu geben, bestimmte Dinge vorzunehmen, die sonst
 nach dem Gesetz der Souveränität nur von den 
 Deutschen vorgenommen werden könnten. Das geschah bisher par ordre de mufti, unkontrollierbar 
 und ganz nach dem freien Ermessen der Militärregierung. 
-<interjection>(Abg. Renner: Und heute?) </interjection>
+(Abg. Renner: Und heute?) 
 - Das Besatzungsstatut, Herr Kollege Renner, hat 
 in diese Dinge wenigstens den Anfang eines geordneten Verfahrens gebracht! 
-<interjection>(Abg. Renner: Das haben wir gestern gemerkt!) </interjection>
+(Abg. Renner: Das haben wir gestern gemerkt!) 
 - Ich werde davon noch sprechen, verlassen Sie 
 sich darauf. - Solange wir keinen Friedensvertrag haben, durch den wir gewisse Dinge als Rechtens anerkennen, ist alles, was hierbei geschieht. 
 als im Bereich der Faktizität geschehen zu betrachten, und die Regierung sollte beim Anerkennen 
@@ -936,33 +884,33 @@ dieser Vorbehaltsrechte eine etwas klarere Vorstellung gebildet werden, als sie 
 sollte sich insbesondere davor hüten, bei internalliierten Anordnungen auf Sachgebieten, die die 
 Alliierten sich vorbehalten haben, eine deutsche 
 Unterschrift vorschalten zu lassen. 
-<interjection>(Sehr richtig! links.) </interjection>
+(Sehr richtig! links.) 
 Man wird auch interpretieren müssen, was denn 
-eigentlich „Kontrolle&quot; im Sinne des Besatzungsstatuts heißt - ob das ein milderes Wort für „Anweisung&quot; und „Befehl&quot; ist oder, wie man uns in 
-Mainz versprochen hat, ein grobes Wort für „Beratung&quot; der Regierung durch die Hohen Kommissare, oder ob es mit dem identisch ist, was wir 
+eigentlich „Kontrolle" im Sinne des Besatzungsstatuts heißt - ob das ein milderes Wort für „Anweisung" und „Befehl" ist oder, wie man uns in 
+Mainz versprochen hat, ein grobes Wort für „Beratung" der Regierung durch die Hohen Kommissare, oder ob es mit dem identisch ist, was wir 
 Einspruch nennen. Das alles wird man ausfechten 
 müssen. 
 Die Sache mit der Abwertung der D-Mark war 
 ein schlechter Start. 
-<interjection>(Sehr richtig! bei der SPD.) </interjection>
+(Sehr richtig! bei der SPD.) 
 Es scheint so, als ob gewisse Einsprüche gegen den 
 von der Regierung gewünschten Umrechnungssatz 
 hauptsächlich von der Absicht bestimmt gewesen 
 wären, gewissen Abnehmern von Ruhrkohle billigen Ruhrkoks zu sichern. 
-<interjection>(Zustimmung bei der SPD.) </interjection>
+(Zustimmung bei der SPD.) 
 Wir sind auch der Meinung, daß es besser gewesen 
 wäre, wenn die Bundesregierung dieses Haus rechtzeitig von diesen Verhandlungen unterrichtet hätte. 
 Ich meine das nicht in dem Sinne, daß man nun 
 alles, was zur Beratung stand, hier hätte erzählen 
 sollen; aber den Rahmen, in dem sich das Verhandeln bewegt hat, hätte man diesem Hause vielleicht 
 darlegen können. 
-<interjection>(Zuruf von der KPD: Na, na!) </interjection>
+(Zuruf von der KPD: Na, na!) 
 - Ja, das hätte man gekonnt! Vielleicht hätten wir 
 dabei dem Herrn Bundeskanzler einige Hilfe leisten 
 können, und sei es nur durch den Hinweis darauf, 
 daß in allen Devisenangelegenheiten der Hohe Kommissar der Vereinigten Staaten von Amerika gegenüber seinen beiden Kollegen ein hochqualifiziertes 
 Stimmrecht hat. 
-<interjection>(Sehr richtig!) </interjection>
+(Sehr richtig!) 
 Es hätte sein können, daß ein amerikanisches 
 Presse-Echo auf ein solches Wort in diesem Hause 
 dem Hohen Kommissar der Vereinigten Staaten in 
@@ -970,7 +918,7 @@ Deutschland ein anderes Verhalten als das, das ihm
 beliebt hat, hätte nahelegen können. 
 Mir hat auch der Ton nicht gefallen, in dem der 
 Beschluß abgefaßt worden ist. 
-<interjection>(Zustimmung bei der SPD.)&apos; </interjection>
+(Zustimmung bei der SPD.)' 
 Herr Bundeskanzler! Mir hat auch nicht gefallen, 
 wie Sie gestern dieses Hohe Haus abgekanzelt 
 haben. Man sollte das Parlament nicht nur für 
@@ -978,40 +926,40 @@ einen Störenfried halten. Bei allem Respekt, den
 wir vor der Regierung haben, sind wir doch auf 
 unseren beschränkten Untertanenverstand recht 
 stolz. 
-<interjection>(Heiterkeit und Beifall.) </interjection>
+(Heiterkeit und Beifall.) 
 Ich meine übrigens, daß die Bülowschen Lebenserinnerungen nicht die empfehlenswerteste Lektüre 
 für einen demokratischen Staatsmann sind. 
-<interjection>(Lebhafter Beifall links.) </interjection>
+(Lebhafter Beifall links.) 
 Es ist ganz klar, daß das Verhältnis zur Hohen 
 Kommission so arbeitsergiebig wie möglich gestaltet werden muß. Aber das gelingt nicht immer dadurch, daß man nur Ja sagt. Oft wird durch ein 
-„Nein&quot; zur rechten Zeit ein besseres Verhältnis geschaffen als durch zuviel Ja. 
+„Nein" zur rechten Zeit ein besseres Verhältnis geschaffen als durch zuviel Ja. 
 Die Revision des Besatzungsstatuts ist eine dringende Notwendigkeit. Sie wird nicht ein Geschäft 
 für Juristen, sondern eine Sache der Praxis sein. 
 Diese Abänderung wird ausgekämpft werden müssen. Durch Finassieren werden wir hier nichts erreichen; denn Politik ist nicht Advokatur. Bei der 
 Politik handelt es sich nicht darum, recht zu haben, 
 sondern recht zu behalten, 
-<interjection>(Sehr richtig!) </interjection>
+(Sehr richtig!) 
 und es handelt sich darum, Fakten anzuerkennen 
 und Fakten anzugehen. Noch besser allerdings ist 
 es, ein neues Recht zu schaffen, das die Gravamina 
-gegenstandslos macht. Das wird man hier nur können, wenn man auch die Probleme, die die Besatzung aufgibt, auf eine andere als die nation alstaatliche Ebene hebt, nämlich auf die gesamteuropäische Ebene. 
-<interjection>(Sehr gut!) </interjection>
+gegenstandslos macht. Das wird man hier nur können, wenn man auch die Probleme, die die Besatzung aufgibt, auf eine andere als die  nation alstaatliche Ebene hebt, nämlich auf die gesamteuropäische Ebene. 
+(Sehr gut!) 
 Es gibt keine konkretere politische Aufgabe im 
 Großen, als das für alle Notwendige — nämlich 
 Europa! — auch von Deutschland aus möglich zu 
 machen, 
-<interjection>(Bravo!) </interjection>
+(Bravo!) 
 nicht das Europa des Novalis, nicht das Europa der 
 Heiligen Allianz, auch nicht eine Europa-AG, son- 
 
-<interjection>(Dr. Schmid) </interjection>
+(Dr. Schmid) 
 dern ein echtes Commonwealth, einen europäischen Bundesstaat, an den die europäischen 
 Staaten von heute wesentliche Teile ihrer Souveränität abgeben. 
-<interjection>(Beifall. — Zuruf: Freiwillig!) </interjection>
+(Beifall. — Zuruf: Freiwillig!) 
 — Ja, freiwillig! — Wir müssen endlich das törichte 
 Dogma vom Monismus der Souveränität in die 
 Wolfsschlucht werfen! 
-<interjection>(Sehr gut!) </interjection>
+(Sehr gut!) 
 Dieses Europa kann nur Voll-Europa und nicht 
 Klein-Europa sein; denn Klein-Europa wäre nichts 
 anderes als ein Streifen an den Ufern der sieben 
@@ -1043,13 +991,13 @@ Hilfe —, die man Berlin bringen muß, gefallen,
 Worte, die ich ernst nehme. Wir müssen aber 
 mehr tun als das. Wir müssen auch eine aktive 
 Staatspolitik im Hinblick auf Berlin treiben. 
-<interjection>(Sehr gut! links.) </interjection>
+(Sehr gut! links.) 
 Man hält mir hier das alliierte Veto entgegen. Mein 
 Gott, ja; es wurde ausgesprochen. Aber wir können 
 in diesem Haus — und man kann besonders auf 
 Ihrer Bank, meine Herren Minister, Berlin so behandeln, als ob es heute schon das zwölfte 
 Land der Bundesrepublik Deutschland wäre! 
-<interjection>(Beifall.) </interjection>
+(Beifall.) 
 Man kann sich dabei so verhalten, daß das Plazet 
 der Hohen Kommissare dereinst nur noch eine 
 Formalität sein wird. 
@@ -1058,11 +1006,11 @@ sagen. Nur folgendes möchte ich hier — warnend —
 sagen: Beziehen wir in diesen Komplex nicht das 
 Sudetenland ein! Bannen wir alle Vorstellungen 
 vom weiland Großdeutschen Reich! 
-<interjection>(Zuruf: Hat damit nichts zu tun!) </interjection>
+(Zuruf: Hat damit nichts zu tun!) 
 Die Sudetendeutschen müssen in ihre Heimat zurück und müssen dort gleichberechtigt mit den anderen Völkern Böhmens und Mährens leben in 
 einem Europa, das — ich variiere hier ein Wort 
 Masaryks — eine höhere Schweiz werden muß! 
-<interjection>(Beifall bei der SPD.) </interjection>
+(Beifall bei der SPD.) 
 Und was den Westen anbetrifft, so kann auch hier 
 unsere Politik nur europäisch sein. Sie ist belastet 
 mit einer Reihe von Hypotheken; aber wir sollten 
@@ -1083,16 +1031,16 @@ bereit sind, unsererseits den Beweis zu liefern, daß
 w i r nicht vergessen, warum alles so gekommen 
 ist, werden wir den Franzosen sagen dürfen: Nun 
 solltet ihr einiges vergessen! 
-<interjection>(Beifall bei der SPD.) </interjection>
+(Beifall bei der SPD.) 
 Um dafür die Grundlagen zu schaffen, ist es nötig, 
 klare Tatbestände zu setzen und alle Zwielichtsituationen zu vermeiden, aus denen die giftigen 
 Fledermäuse des Nationalismus ausschwärmen 
 könnten. Endgültig gelöst — gelöst auch in dem 
 Sinne, in dem man von der Gelöstheit einer Haltung spricht — wird das deutschfranzösische Verhältnis erst dann sein, wenn wir die Vereinigten 
 Staaten von Europa unter Dach und Fach gebracht haben. 
-<interjection>(Beifall bei der SPD.) </interjection>
+(Beifall bei der SPD.) 
 Manche meinen, das Ruhrstatut sei ein guter Weg 
-dazu. Ich glaube es nicht. Ich fürchte, daß , das Ruhrstatut eher ein Hindernis auf dem Wege nach 
+dazu. Ich glaube es nicht. Ich fürchte, daß ,  das Ruhrstatut eher ein Hindernis auf dem Wege nach 
 Europa sein wird als eine offene Tür. Wir werden 
 darüber in den nächsten Tagen zu diskutieren 
 haben; es liegt ja ein Antrag vor. Die Regierung 
@@ -1104,45 +1052,34 @@ Ruhrbehörde erhält, oder ob es nicht vielleicht
 sicherer dazu kommen könnte, wenn man das Statut 
 nicht anerkennt und so eine neue Prüfung des 
 Problems veranlaßt. 
-<interjection>(Zustimmung bei der SPD.) </interjection>
+(Zustimmung bei der SPD.) 
 Und was nun die Saar anbetrifft, da habe ich zu 
 meinem Bedauern — — Vielleicht fragen Sie, Herr 
 Präsident, ob ich noch weiterreden darf? 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Köhler</name><public_office>Präsident</public_office>
-</speaker>
- Ist das Hohe Haus damit 
+Präsident Dr. Köhler: Ist das Hohe Haus damit 
 einverstanden, daß der Herr Abgeordnete noch fünf 
 Minuten spricht? 
-<interjection>(Zustimmung.) </interjection>
-— Danke schön.
-</speech>
-<speech>
-<speaker>
-<name>Dr. Schmid</name><party>SPD</party>
-</speaker>
- Danke! 
+(Zustimmung.) 
+— Danke schön.Dr. Schmid  (SPD): Danke! 
 Ich habe zu meinem Bedauern feststellen müssen, 
 daß die Bemerkungen, die der Herr Bundeskanzler 
 über das Saargebiet gemacht hat, in der im Bundesanzeiger abgedruckten Regierungserklärung 
 nicht enthalten sind, 
-<interjection>(Abg. Renner: Ei, ei!) </interjection>
+(Abg. Renner: Ei, ei!) 
 und es hat mich geschmerzt, daß der Herr Bundeskanzler davon gesprochen hat, daß Frankreich 
 Interessen im Saargebiet hat — was richtig ist —, 
-daß aber auch Deutschland „Interessen&quot; im Saargebiet habe. Man spricht nur dort von „Interessen&quot; 
+daß aber auch Deutschland „Interessen" im Saargebiet habe. Man spricht nur dort von „Interessen" 
 eines Staates in einem anderen Gebiet, wo dieses 
 Gebiet ein fremdes Gebiet ist. Das Saargebiet aber 
 ist ein Stück Deutschland! 
-<interjection>(Lebhafter Beifall bei der SPD und rechts.) </interjection>
+(Lebhafter Beifall bei der SPD und rechts.) 
 Es gibt keine Saarfrage, wie es einmal — 
 mit 
 Recht — eine elsaß-lothringische Frage gegeben 
-hat. Es gibt eine Realität „Saarkohle&quot; und „lothringisches Erz&quot;, die durch eine politische Grenze getrennt sind, und das Problem ist: wie bringt 
+hat. Es gibt eine Realität „Saarkohle" und „lothringisches Erz", die durch eine politische Grenze getrennt sind, und das Problem ist: wie bringt 
 man diese Kohle und dieses Erz zusammen, obwohl 
 eine politische Grenze dazwischen läuft? 
-<interjection>(Sehr richtig!) </interjection>
+(Sehr richtig!) 
 Die Methoden von früher, Annexionen usw. sind 
 heute nicht mehr möglich. Wir meinen aber, daß 
 die hybride Methode, die man vor einigen Jahren 
@@ -1152,14 +1089,14 @@ man die Rechtsfigur des Protektorats langsam ab,
 und hier im Herzen Europa errichtet man eine Protektoratsverfassung! Wenn man sich dabei auf den 
 Willen des Saarvolks beruft — man wage doch eine 
 Volksabstimmung im Saargebiet! 
-<interjection>(Lebhafter Beifall.) </interjection>
+(Lebhafter Beifall.) 
 Es muß hier eine Lösung gefunden werden, die 
 dieser Zeit und der Atlantik-Charta würdig ist. 
 Am besten wäre es natürlich, wir könnten heute 
 schon die europäischen Bodenschätze eurdpäisieren. 
 Das können wir aber leider noch nicht. Nächstdem 
 wäre es auch noch eine gute Sache, wenn man das 
-Potential von Ruhr, Saar und Lothringen — Kohle, 
+Potential von Ruhr,  Saar  und Lothringen — Kohle, 
 Erze, Eisen, Stahl — zu einem wirtschaftlichen 
 Zweckverband vereinigen könnte. Auch das wird 
 heute noch nicht gehen. Aber schon heute könnte 
@@ -1170,7 +1107,7 @@ alten deutschen Zollverein mit seinen legislativen
 und administrativen Befugnissen. Eine solche Lösung würde allen französischen Interessen gerecht 
 werden und einen recht giftigen Pfeil aus dem 
 Körper Europas ziehen. 
-<interjection>(Beifall links.) </interjection>
+(Beifall links.) 
 Wir werden sehr bald vor der Frage stehen, wie 
 wir uns zum Europa-Rat in Straßburg stellen sollen. 
 Ich meine, daß wir warten sollten, bis man uns 
@@ -1181,25 +1118,23 @@ nach Straßburg gehen wollen, nicht nur deswegen, weil man uns anders nicht einl
 Ich glaube, wenn wir uns hierbei auf das Mögliche 
 beschränken, dann wird uns das früher die Freiheit bringen, als fiktive Gleichberechtigungen es 
 könnten! 
-Meine Damen und Herren! Wie wir die Opposition zu führen gedenken, ist hier schon zu zweien 
+Meine Damen und Herren! Wie wir die  Opposition zu führen gedenken, ist hier schon zu zweien 
 Malen gesagt worden. Ich will dazu noch einige 
 ergänzende Worte sagen. Opposition bedeutet für 
 uns nicht eine Respektabilitätsbezeichnung für jene, 
-„die nicht mitmachen dürfen&quot;. Wir betrachten uns 
-nicht als eine Art „Klub der Mißvergnügten&quot;. 
+„die nicht mitmachen dürfen". Wir betrachten uns 
+nicht als eine Art „Klub der Mißvergnügten". 
 Opposition ist nicht die Bremse am Wagen der 
 deutschen Politik! Opposition ist der andere Beweger der deutschen Politik. 
-<interjection>(Sehr gut!) </interjection>
+(Sehr gut!) 
 Regierung und Opposition bilden nur zusammen 
 die Gänze der deutschen politischen Kräfte! 
-<interjection>(Lebhafter Beifall.) </interjection>
+(Lebhafter Beifall.) 
 Meine Damen und Herren, nehmen Sie diese Worte 
 nicht allzusehr irenisch; sie sind kein Bekenntnis 
 zur Sanftmut. Es wird Kampf geben, 
-<interjection>
 (Zuruf: An ihren Früchten werdet ihr sie 
 erkennen!) 
-</interjection>
 das liegt in der Natur der Sache. — Sie kennen 
 das Wort von den Kartoffeln, Herr Kollege 
 Hilbert; ich brauche es Ihnen nicht zu sagen. — 
@@ -1211,16 +1146,9 @@ so sein wird, daß wir nicht ausschließlich gezwungen sein werden, gegen sie zu
 sondern daß unser Kampf ein Wettstreit um die 
 Bürgerkrone, ein Wettkampf um den Ruhm, unserem Volke am besten gedient zu haben, werden 
 kann. 
-<interjection>
 (Lebhafter Beifall bei der SPD. in der Mitte 
 und bei der FDP.) 
-</interjection>
-</speech>
-<speech>
-<speaker>
-<name>Dr. Köhler</name><public_office>Präsident</public_office>
-</speaker>
- Meine Damen und Herren! Der Herr Bundeskanzler hat mich gebeten, 
+Präsident Dr. Köhler: Meine Damen und Herren! Der Herr Bundeskanzler hat mich gebeten, 
 eine Unterbrechung der Sitzung vorzunehmen und 
 zunächst einmal den Ältestenrat zusammenzuberufen, um ihm die Möglichkeit zu geben, von dem 
 Ergebnis — wie ich annehmen darf — der heutigen Besprechung zu berichten, und anschließend 
@@ -1231,31 +1159,21 @@ Minuten vor Beendigung der Besprechung im
 Ältestenrat das Zeichen zum Wiederzusammentritt 
 geben lassen. 
 Die Sitzung ist unterbrochen. 
-<interjection>(Unterbrechung der Sitzung 15 Uhr 42 Minuten.) </interjection>
+(Unterbrechung der Sitzung 15 Uhr 42 Minuten.) 
 Die Sitzung wird um 16 Uhr 44 Minuten wieder 
 aufgenommen. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Köhler</name><public_office>Präsident</public_office>
-</speaker>
- Meine Damen und Herren! Die Sitzung ist wieder eröffnet. 
+Präsident Dr. Köhler: Meine Damen und Herren! Die Sitzung ist wieder eröffnet. 
 Das Wort hat zunächst der Herr Bundeskanzler 
 zu einer 
 Erklärung über die Besprechungen mit den drei 
 Hohen Kommissaren. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Adenauer</name><public_office>Bundeskanzler</public_office>
-</speaker>
- Meine Damen 
+Dr. Adenauer. Bundeskanzler: Meine Damen 
 und meine Herren! Heute vormittag hatten einige 
 Vertreter der Bundesregierung eine mehrstündige 
 Unterhaltung und Beratung mit den Alliierten 
 Oberkommissaren. Über den Verlauf dieser Be- 
 
-<interjection>(Bundeskanzler Dr. Adenauer) </interjection>
+(Bundeskanzler Dr. Adenauer) 
 sprechung geben die Oberkommissare an die Presse 
 eine Mitteilung, die ich Ihnen jetzt verlesen 
 möchte: 
@@ -1277,24 +1195,14 @@ Fragen bei der Hohen Kommission verbleiben muß.
 Die heutige Sitzung Wird von weiterem Gedankenaustausch gefolgt werden. Der Bundesregierung 
 bleibt überlassen, neue Vorschläge zur Ausführung des Paragraphen 3 des Beschlusses der 
 Hohen Kommission zu machen. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Köhler</name><public_office>Präsident</public_office>
-</speaker>
- Meine Damen und Herren, ich darf wohl feststellen, daß das Hohe 
+Präsident Dr. Köhler: Meine Damen und Herren, ich darf wohl feststellen, daß das Hohe 
 Haus diese Erklärung des Herrn Bundeskanzlers 
 zur Kenntnis genommen hat. 
 Ich erteile nunmehr dem Herrn Bundeskanzler 
 das Wort zur 
 Antwort auf die bisherige Aussprache über die 
 Regierungserklärung 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Adenauer</name><public_office>Bundeskanzler</public_office>
-</speaker>
- Meine Damen 
+Dr. Adenauer, Bundeskanzler: Meine Damen 
 und Herren! Die Diskussion zur Regierungserklärung hat sich über so viele Tage erstreckt und es 
 ist so viel dabei angeregt worden, daß Sie verstehen werden, wenn ich nicht zu allen gemachten 
 Ausführungen und Ausstellungen im einzelnen 
@@ -1309,23 +1217,19 @@ im Gedächtnis ist. Er hat mich ermahnt, ein Bundeskanzler dürfe seine Zeit nic
 die Memoiren oder die Lebenserinnerungen des 
 Fürsten Bülow zu lesen. Ich kann dem Herrn Kollegen Schmid versichern, erstens daß ich jetzt 
 keine Zeit dazu habe — 
-<interjection>(Abg. Dr. Schmid: So habe ich es nicht gemeint!) </interjection>
+(Abg. Dr. Schmid: So habe ich es nicht gemeint!) 
 und zweitens, daß ich es auch früher nicht getan 
 habe. 
-<interjection>
 (Abg. Renner: Sie haben Ihre eigene 
 Geschichte! — Heiterkeit.) 
-</interjection>
 — Der Herr Kollege Renner hat meine Geschichte 
 zum Teil miterlebt. 
-<interjection>(Abg. Renner: Daher kenne ich sie auch so gut!) </interjection>
+(Abg. Renner: Daher kenne ich sie auch so gut!) 
 Aber sehen Sie, meine Damen und Herren, wenn 
 nun der Zufall mir gerade eine Nummer der 
-„Zeit&quot; in die Hände spielt, in der ein so ausgezeichnetes Zitat stand, 
-<interjection>
+„Zeit" in die Hände spielt, in der ein so ausgezeichnetes Zitat stand, 
 (Abg. Dr. Schmid: Das ist die Zeitung von Herrn 
 Bucerius!) 
-</interjection>
 — ja ich komme noch darauf, Herr Schmid — 
 dann heißt es doch viel verlangt, wenn man etwas 
 Derartiges unterdrücken soll. Aber ich darf hinzufügen, daß ich gesagt habe, ich nehme nicht an, 
@@ -1334,18 +1238,16 @@ dieser Reichstagsabgeordnete gewesen ist.
 Nun, meine Damen und Herren, möchte ich noch 
 etwas weiteres zu den Ausführungen des Herrn 
 Kollegen Schmid sagen, und zwar zu den Ausstellungen über meine Ausführungen zur Saarfrage. Warum diese Ausführungen nicht in dem 
-„Bundesanzeiger&quot; veröffentlicht sind, weiß ich 
+„Bundesanzeiger" veröffentlicht sind, weiß ich 
 nicht. 
-<interjection>
-(Abg. Renner: Ich weiß es! Schuman! 
+(Abg. Renner: Ich weiß es! Schuman!  
 Zuruf: Es ist die einzige Sache, die fehlt!) 
-</interjection>
 Ich habe keine Zeit dazu, den Regierungsanzeiger 
 zu lesen, aber schließlich kommt es doch darauf 
 an, was hier im Stenogramm steht. Ich darf folgendes wiederholen. Ich habe gesagt: die Franzosen haben ein wirtschaftliches Interesse, wir 
 Deutschen haben ein wirtschaftliches u n d ein 
 nationales Interesse. 
-<interjection>(Zuruf in der Mitte: Sehr richtig!) </interjection>
+(Zuruf in der Mitte: Sehr richtig!) 
 Ich habe weiter gesagt: schließlich haben die Saarländer auch ein Lebensinteresse. Ich glaube, wenn 
 man meine Ausführungen im Zusammenhang 
 nimmt, dann wird man schlechterdings nicht 
@@ -1355,15 +1257,15 @@ Entwicklung der Saarfrage außerordentlich, einmal aus deutschem Interesse und z
 europäischem Interesse heraus. Ich glaube aber 
 nach wie vor daran, daß sich doch eines Tages 
 im europäischen Rahmen eine Regelung der Saarfrage finden wird, die unseren berechtigten wirtschaftlichen und nationalen Interessen genügt. 
-<interjection>(Lebhafter Beifall.) </interjection>
+(Lebhafter Beifall.) 
 Es ist bemängelt worden, daß ich nicht der Arbeiterwohlfahrt gedankt hätte. Ich glaube, wenn 
-Sie meine Ausführungen nicht nur im „Bundesanzeiger&quot;, sondern auch sonst nachlesen würden 
+Sie meine Ausführungen nicht nur im „Bundesanzeiger", sondern auch sonst nachlesen würden 
 dann würden Sie finden, daß ich nur den Organisationen gedankt habe, die sich besonders um, 
 unsere Kriegsgefangenen bemüht haben. Ich habe 
 in der Zwischenzeit gehört. daß die Arbeiterwohlfahrt das auch getan hat. Ich stehe nicht an, auch 
 der Arbeiterwohlfahrt den Dank des gesamten 
 deutschen Volkes dafür auszusprechen. 
-<interjection>(Beifall.) </interjection>
+(Beifall.) 
 Es ist ferner gesagt worden, ich hätte nicht von 
 den Arbeitern gesprochen. Das ist wohl der Fall. 
 Ich bitte, auch da nachzulesen, was ich gesagt 
@@ -1375,7 +1277,7 @@ Jahren gezeigt hätten. Ich stehe nicht an zu erklären, einmal, daß ich die Be
 ebenfalls durchaus anerkenne, daß die Gewerkschaften in den Jahren, die hinter uns liegen,(Bundeskanzler Dr. Adenauer) 
 ihre Verpflichtung gegenüber dem Volksganzen 
 erkannt und erfüllt haben. 
-<interjection>(Bravo!) </interjection>
+(Bravo!) 
 Wenn ich davon nichts gesagt habe und ihnen 
 nicht ausdrücklich gedankt habe, so habe ich es 
 deswegen getan, weil ich noch sehr vielen anderen 
@@ -1383,13 +1285,13 @@ dann auch hätte danken müssen. Denn sehen Sie,
 meine Damen und Herren, wenn wir einmal über 
 die Zeit seit 1945 rückwärts blicken, dann müssen 
 wir, glaube ich, in allererster Linie unseren Hausfrauen danken für das, was sie ertragen und geleistet haben. 
-<interjection>(Lebhafter Beifall.) </interjection>
+(Lebhafter Beifall.) 
 Man hat weiter vermißt, daß ich nichts zur 
 Selbstverwaltung gesagt habe. Nun, ich bürge doch 
 mit meiner ganzen Person wahrhaftig dafür, daß 
 ich ein Freund der Selbstverwaltung durch und 
 durch bin. 
-<interjection>(Heiterkeit. — Abg. Renner: Wie ich es auffasse!) </interjection>
+(Heiterkeit. — Abg. Renner: Wie ich es auffasse!) 
 — Ich bedauere auch, daß im Grundgesetz über die 
 Selbstverwaltung etwas wenig gesagt worden ist. 
 Ich hätte gewünscht, es wäre mehr darüber gesagt 
@@ -1398,7 +1300,7 @@ Selbstverwaltung einen ganz wesentlichen Bestandteil des föderalistischen Gedan
 Außerordentlich habe ich begrüßt, was die Vertreter der Opposition über die Stellung zur Regierung und zur Regierungskoalition gesagt haben. 
 Wenn ich sage, die Sprecher der Parteien der Opposition, so drücke ich mich mit Absicht etwas vorsichtig aus; denn ich weiß noch nicht so recht, wer 
 alles zur Opposition gehört. 
-<interjection>(Heiterkeit.) </interjection>
+(Heiterkeit.) 
 — Es ist von mehreren Vertretern der Fraktionen, 
 auch der sozialdemokratischen Fraktion durch den 
 Mund des Herrn Schmid, heute zum Ausdruck gebracht worden, daß man je nach dem Inhalt der 
@@ -1408,7 +1310,7 @@ die Worte zu unterstreichen, und zwar mit Genugtuung zu unterstreichen, die sowo
 Schmid prinzipiell über das Verhältnis von Opposition und Regierung gesagt haben. Ich glaube, 
 wenn die Opposition in dem Sinne geübt wird, vielleicht dann und wann einige Grad mehr — ich 
 habe nichts dagegen —, 
-<interjection>(Heiterkeit) </interjection>
+(Heiterkeit) 
 dann ist das für das gesamte demokratische Empfinden des deutschen Volkes von größter Bedeutung. Ich stehe nicht an zu erklären, daß jede Regierung, insbesondere auch die von mir geführte 
 Regierung, von einer klugen Opposition sehr viel 
 lernen kann und lernen wird. 
@@ -1418,7 +1320,7 @@ ich von den Hemmnissen sprechen, die unserer
 Schiffahrt auferlegt sind. Wenn das deutsche Volk 
 bis zum Jahre 1952 in der Lage sein soll, auf eigenen Füßen zu stehen, dann müssen die Hemmnisse, die jetzt der deutschen Schiffahrt in den Weg 
 gelegt sind, unbedingt beseitigt werden. 
-<interjection>(Sehr richtig!) </interjection>
+(Sehr richtig!) 
 Ich glaube, wir alle sind uns darin einig, daß Sie 
 die Bemühungen der Bundesregierung auf diesem 
 Gebiete mit dem Gewicht Ihrer Stimmen unterstützen. 
@@ -1428,80 +1330,75 @@ außerordentlich, daß die Niederländische Regierung
 eine sogenannte Grenzkorrektur — so nennt sie esvorgenommen hat, ohne daß irgend jemand sich an 
 das Land Nordrhein-Westfalen oder, was richtiger 
 wäre, vorher an die Bundesregierung gewandt hat. 
-<interjection>(Hört! Hört!) </interjection>
+(Hört! Hört!) 
 Meine Damen und Herren! Ein solches Vorgehen 
 ist völlig unmöglich und kann von uns in keiner 
 Weise ertragen werden. 
-<interjection>
 (Beifall des ganzen Hauses mit Ausnahme 
 der KPD.) 
-</interjection>
 Das niederländische Volk wünscht mit uns in guten 
 wirtschaftlichen Beziehungen zu leben. Wirtschaftliche Beziehungen sind nicht möglich ohne gegenseitige Achtung. Es ist aber ein Zeichen der Nichtachtung gegenüber der Bundesrepublik Deutschland und gegenüber der Bundesregierung, wenn 
 Dinge vorkommen, wie sie jetzt vorgekommen sind. 
-<interjection>(Sehr richtig!) </interjection>
+(Sehr richtig!) 
 Im Verlaufe der Auseinandersetzungen sind 
 — ich bitte die betreffenden Herren, mir den Ausdruck nicht übelzunehmen — einige romantische 
 Ausführungen über Böhmen, Mähren, Österreich 
 usw. gemacht worden. 
-<interjection>(Abg. Renner: Nette Romantik!) </interjection>
+(Abg. Renner: Nette Romantik!) 
 Meine Damen und Herren, ich bitte alle diejenigen, 
 die von diesem Pulte aus sprechen, folgendes zu 
 bedenken: Das Mißtrauen gegenüber uns Deutschen 
 ist im gesamten Ausland nach wie vor außerordentlich stark, und daher sollte jeder, der öffentlich spricht, seine Worte sehr sorgfältig abwägen, 
 ob sie nicht zu Mißdeutungen Anlaß geben können, 
 die dieses Mißtrauen gegen uns noch verstärken. 
-<interjection>(Sehr wahr! in der Mitte.) </interjection>
+(Sehr wahr! in der Mitte.) 
 Es ist mir gesagt worden: „Du hast Österreich 
-nicht erwähnt!&quot; — Nun, meine Damen und Herren: 
+nicht erwähnt!" — Nun, meine Damen und Herren: 
 wenn einer ein Freund Österreichs seit vielen, 
 vielen Jahren ist, dann bin ich es. Aber hat es denn 
 Zweck und ist es überhaupt von Österreich ge-. 
 wünscht, 
-<interjection>(Sehr wahr! bei der CDU) </interjection>
+(Sehr wahr! bei der CDU) 
 daß wir hier von Österreich sprechen? 
-<interjection>(Lebhafte Zustimmung in der Mitte.) </interjection>
+(Lebhafte Zustimmung in der Mitte.) 
 In Köln hat eine Versammlung vertriebener Sudetendeutscher stattgefunden. Meine Damen und 
 Herren, jeder von uns wird mit den vertriebenen 
 Sudetendeutschen empfinden und fühlen, und jeder 
 wird mit ihnen übereinstimmen, wenn sie verlangen, in ihre Heimat, in ihre freie Heimat zurücckehren zu können. 
-<interjection>
 (Bravorufe und Händeklatschen in der 
 Mitte und rechts.) 
-</interjection>
 Aber lassen Sie mich das ausdrücklich betonen: das 
 hat mit Plänen, mit Gedanken und Gedankengängen, wie sie früher bei den Alldeutschen und 
 später bei den Nationalsozialisten bestanden haben, 
 gar nichts zu tun. 
-<interjection>(Sehr richtig! in der Mitte.) </interjection>
+(Sehr richtig! in der Mitte.) 
 Das ist lediglich ein Ausdruck der Liebe zur heimatlichen Scholle und weiter nichts. 
 Herr Kollege Ollenhauer war so freundlich, mir 
 am Schlusse seiner Ausführungen nahezulegen, 
 ob ich nicht an das Hohe Haus die Frage stellen 
 wolle, ob es meine Regierungserklärung billige. 
-<interjection>(Abg. Dr. Schmid: Sie werden es nicht tun!) </interjection>
+(Abg. Dr. Schmid: Sie werden es nicht tun!) 
 
-<interjection>(Bundeskanzler Dr. Adenauer) </interjection>
+(Bundeskanzler Dr. Adenauer) 
 — Ich tue es auch nicht! 
-<interjection>
 (Große Heiterkeit. — Abg. Dr. Schmid: 
-Das ist verständlich! — Weitere Zurufe von der SPD.) 
-</interjection>
+Das ist verständlich! — Weitere Zurufe 
+von der SPD.) 
 — Sehen Sie, meine Damen und Herren, Herr 
 Kollege Schmid kennt mich aus einjähriger Zusammenarbeit ganz genau, 
-<interjection>(Abg. Dr. Schmid: Ich glaube, ja!) </interjection>
+(Abg. Dr. Schmid: Ich glaube, ja!) 
 und er wußte auch das; er hätte das gar nicht 
 gefragt. Herr Ollenhauer kennt mich noch nicht so 
 lange. 
-<interjection>(Erneute Heiterkeit.) </interjection>
+(Erneute Heiterkeit.) 
 Aber, meine Damen und Herren, ich bitte: sehen 
 Sie sich das Grundgesetz doch einmal an. 
-<interjection>(Sehr richtig! in der Mitte.) </interjection>
+(Sehr richtig! in der Mitte.) 
 Dann werden Sie finden, daß derartige Vertrauensfragen durch die Fassung des Grundgesetzes absichtlich ausgeschlossen sind. 
-<interjection>
 (Widerspruch bei der SPD. — Abg. Dr. 
-Schmid: Nicht ganz! — Abg. Dr. von Brentano: „Ausgeschlossen&quot; nicht! — Zuruf von der SPD: Ich bitte, das Stenogramm zu lesen!) 
-</interjection>
+Schmid: Nicht ganz! — Abg. Dr. von 
+Brentano: „Ausgeschlossen" nicht! — 
+Zuruf von der SPD: Ich bitte, das Stenogramm zu lesen!) 
 Diese Frage, ob die Frage der Billigung der Regierungserklärung gestellt werden könne und solle 
 oder nicht, oder umgekehrt, ob eine Mißbilligung 
 oder etwas Derartiges ausgesprochen werden konne 
@@ -1509,24 +1406,23 @@ oder nicht, ist im Hauptausschuß des Parlamentarischen Rates sehr eingehend dis
 Ein so hervorragender, namentlich auch von Ihnen 
 anerkannter Jurist wie der Justizminister Katz hat 
 diese Frage mit Entschiedenheit verneint. 
-<interjection>
 (Hört Hört! in der Mitte. — Abg. Dr. Schmid: 
-Ich glaube nicht, daß das eine getreue Erin nerung ist, Herr Bundeskanzler! — Abg. Renner: Eigene Interpretation!) 
-</interjection>
+Ich glaube nicht, daß das eine getreue Erin nerung ist, Herr Bundeskanzler! — Abg. Renner: 
+Eigene Interpretation!) 
 — Also dann will ich Ihnen folgendes darauf antworten: Ich war nicht dabei, 
-<interjection>(Abg. Dr. Schmid: Aber ich!) </interjection>
+(Abg. Dr. Schmid: Aber ich!) 
 aber, verehrter Herr Kollege Schmid, der jetzige 
 Justizminister Dehler war dabei und hat sich damals an der Diskussion beteiligt. Der Justizminister 
 Dehler hat damals die Ansicht vertreten, es sei 
 die Erklärung einer Billigung oder Mißbilligung 
 möglich, hat mir aber erklärt, gerade Herr Katz 
 habe mit aller Entschiedenheit betont, das sei unmöglich, das dürfe nicht mehr vorkommen. 
-<interjection>(Heiterkeit. — Zurufe von der SPD.) </interjection>
+(Heiterkeit. — Zurufe von der SPD.) 
 Meine Damen und Herren, die Hauptsache ist 
 ja, daß ich nicht die Absicht habe und daß ich, verehrter Herr Kollege Ollenhauer, dann wohl Ihnen 
 überlassen muß, daraus irgendwelche Konsequenzen zu ziehen. Aber ich glaube kaum, daß Sie 
 sie ziehen werden. 
-<interjection>(Zurufe.) </interjection>
+(Zurufe.) 
 Sie haben lange Tage mit vielen Reden hinter 
 sich und noch vor sich und Sie werden es deswegen 
 sicher als angenehm empfinden, wenn ich mich 
@@ -1541,21 +1437,14 @@ leistet oder ob sie nichts leistet. Ich bitte Sie alle:
 Bei entscheidenden und für das deutsche Volk wichtigen Dingen wollen wir versuchen zusammenzuarbeiten und in diesen so außerordentlich 
 schweren Zeiten wenigstens etwas weiterzukommen 
 im Interesse unseres Volkes! 
-<interjection>
 (Bravorufe und Händeklatschen bei den 
 Regierungsparteien.) 
-</interjection>
-</speech>
-<speech>
-<speaker>
-<name>Dr. Köhler</name><public_office>Präsident</public_office>
-</speaker>
- Meine Damen und Her
+Präsident Dr. Köhler: Meine Damen und Her
 -r
 en, darf ich das Hohe Haus fragen, ob es 
 damit den Punkt 1 der Tagesordnung als erledigt 
 ansieht? 
-<interjection>(Zurufe links.) </interjection>
+(Zurufe links.) 
 Oder wird das Wort weiter gewünscht? — Ich 
 stelle fest: das Wort wird nicht gewünscht. Ich 
 schließe damit die Beratung über die Erklärung der 
@@ -1572,7 +1461,7 @@ ist nicht der Fall. Dann schließe ich die Beratung.
 Wer für den interfraktionellen Antrag Drucksache Nr. 45, betreffend Einsetzung von Ausschüssen, ist, den bitte ich, die Hand zu erheben. — 
 Danke. Ich bitte um die Gegenprobe. — Mit überwältigender Mehrheit angenommen. 
 Meine Damen und Herren, wir kommen damit 
-zu Punkt 3 der Tagesordnung: 
+zu Punkt 3 der Tagesordnung: 	 
 Anträge der Fraktionen auf Bildung von 
 Ausschüssen. 
 Auf Grund interfraktioneller Besprechungen 
@@ -1591,18 +1480,13 @@ Es wird ein Ausschuß für innergebietliche
 Neuordnung gemäß Artikel 29 des Grundgesetzes in Stärke von 15 Mitgliedern gebildet. 
 Wird zu diesem Antrag das Wort gewünscht? — 
 Bitte, Herr Abgeordneter Dr. Falkner! 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Falkner</name><party>BP</party>
-</speaker>
- Meine Damen und Herren! 
+Dr. Falkner -(BP): Meine Damen und Herren! 
 Bitte, betrachten Sie es nicht als eine Anmaßung 
 einer kleinen Fraktion, wenn wir uns erlauben, 
 gegen einen Ausschuß Stellung zu nehmen, der von 
 allen anderen Fraktionen gewünscht wird. Dieser 
 Ausschuß soll sich mit den Möglichkeiten des Artikels 29 des Grundgesetzes beschäftigen, 
-<interjection>(Abg. Dr. von Brentano: Und 118!)(Dr. Falkner) </interjection>
+(Abg. Dr. von Brentano: Und 118!)(Dr. Falkner) 
 dieses Artikels 29, der besagt, daß das Bundesgebiet unter Berücksichtigung der landsmannschaftlichen Verbundenheit, der geschichtlichen und 
 kulturellen Zusammenhänge, der wirtschaftlichen 
 Zweckmäßigkeit und des sozialen Gefüges durch 
@@ -1616,7 +1500,7 @@ Ein vierter Vorbehalt bezieht sich auf die Artikel
 29 und 118 und die allgemeine Frage der Neuregelung der Ländergrenzen. Ausgenommen im 
 Falle von Württemberg-Baden und -Hohenzollern 
 haben sich unsere Auffassungen 
-— „unsere&quot;, also die der Militärgouverneure — 
+— „unsere", also die der Militärgouverneure — 
 in dieser Frage nicht geändert, seitdem wir diese 
 Angelegenheiten mit Ihnen am 2. März besprochen haben. Falls nicht die Hohen Kommissare einstimmig dahingehend übereinkommen, 
 diese Auffassung zu ändern, werden die in diesen 
@@ -1629,32 +1513,17 @@ noch gelten, ist uns nicht verständlich, was dieser
 Ausschuß eigentlich bearbeiten soll. Vielleicht kann 
 aber von den Antragstellern eine Begründung für 
 die Einrichtung dieses Ausschusses gegeben werden. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Köhler</name><public_office>Präsident</public_office>
-</speaker>
- Wird weiter das Wort 
+Präsident Dr. Köhler: Wird weiter das Wort 
 gewünscht? - Herr Abgeordneter Dr. Schmid, bitte! 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Schmid</name><party>SPD</party>
-</speaker>
- Ich möchte nur eine Aufklärung geben. Die Sperrbestimmung der Besatzungsmächte bezüglich der gebietlichen Neugliederung ist nicht so absolut, wie hier gesagt 
+Dr. Schmid (SPD): Ich möchte nur eine Aufklärung geben. Die Sperrbestimmung der Besatzungsmächte bezüglich der gebietlichen Neugliederung ist nicht so absolut, wie hier gesagt 
 wurde. Es heißt darin lediglich, daß im Falle eines 
 Gesetzes, durch das das Bundesgebiet neu aufgeteilt wird, alle drei Besatzungsmächte zustimmen 
 müssen. 
-<interjection>(Sehr richtig! bei der SPD und in der Mitte.) </interjection>
+(Sehr richtig! bei der SPD und in der Mitte.) 
 Mehr ist nicht gesagt worden. Und wir sollten doch 
 nicht so sehr an der Weisheit der Besatzungsmächte zweifeln, meine Damen und Herren! 
-<interjection>(Heiterkeit.) </interjection>
-</speech>
-<speech>
-<speaker>
-<name>Dr. Köhler</name><public_office>Präsident</public_office>
-</speaker>
- Wird das Wort weiter 
+(Heiterkeit.) 
+Präsident Dr. Köhler: Wird das Wort weiter 
 gewünscht? — Ich stelle fest: das ist nicht 
 der Fall. Ich schließe die Aussprache. 
 Dann kommen wir zur Abstimmung über den 
@@ -1668,17 +1537,12 @@ Der Bundestag wolle beschließen:
 Es wird ein Ausschuß für Fragen der öffentlichen Fürsorge zur Regelung der dem Bund 
 gemäß Artikel 74 der Grundordnung obliegenden Möglichkeiten und Notwendigkeiten in 
 Stärke von 15 Mitgliedern gebildet. 
-— Das muß doch wohl „Grundgesetz&quot; heißen? 
-<interjection>(Zustimmung.) </interjection>
+— Das muß doch wohl „Grundgesetz" heißen? 
+(Zustimmung.)  
 — Dann bitte ich, das zu korrigieren. 
 Ich eröffne die Aussprache über diesen Antrag. 
 Das Wort hat der Herrr Abgeordnete Dr. Kleindinst. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Kleindinst</name><party>CSU</party>
-</speaker>
- Meine Damen und Herren! 
+Dr. Kleindinst (CSU): Meine Damen und Herren! 
 Die außerordentliche Notlage weiter Kreise der 
 Bevölkerung wird uns dazu zwingen, uns fortgesetzt mit der öffentlichen Fürsorge zu befassen. 
 Die Regelung der Fürsorge ist ja in der Fürsorgepflichtverordnung erfolgt. Aber diese Fürsorgepflichtverordnung hat viele Änderungen erfahren 
@@ -1695,20 +1559,10 @@ materiell in erster Linie solche der öffentlichen
 Fürsorge sind. Ich bitte aus diesem Grunde, der 
 Bildung dieses Ausschusses zuzustimmen; er ist 
 eine unbedingte Notwendigkeit. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Köhler</name><public_office>Präsident</public_office>
-</speaker>
- Wird das Wort zu diesem 
+Präsident Dr. Köhler: Wird das Wort zu diesem 
 Antrag weiter gewünscht? — Das Wort hat der 
 Herr Abgeordnete Goetzendorff. 
-</speech>
-<speech>
-<speaker>
-<name>Goetzendorff</name><party>WAV</party>
-</speaker>
- Meine Damen und Herren! 
+Goetzendorff (WAV): Meine Damen und Herren! 
 Auch wir halten die Bildung eines Fürsorgeausschusses für sehr, sehr notwendig. Ich möchte 
 Sie aber bitten, von der Bildung eines 15er-
 Ausschusses abzusehen und aus diesem Ausschuß 
@@ -1718,12 +1572,7 @@ oder klein — eine so eminent wichtige Frage, daß
 jeder Fraktion Gelegenheit gegeben werden sollte, 
 daran mitzuarbeiten. 
 Ich stelle daher den Antrag, den Fürsorgeausschuß auf 21 Mitglieder zu erweitern. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Köhler</name><public_office>Präsident</public_office>
-</speaker>
- Ich stelle also fest, daß 
+Präsident Dr. Köhler: Ich stelle also fest, daß 
 Sie einen Abänderungsantrag zu dem eben von 
 mir verlesenen Antrag dahingehend stellen: seine 
 Stärke soll statt 15 21 Mitglieder betragen. 
@@ -1744,14 +1593,14 @@ CDU/CSU-, FDP- und DP-Fraktion:
 Der Bundestag wolle beschließen: 
 Es wird ein Ausschuß für Fragen des Gesundheitswesens zur Regelung der dem Bund gemäß Artikel 74 des Grundgesetzes obliegenden 
 
-<interjection>(Präsident Dr. Köhler) </interjection>
+(Präsident Dr. Köhler) 
 Möglichkeiten und Notwendigkeiten in Stärke 
 von 21 Mitgliedern gebildet. 
 Ich eröffne die Aussprache zu diesem Antrag. 
 Wird das Wort gewünscht? — Das Wort wird nicht 
 gewünscht. Ich schließe die Aussprache. Wer für 
 diesen soeben von mir verlesenen Antrag ist, den 
-bitte ich, die Hand zu erheben. — Danke. Ich bitte 
+bitte ich,  die  Hand zu erheben. — Danke. Ich bitte 
 um die Gegenprobe. — Zweifelsfrei mit Mehrheit 
 angenommen. 
 Ich komme zum nächsten Antrag der CDU/CSU-, 
@@ -1760,14 +1609,9 @@ Der Bundestag wolle beschließen:
 Es wird ein Ausschuß für Fragen der Jugendfürsorge zur Regelung der dem Bunde gemäß 
 Artikel 74 des Grundgesetzes obliegenden Möglichkeiten und Notwendigkeiten in Stärke von 15 
 Mitgliedern gebildet. 
-&apos;Wird das Wort zu diesem Antrag gewünscht? — 
+'Wird das Wort zu diesem Antrag gewünscht? — 
 Das Wort hat der Herr Abgeordnete Dr. Besold. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Besold</name><party>BP</party>
-</speaker>
- Die Fraktion der Bayernpartei hat gegen die Gründung dieses Ausschusses 
+Dr. Besold (BP): Die Fraktion der Bayernpartei hat gegen die Gründung dieses Ausschusses 
 Einspruch erhoben wie auch gegen die der Ausschüsse für Gesundheitswesen, Kulturpolitik, 
 öffentliche Fürsorge, Wissenschaft und Forschung, 
 Presse, Rundfunk und Film. Wir haben deshalb 
@@ -1779,10 +1623,8 @@ gleichzeitig auch irgendwie die Zuständigkeit des
 Bundes begründet ist, sei es in ausschließlicher Gesetzgebungsmöglichkeit oder in konkurrierender 
 Gesetzgebungsmöglichkeit. Wenn eine derartige 
 Möglichkeit im Grundgesetz nicht vorgesehen ist, 
-<interjection>
 (Zuruf aus der Mitte: Das haben Sie ja nicht 
 anerkannt!) 
-</interjection>
 dann spricht die Vermutung für die Zuständigkeit 
 der Länder. Es ist weder im Artikel 73 noch in dem 
 Katalog des Artikels 74 auch nur irgendwie ein 
@@ -1793,19 +1635,9 @@ Ausschuß für Jugendpflege und Jugendwohlfahrt,
 weil dieses Gebiet durchaus von den Ländern bewältigt werden kann und muß und auch keine Bedürfnisfrage irgendwie fundiert ist. 
 Darf ich gleich auch zu den anderen Ausschüssen 
 sprechen? 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Köhler</name><public_office>Präsident</public_office>
-</speaker>
- Nein, wir wollen das getrennt behandeln, Herr Abgeordneter. 
+Präsident Dr. Köhler: Nein, wir wollen das getrennt behandeln, Herr Abgeordneter. 
 Das Wort hat Frau Abgeordnete Dr. Weber. 
-</speech>
-<speech>
-<speaker>
-<name>Frau Dr. Weber</name><party>CDU</party>
-</speaker>
- Ich möchte dem Herrn 
+Frau Dr. Weber (CDU): Ich möchte dem Herrn 
 Vorredner sagen, daß er über die Grundlage 
 dieser Frage doch nicht im Bilde ist. Der Bund 
 wird das Reichsjugendwohlfahrtsgesetz in seinen 
@@ -1813,7 +1645,7 @@ Abänderungen zur Behandlung bekommen. Das
 war schon im alten Reich so; es fällt jetzt unter die 
 konkurrierende Gesetzgebung, und es wird ganz 
 sicher auch eine Angelegenheit der Bundesgesetzgebung werden. 
-<interjection>(Zuruf.) </interjection>
+(Zuruf.) 
 - Die Jugendwohlfahrt ist ein Teil der öffentlichen Fürsorge. Im Parlamentarischen Rat, 
 im 
 Hauptausschuß, ist damals ausdrücklich erklärt 
@@ -1824,19 +1656,9 @@ genannt wurde, zu verstehen ist, sondern auch die
 Reichsjugendwohlfahrtsgesetzgebung von früher, 
 also auch die Jugendfürsorge. Wir haben im Gegenteil im Augenblick den Zustand, daß jedes Land 
 hier seine eigenen Reformen macht, und wir müssen auf diesem Gebiet zu einer einheitlichen Gesetzgebung kommen. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Köhler</name><public_office>Präsident</public_office>
-</speaker>
- Wird das Wort weiter gewünscht? — Das Wort hat der Herr Abgeordnete 
+Präsident Dr. Köhler: Wird das Wort weiter gewünscht? — Das Wort hat der Herr Abgeordnete 
 Strauß. 
-</speech>
-<speech>
-<speaker>
-<name>Strauß</name><party>CSU</party>
-</speaker>
- Ich möchte zur Berechtigung 
+Strauß (CSU): Ich möchte zur Berechtigung 
 dieses Ausschusses nur ergänzend bemerken: Herr 
 Abgeordneter Dr. Besold hat von einem Ausschuß 
 für Jugendpflege und Jugendfürsorge gesprochen. 
@@ -1856,13 +1678,8 @@ so Gott uns helfe, dafür sorgen, daß der Bund das
 Seine auf dem Gebiet Jugendfürsorge leistet und 
 im Rahmen der ihm zur Verfügung stehenden Mittel auch etwas zur Förderung der Jugendpflege 
 beiträgt. 
-<interjection>(Beifall.) </interjection>
-</speech>
-<speech>
-<speaker>
-<name>Dr. Köhler</name><public_office>Präsident</public_office>
-</speaker>
- Wird weiter das Wort gewünscht? — Ich stelle fest: das ist nicht der Fa ll. 
+(Beifall.) 
+Präsident Dr. Köhler: Wird weiter das Wort gewünscht? — Ich stelle fest: das ist nicht der Fa ll. 
 Ich schließe die Aussprache. 
 Wir kommen zur Abstimmung über diesen Antrag. Wer für den Antrag ist, den bitte ich, die 
 Hand zu erheben. — Ich bitte um die Gegenprobe. — 
@@ -1878,14 +1695,9 @@ des Rundfunks und des Films gebildet, der 15
 ordentliche Mitglieder hat. 
 Ich eröffne die Aussprache über diesen Antrag. 
 Wird das Wort gewünscht? — Bitte, Herr Abgeordneter Dr. Besold! 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Besold</name><party>BP</party>
-</speaker>
- Auch gegen die Bildung dieses Ausschusses hat die Fraktion der Bayernpartei Einspruch erhoben. An und für sich gehören 
+Dr. Besold (BP): Auch gegen die Bildung dieses Ausschusses hat die Fraktion der Bayernpartei Einspruch erhoben. An und für sich gehören 
 Presse, Rundfunk und Film in den Bereich der191 
-<interjection>(Dr. Besold) </interjection>
+(Dr. Besold) 
 Kulturpolitik, die zweifelsfrei eine ausschließliche 
 Zuständigkeit der Länder im Grundgesetz rechtfertigt. Dazu muß gesagt werden, daß eine Zuständigkeit des Bundes in Angelegenheiten des Rundfunks überhaupt nicht gegeben oder erwähnt ist, 
 weder in der ausschließlichen Gesetzgebung noch 
@@ -1903,10 +1715,8 @@ dem Grundgesetz, und Sie können mir, meine Damen und Herren, keine gesetzliche 
 dem Grundgesetz anführen, nach welcher der Bund 
 die Zuständigkeit auf dem Gebiete des Rundfunks 
 irgendwie für sich in Anspruch nehmen könnte. 
-<interjection>
 (Zuruf: Das steht doch im Alten Testament! 
 Heiterkeit.) 
-</interjection>
 Was den Ausschuß für Presse und Film anlangt, 
 so habe ich schon erwähnt, daß diese Spezialgebiete 
 Ausschnitte aus der kulturpolitischen Sphäre 
@@ -1918,13 +1728,8 @@ den Voraussetzungen des Artikels 72 Absatz 2 gegeben ist. Diese Bedürfnisfrage 
 entschieden sein, und eine Zuständigkeit des Bundes kann nicht dadurch vorweggenommen werden, 
 daß hier schon Ausschüsse gebildet werden, obwohl 
 der Bund seine Zuständigkeit noch nicht nachgewiesen und auch noch nicht in Anspruch genommen hat. 
-<interjection>(Zuruf links: Bedürfnis liegt vor!) </interjection>
-</speech>
-<speech>
-<speaker>
-<name>Dr. Köhler</name><public_office>Präsident</public_office>
-</speaker>
- Wird das Wort weiter gewünscht? — Ich stelle fest: das ist nicht der Fall. 
+(Zuruf links: Bedürfnis liegt vor!) 
+Präsident Dr. Köhler: Wird das Wort weiter gewünscht? — Ich stelle fest: das ist nicht der Fall. 
 Ich schließe die Aussprache. 
 Wer für den von mir verlesenen interfraktionellen Antrag ist, den bitte ich, die Hand zu erheben. — Ich bitte um die Gegenprobe. — Ich 
 danke. Der Antrag ist mit überwältigender Mehrheit angenommen. 
@@ -1951,13 +1756,13 @@ Wer für diesen Antrag betreffend Bildung eines
 Ausschusses für Bau- und Bodenrecht ist, den bitte 
 ich, die Hand zu erheben. — Ich bitte um die Gegenprobe. — Das erstere war die Mehrheit. Der 
 Antrag ist angenommen. 
-<interjection>(Widerspruch in der Mitte.) </interjection>
+(Widerspruch in der Mitte.) 
 —
 Die zuerst vorgenommene Abstimmung ergab 
 die Mehrheit für den Antrag. 
-<interjection>(Erneuter Widerspruch in der Mitte.) </interjection>
+(Erneuter Widerspruch in der Mitte.) 
 — Wird die Abstimmung angezweifelt? 
-<interjection>(Zurufe: Jawohl!) </interjection>
+(Zurufe: Jawohl!) 
 — Dann wiederholen wir sie. Hier oben waren wir 
 allerdings anderer Meinung. 
 Ich verlese den Antrag, über den ich noch einmal abstimmen lassen werde: 
@@ -1977,12 +1782,7 @@ Der Bundestag wolle beschließen:
 Es wird ein Ausschuß für Kulturpolitik mit 21 
 Mitgliedern eingesetzt. 
 Wird das Wort dazu gewünscht? — Bitte, Herr Abgeordneter Mayer. 
-</speech>
-<speech>
-<speaker>
-<name>Mayer</name><party>FDP</party>
-</speaker>
- Meine Damen und Herren! Wir 
+Mayer (FDP): Meine Damen und Herren! Wir 
 wissen natürlich, was vorhin wiederholt festgestellt 
 wurde, daß Kulturpolitik Länderangelegenheit ist. 
 Wir beantragen diesen Ausschuß auch nicht, um in 
@@ -2002,21 +1802,19 @@ Ausland? Ein anderes: Wer kümmert sich jetzt
 um die Dinge, wenn wir wieder in das kulturpolitische Gespräch mit dem Ausland kommen? 
 Bitte, das ist im Artikel 73 des Grundgesetzes ziemlich klar festgestellt, und nach Artikel 74 gehören 
 
-<interjection>(Mayer) </interjection>
+(Mayer) 
 zur konkurrierenden Gesetzgebung der Schutz des 
 deutschen Kulturgutes und die Förderung der 
 wissenschaftlichen Forschung. 
-<interjection>
 (Abg. Hilbert: Da beantragen wir ja einen 
 Ausschuß!) 
-</interjection>
 Und noch etwas, was eindeutig in der Zuständigkeit der Länder liegt, was uns aber wohl 
 nicht befreit, uns darüber Gedanken zu machen; 
 das ist, daß wir jetzt in 11 Ländern, in drei verschiedenen Zonen, eine Schulreformgesetzgebung 
 erleben, die viel weniger aus deutschem Willen 
 als aus fremdem Vorbild und fremden Anregungen 
 geboren ist. 
-<interjection>(Sehr gut! bei der FDP.) </interjection>
+(Sehr gut! bei der FDP.) 
 Wir möchten hier keine Bevormundung der Länder, aber wir möchten eine Stelle schaffen, die sich 
 koordinierend, vermittelnd, ausgleichend bemüht, 
 die im Zusammenwirken mit dem Bundesrat das 
@@ -2024,18 +1822,8 @@ schafft, was ich eingangs andeutete, die Sicherstellung der kulturellen Freizüg
 deutschen Raum. 
 Aus all diesen Gründen bittet Sie meine Fraktion, 
 der Einsetzung dieses Ausschusses zuzustimmen. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Köhler</name><public_office>Präsident</public_office>
-</speaker>
- Wird das Wort weiter gewünscht? — Bitte, Herr Abgeordneter Dr. Besold! 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Besold</name><party>BP</party>
-</speaker>
- Wir verstehen durchaus die 
+Präsident Dr. Köhler: Wird das Wort weiter gewünscht? — Bitte, Herr Abgeordneter Dr. Besold! 
+Dr. Besold (BP): Wir verstehen durchaus die 
 speziellen Sorgen des Vorredners bezüglich des 
 deutschen Kulturgutes, das im Ausland liegt. Aber 
 dazu ist es nicht notwendig, das Grundgesetz zu 
@@ -2043,13 +1831,11 @@ verletzen; denn dieser Schutz deutschen Kulturgutes im Ausland ist nicht Aufgabe
 Vertretung, die früher das Außenministerium 
 hatte und die heute sicher in den besten Händen, 
 nämlich beim Bundeskanzler selbst liegt. 
-<interjection>
 (Zuruf in der Mitte: Bayern gehört nicht zum 
 Ausland!) 
-</interjection>
 Meine Damen und Herren! Wenn Sie einen kulturpolitischen Ausschuß antizipativ gründen, so 
 geben Sie dem Bund eine Zuständigkeit, die wirklich nicht vorgesehen ist. 
-<interjection>(Sehr richtig! bei der CDU.) </interjection>
+(Sehr richtig! bei der CDU.) 
 In Artikel 56 des Grundgesetzes, in dem der 
 Schwur auf das Grundgesetz festgelegt ist, heißt 
 es, daß das Grundgesetz und die Gesetze des Bundes zu wahren und zu verteidigen sind. Wenn 
@@ -2074,22 +1860,12 @@ gegen diesen kulturpolitischen Ausschuß. Die
 Fragen, die hier angedeutet worden sind, können 
 auf anderer Ebene zum Nutzen und zum Frommen 
 Deutschlands erledigt werden. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Köhler</name><public_office>Präsident</public_office>
-</speaker>
- Das Wort hat der Herr 
+Präsident Dr. Köhler: Das Wort hat der Herr 
 Abgeordnete Dr. Laforet. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Laforet</name><party>CSU</party>
-</speaker>
- Meine Damen und Herren! 
+Dr. Laforet (CSU): Meine Damen und Herren! 
 Die Frage war im Parlamentarischen Rat lange 
 Gegenstand eingehender Erörterung. Es unterliegt gar keinem Zweifel, daß die gesamte kulturelle Pflege ausschließlich Sache der Länder ist. 
-<interjection>(Sehr richtig! bei der CDU/CSU.) </interjection>
+(Sehr richtig! bei der CDU/CSU.) 
 Es sind nur Ausnahmen gegeben, in denen dem 
 Bund eine Zuständigkeit zukommt. Eine solche ist 
 allerdings in Artikel 74 Ziffer 13 gegeben. Danach 
@@ -2102,19 +1878,9 @@ der wissenschaftlichen Forschung ins Leben zu
 rufen. Damit ist die Bundeszuständigkeit erschöpft. 
 Für den allgemeineren Antrag können wir, aus 
 verfassungsrechtlichen Gründen nicht stimmen. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Köhler</name><public_office>Präsident</public_office>
-</speaker>
- Wird zu diesem Antrag 
+Präsident Dr. Köhler: Wird zu diesem Antrag 
 weiter das Wort gewünscht? — Bitte, Herr Abgeordneter Euler! 
-</speech>
-<speech>
-<speaker>
-<name>Euler</name><party>FDP</party>
-</speaker>
- Meine sehr verehrten Damen 
+Euler (FDP): Meine sehr verehrten Damen 
 und Herren! Verfassungsrechtliche Bedenken 
 dürften einem Ausschuß nicht entgegenstehen, der 
 unter anderem auch die Aufgabe haben soll. 
@@ -2129,12 +1895,7 @@ Empfehlungen dazu beitragen werden, den Willen
 zu einer Abstimmung der Schulreformen in den 
 verschiedenen Ländern zu stärken. Diese Stärkung 
 liegt im gesamtdeutschen Interesse. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Köhler</name><public_office>Präsident</public_office>
-</speaker>
- Wird das Wort weiter gewünscht? — Das ist nicht der Fall. Ich schließe 
+Präsident Dr. Köhler: Wird das Wort weiter gewünscht? — Das ist nicht der Fall. Ich schließe 
 die Aussprache. Wir kommen zur Abstimmung. 
 Wer für den Antrag ist, einen Ausschuß für 
 Kulturpolitik mit 21 Mitgliedern zu bilden, den 
@@ -2146,33 +1907,31 @@ Wir kommen zum nächsten Antrag: Antrag der
 CDU/CSU-Fraktion: 
 Der Bundestag wolle beschließen: 
 Es wird ein Ausschuß zur Förderung von Wissenschaft und Forschung — — 
-<interjection>
 (Abg. Dr. von Brentano: Der Antrag wird 
 zurückgezogen.) 
-</interjection>
 - Der Antrag wird zurückgezogen. Er ist damit 
 erledigt. 
 Meine Damen und Herren, damit ist Punkt 3 
-— Anträge der Fraktionen auf Bildung von Ausschössen — erledigt.(Präsident Dr. Köhler) 
+— Anträge der Fraktionen auf Bildung von Ausschössen — erledigt.(Präsident Dr. Köhler)  
 Wir kommen nunmehr zu Punkt 4 der Tagesordnung: 
 Beschlußfassung über die Mitgliederzahl 
 der Ausschüsse und Verfahren zu ihrer 
 Besetzung. 
 Wir haben uns interfraktionell darüber verständigt. daß dieser Abstimmung letzten Endes die 
-Drucksache 48 zugrunde gelegt wird, vorher aber, 
-um die Drucksache 48 wirksam werden zu lassen, 
-über zwei Anträge abstimmen zu lassen, die nämlich das Verfahren zur Besetzung regeln. Da liegt 
-zunächst vor — ich darf ihn verlesen — ein Antrag 
-der SPD-Fraktion: 
-Der Bundestag wolle beschließen: 
+Drucksache 48 zugrunde gelegt wird, vorher aber,  
+um die Drucksache 48 wirksam werden zu lassen,  
+über zwei Anträge abstimmen zu lassen, die nämlich das Verfahren zur Besetzung regeln. Da liegt  
+zunächst vor — ich darf ihn verlesen — ein Antrag  
+der SPD-Fraktion:  
+Der Bundestag wolle beschließen:  
 Die Ausschüsse des Bundestags werden nach folgendem Schlüssel durch die Fraktionen besetzt: 
-27er-Ausschuß: CDU/CSU 9, SPD 9, FDP 4, DP 
-1, BP 1, KPD 1, WAV 1, Zentrum 1; 
+27er-Ausschuß: CDU/CSU 9, SPD 9, FDP 4, DP  
+1, BP 1, KPD 1, WAV 1, Zentrum 1;  
 21er-Ausschuß: 
 — in derselben Reihenfolge der Fraktionen, mit 
  Ausnahme des Zentrums — 
-7, 7, 33, 1, 1, 1, 1; 
-15er-Ausschuß: 5, 5, 2, 1, 1, 1 
+7, 7, 33, 1, 1, 1, 1;  
+15er-Ausschuß: 5, 5, 2, 1, 1, 1  
 — aufhörend bei der KP einschließlich —; 
 7er-Ausschuß: 3, 3, 1. 
 Den nach diesem Schlüssel in einem Ausschuß 
@@ -2181,104 +1940,75 @@ sich durch einen Abgeordneten mit beratender
 Stimme vertreten zu lassen, soweit nicht der 
 Bundestag für einzelne Ausschüsse eine abweichende Regelung beschließt. 
 Ich eröffne die Aussprache über diesen Antrag. 
-Das Wort hat der Herr Abgeordnete Schoettle. 
-</speech>
-<speech>
-<speaker>
-<name>Schoettle</name><party>SPD</party>
-</speaker>
- Herr Präsident, meine Damen 
-und Herren! Für die politische Zusammensetzung 
+Das Wort hat der Herr Abgeordnete Schoettle.  
+Schoettle (SPD): Herr Präsident, meine Damen 
+und Herren! Für die politische Zusammensetzung  
 der Ausschüsse des Bundestages gibt es mehrere 
 Möglichkeiten, die in einer kleinen vom 
 Ältestenrat eingesetzten Kommission auch lange 
-erörtert worden sind. Es hat sich, um zunächst die 
-hervorstechendste Methode zu erwähnen, einmal 
-das d&apos;Hondtsche System angeboten, das nach dem 
-strengen Höchstzahlenverfahren die Ausschußsitze 
-zuteilt und das praktisch dazu führt, daß man 
-außer den eigentlichen großen Fraktionen und, 
+erörtert worden sind. Es hat sich, um zunächst die  
+hervorstechendste Methode zu erwähnen, einmal  
+das d'Hondtsche System angeboten, das nach dem  
+strengen Höchstzahlenverfahren die Ausschußsitze  
+zuteilt und das praktisch dazu führt, daß man  
+außer den eigentlichen großen Fraktionen und,  
 sagen wir, den Fraktionen bis zu etwa 20 oder 17 
 Mitgliedern alle anderen ausschließt. Wir haben 
-demgegenüber den Vorschlag gemacht, davon auszugehen, daß in den wichtigeren Ausschüssen, das 
-heißt in den großen Ausschüssen, alle Fraktionen 
-mindestens mit einem Mitglied vertreten sein sollen, daß man von hier aus aufbauen und daß sich 
-daraus das Verhältnis der einzelnen Vertretungen 
-in den Ausschüssen ergeben soll. Diesem Gesichtspunkt will unser Vorschlag dienen, den der Herr 
-Präsident soeben verlesen hat. 
-Auch dann bleiben selbstverständlich bei den 
-kleineren Ausschüssen einige Fraktionen ausgeschlossen. Da wir die Fraktionsstärke in der Geschäftsordnung auf 10 Abgeordnete festgesetzt 
-haben, trifft das — mit Abstufungen — die Fraktionen vom Zentrum bis zur KP und, ich glaube, 
-auch bis zur Bayernpartei und zur DP. 13m hier 
-auszuweichen, schlagen wir vor, daß die Fraktionen, 
-die durch den Schlüssel nicht erfaßt sind, in den 
-Ausschüssen durch ein Mitglied mit beratender 
-Stimme vertreten sein sollen. Ich glaube. das ist im 
-Interesse des parlamentarischen Betriebs absolut 
-notwendig. Wir ersparen uns durch diese Art der 
-Vertretung, die den kleinen Fraktionen auch 
+demgegenüber den Vorschlag gemacht, davon auszugehen, daß in den wichtigeren Ausschüssen, das  
+heißt in den großen Ausschüssen, alle Fraktionen  
+mindestens mit einem Mitglied vertreten sein sollen, daß man von hier aus aufbauen und daß sich  
+daraus das Verhältnis der einzelnen Vertretungen  
+in den Ausschüssen ergeben soll. Diesem Gesichtspunkt will unser Vorschlag dienen, den der Herr  
+Präsident soeben verlesen hat.  
+Auch dann bleiben selbstverständlich bei den  
+kleineren Ausschüssen einige Fraktionen ausgeschlossen. Da wir die Fraktionsstärke in der Geschäftsordnung auf 10 Abgeordnete festgesetzt  
+haben, trifft das — mit Abstufungen — die Fraktionen vom Zentrum bis zur KP und, ich glaube,  
+auch bis zur Bayernpartei und zur DP. 13m hier  
+auszuweichen, schlagen wir vor, daß die Fraktionen,  
+die durch den Schlüssel nicht erfaßt sind, in den  
+Ausschüssen durch ein Mitglied mit beratender  
+Stimme vertreten sein sollen. Ich glaube. das ist im  
+Interesse des parlamentarischen Betriebs absolut  
+notwendig. Wir ersparen uns durch diese Art der  
+Vertretung, die den kleinen Fraktionen auch  
 tatsächlich eine Beteiligung an den Ausschußarbeiten ermöglicht, eine Menge unnötiger Debatten 
 im Plenum, weil mancher Gesichtspunkt bereits 
 in den Ausschüssen zur Sprache gebracht werden 
 kann, und ich glaube, wir sollten im Interesse der 
 parlamentarischen Atmosphäre den kleinen Fraktionen tatsächlich ein solches Entgegenkommen 
 zeigen. 
-<interjection>
 (Zuruf von der CDU: Machen Sie es in 
 Schleswig-Holstein auch so?) 
-</interjection>
-— Ich habe es hier nicht mit Schleswig-Holstein zu 
-tun, sondern mit dem Bundesparlament, das einen 
+— Ich habe es hier nicht mit Schleswig-Holstein zu  
+tun, sondern mit dem Bundesparlament, das einen  
 neuen Anfang zu machen hat, und ich hoffe, daß 
-wir alle darin einig sind. 
-Meine Damen und Herren, lassen Sie mich noch 
-ein Wort hinzufügen, das an sich mit dieser Frage 
-nichts zu tun hat, wohl aber mit der Stellung, die 
-die Berliner Vertreter in diesem Hause gegenüber den Ausschüssen haben sollen. Ich möchte 
-namens meiner Fraktion hier den Wunsch aussprechen, daß die Berliner Vertreter in den Ausschüssen, in denen ihre jeweilige Fraktion Wert 
-darauf legt, daß sie sich an der Arbeit beteiligen, 
+wir alle darin einig sind.  
+Meine Damen und Herren, lassen Sie mich noch  
+ein Wort hinzufügen, das an sich mit dieser Frage  
+nichts zu tun hat, wohl aber mit der Stellung, die  
+die Berliner Vertreter in diesem Hause gegenüber den Ausschüssen haben sollen. Ich möchte  
+namens meiner Fraktion hier den Wunsch aussprechen, daß die Berliner Vertreter in den Ausschüssen, in denen ihre jeweilige Fraktion Wert  
+darauf legt, daß sie sich an der Arbeit beteiligen,  
 ebenfalls mit beratender Stimme teilnehmen kön
--nen. Das betrifft alle Fraktionen, die Vertreter aus 
-Berlin in ihren Reihen haben, und man sollte den 
-Damen und Herren aus Berlin ebenfalls die Möglichkeit der sachlichen Mitarbeit geben, ohne daß 
-sie rechtlich diskriminiert sind. 
-<interjection>
+-nen. Das betrifft alle Fraktionen, die Vertreter aus  
+Berlin in ihren Reihen haben, und man sollte den  
+Damen und Herren aus Berlin ebenfalls die Möglichkeit der sachlichen Mitarbeit geben, ohne daß  
+sie rechtlich diskriminiert sind.  
 (Beifall bei der SPD. — Zuruf von der CDU: 
-Das ist gar nicht entschieden!) 
-</interjection>
-</speech>
-<speech>
-<speaker>
-<name>Dr. Köhler</name><public_office>Präsident</public_office>
-</speaker>
- Herr Abgeordneter 
+Das ist gar nicht entschieden!)  
+Präsident Dr. Köhler: Herr Abgeordneter 
 Schoettle, ist das ein ergänzender Antrag, oder soll 
 er als besonderer Antrag gelten? 
-</speech>
-<speech>
-<speaker>
-<name>Schoettle</name><party>SPD</party>
-</speaker>
- Herr Präsident, ich glaube, 
+Schoettle (SPD) : Herr Präsident, ich glaube, 
 wenn das ganze Haus in diesem Wunsche einig ist, 
-kann das einer Absprache der Fraktionen überlassen bleiben. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Köhler</name><public_office>Präsident</public_office>
-</speaker>
- Das Wort hat der Herr 
+kann das einer Absprache der Fraktionen überlassen bleiben.  
+Präsident Dr. Köhler: Das Wort hat der  Herr 
  Abgeordnete Scharnberg. 
-</speech>
-<speech>
-<speaker>
-<name>Scharnberg</name><party>CDU</party>
-</speaker>
- Meine Damen und Herren! 
+Scharnberg (CDU): Meine Damen und Herren! 
  Der Antrag der sozialdemokratischen Fraktion 
 widerspricht der klaren Bestimmung des § 9 der 
 Geschäftsordnung. Dieser besagt: 
-Im Verhältnis zu ihrer Mitgliederzahl erhalten 
+Im Verhältnis zu ihrer Mitgliederzahl erhalten  
 die Fraktionen Anteil an den Stellen des Altestenrats, des Vorstandes, der Ausschüsse, der 
 Ausschußvorsitzenden und ihrer Stellvertreter. 
 Demnach können wir diesen 
@@ -2288,7 +2018,7 @@ daß die Sitze in
 Weise, daß bei den 27er-Ausschüssen die CDU 10, 
 die SPD 10, die FDP 4 Sitze. die Deutsche Partei 1, 
 die Bayernpartei 1 und 
-die KPD 1 Sitz erhält, bei 
+die KPD 1 Sitz erhält, bei  
 den 21 er-Ausschüssen die CDU 8, die SPD 8, die 
  
 FDP 3 Sitze, die Deutsche Partei 1 und die Bayernpartei 1 
@@ -2297,26 +2027,16 @@ die SPD
 6 und die FDP 2, bei den 7er-Ausschüssen 
  die CDU 3, die SPD 3 und die FDP 1 Sitz erhält. 
 Ich bitte Sie, den Antrag in 
-dieser Aufschlüsselung 
-anzunehmen. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Köhler</name><public_office>Präsident</public_office>
-</speaker>
- Das Wort hat der Herr 
-Abgeordnete Dr. Miessner. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Miessner</name><party>NR</party>
-</speaker>
- Die Gruppe „Nationale 
-Rechte&quot;, die 6 Mann stark ist, hatte die Herren 
+dieser Aufschlüsselung  
+anzunehmen.  
+Präsident Dr. Köhler: Das Wort hat der Herr  
+Abgeordnete Dr. Miessner.  
+Dr. Miessner (NR): Die Gruppe „Nationale  
+Rechte", die 6 Mann stark ist, hatte die Herren  
 Vorsitzenden der anderen Fraktionen gebeten, bei 
  der Besetzung der Ausschüsse nicht dahin zu korn- 
 
-<interjection>(Dr. Miessner) </interjection>
+(Dr. Miessner) 
 men, daß wir als die einzige Gruppe im Hause, die 
 nun einmal nicht die Fraktionsstärke von 10 Mann 
 hat, von der eigentlichen parlamentarischen Arbeit 
@@ -2340,26 +2060,16 @@ vorsieht, vermögen wir nicht einzusehen, warum
 man dann diese Art beratender Mitgliedschaft 
 nicht auch auf uns als die einzige Gruppe unter 
 10 Mann ausdehnen könnte. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Köhler</name><public_office>Präsident</public_office>
-</speaker>
- Das Wort hat der Herr 
+Präsident Dr. Köhler: Das Wort hat der Herr 
 Abgeordnete Dr. Reismann. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Reismann</name><party>Z</party>
-</speaker>
- Meine sehr verehrten Damen 
+Dr. Reismann (Z): Meine sehr verehrten Damen 
 und Herren! Als der Vertreter der CDU das 
 Wort ergriff, habe ich gedacht, er würde ein Verfahren vorschlagen, das etwa der Sitzverteilung im 
 Kabinett entsprechen würde; denn die Sitzverteilung in den Ausschüssen käme doch vergleichsweise der Verteilung der Kabinettssitze nahe. 
-<interjection>(Zurufe.) </interjection>
+(Zurufe.) 
 Ich war deswegen einigermaßen verwundert, von 
 ihm zu hören, daß er glaubt, Demokratie könne 
-man nur nach dem d&apos;Hondtschen Verfahren exerzieren. Es ist doch so, daß nach der Geschäftsordnung gar kein Verfahren vorgeschrieben ist. In 
+man nur nach dem d'Hondtschen Verfahren exerzieren. Es ist doch so, daß nach der Geschäftsordnung gar kein Verfahren vorgeschrieben ist. In 
 der Geschäftsordnung ist nur bestimmt, daß die 
 Parteien in den Ausschüssen in der Relation vertreten sein sollen, wie es ihrer Zusammensetzung 
 im Plenum entspricht. Der Zusammensetzung im 
@@ -2368,8 +2078,8 @@ Kollegen Schoettle, das heißt der Vorschlag der
 SPD. Überlegen wir uns doch einmal, wie es denn 
 gehen soll, wenn man anders verfährt! Dann beruht das Ergebnis der Ausschußarbeit auf einer Zusammensetzung im Ausschuß, die durchaus nicht 
 dem Bild des Plenums entspricht. 
-<interjection>(Lachen in der Mitte.) </interjection>
-Wenn Sie dem Plenum einen Bericht eines Ausschusses vorlegen, der nach dem d&apos;Hondtschen Verfahren zusammengesetzt ist, können Sie damit 
+(Lachen in der Mitte.) 
+Wenn Sie dem Plenum einen Bericht eines Ausschusses vorlegen, der nach dem d'Hondtschen Verfahren zusammengesetzt ist, können Sie damit 
 rechnen, daß die Beschlüsse des Plenums völlig 
 anders aussehen, ganz abgesehen von den sich dann 
 ergebenden uferlosen Debatten. Es hat also praktisch gar keinen Zweck, so zu verfahren. Mir 
@@ -2377,22 +2087,12 @@ scheint im übrigen, daß dieses Verfahren nur exerziert wird, um hier einer bes
 hin in die Erscheinung treten zu lassen, die sich 
 bei der Regierungskoalition ja nur auf eine ganze 
 Person erstreckt. 
-<interjection>(Beifall beim Zentrum.) </interjection>
-</speech>
-<speech>
-<speaker>
-<name>Dr. Köhler</name><public_office>Präsident</public_office>
-</speaker>
- Das Wort hat der Her! 
+(Beifall beim Zentrum.) 
+Präsident Dr. Köhler: Das Wort hat der  Her! 
  Abgeordnete Euler. 
-</speech>
-<speech>
-<speaker>
-<name>Euler</name><party>FDP</party>
-</speaker>
- Meine sehr verehrten Damen und 
+Euler (FDP): Meine sehr verehrten Damen und 
 Herren! Es bestünde, wie ich glaube, eine Möglichkeit, das Prinzip der Verhältniswahl nach dem 
-d&apos;Hondtschen System gemäß § 9 der Geschäftsordnung zu verbinden mit der notwendigen Wahrung 
+d'Hondtschen System gemäß § 9 der Geschäftsordnung zu verbinden mit der notwendigen Wahrung 
 der Interessen der kleinen Fraktionen, an der Ausschußarbeit beratend teilzunehmen und über die 
 Ausschußarbeit so unterrichtet zu sein, daß nachher 
 im Plenum etwa aus ungenügender Orientierung 
@@ -2403,27 +2103,17 @@ abgestimmt wird, das heißt, daß die Abstimmung
 über den Nachsatz getrennt wird: ..Den nach diesem Schlüssel in einem Ausschuß nicht vertretenen 
 Fraktionen und der Gruppe Nationale Rechte steht 
 das Recht zu, sich durch einen Abgeordneten mit 
-beratender Stimme vertreten zu lassen.&quot; Wir haben 
+beratender Stimme vertreten zu lassen." Wir haben 
 dann eine klare Bildung der Ausschüsse gemäß § 9 
 der Geschäftsordnung, und zugleich sind die Gefahren ausgeschlossen, die sich ergeben würden, 
 wenn die kleinen Fraktionen nicht wenigstens mit 
 beratender Stimme aktiv an der Ausschußarbeit 
 teilnehmen könnten. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Köhler</name><public_office>Präsident</public_office>
-</speaker>
- Wird das Wort weiter gewünscht? — Das Wort hat der Herr Abgeordnete 
+Präsident Dr. Köhler: Wird das Wort weiter gewünscht? — Das Wort hat der Herr Abgeordnete 
 Schoettle. 
-</speech>
-<speech>
-<speaker>
-<name>Schoettle</name><party>SPD</party>
-</speaker>
- Meine Damen und Herren! 
+Schoettle (SPD) : Meine Damen und Herren! 
 Gestatten Sie mir nur zwei Sätze! Ich glaube, daß 
-der Einwand nicht richtig ist, daß die Geschäftsordnung das d&apos;Hondtsche Verfahren vorschreibt. 
+der Einwand nicht richtig ist, daß die Geschäftsordnung das d'Hondtsche Verfahren vorschreibt. 
 Sie schreibt lediglich vor, daß die Fraktionen in 
 den Ausschüssen im Verhältnis ihrer Stärke in 
 der Vollversammlung vertreten sind. Ich möchte 
@@ -2431,12 +2121,7 @@ darauf aufmerksam machen, daß nach unserem
 Vorschlag die Regierungsparteien in allen Ausschüssen eine Mehrheit haben, eine so schwache 
 Mehrheit, wie sie sie hier im Hause auch haben. 
 Mehr können sie von keinem Verfahren erwarten. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Köhler</name><public_office>Präsident</public_office>
-</speaker>
- Wird das Wort weiter gewünscht? — Das ist nicht der Fall. Meine Damen 
+Präsident Dr. Köhler: Wird das Wort weiter gewünscht? — Das ist nicht der Fall. Meine Damen 
 und Herren, dann stelle ich fest, daß die Aussprache geschlossen ist. 
 Es liegen mehrere Abänderungsanträge vor. Ich 
 stelle zunächst fest, daß der Antrag der SPD-
@@ -2448,8 +2133,8 @@ Verständigung erzielt worden.
 Zu dem Antrag der SPD-Fraktion liegen nun 
 zwei Abänderungsanträge vor, und zwar zunächst 
 der Abänderungsantrag 1, im zweiten Absatz den 
-Worten „Den nach diesem Schlüssel in einem Ausschuß nicht vertretenen Fraktionen&quot; hinzuzufügen: 
-„oder Gruppen&quot;. Das ist der Antrag des Herrn 
+Worten „Den nach diesem Schlüssel in einem Ausschuß nicht vertretenen Fraktionen" hinzuzufügen: 
+„oder Gruppen". Das ist der Antrag des Herrn 
 Abgeordneten Dr. Miessner, den der Herr Abgeordnete Euler gleichzeitig aufgenommen hat. 
 Zweitens liegt der Abänderungsantrag des Herrn 
 Abgeordneten Euler vor, eine getrennte Abstimmung durchzuführen, nämlich erstens über die 
@@ -2458,15 +2143,10 @@ Schoettle
 (SPD): Herr Präsident, kann ich vom 
 Platz aus sprechen? — Meine Fraktion ersucht(Schoettle) 
 darum, daß über den vom Herrn Abgeordneten 
-Euler beantragten Zusatz „und Gruppen&quot; getrennt 
+Euler beantragten Zusatz „und Gruppen" getrennt 
 abgestimmt wird. Wir wären sonst nicht in der 
 Lage, für diesen ganzen Abschnitt zu stimmen. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Köhler</name><public_office>Präsident</public_office>
-</speaker>
- Sie sind damit einverstanden, daß getrennt abgestimmt wird, ob 
+Präsident Dr. Köhler: Sie sind damit einverstanden, daß getrennt abgestimmt wird, ob 
 diese beiden Worte hinzugefügt werden können. 
 Das war ja meine Absicht. denn ich muß über 
 jeden Abänderungsantrag vorher gesondert abstimmen lassen. Wer also dafür ist — ich komme 
@@ -2474,45 +2154,33 @@ auf den Antrag Euler zurück im Zusammenhang
 mit dem Antrag Miessner —. daß über den Absatz 2 des SPD-Antrags getrennt abgestimmt wird. 
 den bitte ich. die Hand zu erheben. — Es war die 
 Minderheit; dann ist der Antrag abgelehnt. 
-<interjection>(Widerspruch und Zurufe.) </interjection>
+(Widerspruch und Zurufe.) 
 — Herr Kollege Schoettle. Sie haben doch. wenn 
 ich Sie richtig verstanden habe. beantragt. daß überhaupt erst über den Antrag Euler auf getrennte 
 Abstimmung des Absatzes 2 abgestimmt werden 
 soll? 
-</speech>
-<speech>
-<speaker>
-<name>Schoettle</name><party>SPD</party>
-</speaker>
- Ich habe etwas ganz anderes 
+Schoettle (SPD): Ich habe etwas ganz anderes 
 gewollt! Ich habe mich sinngemäß dagegen gewehrt, daß unser Antrag durch den Zusatz 
 von zwei Worten in etwas verwandelt wird. was 
 wir nicht wollen, und deshalb wollte ich von Ihnen, 
 Herr Präsident, daß Sie darüber abstimmen lassen, ob der Abschnitt 2 unseres Antrages in der 
 Weise abgeändert wird, wie der Kollege Euler es 
 gewollt hat. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Köhler</name><public_office>Präsident</public_office>
-</speaker>
- Das ist etwas anderes; 
+Präsident Dr. Köhler: Das ist etwas anderes; 
 der Herr Abgeordnete Euler hatte getrennte Abstimmung beantragt. Es liegt der Sache nach nur 
 ein Abänderungsantrag vor. der Abänderungsantrag Dr. Miessner und Euler dahingehend, hinter 
-das Wort .,Fraktion&quot; auch das Wort ..Gruppe&quot; alias 
-..Nationale Rechte&quot; zu setzen. 
+das Wort .,Fraktion" auch das Wort ..Gruppe" alias 
+..Nationale Rechte" zu setzen. 
 Wer für diese Abänderung des SPD-Antrags ist, 
 den bitte ich, die Hand zu erheben. — Darf ich um 
 die Gegenprobe bitten. — Der Antrag ist mit 
 zweifelsfreier Mehrheit abgelehnt. 
 Dann kommen wir zur Abstimmung über den 
 gesamten Antrag. 
-<interjection>
 (Abg. Dr. von Brentano: Nein, getrennt 
 nach Absatz 1 und 2 hat Euler beantragt!) 
-</interjection>
 — Dem widersprechen Sie nicht, Herr Abgeordneter Schoettle? 
-<interjection>(Abg. Schoettle: Nein!) </interjection>
+(Abg. Schoettle: Nein!) 
 — Meine Damen und Herren, dann lasse ich abstimmen, muß aber der Vorsicht halber noch einmal im ganzen verlesen: 
 Der erste Absatz des SPD-Antrags umfaßt: 
 Die Ausschüsse des Bundestags werden nach 
@@ -2521,24 +2189,14 @@ Es kommen die Schlüssel für 27er-, 21er-, 15er -
 und 7er-Ausschüsse. Die Schlüssel selbst brauche 
 ich wohl im einzelnen nicht zu verlesen. 
 Wer für diesen ersten Teil des Antrags ist, — — 
-</speech>
-<speech>
-<speaker>
-<name>Dr. von Brentano</name><party>CDU</party>
-</speaker>
- Zur Abstimmung! Ich 
+Dr.  von Brentano (CDU): Zur Abstimmung! Ich 
 glaube, wenn Sie den Antrag halb verlesen, müssen 
 Sie ihn auch ganz 
 verlesen, weil sonst kein Mensch 
 erkennen kann, daß dieser Antrag in seinem Absatz 1 im 
 Gegensatz zu dem von der CDU/CSU 
 gestellten Antrag steht. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Köhler</name><public_office>Präsident</public_office>
-</speaker>
- Wir stimmen zunächst über 
+Präsident Dr. Köhler: Wir stimmen zunächst über 
 den ersten Teil des SPD-Antrags ab, der folgenden 
 Wortlaut hat: 
 Die Ausschüsse des Bundestags werden nach 
@@ -2558,110 +2216,73 @@ Herren, ich bitte um die Gegenprobe. — Ich glaube
 fast, daß es nicht notwendig ist, auszuzählen. Es 
 ist gerade umgekehrt wie vorhin, es haben sich für 
 den Antrag 155 Stimmen erhoben, und vorhin hatten wir — — 
-<interjection>(Zurufe: Auszählen!) </interjection>
+(Zurufe: Auszählen!) 
 — Legt das Haus Wert auf Auszählung? — Dann 
 lasse ich sie durchführen. 
 Meine Damen und Herren, das Abstimmungsergebnis ist folgendes: für den Antrag 155 Stimmen, 
 gegen den Antrag 190 Stimmen. Damit gilt der 
 Antrag als abgelehnt. 
-<interjection>
 (Zuruf von der SPD. — Abg. Renner: Ich 
-bezweifle die Abstimmung! — Abg. Dr. Reis-mann: Ich habe das Wort zur Abstimmung! — Große Unruhe und Widerspruch. — Abg. Dr. Reismann: Herr Präsident. habe ich das Wort oder nicht?) 
-</interjection>
-</speech>
-<speech>
-<speaker>
-<name>Dr. Köhler</name><public_office>Präsident</public_office>
-</speaker>
+bezweifle die Abstimmung! — Abg. Dr. Reis
+-mann: Ich habe das Wort zur Abstimmung! — 
+Große Unruhe und Widerspruch. — Abg. Dr. 
+Reismann: Herr Präsident. habe ich das Wort 
+oder nicht?) 
+Präsident Dr. Köhler: 
 Darf ich einmal fragen, 
 in welchem Sinne Sie zur Abstimmung sprechen 
 wollen? Die Abstimmung ist doch beendet. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Reismann</name><party>Z</party>
-</speaker>
- Der Antrag Schoettle ist abgelehnt; dann ist das Verfahren von d&apos;Hondt genehmigt worden. 
-<interjection>(Zurufe: Wieso?) </interjection>
-</speech>
-<speech>
-<speaker>
-<name>Dr. Köhler</name><public_office>Präsident</public_office>
-</speaker>
- Entschuldigen Sie, ich 
+Dr. Reismann (Z): Der Antrag Schoettle ist abgelehnt; dann ist das Verfahren von d'Hondt genehmigt worden. 
+(Zurufe: Wieso?) 
+Präsident Dr. Köhler: Entschuldigen Sie, ich 
 glaube, hier liegt ein Mißverständnis vor. 
-<interjection>(Abg. Renner: Ich habe die Abstimmung angezweifelt. Das geht doch allen Reden zur Abstimmung vor! — Zurufe des Abg. Dr. Reismann.) </interjection>
+(Abg. Renner: Ich habe die Abstimmung angezweifelt. Das geht doch allen Reden zur Abstimmung vor! — Zurufe des Abg. Dr. Reismann.) 
 — Ich muß die Unterhaltung mit Herrn Kollegen 
 Dr. Reismann beenden. Der Antrag der SPD ist 
 abgelehnt. Für den Antrag waren 155 Stimmen, 
 gegen den Antrag 190 Stimmen. Damit ist der Antrag Schoettle abgelehnt. 
-<interjection>
 (Abg. Renner: Nach der Geschäftsordnung muß 
-eine Nachprüfung vorgenommen werden! — Abg. Dr. Reismann: Ich habe aber folgendes mitzuteilen!) 
-</interjection>
+eine Nachprüfung vorgenommen werden! — 
+Abg. Dr. Reismann: Ich habe aber folgendes 
+mitzuteilen!) 
 — Jetzt muß ich erst einmal dem Abgeordneten 
-Renner das Wort geben, der die Abstimmung angezweifelt hat. Sie wollten :la zur Sache sprechen, 
+Renner das Wort geben, der die Abstimmung angezweifelt hat. Sie wollten :la  zur Sache sprechen, 
 Herr Abgeordneter Dr. Reismann. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Reismann</name><party>Z</party>
-</speaker>
- Nein, Herr Präsident, ich 
+Dr. Reismann (Z): Nein, Herr Präsident, ich 
 bitte, mich anzuhören! Wie wollen Sie sonst feststellen, wozu ich sprechen will. 
-<interjection>(Lebhafter Widerspruch. — Anhaltende Unruhe.) </interjection>
+(Lebhafter Widerspruch. — Anhaltende Unruhe.) 
 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Köhler</name><public_office>Präsident</public_office>
-</speaker>
- Meine Damen und Herren! Lassen Sie uns das doch bitte in aller Freundschaft und Kollegialität machen. Wenn der Herr 
+Präsident Dr. Köhler: Meine Damen und Herren! Lassen Sie uns das doch bitte in aller Freundschaft und Kollegialität machen. Wenn der Herr 
 Abgeordnete Dr. Reismann kurz erläutern will, 
 was er sagen will, kann ich erst danach entscheiden, wozu er das Wort haben will. Das ist doch 
 eine Selbstverständlichkeit. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Reismann</name><party>Z</party>
-</speaker>
- Es ist bisher nur beschlossen worden, daß das d&apos;Hondtsche System gilt. Bevor die Durchführung festgelegt wird, möchte ich 
+Dr. Reismann (Z): Es ist bisher nur beschlossen worden, daß das d'Hondtsche System gilt. Bevor die Durchführung festgelegt wird, möchte ich 
 die Erklärung abgeben, daß das Zentrum und die 
 WAV sich zu einer interfraktionellen Arbeitsgemeinschaft nach § 7 der Geschäftsordnung zusammenfinden, damit das berücksichtigt werden kann, 
 wenn die Verteilung der Sitze in den Ausschüssen 
 festgelegt wird; denn noch ist das nicht geschehen. 
 Das ist eine Sache, die ich vor der Abstimmung 
 mitteilen muß. 
-<interjection>(Zurufe: Schluß! Schluß!) </interjection>
-</speech>
-<speech>
-<speaker>
-<name>Dr. Köhler</name><public_office>Präsident</public_office>
-</speaker>
- Wir sind in der Abstimmung über die vorliegenden Anträge begriffen. 
+(Zurufe: Schluß! Schluß!) 
+Präsident Dr. Köhler: Wir sind in der Abstimmung über die vorliegenden Anträge begriffen. 
 Abänderungsanträge können immer gestellt werden, wie das bei wiederholten Abstimmungen der 
 Fall gewesen ist. Sie wollen uns die Mitteilung 
 machen, daß Sie als Zentrum mit der WAV eine 
 Arbeitsgemeinschaft bilden. 
-<interjection>(Abg. Dr. Reismann: Nach § 7 der Geschäftsordnung!) </interjection>
+(Abg. Dr. Reismann: Nach § 7 der Geschäftsordnung!) 
 Das hat mit dem vorliegenden Gegenstand, mit 
 der Sache gar nichts zu tun. 
-<interjection>(Abg. Dr. Reismann: Doch!) </interjection>
+(Abg. Dr. Reismann: Doch!) 
 — Entschuldigen Sie, ich kann diese Debatte jetzt 
 nicht weiterführen. 
-<interjection>
 (Abg. Dr. Reismann. Ich will nur erklären: es 
-hat insofern damit zu tun, als die Ausschuß-Sitzverteilung geändert wird!) 
-</interjection>
+hat insofern damit zu tun, als die Ausschuß
+-
+Sitzverteilung geändert wird!) 
 Das Wort hat der Abgeordnete Schoettle zur Geschäftsordnung. 
-</speech>
-<speech>
-<speaker>
-<name>Schoettle</name><party>SPD</party>
-</speaker>
- Herr Präsident. meine Damen und Herren! Ich möchte im Namen meiner 
+Schoettle (SPD): Herr Präsident. meine Damen und Herren! Ich möchte im Namen meiner 
 Fraktion die Abstimmung anzweifeln. 
-<interjection>(Zurufe von der CDU: Warum?) </interjection>
+(Zurufe von der CDU: Warum?) 
 Es ist erstens kein Klingelzeichen gegeben worden, 
 wie das der Herr Präsident heute mittag mitgeteilt 
 hat. Zweitens glauben wir, daß die Auszählung 
@@ -2671,16 +2292,9 @@ absichtlich schlecht ausgezählt haben, beileibe nicht;
 ich möchte nur, daß bei einer so zweifelhaften 
 Abstimmung lieber der Versuch gemacht wird, sie 
 zu wiederholen, um zu einer Klarstellung zu gelangen. 
-<interjection>
 (Widerspruch in der Mitte und Zuruf: 45 Stimmen 
 Differenz!) 
-</interjection>
-</speech>
-<speech>
-<speaker>
-<name>Dr. Köhler</name><public_office>Präsident</public_office>
-</speaker>
- Meine Damen und Herren! Sie haben den Antrag des Abgeordneten 
+Präsident Dr. Köhler: Meine Damen und Herren! Sie haben den Antrag des Abgeordneten 
 Schoettle gehört. Er ist der Sache nach der gleiche 
 wie der des Abgeordneten Renner, er bezweifelt 
 nämlich die Abstimmung. Es taucht nun die Geschäftsordnungsfrage auf, ob die Abstimmung wiederholt werden muß. 
@@ -2698,7 +2312,7 @@ uneinig, so werden die
 Stimmen gezählt. 
 Ich darf vielleicht einmal feststellen: wir hier 
 oben sind einig gewesen. 
-<interjection>(Zurufe: Erledigt!) </interjection>
+(Zurufe: Erledigt!) 
 Die beiden Schriftführer haben in den Ergebnissen 
 ihrer Auszählung übereingestimmt. 
 Richtig ist 
@@ -2713,7 +2327,7 @@ aber doch so: wir sind jetzt ungefähr eine volle
 Stunde in der Abstimmung, und nach unseren 
 Beobachtungen hier oben sind alle Mitglieder im 
 Hause gewesen. 
-<interjection>(Zurufe.) </interjection>
+(Zurufe.) 
 Außerdem mache ich in tatsächlicher Beziehung 
 auf folgendes aufmerksam. Wir haben vorhin bei 
 der Abstimmung über einen anderen Antrag das 
@@ -2728,10 +2342,10 @@ Ihnen gegenüber, Herr Kollege Schoettle. verweise ich aber noch einmal auf § 1
 es keine Anzweiflung der Abstimmung aus dem 
 Hause mit irgendwelchen rechtlichen Konsequenzen, wenn der Vorstand sich über das Abstimmungsergebnis einig ist. Darf ich bitten, davon 
 Kenntnis zu nehmen. 
-<interjection>(Unruhe.) </interjection>
+(Unruhe.) 
 Meine Damen und Herren, wir wollen aber jetzt 
 noch ein Übriges tun. 
-<interjection>(Widerspruch in der Mitte.) </interjection>
+(Widerspruch in der Mitte.) 
 — Bitte sehr: bei Fortsetzung der Aussprache lasse 
 ich jetzt noch einmal klingeln. Ich glaube aber 
 nicht, daß sich etwas ändert. 
@@ -2746,42 +2360,32 @@ ob sie, nachdem der entscheidende Teil ihres Antrags abgelehnt worden ist, noch 
 daß über den zweiten Teil besonders abgestimmt 
 wird, weil ja vermutlich das gleiche Ergebnis 
 herauskommen wird. 
-<interjection>(Widerspruch.) </interjection>
+(Widerspruch.) 
 — Meinen Sie nicht? 
 Bitte, Herr Abgeordneter Euler zur Geschäftsordnung! 
-<interjection>(Große Unruhe.)(Präsident Dr. Köhler) </interjection>
+(Große Unruhe.)(Präsident Dr. Köhler) 
 — Meine Damen und Herren, es war doch in den 
 letzten Tagen so nett und gemütlich. 
-<interjection>(Große Heiterkeit und Zurufe.) </interjection>
+(Große Heiterkeit und Zurufe.) 
 Halten wir uns doch weiter an diese Praxis! 
-</speech>
-<speech>
-<speaker>
-<name>Euler</name><party>FDP</party>
-</speaker>
- Mir scheint, die Ablehnung des 
+Euler (FDP): Mir scheint, die Ablehnung des 
 SPD-Antrags bedeutet noch nicht ohne weiteres 
 die Annahme des CDU-Antrags auf Verteilung 
-nach dem d&apos;Hondtschen System. Zugleich würde in 
-der Abstimmung über diesen Gegenantrag — Verteilung nach dem d&apos;Hondtschen System — die wirksamste Kontrolle der Richtigkeit der ersten Abstimmung liegen. Es muß Klarheit geschaffen werden, nach welchem Prinzip sich die Ausschußsitze verteilen, weil ja der Absatz 2 des SPD-Antrags, über den dann die Abstimmung noch erfolgt, die Festlegung eines Verteilungsprinzips voraussetzt. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Köhler</name><public_office>Präsident</public_office>
-</speaker>
- Wird diesen Ausführungen 
+nach dem d'Hondtschen System. Zugleich würde in 
+der Abstimmung über diesen Gegenantrag — Verteilung nach dem d'Hondtschen System — die wirksamste Kontrolle der Richtigkeit der ersten Abstimmung liegen. Es muß Klarheit geschaffen werden, nach welchem Prinzip sich die Ausschußsitze verteilen, weil ja der Absatz 2 des SPD-Antrags, über den dann die Abstimmung noch erfolgt, die Festlegung eines Verteilungsprinzips voraussetzt. 
+Präsident Dr. Köhler: Wird diesen Ausführungen 
 widersprochen? — Das ist nicht der Fall. 
 Dann stimmen wir jetzt ab über den vorhin 
 von mir verlesenen und wohl nicht noch einmal zu 
 verlesenden zweiten Absatz des Antrags der SPD-
 Fraktion. 
-<interjection>(Lebhafte Zurufe: Nein! CDU-Antrag!) </interjection>
+(Lebhafte Zurufe: Nein! CDU-Antrag!) 
 — Ich verstehe gar nicht: Sie haben sich doch 
 eben dafür ausgesprochen? 
-<interjection>
 (Abg. Euler: Nein, Herr Präsident! Ich habe 
-mich dafür ausgesprochen, daß jetzt der CDU-Antrag auf Verteilung nach dem d&apos;Hondtschen System zur Abstimmung gestellt wird!) 
-</interjection>
+mich dafür ausgesprochen, daß jetzt der 
+CDU-Antrag auf Verteilung nach dem 
+d'Hondtschen System zur Abstimmung gestellt wird!) 
 — Also, meine Damen und Herren, ich glaube, wir 
 sind uns jetzt nach einigen Zwiegesprächen einig. 
 Wir stimmen letzt ab ber den Antrag der 
@@ -2789,7 +2393,7 @@ CDU/CSU-Fraktion als dem Pendant oder Gegenstück zu dem abgelehnten ersten Teil
 —
 Antrags und kommen dann wahrscheinlich zur 
 Abstimmung über den zweiten Teil des SPD-Antrags. 
-<interjection>(Zuruf: Zur Abstimmung! — Große Unruhe.) </interjection>
+(Zuruf: Zur Abstimmung! — Große Unruhe.) 
 — Meine Damen und Herren, bitte machen Sie mir 
 das Sprechen doch nicht so schwer; es ist sowieso 
 ungewöhnlich, daß der Präsident Anträge verliest. 
@@ -2799,7 +2403,7 @@ Die Sitze in den Ausschüssen werden wie
 folgt verteilt: 
 27er-Ausschüsse: 10 CDU, 10 SPD, 4 FDP, 
 1 DP, 1 BP, 1 KPD. 
-<interjection>(Abg. Loritz: Zur Abstimmung!) </interjection>
+(Abg. Loritz: Zur Abstimmung!) 
 — Ich bin mitten im Verlesen des Antrags, Herr 
 Abgeordneter Loritz, und bitte, mich darin nicht 
 unterbrechen zu wollen! 
@@ -2815,50 +2419,41 @@ Antrag wünscht.
 Zunächst hat Herr Abgeordneter Dr. Reismann 
 das Wort. Danach erhält es Herr Abgeordneter 
 Loritz. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Reismann</name><party>Z</party>
-</speaker>
- Der CDU-Antrag nach dem 
-Verfahren d&apos;Hondt ist hinfällig. Ich habe mitzuteilen — was ich eben schon erwähnt habe —, daß 
+Dr. Reismann (Z): Der CDU-Antrag nach dem 
+Verfahren d'Hondt ist hinfällig. Ich habe mitzuteilen — was ich eben schon erwähnt habe —, daß 
 die WAV und das Zentrum gemäß § 7 Absatz 2 
 der Geschäftsordnung eine Arbeitsgemeinschatt 
 bilden, 
-<interjection>(Lachen und Zurufe) </interjection>
+(Lachen und Zurufe) 
 eine Arbeitsgemeinschaft, wie sie in der zitierten Bestimmung ausdrücklich vorgesehen ist. Dort 
 heißt es: 
 Für die Bemessung des Stellenanteils können sich Fraktionen zusammentun und fraktionslose Mitglieder sich einer Fraktion anschließen. 
 Damit haben diese beiden Fraktionen bezüglich 
 der Stellenbesetzung eine Stärke, die größer ist 
 als die der Bayernpartei und der Deutschen Partei. 
-<interjection>
 (Zuruf links: Ich wünsche Ihnen viel Glück 
 zu dieser Ehe!) 
-</interjection>
 — Besten Dank für den freundlichen Glückwunsch! 
 Ich erwarte gegebenenfalls auch den Glückwunsch 
 von der Bayernpartei und der Deutschen Partei. 
-<interjection>(Zuruf rechts.) </interjection>
+(Zuruf rechts.) 
 — Schade, vielleicht kommt er noch von da! 
-<interjection>(Beifall und Heiterkeit.) </interjection>
+(Beifall und Heiterkeit.) 
 Jedenfalls ist die Situation jetzt so, daß, wenn 
 die Partei, die den Antrag gestellt hat, nur einigermaßen nach Recht und Billigkeit verfahren 
 will, sie diesen Antrag in der jetzt vorliegenden 
 Form nicht mehr aufrechterhalten kann. 
-<interjection>(Zurufe: Doch!) </interjection>
+(Zurufe: Doch!) 
 — Das machen Sie? Da habe ich doch Ihrem Gerechtigkeitssinn, ich hätte fast gesagt, sogar zugetraut, daß Sie es anders gemacht hätten. 
-<interjection>
 (Zuruf von der CDU: Ist das eine anständige 
 Ehe oder eine Scheinehe?) 
-</interjection>
 — Ach, lieber Herr Kollege, geben Sie Ihrer Enttäuschung doch nicht auf diese Art und Weise 
 Raum! Ich weiß ja, daß Sie ganz gern nachgegeben 
 hätten, als soeben die Zählung beanstandet wurde. 
 Sie hätten hinterher gern anders gestimmt, das 
 will ich Ihnen gern glauben, aber das spielt ja 
 keine Rolle. 
-<interjection>(Lachen und Zurufe rechts.) </interjection>
+(Lachen und Zurufe rechts.) 
 Jedenfalls haben wir nach der Geschäftsordnung 
 Anspruch darauf, daß das berücksichtigt wird. Der 
 CDU-Antrag kann deshalb in dieser Form nicht 
@@ -2867,31 +2462,21 @@ Ich beantrage, die Sitzung jetzt zu unterbrechen,
 damit dieses Schema geändert wird und die Parteien entsprechend der nunmehr veränderten Konstellation zum Zuge kommen. Das ist der erste 
 Antrag. Für den Fall, daß er abgelehnt werden 
 sollte, beantrage ich, das Haus wolle beschließen, 
-daß an sich das d&apos;Hondtsche System in Anwendung 
+daß an sich das d'Hondtsche System in Anwendung 
 kommt und daß die Ausrechnung später erfolgt. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Köhler</name><public_office>Präsident</public_office>
-</speaker>
- Ich darf zunächst einmal 
-feststellen, daß es für einen Antrag auf Unterbrechung der Sitzung der Zustimmung von 30 
+Präsident Dr. Köhler: Ich darf zunächst einmal 
+feststellen, daß es für einen Antrag auf Unterbrechung der  Sitzung der Zustimmung von 30 
 Mitgliedern des Hauses bedarf. 
 Jetzt hat der Herr Abgeordnete Loritz das Wort, 
 anschließend der Herr Abgeordnete Dr. von Brentano. 
-</speech>
-<speech>
-<speaker>
-<name>Loritz</name><party>WAV</party>
-</speaker>
- Meine sehr verehrten Damen 
+Loritz (WAV): Meine sehr verehrten Damen 
 ,,und Herren! Wollen wir doch nicht in die ganzen 
 Debatten Unruhe bringen, nachdem, wie der Herr 
 
-<interjection>(Loritz) </interjection>
+(Loritz) 
 Präsident mit Recht gesagt hat, es jetzt die ganze 
 Zeit so gut und schön gegangen ist. 
-<interjection>(Heiterkeit.) </interjection>
+(Heiterkeit.) 
 Wir dienen damit nämlich nicht der Demokratie. 
 Ich weiß nicht, warum hier soviel Aufregung und 
 soviel des Gelächters ist, wenn wir von einem 
@@ -2908,7 +2493,7 @@ Besetzung der Ausschüsse herangehen. Wir haben
 nun einmal in der Geschäftsordnung eine solche 
 Bestimmung. Ich lese im allgemeinen nicht vom 
 Blatt ab, 
-<interjection>(Heiterkeit) </interjection>
+(Heiterkeit) 
 aber in diesem Fall lese ich es Ihnen jetzt nochmals vor. In dem § 7 Absatz 2 haben wir die 
 ausdrückliche Bestimmung: 
 Bei Berechnung der Fraktionsstärke zählen die Gäste mit. Für die Bemessung des 
@@ -2919,15 +2504,13 @@ Von dieser Bestimmung haben wir Gebrauch gemacht, und jetzt stellt sich zur Entt
 die zuerst gegen uns abgestimmt haben, heraus, 
 daß man sich vorher um de- Kaisers Bart gestritten 
 hat, und der Bart ist nun davongeschwommen! 
-<interjection>
 (Lebhafter Beifall und Heiterkeit bei der 
 WAV, dem Zentrum und der SPD.) 
-</interjection>
-Und jetzt wird sich nach dem d&apos;Hondtschen System sogar ergeben, daß die kleine Mehrheit hier. 
+Und jetzt wird sich nach dem d'Hondtschen System sogar ergeben, daß die kleine Mehrheit hier. 
 auf der Rechten des Hauses viel schlechter dran 
 sein wird, als sie es nach dem Vorschlag von 
 Herrn Kollegen Schoettle gewesen wäre. Der Herr 
-Kollege Schoettle hatte klar und in ausgezeichneter Weise betont, daß der Regierungskoalition die 
+Kollege Schoettle hatte klar und  in  ausgezeichneter Weise betont, daß der Regierungskoalition die 
 kleine Mehrheit, die sie tatsächlich nur hat, durch 
 seinen Vorschlag in Wirklichkeit gesichert war. 
 Nun aber werden sich einige Ueberraschungen 
@@ -2936,40 +2519,26 @@ Ich gebe namens der gesamten Fraktion der
 WAV ebenfalls die Erklärung ab, daß wir gemäß 
 § 7 Absatz 2 der Geschäftsordnung zusammen 
 mit dem Zentrum eine Arbeitsgemeinschaft bilden. 
-<interjection>(Heiterkeit und Zurufe.) </interjection>
+(Heiterkeit und Zurufe.) 
 Damit wird die gesamte Besetzung der Ausschüsse 
 ein völlig anderes Gesicht bekommen, und Sie müssen jetzt eine völlig andere Aufstellung machen, 
 meine sehr verehrten Damen und Herren! 
-<interjection>
 (Heiterkeit und Händeklatschen bei der 
 WAV, dem Zentrum und der SPD.) 
-</interjection>
 Ich kann es Ihnen nicht ersparen, meine Damen 
 und Herren! 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Köhler</name><public_office>Präsident</public_office>
-</speaker>
- Darf ich Sie einmal 
+Präsident Dr. Köhler: Darf ich Sie einmal 
 fragen: Welchen Namen soll denn diese Arbeitsgemeinschaft offiziell tragen? 
-</speech>
-<speech>
-<speaker>
-<name>Loritz</name><party>WAV</party>
-</speaker>
- Diese Arbeitsgemeinschaft trägt 
-den Namen „WAV-Zentrum&quot;! 
-<interjection>(Zuruf rechts.) </interjection>
-— Nein, sie trägt den Namen genau nach der demokratischen Spielregel: „Wirtschaftliche Aufbauvereinigung — Zentrum&quot;. 
-<interjection>(Abg. Strauß: „Loritz — Helene&quot;!) </interjection>
+Loritz (WAV): Diese Arbeitsgemeinschaft trägt 
+den Namen „WAV-Zentrum"! 
+(Zuruf rechts.)  
+— Nein, sie trägt den Namen genau nach der demokratischen Spielregel: „Wirtschaftliche Aufbauvereinigung — Zentrum". 
+(Abg. Strauß: „Loritz — Helene"!) 
 — Herr Kollege Strauß, wollen wir doch die Debatten dieses Hauses auf dem hohen Niveau lassen, das sie in den letzten Tagen gehabt haben! 
 Wollen wir doch die parlamentarische Arbeit hier 
 nicht ins Lächerliche ziehen! 
-<interjection>
 (Lebhafte Zustimmung bei der WAV, dem 
 Zentrum und der SPD.) 
-</interjection>
 Meine sehr verehrten Damen und Herren! Ich 
 habe, als ich vor wenigen Tagen die Ehre hatte, 
 namens der WAV-Fraktion zu sprechen, Ihnen, 
@@ -2992,187 +2561,140 @@ der Sie hier einen neuen Verteilungsschlüssel ausarbeiten müssen. Denn der alt
 doch nicht mehr. Das möchte ich hiermit namens 
 der WAV-Fraktion und namens der Arbeitsgemeinschaft WAV-Zentrum zum Ausdruck gebracht 
 haben. 
-<interjection>(Beifall bei der WAV.) </interjection>
-</speech>
-<speech>
-<speaker>
-<name>Dr. Köhler</name><public_office>Präsident</public_office>
-</speaker>
- Meine Damen und Herren, das Wort hat der Herr Abgeordnete Dr. von 
+(Beifall bei der WAV.) 
+Präsident Dr. Köhler: Meine Damen und Herren, das Wort hat der Herr Abgeordnete Dr. von 
 Brentano. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. von Brentano</name><party>CDU</party>
-</speaker>
- Meine Damen und 
+Dr. von Brentano (CDU): Meine Damen und 
 Herren! Ich glaube, das gesamte Haus hat mit 
 Interesse von der Gründung der Arbeitsgemeinschaft Wirtschaftliche Aufbauvereinigung — Zentrum Kenntnis genommen. 
-<interjection>(Sehr gut! in der Mitte.) </interjection>
+(Sehr gut! in der Mitte.) 
 Ich möchte folgendes feststellen: Die zahlenmäßige 
 Verteilung in dem Antrag der CDU/CSU hat sien 
 naturgemäß durch diese Neugründung geändert. 
-<interjection>(Aha! bei der WAV.) </interjection>
+(Aha! bei der WAV.) 
 Ich werde den Antrag dahin abändern, daß entsprechend den Vorschriften der §§ 7 und 9 der 
 Geschäftsordnung die Ausschüsse nach dem 
-d&apos;Hondtschen System von den Fraktionen, Gruppen 
+d'Hondtschen System von den Fraktionen, Gruppen 
 und Arbeitsgemeinschaften besetzt werden. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Köhler</name><public_office>Präsident</public_office>
-</speaker>
- Das Wort hat der Herr 
+Präsident Dr. Köhler: Das Wort hat der Herr 
 Abgeordnete Dr. Miessner. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Miessner</name><party>NR</party>
-</speaker>
- Die Gruppe „Nationale 
-Rechte&quot; unterstützt die Anträge des Zentrums und 
+Dr. Miessner (NR): Die Gruppe „Nationale 
+Rechte" unterstützt die Anträge des Zentrums und 
 der WAV auf Unterbrechung der Sitzung und stellt 
 ebenfalls den Antrag — — 
-<interjection>
 (Zuruf von der CDU: Ich sei, gewährt mir 
 die Bitte, in eurem Bunde der Dritte!) 
-</interjection>
 — Unterbrechen Sie mich doch nicht in dieser Art; 
-wir müssen doch nun einmal weiterkommen. Wir(Dr. Miessner) 
-stellen den Antrag, zunächst nur über das d&apos;Hondtsche System als solches abzustimmen und dann 
-die Sitzung zu unterbrechen, damit auch wir die 
-Möglichkeit haben, in irgendeiner Weise noch zum 
-Zuge zu kommen. 
-<interjection>(Unruhe.) </interjection>
-</speech>
-<speech>
-<speaker>
-<name>Dr. Köhler</name><public_office>Präsident</public_office>
-</speaker>
- Meine Damen und. Herren! Ich mache darauf aufmerksam, daß nach 
-§ 78 der Geschäftsordnung vor Erledigung der Tagesordnung nur vertagt werden kann: entweder 
-auf Vorschlag des Präsidenten oder auf Antrag von 
-30 anwesenden Mitgliedern. 30 anwesende Mitglieder würden nominell in Frage kommen. Die 
-Fraktion der WAV mit 12 und das Zentrum mit 10, 
-das sind 22, die Nationale Rechte mit 6, das sind 28. 
-<interjection>(Zuruf: Anwesende!) </interjection>
-— Das sage ich ja. Es muß also den Herren Antragstellern überlassen bleiben, den Nachweis zu 
-erbringen, daß sie über 30 Stimmen verfügen. 
-Das Wort hat der Herr Abgeordnete Dr. von 
-Merkatz. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. von Merkatz</name><party>DP</party>
-</speaker>
- Namens der Fraktion 
-der Deutschen Partei stelle ich den Antrag auf 
-Vertagung. Unterstützung ist gegeben durch die 
-Fraktionen der Deutschen Partei und der Bayernpartei. 
-<interjection>(Beifall rechts.) </interjection>
-</speech>
-<speech>
-<speaker>
-<name>Dr. Köhler</name><public_office>Präsident</public_office>
-</speaker>
- Meine Damen und Herren, nach diesem Antrag des Herrn Abgeordneten Dr. von Merkatz müssen wir zunächst einmal 
-die Sitzung unterbrechen. 
-<interjection>(Zurufe: Nein! Abstimmen!) </interjection>
-Entschuldigen Sie, die vorschriftsmäßige Zahl 
-von 30 Mitgliedern ist für den Antrag auf Unterbrechung durch die eben abgegebene Erklärung 
-vorhanden. 
-<interjection>(Zurufe: Klingeln!) </interjection>
-Ich mache darauf aufmerksam, daß noch eine 
-Wortmeldung des Herrn Abgeordneten Renner vorliegt. Der Antrag auf Unterbrechung geht aber 
-vor. Ich nehme Ihr Einverständnis an. — Danke. 
-Wer für den von Herrn Abgeordneten Dr. von 
+wir müssen doch nun einmal weiterkommen. Wir(Dr. Miessner)  
+stellen den Antrag, zunächst nur über das d'Hondtsche System als solches abzustimmen und dann  
+die Sitzung zu unterbrechen, damit auch wir die  
+Möglichkeit haben, in irgendeiner Weise noch zum  
+Zuge zu kommen.  
+(Unruhe.)  
+Präsident Dr. Köhler: Meine Damen und. Herren! Ich mache darauf aufmerksam, daß nach  
+§ 78 der Geschäftsordnung vor Erledigung der Tagesordnung nur vertagt werden kann: entweder  
+auf Vorschlag des Präsidenten oder auf Antrag von  
+30 anwesenden Mitgliedern. 30 anwesende Mitglieder würden nominell in Frage kommen. Die  
+Fraktion der WAV mit 12 und das Zentrum mit 10,  
+das sind 22, die Nationale Rechte mit 6, das sind 28.  
+(Zuruf: Anwesende!)  
+— Das sage ich ja. Es muß also den Herren Antragstellern überlassen bleiben, den Nachweis zu  
+erbringen, daß sie über 30 Stimmen verfügen.  
+Das Wort hat der Herr Abgeordnete Dr. von  
+Merkatz.  
+Dr. von Merkatz (DP): Namens der Fraktion  
+der Deutschen Partei stelle ich den Antrag auf  
+Vertagung. Unterstützung ist gegeben durch die  
+Fraktionen der Deutschen Partei und der Bayernpartei.  
+(Beifall rechts.)  
+Präsident Dr. Köhler: Meine Damen und Herren, nach diesem Antrag des Herrn Abgeordneten Dr. von Merkatz müssen wir zunächst einmal  
+die Sitzung unterbrechen.  
+(Zurufe: Nein! Abstimmen!)  
+Entschuldigen Sie, die vorschriftsmäßige Zahl  
+von 30 Mitgliedern ist für den Antrag auf Unterbrechung durch die eben abgegebene Erklärung  
+vorhanden.  
+(Zurufe: Klingeln!)  
+Ich mache darauf aufmerksam, daß noch eine  
+Wortmeldung des Herrn Abgeordneten Renner vorliegt. Der Antrag auf Unterbrechung geht aber  
+vor. Ich nehme Ihr Einverständnis an. — Danke.  
+Wer für den von Herrn Abgeordneten Dr. von  
 Merkatz soeben mit der nötigen Unterstützung 
 gestellten Antrag auf Unterbrechung ist, den 
-bitte ich. die Hand zu erheben. — Der Antrag hat keine Mehrheit gefunden. — Ich bitte 
+bitte ich. die Hand zu erheben. — Der Antrag hat keine Mehrheit gefunden. — Ich bitte  
 um die Gegenprobe. — Angesichts der zahl der 
-Stimmenthaltungen kann kein Zweifel darüber 
+Stimmenthaltungen kann kein Zweifel darüber  
 Sein, daß der Antrag — nach unserer Feststellung 
-hier oben — mit großer Mehrheit abgelehnt worden ist. Darf ich das feststellen! — Ich höre keinen Widerspruch. 
-Das Wort hat zunächst der Herr Abgeordnete 
-Renner. 
-</speech>
-<speech>
-<speaker>
-<name>Renner</name><party>KPD</party>
-</speaker>
- Meine Damen und Herren! 
-In stundenlangen Auseinandersetzungen waren die 
-Fraktionen in interfraktionellen Besprechungen bemüht, diese Frage, die man normalerweise in allen 
+hier oben — mit großer Mehrheit abgelehnt worden ist. Darf ich das feststellen! — Ich höre keinen Widerspruch.  
+Das Wort hat zunächst der Herr Abgeordnete  
+Renner.  
+Renner (KPD): Meine Damen und Herren! 
+In stundenlangen Auseinandersetzungen waren die  
+Fraktionen in interfraktionellen Besprechungen bemüht, diese Frage, die man normalerweise in allen  
 Parlamenten nach Gentlemen-agreement-Methoden 
-regelt, zu behandeln. Was wir heute hier erlebt haben, ist ein praktischer Schulungsunterricht der 
+regelt, zu behandeln. Was wir heute hier erlebt haben, ist ein praktischer Schulungsunterricht der  
 Regierungskoalitionsparteien und Minister über Toleranz und Demokratie. Die FDP ist heute mittag 
-umgebogen worden. Der Vertreter der CDU, 
-Herr Kollege Holzapfel, hat schriftlich einen Alternativantrag gestellt, der darauf hinauslief, dem 
-Hause die Schaffung von 27er-Ausschüssen vorzuschlagen. Was erleben wir hier? Der Antrag 
-der SPD, der einer wirklich demokratischen Regelung der Frage gerecht geworden wäre, ist abgelehnt worden. Der Erfolg ist der, daß wir meiner Meinung nach jetzt nur noch über den Antrag von Brentano abzustimmen haben. 
-Aber gestatten Sie mir, noch ein Wort zur Sache 
-selbst. Wenn wir Toleranz der Regierungsparteien 
-in der Zukunft so vorexerziert bekommen, dann 
-darf man von uns nicht erwarten, daß wir nicht 
-mit derselben Methode zurückschlagen und uns 
-nicht wehren. Sie. Herr Dr. Konrad Adenauer, 
-haben heute durch Ihre Fraktion mit Hilfe der 
-FDP den Beweis dafür geliefert, was wir von Ihrer 
-Toleranz und Ihrer Demokratie — — 
-<interjection>(Zurufe aus der Mitte.) </interjection>
+umgebogen worden. Der Vertreter der CDU,  
+Herr Kollege Holzapfel, hat schriftlich einen Alternativantrag gestellt, der darauf hinauslief, dem  
+Hause die Schaffung von 27er-Ausschüssen vorzuschlagen. Was erleben wir hier? Der Antrag  
+der SPD, der einer wirklich demokratischen Regelung der Frage gerecht geworden wäre, ist abgelehnt worden. Der Erfolg ist der, daß wir meiner Meinung nach jetzt nur noch über den Antrag von Brentano abzustimmen haben.  
+Aber gestatten Sie mir, noch ein Wort zur Sache  
+selbst. Wenn wir Toleranz der Regierungsparteien  
+in der Zukunft so vorexerziert bekommen, dann  
+darf man von uns nicht erwarten, daß wir nicht  
+mit derselben Methode zurückschlagen und uns  
+nicht wehren. Sie. Herr Dr. Konrad Adenauer,  
+haben heute durch Ihre Fraktion mit Hilfe der  
+FDP den Beweis dafür geliefert, was wir von Ihrer  
+Toleranz und Ihrer Demokratie — —  
+(Zurufe aus der Mitte.)  
 — Ja, Sie sind heruntergegangen ins Plenum; Sie 
-hatten es nicht nötig, sich an der Abstimmung zu 
-beteiligen, wenn Sie sich als toleranter Bundeskanzler erweisen wollten. Sie sind aber in die 
-Kampfbahn heruntergestiegen und haben damit bewiesen, daß es Ihnen nicht darauf ankommt, tolerant zu sein. 
-Aber was geschieht mit dem Vorschlag Brentano? Mit dem Vorschlag Brentano wird erreicht, 
-daß die kleinen Fraktionen praktisch nur in einem 
+hatten es nicht nötig, sich an der Abstimmung zu  
+beteiligen, wenn Sie sich als toleranter Bundeskanzler erweisen wollten. Sie sind aber in die  
+Kampfbahn heruntergestiegen und haben damit bewiesen, daß es Ihnen nicht darauf ankommt, tolerant zu sein.  
+Aber was geschieht mit dem Vorschlag Brentano? Mit dem Vorschlag Brentano wird erreicht,  
+daß die kleinen Fraktionen praktisch nur in einem  
 einzigen 27er-Ausschuß vertreten sind. Schon 
 in dem zweiten Ausschuß ist neben der 
-Koalitionspartei, neben der FDP, nur noch 
-die DP vertreten. Einig war man sich bisher auch in den Reihen der CDU, daß das ein 
-Manko ist. Dieses Manko sollte dadurch repariert 
-werden, daß von der CDU — ausgehend von Herrn 
-Holzapfel — der Vorschlag gekommen ist, die 
+Koalitionspartei, neben der FDP, nur noch  
+die DP vertreten. Einig war man sich bisher auch in den Reihen der CDU, daß das ein  
+Manko ist. Dieses Manko sollte dadurch repariert  
+werden, daß von der CDU — ausgehend von Herrn  
+Holzapfel — der Vorschlag gekommen ist, die  
 Lücke, die dadurch entsteht. daß man die kleinen 
-Fraktionen nicht berücksichtigt, auszugleichen dadurch, daß man den kleinen Fraktionen wenigstens 
-über den FDP-Antrag die Möglichkeit einer Mitarbeit, zumindest in diesen Ausschüssen, verschafft. 
-<interjection>(Zurufe.) </interjection>
-Sie haben sich auch bis heute nicht darüber ausgesprochen, ob Sie wenigstens diesem Antrag zustimmen wollen. Sie haben hier wirklich demonstriert, daß Sie Ihr Machtverhältnis gnadenlos gegen die kleinen Fraktionen ausnutzen wollen. Das 
-ist Ihnen, Herr Brentano, gelungen. 
-<interjection>(Zuruf des Abg. Dr. Müller.) </interjection>
-— Herr Dr. Müller, mischen Sie sich nicht hinein; 
-von Demokratie haben Sie meines Erachtens noch 
-nie etwas verstanden. — Ich appelliere an die 
-CDU, ob sie wenigstens bereit ist, dieses Zugeständnis zu machen. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Köhler</name><public_office>Präsident</public_office>
-</speaker>
- Meine Damen und Herren! Der Antrag des Herrn Abgeordneten 
-von Brentano, der mündlich gestellt worden ist, 
-ist mir inzwischen schriftlich vorgelegt worden. 
-Ich verlese ihn: 
-Der Bundestag möge beschließen: 
-Die Sitze in den Ausschüssen werden nach dem 
-d&apos;Hondtschen System im Sinne der §§ 7 und 
-9 der Geschäftsordnung verteilt. 
-Dadurch würde der von Ihnen — darf ich einmal 
-die führenden Herren der CDU/CSU bitten, mir 
-zuzuhören? - vorhin gestellte und von mir verlesene Antrag hinfällig werden. Es würde nur 
-über das Prinzip im Sinne des eben verlesenen 
-Antrags abgestimmt werden. 
-<interjection>(Zustimmung.) </interjection>
+Fraktionen nicht berücksichtigt, auszugleichen dadurch, daß man den kleinen Fraktionen wenigstens  
+über den FDP-Antrag die Möglichkeit einer Mitarbeit, zumindest in diesen Ausschüssen, verschafft.  
+(Zurufe.)  
+Sie haben sich auch bis heute nicht darüber ausgesprochen, ob Sie wenigstens diesem Antrag zustimmen wollen. Sie haben hier wirklich demonstriert, daß Sie Ihr Machtverhältnis gnadenlos gegen die kleinen Fraktionen ausnutzen wollen. Das  
+ist Ihnen, Herr Brentano, gelungen.  
+(Zuruf des Abg. Dr. Müller.)  
+— Herr Dr. Müller, mischen Sie sich nicht hinein;  
+von Demokratie haben Sie meines Erachtens noch  
+nie etwas verstanden. — Ich appelliere an die  
+CDU, ob sie wenigstens bereit ist, dieses Zugeständnis zu machen.  
+Präsident Dr. Köhler: Meine Damen und Herren! Der Antrag des Herrn Abgeordneten  
+von Brentano, der mündlich gestellt worden ist,  
+ist mir inzwischen schriftlich vorgelegt worden.  
+Ich verlese ihn:  
+Der Bundestag möge beschließen:  
+Die Sitze in den Ausschüssen werden nach dem  
+d'Hondtschen System im Sinne der §§ 7 und  
+9 der Geschäftsordnung verteilt.  
+Dadurch würde der von Ihnen — darf ich einmal  
+die führenden Herren der CDU/CSU bitten, mir  
+zuzuhören? - vorhin gestellte und von mir verlesene Antrag hinfällig werden. Es würde nur  
+über das Prinzip im Sinne des eben verlesenen  
+Antrags abgestimmt werden.  
+(Zustimmung.)  
 
-<interjection>(Präsident Dr. Köhler) </interjection>
+(Präsident Dr. Köhler) 
 Wird das Wort zu diesem Antrage gewünscht? — 
 Ich stelle fest: das ist nicht der Fall. 
-<interjection>(Zurufe: Klingeln!) </interjection>
+(Zurufe: Klingeln!) 
 — Es ist geklingelt. — Dann lasse ich über den 
 Antrag abstimmen. 
-<interjection>(Erneute Zurufe: Klingeln!) </interjection>
+(Erneute Zurufe: Klingeln!) 
 - Wir können ja dauernd klingeln. 
-<interjection>(Heiterkeit.) </interjection>
+(Heiterkeit.) 
 Es kommt doch niemand mehr herein. 
 Wer für den Antrag des Herrn Abgeordneten 
 Dr. von Brentano ist, den ich eben verlesen habe, 
@@ -3180,7 +2702,7 @@ den bitte ich, die Hand zu erheben. — Meine
 Damen und Herren! Ich glaube, wir brauchen 
 nicht auszuzählen. Das ist die Mehrheit. — Ich 
 bitte um die Gegenprobe. 
-<interjection>(Abg. Schoettle: Bitte noch einmal auszählen!) </interjection>
+(Abg. Schoettle: Bitte noch einmal auszählen!) 
 — Schön, dann lassen wir die Stimmen der Gegenprobe auszählen. — 
 Meine Damen und Herren, ich höre eben folgendes: die Herren Schriftführer kommen nicht zu 
 einem einheitlichen Ergebnis. Also beginnen wir 
@@ -3188,16 +2710,15 @@ die Abstimmung noch einmal von vorn. Wer für
 den Antrag des Herrn Abgeordneten Dr. von 
 Brentano ist — ich glaube, ich brauche ihn nicht 
 noch einmal zu verlesen —, 
-<interjection>(Zuruf rechts: Von den Sitzen erheben!) </interjection>
+(Zuruf rechts: Von den Sitzen erheben!) 
 den bitte ich, sich von den Plätzen zu erheben. —
 Ich möchte feststellen, daß nach unserem Eindruck 
 hier oben eindeutig eine Mehrheit — auch unter 
 Berücksichtigung der hintersten Bänke dieses 
 Hauses — vorhanden ist. 
-<interjection>
 (Zuruf von der WAV: Zur Geschäftsordnung! 
-Man versteht von dem, was dort vorn gesagt wird, hier hinten nichts!) 
-</interjection>
+Man versteht von dem, was dort vorn gesagt 
+wird, hier hinten nichts!) 
 — Wir sind mitten in der Abstimmung. Ich werde 
 mich bemühen, ein Höchstmaß an Klangstärke meines Organs herauszuholen. 
 Ich habe soeben in Übereinstimmung mit den 
@@ -3205,67 +2726,40 @@ beiden Schriftführern festgestellt, daß hier
 zweifelsfrei eine Mehrheit vorliegt. Wenn diese 
 Mehrheit nicht angezweifelt wird, darf ich feststellen, daß der Antrag Dr. von Brentano angenommen ist. 
 Das Wort hat der Herr Abgeordnete Schoettle. 
-</speech>
-<speech>
-<speaker>
-<name>Schoettle</name><party>SPD</party>
-</speaker>
- Haben Sie keine Sorge, meine 
+Schoettle (SPD): Haben Sie keine Sorge, meine 
 Damen und Herren, ich werde diese Abstimmung 
 nicht anzweifeln; aber ich nehme den zweiten 
 Teil des sozialdemokratischen Antrags nun wieder auf und beantrage, nach der von uns vorgelegten Fassung den soeben angenommenen Antrag 
 der CDU/CSU zu ergänzen. Ich bitte den Herrn 
 Präsidenten, den zweiten Teil unseres Antrages 
 noch einmal zu verlesen. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Köhler</name><public_office>Präsident</public_office>
-</speaker>
- Herr Kollege Schoettle, 
+Präsident Dr. Köhler: Herr Kollege Schoettle, 
 Sie hätten ihn eigentlich einmal selbst vorlesen 
 können. 
-<interjection>(Abg. Schoettle: Ich bin gern bereit!) </interjection>
+(Abg. Schoettle: Ich bin gern bereit!) 
 Ich habe schon soviel vorlesen müssen. 
 Der Herr Abgeordnete Schoettle stellt folgenden 
 ergänzenden Antrag, den er selbst verlesen wird. 
-</speech>
-<speech>
-<speaker>
-<name>Schoettle</name><party>SPD</party>
-</speaker>
- „Den nach diesem Schlüssel&quot; — in diesem Falle dem d&apos;Hondtschen — „in 
+Schoettle (SPD): „Den nach diesem Schlüssel" — in diesem Falle dem d'Hondtschen — „in 
 einem Ausschuß nicht vertretenen Fraktionen steht 
 das Recht zu, sich durch einen Abgeordneten mit 
 beratender Stimme vertreten zu lassen, soweit 
 nicht der Bundestag für einzelne Ausschüsse eine 
-abweichende Regelung beschließt.&quot; 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Köhler</name><public_office>Präsident</public_office>
-</speaker>
- Wird das Wort zu diesem 
+abweichende Regelung beschließt." 
+Präsident Dr. Köhler: Wird das Wort zu diesem 
 ergänzenden Antrag gewünscht? — Bitte, Herr 
 Abgeordneter Dr. Reismann! Darf ich fragen: 
 Sprechen Sie für die Arbeitsgemeinschaft WAV-
 Zentrum oder nur für das Zentrum? 
-<interjection>
 (Aba. Dr. Reismann: Ich spreche für die 
 Arbeitsgemeinschaft WAV-Zentrum.) 
-</interjection>
-</speech>
-<speech>
-<speaker>
-<name>Dr. Reismann</name><party>Z</party>
-</speaker>
- Wir sind für diesen Antrag, meine sehr verehrten Damen und Herren, 
+Dr. Reismann (Z): Wir sind für diesen Antrag, meine sehr verehrten Damen und Herren, 
 und zwar sind wir deswegen dafür, weil wir die 
 Machtpositionen, wenn wir sie in Händen haben, 
 nicht so mißbrauchen wollen wie die Parteien, 
 denen wir sie aus den Händen winden mußten, 
 weil sie uns dazu gezwungen haben. 
-<interjection>(Beifall.) </interjection>
+(Beifall.) 
 Meine sehr verehrten Damen und Herren! Ich 
 finde es bedauerlich, daß man uns in dieser 
 tumultuarischen Art und Weise daran hindern 
@@ -3273,55 +2767,31 @@ wollte, auch nur bekanntzugeben, was geschehen
 war. Eine Partei, die sich christlich und demokratisch nennt, sollte soviel an Demokratie und 
 Verständnis dafür aufbringen, daß man die kleinen 
 Parteien in dem Rahmen dessen auch berücksichtigen muß, was billig und angemessen ist. 
-<interjection>(Zuruf von der CDU: Unmoralisch!) </interjection>
+(Zuruf von der CDU: Unmoralisch!) 
 — Meine Herren, weil Sie hereingefallen sind, bezeichnen Sie es als unmora lisch! 
-<interjection>
 (Zuruf von der CDU: Das werden Sie gleich 
 sehen, wie wir hereingefallen sind!) 
-</interjection>
 — Meine sehr verehrten Damen und Herren, so 
 geht es wirklich nicht. Ich meine, wenn man miteinander arbeiten will und hat als Regierungskoalition eine so starke Mehrheit wie eine Stimme, 
 dann muß man sich schon einiges gefallen lassen 
 und Rücksicht auf die anderen Parteien nehmen, 
 die auch noch da sind. 
-<interjection>(Beifall beim Zentrum, bei der WAV und links.) </interjection>
+(Beifall beim Zentrum, bei der WAV und links.) 
 Meine sehr verehrten Damen und Herren, wenn 
 Sie hier solche Krawallszenen veranstalten — — 
-<interjection>
 (Große Unruhe und Zurufe. — Glocke des 
 Präsidenten.) 
-</interjection>
-</speech>
-<speech>
-<speaker>
-<name>Dr. Köhler</name><public_office>Präsident</public_office>
-</speaker>
- Welchen Ausdruck haben 
+Präsident Dr. Köhler: Welchen Ausdruck haben 
 Sie eben gebraucht, Herr Abgeordneter? 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Reismann</name><party>Z</party>
-</speaker>
- Ich habe „Krawallszenen&quot; 
+Dr. Reismann (Z): Ich habe „Krawallszenen" 
 gesagt. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Köhler</name><public_office>Präsident</public_office>
-</speaker>
- Herr Abgeordneter, hier 
+Präsident Dr. Köhler: Herr Abgeordneter, hier 
 finden keine Krawallszenen statt. Wenn solche 
 stattfinden, ist es meine Sache, das festzustellen 
 und daraus die Konsequenzen zu ziehen. 
-<interjection>(Sehr richtig!) </interjection>
+(Sehr richtig!) 
 Ich bitte Sie fortzufahren. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Reismann</name><party>Z</party>
-</speaker>
- Also wenn solche Szenen hier 
+Dr. Reismann (Z): Also wenn solche Szenen hier 
 im Hause veranstaltet werden anläßlich eines 
 so sachlichen und nüchternen Ereignisses, wie es 
 eine Abstimmung über die Beteiligung an den 
@@ -3338,44 +2808,24 @@ haben, ist das Ihre Schuld.
 gleichen Sache der Herr Abgeordnete Dr. Miessner, 
 das heißt zu dem Ergänzungsantrag, damit wir 
 jetzt klar bei der Sache bleiben. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Miessner</name><party>NR</party>
-</speaker>
- Meine Damen und Herren! 
+Dr. Miessner (NR): Meine Damen und Herren! 
 Es geht doch hier um nichts anderes als um die 
 Mitarbeit der kleinen Parteien. Wir betrachten es 
 wirklich als beschämend, daß man uns in dieser 
 Weise gewissermaßen den Hals zudrehen will. Wir 
-stellen daher den Antrag, auch zu dem d&apos;Hondtschen Verfahren den Zusatz aufzunehmen, daß 
-nicht nur für die Fraktionen, sondern auch G r uppen unter Fraktionsstärke Teilnahme mit beratender Stimme zulässig ist. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Köhler</name><public_office>Präsident</public_office>
-</speaker>
- Herr Abgeordneter Miessner, darf ich Sie darauf aufmerksam machen, 
-daß wir über diese Ergänzung des Ergänzungsantrags der SPD, hinter „Fraktionen&quot; noch dasselbe 
-einzufügen, also „Gruppen&quot;, bereits mit negativem 
+stellen daher den Antrag, auch zu dem d'Hondtschen Verfahren den Zusatz aufzunehmen, daß 
+nicht nur für die Fraktionen, sondern auch G r uppen  unter Fraktionsstärke Teilnahme mit beratender Stimme zulässig ist. 
+Präsident Dr. Köhler: Herr Abgeordneter Miessner, darf ich Sie darauf aufmerksam machen, 
+daß wir über diese Ergänzung des Ergänzungsantrags der SPD, hinter „Fraktionen" noch dasselbe 
+einzufügen, also „Gruppen", bereits mit negativem 
 Ergebnis abgestimmt haben, so daß ich eigentlich 
 annehmen möchte, daß eine nochmalige Abstimmung kaum zu einem anderen Ergebnis führen 
 dürfte. Ich halte mich zum mindesten für verpflichtet, Sie darauf hinzuweisen. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Miessner</name><party>NR</party>
-</speaker>
- Herr Präsident! Mir ist das 
+Dr. Miessner (NR): Herr Präsident! Mir ist das 
 bekannt. In vollem Bewußtsein dieser Tatsache 
 stelle ich den Antrag noch einmal, damit man ganz 
 klar sieht, wer hier im Hause die kleinen Parteien unterdrücken will. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Köhler</name><public_office>Präsident</public_office>
-</speaker>
- Ich muß Sie dann allerdings auf die Geschäftsordnung aufmerksam 
+Präsident Dr. Köhler: Ich muß Sie dann allerdings auf die Geschäftsordnung aufmerksam 
 machen, wonach in derselben Sitzung der gleiche 
 Antrag nicht zweimal gestellt werden kann. Es tut 
 mir leid. 
@@ -3385,16 +2835,14 @@ kommen wir zur Abstimmung über den Ergänzungsantrag des Abgeordneten Schoettle
 Brentano und Genossen. Wer für den Ergänzungsantrag Schoettle ,ist, den bitte ich, die Hand zu erheben. — Meine Damen und Herren, das ist zweifelsfrei die Mehrheit. Ich erkläre damit den Ergänzungsantrag für angenommen. 
 Ich habe nunmehr einen weiteren Antrag zur Abstimmung zu bringen, glaube aber, daß sich die 
 Abstimmung hier erübrigen wird. Es handelt sich 
-um die Anregung des Herrn Abgeordneten 
+um die Anregung des  Herrn Abgeordneten 
 Schöttle, daß die Berliner Abgeordneten mit beratender Stimme an sämtlichen Ausschüssen beteiligt sind. Ich glaube, es bedarf wohl darüber 
 keiner ausdrücklichen Abstimmung. Erhebt sich 
 Widerspruch im Hause? — Das ist nicht der Fall. 
 Dann stelle ich fest, daß die Berliner Vertreter mit 
 beratender Stimme an sämtlichen Ausschüssen beteiligt sind. 
-<interjection>
 (Beifall. — Abg. Dr. Adenauer: Doch nicht alle! — 
 Abg. Renner: Wir erheben Widerspruch!) 
-</interjection>
 — Gegen den Widerspruch der KPD! 
 Meine Damen und Herren! Wir kommen nunmehr 
 wieder auf die interfraktionelle Basis zurück, was 
@@ -3408,35 +2856,20 @@ annehmen, daß alle Mitglieder des Hauses die
 Drucksache Nr. 48 vor sich liegen haben. Wird das 
 Wort dazu gewünscht? — Bitte, Herr Abgeordneter 
 Dr. Seelos! 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Seelos</name><party>BP</party>
-</speaker>
- Meine Damen und Herren! Die 
+Dr. Seelos (BP): Meine Damen und Herren! Die 
 Einteilung der Ausschüsse in 27er-, 21er-, 15er- und 
 7er-Ausschüsse ist unter den gegebenen Fraktionsverhältnissen und Fraktionsstärken erfolgt. 
 Nachdem wir noch nicht einmal wissen, wie sich 
 die Neuberechnung infolge der Fraktionsneubildung auswirken wird, bin ich der Auffassung, daß 
 man zunächst einmal die Grundlage schaffen und 
-die Sache nach dem d&apos;Hondtschen Verfahren neu 
+die Sache nach dem d'Hondtschen Verfahren neu 
 berechnen muß. Erst dann können wir eine Neueinteilung der Ausschüsse vornehmen. Jetzt bin ich 
 dazu nicht in der Lage und bitte daher um Vertagung der Angelegenheit. 
-<interjection>(Zurufe und Unruhe.) </interjection>
-</speech>
-<speech>
-<speaker>
-<name>Dr. Köhler</name><public_office>Präsident</public_office>
-</speaker>
- Wird das Wort weiter 
+(Zurufe und Unruhe.) 
+Präsident Dr. Köhler: Wird das Wort weiter 
 gewünscht? — Das Wort hat der Herr Abgeordnete 
 Kinat. 
-</speech>
-<speech>
-<speaker>
-<name>Kinat</name><party>SPD</party>
-</speaker>
- Meine Damen und Herren! Hier 
+Kinat (SPD): Meine Damen und Herren! Hier 
 liegt ein Antrag vor, bei welchem zu entscheiden 
 ist. ob wir den Ausschuß für die Heimatvertriebenen mit 27 oder mit 21 Mitgliedern besetzen. Ich 
 bedaure es — weil es draußen Verwunderung, 
@@ -3446,53 +2879,42 @@ unterbreitet, nicht darüber schlüssig geworden ist,
 daß ein so wichtiger Ausschuß mindestens zu den 
 großen Ausschüssen zu rechnen ist und damit die 
 Mitgliederzahl von 27 notwendig ist. 
-<interjection>(Zustimmung rechts.) </interjection>
+(Zustimmung rechts.) 
 Meine Damen und Herren! Ich möchte das Hohe 
 Haus überhaupt bitten, bei allen Anliegen und Vorgängen, die die Heimatvertriebenen betreffen, 
 keinerlei Unterbewertung Platz greifen zu lassen. 
 Wir verlangen, daß man die Bedeutung des Flüchtlingsproblems so sieht, wie sie in Wirklichkeit ist. 
 Daher bitte ich, daß der Ausschuß für die Heimatvertriebenen mit 27 Mitgliedern besetzt wird. 
-<interjection>(Beifall.) </interjection>
-</speech>
-<speech>
-<speaker>
-<name>Dr. Köhler</name><public_office>Präsident</public_office>
-</speaker>
- Wird das Wort weiter gewünscht? — Ich stelle fest, daß das nicht der Fall 
+(Beifall.) 
+Präsident Dr. Köhler: Wird das Wort weiter gewünscht? — Ich stelle fest, daß das nicht der Fall 
 ist. 
 Dann kommen wir zunächst zur Abstimmung 
 über Ziffer I des Antrags Drucksache Nr. 48: 
 Die vom Bundestag eingesetzten Ausschüsse werden in folgender Stärke gebildet. 
 Wer dafür ist, den bitte ich, die Hand zu erheben. 
-<interjection>
 (Abg. Dr. Seelos: Zunächst war über den 
 Vertagungsantrag abzustimmen!) 
-</interjection>
 - Ich habe keinen Vertagungsantrag gehört. Haben 
 Sie einen Vertagungsantrag gestellt? 
-<interjection>
 (Abg. Dr. Seelos: Ich habe beantragt, die 
 Abstimmung jetzt nicht vorzunehmen!) 
-</interjection>
 — Herr Abgeordneter Dr. Seelos, dieser Antrag bedarf der Unterstützung von 30 Stimmen. 
-<interjection>(Abg. Dr. Seelos: Der Antrag hat die Unterstützung der Bayernpartei und der FDP!) </interjection>
+(Abg. Dr. Seelos: Der Antrag hat die Unterstützung der Bayernpartei und der FDP!) 
 — Verzeihung, ich war doch soeben schon in der 
 Abstimmung. 
-<interjection>
 (Widerspruch. — Zuruf rechts: Der Antrag 
 war schon vorher gestellt!) 
-</interjection>
 
-<interjection>(Präsident Dr. Köhler) </interjection>
+(Präsident Dr. Köhler) 
 — Warum müssen wir denn alle mit so großem 
 Stimmaufwand sprechen! Man kann sich doch bei 
 Ruhe im Saal sehr gemütlich unterhalten. Sie 
 haben einen Vertagungsantrag gestellt? 
-<interjection>(Abg. Dr. Seelos: Jawohl!) </interjection>
+(Abg. Dr. Seelos: Jawohl!) 
 - Das habe ich in dieser Form nicht gehört. Sonst 
 wäre ich nicht zur Abstimmung geschritten. 
 Jetzt muß ich feststellen, ob der Vertagungsantrag die nötige Unterstützung findet. 
-<interjection>(Zurufe: Jawohl!) </interjection>
+(Zurufe: Jawohl!) 
 - Meine Damen und Herren, ich darf jetzt einen 
 praktischen Vorschlag machen. Sie wollen doch 
 keinen Antrag auf Vertagung, sondern höchstens 
@@ -3504,25 +2926,22 @@ daß -wir jetzt die Abstimmung über die Drucksache Nr. 48 aussetzen und daß di
 Herren, die schon die Drucksache Nr. 48 ausgearbeitet haben, sich inzwischen noch einmal zusammensetzen. In der Zwischenzeit können wir 
 unsere Beratungen hier fortführen. Dadurch würde 
 unsere Arbeit erleichtert und gefördert werden. 
-<interjection>(Zurufe und Unruhe.) </interjection>
+(Zurufe und Unruhe.) 
 — Herr Abgeordneter Dr. Seelos, ist denn das unbedingt nötig? Sie haben ja die Unterstützung. 
-<interjection>
 (Abg. Dr. Seelos: Ich bin mit der Unterbrechung 
 einverstanden.) 
-</interjection>
 Muß dadurch das ganze Haus betroffen werden? 
 Ich wollte die weitere Arbeit hier ermöglichen. 
-<interjection>
 (Abg. Dr. Seelos: Ich mußte einen Antrag 
-auf Vertagung stellen; sonst hätten Sie die Abstimmung vorgenommen.) 
-</interjection>
+auf Vertagung stellen; sonst hätten Sie die 
+Abstimmung vorgenommen.) 
 — Dann bitte ich, mir jetzt zu sagen, ob Sie für 
 den Antrag auf Unterbrechung eine Unterstützung 
 von 30 Mitgliedern haben. 
-<interjection>(Zuruf: Bayernpartei und DP!) </interjection>
+(Zuruf: Bayernpartei und DP!) 
 — Ich lasse über den Antrag auf Unterbrechung 
 abstimmen. 
-<interjection>(Zuruf in der Mitte: Wir sind in der Abstimmung!) </interjection>
+(Zuruf in der Mitte: Wir sind in der Abstimmung!) 
 — Verzeihung! Ich muß anerkennen, ich habe den 
 Vertagungsantrag des Herrn Abgeordneten Dr. 
 Seelos überhört. Ich habe ihn nicht in dieser Form 
@@ -3530,63 +2949,51 @@ aufgefaßt. Infolgedessen muß ich ihm Rechnung
 tragen. Es hat sich herausgestellt, daß dieser Antrag von mehr als 30 Mitgliedern des Hauses unterstützt wird. Wer dafür ist, daß die Sitzung gemäß 
 diesem Antrag unterbrochen wird, den bitte ich, die 
 Hand zu erheben. — Ich bitte auszuzählen. 
-<interjection>(Zurufe: Das ist die Mehrheit!) </interjection>
+(Zurufe: Das ist die Mehrheit!) 
 — Nein. Überlassen Sie es bitte mir, das von hier 
 die Mehrheit ist. Sie sehen nicht nach hinten; ich 
 sehe alles. 
-<interjection>(Abg. Frau Dr. Weber: Das ist doch die Mehrheit!) </interjection>
+(Abg. Frau Dr. Weber: Das ist doch die Mehrheit!) 
 — Nein. Ueberlassen Sie es bitte mir, das von hier 
 aus zu beurteilen. Dazu sitze ich doch da. — 
 Ich bitte nun um die Gegenprobe; aber ich mache 
 gleich darauf aufmerksam, daß sich 186 Stimmen 
 für den Antrag entschieden haben. Wollen wir 
 noch auszählen lassen? Ich glaube, es ist die Mehrheit. 
-<interjection>(Zurufe.) </interjection>
+(Zurufe.) 
 Wird es anerkannt oder wollen wir auszählen? 
-<interjection>(Zurufe.) </interjection>
+(Zurufe.) 
 - Es ist in Ordnung. 
 Damit wir jetzt nicht allzusehr wieder in unserem Geschäftsplan gestört werden, möchte ich 
 doch zunächst alle Beteiligten fragen, welche Zeit 
 sie für die Beseitigung der aufgetretenen Differenzen zu benötigen glauben. Darf ich einmal um 
 Äußerungen der hauptbeteiligten Fraktionen bitten? 
-<interjection>(Zurufe: Eine Stunde!) </interjection>
+(Zurufe: Eine Stunde!) 
 Meine Damen und Herren, ich mache auf folgendes aufmerksam. Wir haben die Absicht, auch den 
 übrigen Teil der Tagesordnung heute noch zu erledigen. 
-<interjection>(Zustimmung.) </interjection>
+(Zustimmung.) 
 Ich muß infolgedessen dringend darum bitten, daß 
 die Unterbrechung nicht lange ausgedehnt wird. 
 Es handelt sich doch nur um eine Sache des 
 Rechenstifts. Ist das nicht in einer halben Stunde 
 zu machen? 
-<interjection>(Abg. Gengler: Höchstens eine halbe Stunde!) </interjection>
+(Abg. Gengler: Höchstens eine halbe Stunde!) 
 Meine Damen und Herren, ich darf dann folgendes feststellen. Es ist jetzt 19 Uhr. Ich werde um 
 19 Uhr 30 wieder klingeln lassen und dann ohne 
 Rücksicht auf die Zahl der Anwesenden in der 
 Sitzung fortfahren. 
 Die Sitzung ist unterbrochen. 
-<interjection>(Unterbrechung der Sitzung: 19 Uhr 2 Minuten.) </interjection>
+(Unterbrechung der Sitzung: 19 Uhr 2 Minuten.) 
 Die Sitzung wird um 19 Uhr 15 Minuten wieder 
 aufgenommen. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Köhler</name><public_office>Präsident</public_office>
-</speaker>
- Meine Damen und Herren, 
+Präsident Dr. Köhler: Meine Damen und Herren, 
 die Sitzung ist wieder eröffnet. Darf ich mir zunächst die Frage erlauben, ob die Unterbrechung zu 
 dem beabsichtigten Ergebnis geführt hat. 
-<interjection>
 (Abg. Dr. Schäfer: Ich bitte ums Wort zur 
 Geschäftsordnung.) 
-</interjection>
 Zur Geschäftsordnung hat das Wort der Herr 
 Abgeordnete Dr. Schäfer. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Schäfer</name><party>FDP</party>
-</speaker>
- Meine Damen und Herren! 
+Dr. Schäfer (FDP): Meine Damen und Herren! 
 Namens meiner Fraktion beantrage ich, den Punkt 
 der Tagesordnung, bei dem vorhin die Sitzung 
 unterbrochen worden ist, abzusetzen und morgen 
@@ -3594,18 +3001,13 @@ zu Beginn der Sitzung mit diesem Tagesordnungspunkt fortzufahren. Durch die inzw
 Zentrum sind Voraussetzungen, die für die Bemessung der Mitgliederzahl in den Ausschüssen bestimmend gewesen sind, hinfällig geworden. Es ist 
 notwendig, über die Grundlagen der Ausschußbildung neue Klarheit zu schaffen. Es erscheint uns 
 deswegen notwendig, jetzt eine Vertagung vorzunehmen. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Köhler</name><public_office>Präsident</public_office>
-</speaker>
- Wird das Wort zu 
+Präsident Dr. Köhler: Wird das Wort zu 
 diesem Antrag gewünscht? — Herr Antragsteller, 
 wollen Sie auch gleich einen Zeitpunkt beantragen? 
-<interjection>(Abg. Dr. Schäfer: 11 Uhr vormittags!) </interjection>
+(Abg. Dr. Schäfer: 11 Uhr vormittags!) 
 — Wird das Wort zu diesem Antrag gewünscht? — 
 Sie hatten sich noch zur Geschäftsordnung gemeldet; ist das erledigt? 
-<interjection>(Zuruf.) </interjection>
+(Zuruf.) 
 Wenn das Wort nicht mehr gewünscht wird, lasse 
 ich über den Antrag Dr. Schäfer abstimmen, den 
 Punkt 4 heute abend abzusetzen und morgen früh 
@@ -3620,35 +3022,30 @@ mir gestellte Zusatzantrag von dem Herrn Präsidenten mit dem Hinweis abgelehnt 
 daß bereits ein solcher Antrag gestellt sei. Der 
 Herr Präsident hat es nicht zur Abstimmung über 
 meinen Antrag kommen lassen. 
-Ich darf das kurz begründen. Die Gruppe „Nationale Rechte&quot; hatte einen Zusatzantrag zu dem Antrag, der von der SPD-Fraktion eingebracht worden ist, gestellt. Darüber ist abgestimmt, und er 
+Ich darf das kurz begründen. Die Gruppe „Nationale Rechte" hatte einen Zusatzantrag zu dem Antrag, der von der SPD-Fraktion eingebracht worden ist, gestellt. Darüber ist abgestimmt, und er 
 ist abgelehnt. Ich habe dann einen Antrag zu dem 
 zweiten Antrag gestellt, der, glaube ich, von der 
-CDU war, nämlich grundsätzlich das d&apos;Hondtsche 
+CDU war, nämlich grundsätzlich das d'Hondtsche 
 Verfahren zugrunde zu legen. Dazu habe ich folgenden Zusatzantrag eingebracht: 
 Den nach diesem Schlüssel in einem Ausschuß 
 nicht vertretenen Fraktionen und der Gruppe 
-„Nationale Rechte&quot; steht das Recht zu, sich 
+„Nationale Rechte" steht das Recht zu, sich 
 durch einen Abgeordneten mit einer beratenden 
 Stimme vertreten zu lassen, soweit nicht der 
 Bundestag für einzelne Ausschüsse eine abweichende Regelung beschließt. 
 [ch kann mich nicht erinnern, daß dieser Antrag 
-als Zusatzantrag zu dem Antrag, das d&apos;Hondtsche 
+als Zusatzantrag zu dem Antrag, das d'Hondtsche 
 Verfahren zugrunde zu legen, von mir vorher in 
 der Sitzung schon gestellt ist. Ich bitte deshalb, 
 darüber abzustimmen. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Köhler</name><public_office>Präsident</public_office>
-</speaker>
- Zu der geschäftsordnungsmäßigen Bemerkung des Herrn Abgeordneten 
+Präsident Dr. Köhler: Zu der geschäftsordnungsmäßigen Bemerkung des Herrn Abgeordneten 
 Dr. Miessner darf ich folgendes feststellen: Herr 
 Abgeordneter Dr. Miessner hatte beantragt, daß 
 die Bezeichnung NR, Nationale Rechte, unter 
 den Fraktionen in dem Ergänzungsantrag wieder 
 aufgenommen wird. Das war der erstmalige An- 
 trag, der abgelehnt wurde. Dann hatten Sie diesen Antrag zum zweitenmal wieder aufgenommen. 
-Ich weiß im Moment nicht, ob dieses in Verbindung mit dem d&apos;Hondtschen System der Fall war. 
+Ich weiß im Moment nicht, ob dieses in Verbindung mit dem d'Hondtschen System der Fall war. 
 Ich habe aber die Abstimmung über diesen Antrag 
 nicht verweigert, sondern mir nur den Hinweis 
 darauf erlaubt — nachdem vorher das Abstimmungsergebnis negativ gewesen war, ich kann 
@@ -3658,35 +3055,21 @@ Dann ist allerdings in der Aussprache die weitere
 Behandlung des Antrags untergegangen. Von einer 
 Absicht meinerseits kann nicht die Rede sein. 
 Das Wort hat Herr Abgeordneter Dr. Miessner. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Miessner</name><party>NR</party>
-</speaker>
- Herr Präsident! Sie haben 
+Dr. Miessner (NR): Herr Präsident! Sie haben 
 den Hinweis ausgesprochen und mir empfohlen, 
 den Antrag — — 
-<interjection>
 (Zuruf in der Mitte: Lauter! Es ist nichts 
 zu verstehen!) 
-</interjection>
 — Der Herr Präsident hat, wie ich mich genau erinnere, mir empfohlen, den Antrag zurückzuziehen 
 unter Hinweis darauf, daß ein ähnlicher Antrag, 
 das heißt ein ähnlicher Zusatzantrag zu dem vorhergehenden SPD-Antrag abgelehnt worden ist. 
 Das ist richtig. 
-<interjection>
 (Zuruf aus der Mitte: Sie sind im Parlament 
 und nicht im Kindergarten!) 
-</interjection>
 Ich habe dann erklärt, daß ich meinen Antrag nicht 
 zurückziehe, sondern daß ich auf Abstimmung des 
-Zusatzantrages zu dem d&apos;Hondtschen Verfahren bestehe. Ich bitte, darüber abzustimmen. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Köhler</name><public_office>Präsident</public_office>
-</speaker>
- Das kann heute nicht 
+Zusatzantrages zu dem d'Hondtschen Verfahren bestehe. Ich bitte, darüber abzustimmen. 
+Präsident Dr. Köhler: Das kann heute nicht 
 mehr sein, Herr Abgeordneter, nachdem die 
 auf morgen 11 Uhr vertagt ist. Ich darf 
 ganze Angelegenheit, wie Sie miterlebt haben, 
@@ -3694,21 +3077,11 @@ anheimstellen, diesen Antrag morgen früh noch
 einmal zu wiederholen. Sonst würden wir wieder 
 in eine Beratung der Materie eintreten, die wir 
 eben — fast einstimmig — auf morgen früh verschoben haben. Das bitte ich zu berücksichtigen. 
-<interjection>(Zuruf: Es sind 10 Unterschriften zu geben!) </interjection>
-</speech>
-<speech>
-<speaker>
-<name>Dr. Miessner</name><party>NR</party>
-</speaker>
- Ich bin damit einverstanden, 
+(Zuruf: Es sind 10 Unterschriften zu geben!) 
+Dr. Miessner (NR): Ich bin damit einverstanden, 
 wenn mir Gelegenheit gegeben wird, den Antrag 
 morgen noch einmal zu stellen. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Köhler</name><public_office>Präsident</public_office>
-</speaker>
- Wird sonst noch das 
+Präsident Dr. Köhler: Wird sonst noch das 
 Wort gewünscht? — Ich stelle fest: das ist nicht 
 der Fall. 
 Die nächste Plenarsitzung ist morgen früh 11 Uhr. 
@@ -3716,6 +3089,7 @@ Die CDU-Fraktion tritt um 9 Uhr zusammen.
 Haben die anderen Fraktionen Wünsche? — Das 
 ist nicht der Fall. 
 Die Sitzung ist geschlossen. 
-</speech>
-</session>
-</protocol>
+(Schluß der Sitzung: 19 Uhr 56 Minuten.) 
+
+
+

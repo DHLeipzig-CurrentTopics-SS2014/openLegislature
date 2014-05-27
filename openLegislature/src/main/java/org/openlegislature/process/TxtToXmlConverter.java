@@ -397,7 +397,7 @@ public class TxtToXmlConverter {
 
 	private void parseSpeachAndWriteBack(BufferedReader in, Writer writer) throws IOException {
 		int count = 0;
-		int id=0;
+		int id=1;
 		String zeile = null;
 		boolean openBrace = false;
 		String memory = "";
@@ -444,6 +444,7 @@ public class TxtToXmlConverter {
                                                                  createTagFrom(SESSION),
                                                                 escapeString(part2)));
 				count += 2;
+				id=1;
 				continue;
 			}
 			if (count == 2 && zeile.matches(".*N.chste Sitzung.*")) {
@@ -454,11 +455,13 @@ public class TxtToXmlConverter {
 
 			if (count == 2 && zeile.matches(".*Sitzung.*er.ffnet.*")) {
 				count += 2;
+				id=1;
 				writeXml(writer, "</item>\n</agenda>\n<session>\n" + escapeString(zeile) + "\n");
 				continue;
 			}
 			if (count == 3 && zeile.matches(".*Sitzung.*")) {
 				count++;
+				id=1;
 				writeXml(writer, "</item>\n</agenda>\n<session>\n" + escapeString(zeile) + "\n");
 				continue;
 			}
@@ -467,6 +470,7 @@ public class TxtToXmlConverter {
 			}
 			if (count == 2 && sitzung == true && zeile.matches(".*eröffne.*")) {
 				count += 2;
+				id=1;
 				writeXml(writer, "</item>\n</agenda>\n<session>\n" + escapeString(zeile) + "\n");
 				continue;
 			}
@@ -497,6 +501,13 @@ public class TxtToXmlConverter {
 							.matches("[^\\(\\*\\)a-z]*[A-ZÄÖÜ][a-zöäü]*[,\\.]? [A-ZÄÖÜ][a-zäöü]*[,\\.]? [A-ZÄÖÜ][a-zäöü]*.*:.*"))
 					&& zeile.substring(0, zeile.indexOf(":")).split(" ").length < 12 && openBrace == false) {
 				String zeilevor = zeile.substring(0, zeile.indexOf(":"));
+				if(zeilevor.matches(".*[a-zäöüA-ZÄÖÜ][a-zäöü][a-zäöü][a-zäöü]\\..*")&&zeilevor.indexOf("Dr.")>zeilevor.indexOf(".")){
+					writeXml(writer,zeilevor.substring(0, zeilevor.indexOf(".")+1)+"\n");
+					zeilevor=zeilevor.substring(zeilevor.indexOf(".")+1);
+					zeile=zeile.substring(zeile.indexOf(".")+1);
+				}
+				
+				
 				speech = true;
 				String pub=publicoff(zeilevor, false);
 				if(pub.length()>0){
@@ -515,6 +526,12 @@ public class TxtToXmlConverter {
 					&& zeile.substring(0, zeile.indexOf(":")).split(" ").length < 12 && openBrace == false) {
 				speech = true;
 				String zeilevor = zeile.substring(0, zeile.indexOf(":"));
+				if(zeilevor.matches(".*[a-zäöüA-ZÄÖÜ][a-zäöü][a-zäöü][a-zäöü]\\..*")&&zeilevor.indexOf("Dr.")>zeilevor.indexOf(".")){
+					writeXml(writer,zeilevor.substring(0, zeilevor.indexOf(".")+1)+"\n");
+					zeilevor=zeilevor.substring(zeilevor.indexOf(".")+1);
+					zeile=zeile.substring(zeile.indexOf(".")+1);
+
+				}
 				String pub=publicoff(zeilevor, false);
 				if(pub.length()>0){
 					writeXml(writer, pub);
@@ -534,6 +551,12 @@ public class TxtToXmlConverter {
 					&& speech
 					&& openBrace == false && zeile.substring(0, zeile.indexOf(":")).split(" ").length < 12) {
 				String zeilevor = zeile.substring(0, zeile.indexOf(":"));
+				if(zeilevor.matches(".*[a-zäöüA-ZÄÖÜ][a-zäöü][a-zäöü][a-zäöü]\\..*")&&zeilevor.indexOf("Dr.")>zeilevor.indexOf(".")){
+					writeXml(writer,zeilevor.substring(0, zeilevor.indexOf(".")+1)+"\n");
+					zeilevor=zeilevor.substring(zeilevor.indexOf(".")+1);
+					zeile=zeile.substring(zeile.indexOf(".")+1);
+
+				}
 				String pub=publicoff(zeilevor, false);
 				if(pub.length()>0){
 					writeXml(writer, "</speech>\n"+pub);
@@ -554,7 +577,14 @@ public class TxtToXmlConverter {
 					&& (zeile.matches("[^\\(\\*\\)a-z]*[A-ZÄÖÜ][a-zöäü]*[,\\.]? [A-ZÄÖÜ][a-zäöü]*:.*") || zeile
 							.matches("[^\\(\\*\\)a-z]*[A-ZÄÖÜ][a-zöäü]*[,\\.]? [A-ZÄÖÜ][a-zäöü]*[,\\.]? [A-ZÄÖÜ][a-zäöü]*.*:.*")) && speech
 					&& openBrace == false && zeile.substring(0, zeile.indexOf(":")).split(" ").length < 12) {
+				
 				String zeilevor = zeile.substring(0, zeile.indexOf(":"));
+				if(zeilevor.matches(".*[a-zäöüA-ZÄÖÜ][a-zäöü][a-zäöü][a-zäöü]\\..*")&&zeilevor.indexOf("Dr.")>zeilevor.indexOf(".")){
+					writeXml(writer,zeilevor.substring(0, zeilevor.indexOf(".")+1)+"\n");
+					zeilevor=zeilevor.substring(zeilevor.indexOf(".")+1);
+					zeile=zeile.substring(zeile.indexOf(".")+1);
+
+				}
 				/*boolean found = false;
 				for (int i = 0; i < publicoffices.length; i++) {
 					if (zeilevor.contains(publicoffices[i])) {
@@ -626,7 +656,10 @@ public class TxtToXmlConverter {
 			
 			if(count==6 && zeile.matches(".*[Aa]nlage.*")){
 				anlage=true;
-				writeXml(writer, "<attachement>\n"+escapeString(zeile)+"\n");
+				writeXml(writer, "<attachment>"
+						+String.format("\n<%s id=\""+id+"\" >\n", ITEM)
+						+escapeString(zeile)+"\n");
+				id++;
 				count++;
 				continue;
 			}
@@ -637,17 +670,34 @@ public class TxtToXmlConverter {
 				count++;
 				continue;
 			}
+			
+			if(anlage && zeile.matches(" *[Aa]nlage ?[1-9][0-9]?.*")){
+				writeXml(writer, String.format("%s\n",createClosingTagFrom(ITEM))
+						+String.format("\n<%s id=\""+id+"\" >\n", ITEM));
+				id++;
+			}
+			if(anlage && zeile.matches(".*\\.[Aa]nlage ?[1-9][0-9]?.*")){
+				String zeilevor=zeile.substring(0, zeile.lastIndexOf(".")+1);
+				writeXml(writer, zeilevor+"\n");
+				zeile=zeile.substring(zeile.lastIndexOf(".")+1);
+				writeXml(writer, String.format("%s\n",createClosingTagFrom(ITEM))
+						+String.format("\n<%s id=\""+id+"\" >\n", ITEM));
+				id++;
+			}
+			
 			if(count==7&&anlage&&zeile.matches(".*Berichtigung.*")){
 				anlage=false;
 				berichtigung=true;
-				writeXml(writer, "</attachement>\n<adjustment>\n"+escapeString(zeile)+"\n");
+				writeXml(writer, "</item>\n</attachment>\n<adjustment>\n"+escapeString(zeile)+"\n");
 				count++;
 				continue;
 			}
 			if(count==7&&berichtigung&&zeile.matches(".*[Aa]nlage.*")){
 				berichtigung=false;
 				anlage=true;
-				writeXml(writer, "</adjustment>\n<attachement>\n"+escapeString(zeile)+"\n");
+				writeXml(writer, "</adjustment>\n<attachment>"
+						+String.format("\n<%s id=\""+id+"\" >\n", ITEM)
+						+escapeString(zeile)+"\n");
 				count++;
 				continue;
 			}
@@ -671,7 +721,7 @@ public class TxtToXmlConverter {
 			writeXml(writer, "</speech>\n");
 		}
 		if(anlage){
-			writeXml(writer, "</attachement>\n");
+			writeXml(writer, "</item>\n</attachment>\n");
 
 		}
 		if(berichtigung){

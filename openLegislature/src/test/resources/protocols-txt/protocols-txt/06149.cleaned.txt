@@ -1,96 +1,93 @@
-<protocol session_number="149. Sitzung" >
-<header>
+Deutscher  Bundestag  
+149. Sitzung 
 Bonn, Freitag, den 5. November 1971 
-</header>
-<agenda>
-<item id="0" >
 Inhalt: 
 Glückwunsch zum 60. Geburtstag des Abg. 
 Springorum . . . . . . . . . . . 8549 A 
 Entwurf eines Gesetzes über das Meldewesen (Bundesmeldegesetz) (Drucksache 
 VI/2654) — Erste Beratung — 
-Genscher, Bundesminister 8549 B, 8556 C 
-<speaker><name>Dr. Schneider (Nürnberg)</name><party>CDU/CSU</party></speaker>
-<speaker><name>Dr. Hauff</name><party>SPD</party></speaker>
-<speaker><name>Krall</name><party>FDP</party></speaker>
-<speaker><name>Benda</name><party>CDU/CSU</party></speaker>
+Genscher, Bundesminister 	 8549 B, 8556 C 
+Dr. Schneider (Nürnberg) (CDU/CSU) 8551 D 
+Dr. Hauff (SPD) . . . . . . . . 8552 D 
+Krall (FDP) . . . . . . . . . . 8554 C 
+Benda (CDU/CSU) . . . . . . . 8555 B 
 Fragestunde (Drucksache VI/2775) 
-Frage des Abg. Engelsberger (CDU/CSU) :   
+Frage des Abg. Engelsberger (CDU/CSU) : 
 Strafverfolgung von Journalisten wegen 
 Verdachts des Geheimnisverrats im Zusammenhang mit der Veröffentlichung 
 von Telegrammen des deutschen Botschafters in den USA 
 Moersch, Parlamentarischer 
 Staatssekretär . . 8557 B, D, 8558 A, B 
-<speaker><name>Engelsberger</name><party>CDU/CSU</party></speaker>
-<speaker><name>Dr. Schulze Vorberg</name><party>CDU/CSU</party></speaker>
-Frage des Abg. Engelsberger (CDU/CSU):   
+Engelsberger (CDU/CSU) . . . . 8557 C, D 
+Dr. Schulze-Vorberg (CDU/CSU) . 8558 A, B 
+Frage des Abg. Engelsberger (CDU/CSU): 
 Äußerungen des Verteidigungsministers der UdSSR über die Steigerung 
 der Kampfkraft der Sowjetarmee und 
 die Machtausweitung der sozialistischen 
 Staaten 
 Moersch, Parlamentarischer 
-Staatssekretär . . . . 8558 C, 8559 B 
-<speaker><name>Engelsberger</name><party>CDU/CSU</party></speaker>
+Staatssekretär . . . . 	 8558 C, 8559 B 
+Engelsberger (CDU/CSU) . . . . . 8559 A 
 Frage des Abg. Dr. Schulze-Vorberg 
 (CDU/CSU): 
 Verhör von Journalisten im Zusammenhang mit der politischen Mission 
 des Staatssekretärs Bahr 
 Moersch, Parlamentarischer 
-Staatssekretär . . . 8559 C, 8560 A, C, 
+Staatssekretär . . . 	 8559 C, 8560 A, C, 
 8561 A, B 
-<speaker><name>Dr. Schulze Vorberg</name><party>CDU/CSU</party></speaker>
+Dr. Schulze-Vorberg (CDU/CSU) . . 8559 D, 
 8560 A, B, D 
-<speaker><name>Dr. Schmid</name><public_office>Vizepräsident</public_office></speaker>
-<speaker><name>Mursch (Soltau Harburg)</name><party>CDU/CSU</party></speaker>
+Dr. Schmid, Vizepräsident . . . 8560 A, B 
+Mursch (Soltau-Harburg) (CDU/CSU) 
 8560 C, D 
-<speaker><name>Zander</name><party>SPD</party></speaker>
-<speaker><name>Dr. Wittmann (München)</name><party>CDU/CSU</party></speaker>
-<speaker><name>Engelsberger</name><party>CDU/CSU</party></speaker>
+Zander (SPD) . . . . . . . . . 8560 D 
+Dr. Wittmann (München) (CDU/CSU) 8561 A 
+Engelsberger (CDU/CSU) . . . . 8561 A, B 
 Frage der Abg. Frau Dr. Walz 
 (CDU/CSU) : 
 Arbeitsplatzbeschreibung für den Deut- 
 schen Wetterdienst 
 Börner, Parlamentarischer 
-Staatssekretär . . . 8561 C, D, 8562 A 
-<speaker><name>Frau Dr. Walz</name><party>CDU/CSU</party></speaker>
-<speaker><name>Dr. Jobst</name><party>CDU/CSU</party></speaker>
+Staatssekretär . . . 	 8561 C, D, 8562 A 
+Frau Dr. Walz (CDU/CSU) . . . . 8561 D 
+Frage des Abg. Dr. Jobst (CDU/CSU) : 
 Auflösung von Bundesbahndirektionen 
 Börner, Parlamentarischer 
-Staatssekretär 8562 A, B, D 
-<speaker><name>Dr. Jobst</name><party>CDU/CSU</party></speaker>
-<speaker><name>Dr. Jobst</name><party>CDU/CSU</party></speaker>
+Staatssekretär 	 8562 A, B, D 
+Dr. Jobst (CDU/CSU) 	 8562 B, C 
+Frage des Abg. Dr. Jobst (CDU/CSU) : 
 Aufklärungsaktion der Bundesregierung betr. die neue Straßenverkehrs
 -
 Ordnung 
 Börner, Parlamentarischer 
-Staatssekretär . . . . 8562 D, 8563 A 
-<speaker><name>Dr. Jobst</name><party>CDU/CSU</party></speaker>
+Staatssekretär . . . . 	 8562 D, 8563 A 
+Dr. Jobst (CDU/CSU) . . 8562 D, 8563 A 
 Fragen des Abg. Becker (Nienberge) 
 (SPD) : 
 Erfahrungen hinsichtlich der Auflösung 
 von Bundesbahndirektionen 
 Börner, Parlamentarischer 
-Staatssekretär 8563 B 
+Staatssekretär 	 8563 B 
 
 IIFragen des Abg. Zander (SPD) : 
 Vergabe von Aufträgen an die Eisen und Stahlindustrie durch die Bundesbahn 
 Börner, Parlamentarischer 
-Staatssekretär 8563 C, D 
-<speaker><name>Zander</name><party>SPD</party></speaker>
-Fragen des Abg. Josten (CDU/CSU) :   
+Staatssekretär 	 8563 C, D 
+Zander (SPD) . . . . . . . 	 . 8563 D 
+Fragen des Abg. Josten (CDU/CSU) : 
 Ausscheiden der Bundesregierung aus 
 der Nürburgring GmbH 
 Börner, Parlamentarischer 
-Staatssekretär 8564 A, C 
-<speaker><name>Josten</name><party>CDU/CSU</party></speaker>
-Nächste Sitzung . . . . . . . . . 8564 D 
+Staatssekretär 	 8564 A, C 
+Josten (CDU/CSU) 	 8564 B, C 
+Nächste Sitzung . . . . . . . . 	 . 8564 D 
 Anlagen 
 Anlage 1 
 Liste der beurlaubten Abgeordneten . . 8565 A 
 Anlage 2 
 Schriftliche Antwort auf die Mündlichen 
-Fragen des Abg. Strohmayr (SPD) betr 
-Schutz des Bankgeheimnisses 8565 C 
+Fragen des Abg. Strohmayr (SPD) betr 	 
+Schutz des Bankgeheimnisses 	 8565 C 
 Anlage 3 
 Schriftliche Antwort auf die Mündlichen 
 Fragen des Abg. Ott (CDU/CSU) betr. 
@@ -105,7 +102,7 @@ Exportwirtschaft . . . . . . . . . 8566 D
 Anlage 5 
 Schriftliche Antwort auf die Mündliche 
 Frage der Abg. Frau Funcke (FDP) betr. 
-hohe Gewerbesteuerbelastungen bei Beteiligungen von Arbeitnehmern an Personengesellschaften 8567 B 
+hohe Gewerbesteuerbelastungen bei Beteiligungen von Arbeitnehmern an Personengesellschaften   8567 B 
 Anlage 6 
 Schriftliche Antwort auf die Mündlichen 
 Fragen des Abg. Pensky (SPD) betr. Besteuerung der Satzgelder bei Brieftaubensportveranstaltungen . . . . . . . . 8567 C 
@@ -116,23 +113,23 @@ betr. Verspätungen bei den Fernverbindungen der Bundesbahn . . . . . . . 8568 A
 Anlage 8 
 Schriftliche Antwort auf die Mündlichen 
 Fragen des Abg. Dr. Aigner (CDU/CSU) 
-betr. Richtlinien des Bundesverkehrsministeriums für die Errichtung von Wildsperrzäunen 8568 B 
+betr. Richtlinien des Bundesverkehrsministeriums für die Errichtung von Wildsperrzäunen   8568 B 
 Anlage 9 
 Schriftliche Antwort auf die Mündlichen 
-Fragen des Abg. Weigl (CDU/CSU) betr 
+Fragen des Abg. Weigl (CDU/CSU) betr  
 Straßenbaumaßnahmen zum Anschluß der 
 nördlichen Oberpfalz an das westliche 
-Bundesgebiet 8568 C 
+Bundesgebiet  8568 C 
 Anlage 10 
 Schriftliche Antwort auf die Mündlichen 
 Fragen des Abg. Metzger (SPD) betr. Vergabe von Planungsarbeiten der Bundespost an selbständige Ingenieure und 
-Architekten 8568 D 
+Architekten   8568 D 
 Anlage 11 
 Schriftliche Antwort auf die Mündlichen 
 Fragen des Abg. Dr. Evers (CDU/ CSU) 
 betr. Ausschreibung der auf Grund des 
 1. BesVNG angehobenen Dienstposten 
-der Bundespost 8569 B 
+der Bundespost   8569 B 
 Anlage 12 
 Schriftliche Antwort auf die Mündlichen 
 Fragen des Abg. Schulte (Schwäbisch 
@@ -143,20 +140,20 @@ Schriftliche Antwort auf die Mündlichen
 Fragen des Abg. Dr. Jahn (Braunschweig) 
 (CDU/CSU) betr. Entwicklungsarbeit der 
 ELDO-Versuchsanlage in Trauen für die 
-Trägerrakete „Europa II&quot; . . . . . . 8569 D 
+Trägerrakete „Europa II" . . . . . . 8569 D 
 Anlage 14 
 Schriftliche Antwort auf die Mündliche 
 Frage des Abg. Dr. Kotowski (CDU/CSU) 
-betr. Bericht der „Frankfurter Allgemeinen Zeitung&quot; über die Studienberatung . 8570 A 
+betr. Bericht der „Frankfurter Allgemeinen Zeitung" über die Studienberatung . 8570 A 
 Anlage 15 
 Schriftliche Antwort auf die Mündliche 
 Frage des Abg. Höcherl (CDU/CSU) betr. 
 Wiedergabe eines Artikels des Vorsitzenden des außenpolitischen Ausschusses des 
-Obersten Sowjet in den „Ost-Informationen&quot; 8570 B 
+Obersten Sowjet in den „Ost-Informationen"   8570 B 
 Anlage 16 
 Schriftliche Antwort auf die Mündliche 
 Frage des Abg. Dr. Schmitt-Vockenhausen 
-(SPD) betr. Sichtvermerkstelle der Handelsvertretung in Prag 8570 CIII 
+(SPD) betr. Sichtvermerkstelle der Handelsvertretung in Prag   8570 CIII 
 Anlage 17 
 Schriftliche Antwort auf die Mündliche 
 Frage des Abg. Schedl (CDU/CSU) betr. 
@@ -165,22 +162,22 @@ Arbeiterpartei bezüglich Zusicherungen
 hinsichtlich der Oder-Neiße-Grenze . . . 8571 A 
 Anlage 18 
 Schriftliche Antwort auf die Mündliche 
-Frage des Abg. Pöhler (SPD) betr. Hilfsmaßnahmen für ostpakistanische Flüchtlinge 8571 B 
+Frage des Abg. Pöhler (SPD) betr. Hilfsmaßnahmen für ostpakistanische Flüchtlinge   8571 B 
 Anlage 19 
 Schriftliche Antwort auf die Mündliche 
 Frage des Abg. Röhner (CDU/CSU) betr. 
 Entfernung einer Abbildung des Brandenburger Tores aus einer Ausstellung über 
-Berlin in Split 8571 B 
+Berlin in Split   8571 B 
 Anlage 20 
 Schriftliche Antwort auf die Mündliche 
 Frage des Abg. Dr. Wittmann (München) 
 (CDU/CSU) betr. Pressemeldung über Ablehnung von Anträgen auf Umsiedlung in 
-die Bundesrepublik durch polnische Behörden 8571 D 
+die Bundesrepublik durch polnische Behörden   8571 D 
 Anlage 21 
 Schriftliche Antwort auf die Mündliche 
 Frage des Abg. Gierenstein (CDU/CSU) 
 betr. Pressemeldung über Reduzierung 
-der in Europa lagernden taktischen Atomwaffen 8572 A 
+der in Europa lagernden taktischen Atomwaffen   8572 A 
 Anlage 22 
 Schriftliche Antwort auf die Mündliche 
 Frage des Abg. Pfeifer (CDU/CSU) betr. 
@@ -201,7 +198,7 @@ Schriftliche Antwort auf die Schriftlichen
 Fragen des Abg. Dr. Geßner (SPD) betr. 
 Protest des deutschen Botschafters in 
 Griechenland gegen die Erklärung der 
-griechischen Regierung in bezug auf Kontakte mit ehemaligen griechischen Politikern 8573 C 
+griechischen Regierung in bezug auf Kontakte mit ehemaligen griechischen Politikern   8573 C 
 Anlage 26 
 Schriftliche Antwort auf die Schriftliche 
 Frage des Abg. Engelsberger (CDU/CSU) 
@@ -216,11 +213,11 @@ Oberflächengewässern zugunsten von
 Maßnahmen zur Wasserreinhaltung . . 8574 A 
 Anlage 28 
 Schriftliche Antwort auf die Schriftlichen 
-Fragen des Abg. Hansen (SPD) betr. Umstellung auf die Produktion umweltfreundlicher Plastikfolien 8574 D 
+Fragen des Abg. Hansen (SPD) betr. Umstellung auf die Produktion umweltfreundlicher Plastikfolien   8574 D 
 Anlage 29 
 Schriftliche Antwort auf die Schriftlichen 
 Fragen des Abg. Zebisch (SPD) betr. Einführung einer Gefährdungshaftung für 
-Schäden durch neu zugelassene Arzneimittel 8575 B 
+Schäden durch neu zugelassene Arzneimittel   8575 B 
 Anlage 30 
 Schriftliche Antwort auf die Schriftlichen 
 Fragen des Abg. Wuwer (SPD) betr. Verhinderung des Mißbrauchs von Minispionen in der Wirtschaft und im Privatleben 8575 D 
@@ -229,12 +226,12 @@ Schriftliche Antwort auf die Schriftliche
 Frage des Abg. Dr. Wittmann (München) 
 (CDU CSU) betr. Beschußprüfung von 
 eingeführten, noch nicht registrierten 
-Waffen 8576 C 
+Waffen   8576 C 
 Anlage 32 
 Schriftliche Antwort auf die Schriftlichen 
 Fragen des Abg. Lenzer (CDU CSU) betr. 
 Gewährung von Förderungsmitteln an 
-Firmen der elektronischen Datenverarbeitung 8577 B 
+Firmen der elektronischen Datenverarbeitung   8577 B 
 Anlage 33 
 Schriftliche Antwort auf die Schriftliche 
 Frage des Abg. Dr. Schulze-Vorberg 
@@ -253,11 +250,11 @@ Schriftliche Antwort auf die Schriftlichen
 Fragen des Abg. Dr. Beermann (SPD) 
 betr. Landesverordnungen über den gewerbsmäßigen Betrieb von Alters- und 
 Pflegeheimen — einheitliche Regelung 
-im Bundesgebiet 8579 A 
+im Bundesgebiet   8579 A 
 Anlage 37 
 Schriftliche Antwort auf die Schriftliche 
 Frage des Abg. Schmidt (Kempten) (FDP) 
-betr. Einkommen der Oberärzte und Assistenzärzte 8579 B 
+betr. Einkommen der Oberärzte und Assistenzärzte   8579 B 
 Anlage 38 
 Schriftliche Antwort auf die Schriftlichen 
 Fragen des Abg. Weber (Heidelberg) 
@@ -270,13 +267,13 @@ betr. statistische Unterlagen über die Unfallbeteiligung und -häufigkeit der v
 Anlage 40 
 Schriftliche Antwort auf die Schriftlichen 
 Fragen des Abg. Wende (SPD) betr. Ausbau der Bundesstraße 14 zwischen Fellbach und Winnenden und der Bundesstraße 29 zwischen Großheppach und 
-Schorndorf 8580 C 
+Schorndorf   8580 C 
 Anlage 41 
 Schriftliche Antwort auf die Schriftlichen 
 Fragen des Abg. Dr. Hauff (SPD) betr. 
 Grunderwerb im Zuge des Neubaus der 
 B 27 auf dem Teilstück Echterdingen-
-Aich 8581 A 
+Aich   8581 A 
 Anlage 42 
 Schriftliche Antwort auf die Schriftlichen 
 Fragen des Abg. Biechele (CDU/CSU) 
@@ -287,7 +284,7 @@ Anlage 43
 Schriftliche Antwort auf die Schriftliche 
 Frage des Abg. Jung (FDP) betr. Ausbau 
 der B 10 im Raum Landau (Ortsumgehung Insheim — Anschluß an B 38 und 
-B 272) 8581 D 
+B 272)   8581 D 
 Anlage 44 
 Schriftliche Antwort auf die Schriftliche 
 Frage des Abg. Jung (FDP) betr. Berücksichtigung der Südpfalz bei der Fahrplangestaltung der Bundesbahn, insbesondere 
@@ -330,21 +327,14 @@ Schriftliche Antwort auf die Schriftlichen
 Fragen des Abg. Dr. Jahn (Braunschweig) 
 (CDU/CSU) betr. Staatsabkommen mit 
 den Bundesländern zur Finanzierung der 
-</item>
-</agenda>
-<session>
 Luft- und Raumfahrtforschung der DFVLR 8584 A14 9. Sitzung 
 Bonn, den 5. November 1971 
 Stenographischer Bericht 
 Beginn: 9.00 Uhr 
-<speech>
-<speaker>
-<name>Dr. Schmid</name><public_office>Vizepräsident</public_office>
-</speaker>
- Die Sitzung ist eröffnet. 
+Vizepräsident Dr. Schmid: Die Sitzung ist eröffnet. 
 Meine Damen und Herren! Heute feiert ein Kollege einen runden Geburtstag. Der Abgeordnete 
 Springorum ist heute 60 Jahre geworden. 
-<interjection>(Beifall.) </interjection>
+(Beifall.) 
 Die Fragestunde wird am Ende unserer Aussprache zu Punkt 22 stattfinden. 
 Ich rufe jetzt Punkt 22 der Tagesordnung auf: 
 Erste Beratung des von der Bundesregierung 
@@ -539,24 +529,12 @@ Effizienz dieser neuen Arbeitsmethode zu sichern.
 Ich bitte Sie, für den Bereich des Meldewesens diesen Schritt zu tun. Ich bin überzeugt, meine Damen 
 und Herren, daß damit über dieses engere Sachgebiet hinaus für die gesamte öffentliche Verwaltung ein Prozeß der Modernisierung und Rationalisierung eingeleitet wird, auf den der Bürger mit 
 Recht einen Anspruch erhebt. 
-<interjection>
 (Beifall bei den Regierungsparteien und bei 
 Abgeordneten der CDU/CSU.) 
-</interjection>
-</speech>
-<speech>
-<speaker>
-<name>Dr. Schmid</name><public_office>Vizepräsident</public_office>
-</speaker>
- Die Vorlage ist 
+Vizepräsident Dr. Schmid: Die Vorlage ist 
 eingebracht. Ich eröffne die Aussprache. Das Wort 
 hat der Abgeordnete Schneider. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Schneider (Nürnberg)</name><party>CDU/CSU</party>
-</speaker>
- Herr Präsident! Meine Damen und Herren! Niemand in 
+Dr. Schneider (Nürnberg) (CDU/CSU) : Herr Präsident! Meine Damen und Herren! Niemand in 
 unserem Lande, der mit der Materie dieses Gesetzentwurfs vertraut ist, wird bestreiten, daß es erforderlich ist, die elektronische Datenverarbeitung 
 in die öffentliche Verwaltung einzuführen. Daß sich 
 das Meldewesen in besonderem Maße dafür anbietet, liegt auch offen zutage. Es handelt sich bei 
@@ -651,20 +629,10 @@ bald den Entwurf eines Datenschutzgesetzes vorzulegen, damit wir beide Gesetze g
 können, um bei der weiteren Beratung tunlichst auf 
 die Probleme einzugehen und die Fragen zu beantworten, die von seiten der Kommunalverwaltung 
 hierzu aufgeworfen worden sind. 
-<interjection>(Beifall bei der CDU/CSU.) </interjection>
-</speech>
-<speech>
-<speaker>
-<name>Dr. Schmid</name><public_office>Vizepräsident</public_office>
-</speaker>
- Das Wort hat der 
+(Beifall bei der CDU/CSU.) 
+Vizepräsident Dr. Schmid: Das Wort hat der 
 Abgeordnete Hauff, 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Hauff</name><party>SPD</party>
-</speaker>
- Herr Präsident! Meine Damen 
+Dr. Hauff (SPD) : Herr Präsident! Meine Damen 
 und Herren! Wir haben es hier mit einem Gesetz 
 zu tun, zu dem die Vorarbeiten in der Tat viele 
 Jahre zurückreichen und das jetzt endlich beraten 
@@ -673,13 +641,13 @@ eine gewisse Parallelität zu anderen Gesetzen in
 anderen Bereichen wie beispielsweise zu dem 
 Städtebauförderungsgesetz. 
 Fin Mann, der seit vielen Jahren über die Auswirkungen und Einwirkungen der Datenverarbeitung 
-nachgedacht hat, Karl Steinbuch, hat den Satz geprägt, daß wir auf dem Weg sind zu einer „informierten Gesellschaft&quot;. Ich sehe in diesem Gesetz 
+nachgedacht hat, Karl Steinbuch, hat den Satz geprägt, daß wir auf dem Weg sind zu einer „informierten Gesellschaft". Ich sehe in diesem Gesetz 
 einen Baustein und ein Instrument, um die informierte Gesellschaft zu schaffen. Insofern ist es zu 
 begrüßen. 
 Gleichzeitig jedoch birgt dieses Gesetz — und 
 dies muß in aller Klarheit in einer ersten Lesung 
 ausgesprochen werden auch manche Gefahren 
-in sich. Wir stehen heute vor einer großen Herausforderung, die niemand auf die leichte Schulter nehmen sollte. Ich meine den Bereich, der sehr unzutreffend mit dem Schlagwort „Datenschutz&quot; gekennzeichnet wird. Darum geht es aber nicht. Es geht 
+in sich. Wir stehen heute vor einer großen Herausforderung, die niemand auf die leichte Schulter nehmen sollte. Ich meine den Bereich, der sehr unzutreffend mit dem Schlagwort „Datenschutz" gekennzeichnet wird. Darum geht es aber nicht. Es geht 
 nicht um den Schutz der Daten, sondern es geht um 
 den Schutz des Bürgers vor Mißbrauch der Informationen. 
 (Beifall bei den Regierungsparteien.)Dr. Hauff 
@@ -689,16 +657,16 @@ zunächst auch zu sehr mit der linken Hand behandelt
 hat. Ich meine den Umweltschutz. Dort haben wir 
 zu lange gezögert, entsprechende Maßnahmen einzuleiten, und stehen heute vor der Situation, daß in 
 vielen Bereichen das Recht des Bürgers auf menschenwürdige Umwelt verletzt wird. 
-<interjection>(Zustimmung bei der SPD.) </interjection>
+(Zustimmung bei der SPD.) 
 Deswegen rollten wir daraus für den Schutz der 
 Privatsphäre die Konsequenzen ziehen und jetzt 
 einen Riegel vorschieben. 1984, meine sehr verehrten Damen und Herren, ist keine ferne Utopie. 
 Lassen Sie mich dafür aus einer Vielzahl von 
 möglichen Beispielen ein einziges herausgreifen, 
-das vor kurzem in der „Zeit&quot; angeführt wurde. Ich 
+das vor kurzem in der „Zeit" angeführt wurde. Ich 
 darf zitieren: 
 Wie erst jetzt bekannt wurde, hat das Pentagon, das amerikanische Verteidigungsministerium, in den letzten drei Jahren in einer Datenbank die Namen von über sieben Millionen 
-Amerikanern gespeichert, die politisch „verdächtig&quot; waren. Der Computer sammelte beispielsweise Abonnenten von Zeitungen, die 
+Amerikanern gespeichert, die politisch „verdächtig" waren. Der Computer sammelte beispielsweise Abonnenten von Zeitungen, die 
 über den Vietnam-Krieg negativ schreiben, und 
 Angaben über Personen, die an Friedensdemonstrationen teilnehmen. 
 Diese Datensammlung, die auch den amerikanischen 
@@ -805,20 +773,10 @@ die Leistungsfähigkeit der öffentlichen Verwaltung
 zu verbessern. Sie wird aber auch mit großer Sorgfalt darauf achten, daß der Schutz der Privatsphäre 
 des Bürgers nicht auf dem Altar des technischen 
 Fortschritts geopfert wird. 
-<interjection>(Beifall.) </interjection>
-</speech>
-<speech>
-<speaker>
-<name>Dr. Schmid</name><public_office>Vizepräsident</public_office>
-</speaker>
- Das Wort hat der 
+(Beifall.) 
+Vizepräsident Dr. Schmid: Das Wort hat der 
 Abgeordnete Krall. 
-</speech>
-<speech>
-<speaker>
-<name>Krall</name><party>FDP</party>
-</speaker>
- Herr Präsident! Meine sehr verehrten Damen und Herren! Ich begrüße für die Fraktion 
+Krall (FDP) : Herr Präsident! Meine sehr verehrten Damen und Herren! Ich begrüße für die Fraktion 
 der Freien Demokraten die Vorlage des Entwurfs 
 eines Gesetzes über das Meldewesen durch die 
 Bundesregierung. Sie kommt mit dieser Vorlage 
@@ -894,20 +852,10 @@ Problem des Informationsbedarfs und der Informationsnutzung der gesamten öffent
 Wir Freien Demokraten begrüßen es dankbar, 
 daß in dem Gesetz die Verletzung des Datengeheimnisses im Meldewesen und der Mißbrauch personenbezogener Daten unter Strafe gestellt werden 
 sollen. 
-<interjection>(Beifall bei den Regierungsparteien.) </interjection>
-</speech>
-<speech>
-<speaker>
-<name>Dr. Schmid</name><public_office>Vizepräsident</public_office>
-</speaker>
- Das Wort hat der 
+(Beifall bei den Regierungsparteien.) 
+Vizepräsident Dr. Schmid: Das Wort hat der 
 Abgeordnete Benda. 
-</speech>
-<speech>
-<speaker>
-<name>Benda</name><party>CDU/CSU</party>
-</speaker>
- Herr Präsident! Meine Damen und Herren! Ich habe mich zu einer kurzen Bemerkung nicht deswegen gemeldet, weil ich den 
+Benda (CDU/CSU) : Herr Präsident! Meine Damen und Herren! Ich habe mich zu einer kurzen Bemerkung nicht deswegen gemeldet, weil ich den 
 Ausführungen meines Kollegen Dr. Schneider etwas 
 hinzufügen möchte, sondern deswegen, weil — und 
 das halte ich für einen ganz glücklichen Zufall — die 
@@ -926,7 +874,7 @@ dieser Form nicht zustimmen möchte; Kollege
 Schneider hat diesen Satz schon erwähnt. Sie haben 
 gesagt, daß man sich davor hüten müsse, die elektronische Datenverarbeitung zum Prügelknaben für 
 Versäumnisse der Vergangenheit auf herkömmlichem Gebiet zu machen. Ich will jetzt nicht über den 
-Terminus „Versäumnisse der Vergangenheit&quot; reden. Das ist allmählich die Geschichte von der kaiserlichen Werft. Das taucht bei jeder passenden oder 
+Terminus „Versäumnisse der Vergangenheit" reden. Das ist allmählich die Geschichte von der kaiserlichen Werft. Das taucht bei jeder passenden oder 
 auch unpassenden Gelegenheit auf. Ich halte es nicht 
 für sehr sinnvoll, mich jetzt mit dieser Geschichte 
 auseinanderzusetzen. 
@@ -937,11 +885,11 @@ kein besonderes Problem. Diese Argumentation
 halte ich für falsch. Ich glaube auch — Herr Kollege 
 Hauff, Sie waren ja an den Arbeiten beteiligt —, 
 daß die Position der Kollegen in der entsprechenden 
-Kommission der Interparlamentarischen Arbeitsgemeinschaft eine andere ist als die, die der Herr Minister — wenn ich ihn nicht falsch verstanden habe 
+Kommission der Interparlamentarischen Arbeitsgemeinschaft eine andere ist als die, die  der  Herr Minister — wenn ich ihn nicht falsch verstanden habe 
 — hier zum Ausdruck gebracht hat. 
 Ich wiederhole, Herr Minister, ,daß natürlich personenbezogene Daten, die auf herkömmliche Weise 
 gesammelt werden, auch mißbraucht werden können; es entsteht hier das gleiche Schutzproblem. Es 
-ist kein Zufall, daß der Gesetzentwurf, der in der 
+ist kein Zufall, daß der  Gesetzentwurf, der in der 
 IPA-Kommission erarbeitet worden ist, zunächst einmal mit der Sammlung personenbezogener Daten 
 anfing, ganz egal, wie das geschieht. Er behandelt 
 dann weiter die Fragen des Anspruches des Betroffenen auf Auskunft über das, was über ihn gesammelt wird. Da kamen wir sehr bald auf die Möglichkeit, daß z. B. ein Journalist oder Schriftsteller beabsichtigt — sagen wir —, ein Buch über den Herrn 
@@ -965,7 +913,7 @@ Nun gibt es einen zweiten Punkt, den ich abschließend noch erwähnen wollte. Wi
 insbesondere von Herrn Kollegen Hauff behandelt 
 worden, der, wie ich meine, sich zu diesem Thema 
 völlig zutreffend geäußert hat natürlich vor der 
-Gefahr, die mit dem Stichwort „Maschinenstürmerei&quot; 
+Gefahr, die mit dem Stichwort „Maschinenstürmerei" 
 ganz richtig umschrieben ist. Wir kommen in den 
 Konflikt, daß wir auf der einen Seite die technischen Mittel immer mehr vervollkommnen und auf 
 der anderen Seite die damit verbundenen Gefahren 
@@ -996,20 +944,15 @@ darin stimme ich meinem Kollegen Schneider völlig
 zu die Vorlage dieses Gesetzentwurfs der richtige und notwendige Anlaß, uns über dieses sehr 
 schwierige, aber eben deswegen besonders eilige 
 Thema hier sehr intensiv und möglichst bald zu unterhalten. 
-<interjection>(Beifall bei der CDU/CSU.) </interjection>
-</speech>
-<speech>
-<speaker>
-<name>Dr. Schmid</name><public_office>Vizepräsident</public_office>
-</speaker>
- Das Wort hat der 
+(Beifall bei der CDU/CSU.) 
+Vizepräsident Dr. Schmid: Das Wort hat der 
 Bundesinnenminister. 
 Genscher, Bundesminister des Innern: Herr Präsident, meine Damen und Herren. Ihre Vermutung, 
 Herr Kollege Benda, daß Sie mich falsch verstanden 
 haben, ist zutreffend. So sehr sind Sie nun auch nicht 
 Vergangenheit, daß Sie sich für alle Versäumnisse 
 verantwortlich fühlen müssen. 
-<interjection>(Heiterkeit bei der SPD.) </interjection>
+(Heiterkeit bei der SPD.) 
 Hier ging es darum, daß auch bei konventioneller 
 Datensammlung in der Vergangenheit schon Probleme da waren. Wir müssen vor dem Irrtum 
 warnen, eigentlich sei das Problem des Datenschutzes erst durch die Einführung der elektronischen Datenverarbeitung entstanden. Es gibt hier 
@@ -1020,10 +963,8 @@ nicht verleugnen. Die Akte schweigt darüber, wie
 oft jemand hineinsieht, um sich privates Wissen zu 
 verschaffen. Aber die Protokollpflicht der elektronischen Datenverarbeitung gibt eine Garantie dafür, daß ein mißbräuchlicher Abruf der Daten auch 
 im nachhinein kontrolliert werden kann. 
-<interjection>
 (Abg. Benda.: Wenn es die Protokollpflicht 
 gibt! Das ist eben die Frage!) 
-</interjection>
 — Das ist vorgesehen, das habe ich in meiner Rede 
 zum Ausdruck gebracht. 
 Ein Wort noch zu Herrn Kollegen Schneider. Herr 
@@ -1035,13 +976,8 @@ müssen, wenn wir nicht dieses große Werk in Frage
 stellen wollen. Wir werden parallel dazu selbstverständlich die Fragen des Datenschutzes regeln 
 können. Sie können davon ausgehen, daß die Bundesregierung dem Schutz der privaten Sphäre des 
 einzelnen dasselbe Gewicht beimißt wie alle Vertreter, die hier für das Hohe Haus gesprochen haben. 
-<interjection>(Beifall bei den Regierungsparteien.) </interjection>
-</speech>
-<speech>
-<speaker>
-<name>Dr. Schmid</name><public_office>Vizepräsident</public_office>
-</speaker>
- Weitere Wortmeldungen liegen nicht vor. Wir kommen zur Beschlußfassung. Der Altestenrat schlägt Ihnen vor, 
+(Beifall bei den Regierungsparteien.) 
+Vizepräsident Dr. Schmid: Weitere Wortmeldungen liegen nicht vor. Wir kommen zur Beschlußfassung. Der Altestenrat schlägt Ihnen vor, 
 die Vorlage an den Innenausschuß und an den Haushaltsausschuß gemäß § 96 der Geschäftsordnung zu 
 überweisen. Ist das Haus einverstanden? — Ich 
 höre keinen Widerspruch; es ist so beschlossen. 
@@ -1060,10 +996,8 @@ Frage 90 des Abgeordneten Scheel. — Der Abgeordnete ist nicht im Saal. Die Fra
 abgedruckt. 
 Frage 91 des Abgeordneten Pöhler. — Der Abgeordnete ist nicht im Saal. Die Frage wird schriftlich beantwortet. Die Antwort wird als Anlage abgedruckt. 
 Frage 92 des Abgeordneten Röhner. 
-<interjection>
 (Parl. Staatssekretär Moersch: Er bittet 
 um schriftliche Beantwortung!) 
-</interjection>
 — Er bittet um schriftliche Beantwortung. Ebenso 
 bittet der Abgeordnete Dr. Wittmann (München) — 
 Frage 93 — um schriftliche Beantwortung. Die Antworten werden als Anlagen abgedruckt. 
@@ -1071,8 +1005,8 @@ Frage 94 des Abgeordneten Engelsberger:
 Hält die Bundesregierung nach wie vor fest an der Strafverfolgungsabsicht gegen Journalisten wegen Verdachts des Geheimnisverrats im Zusammenhang mit der Veröffentlidiung von 
 Telegrammen des deutschen Botschafters in den USA, Rolf 
 Pauls, nachdem sogar der Pressesprecher der Bundesregierung, 
-Conrad Ahlers, die eingeleiteten Strafverfahren für „unangebracht&quot; gehalten und den aus der Zeit des Hitler-Regimes stammenden § 353 c des Strafgesetzbuches als „kein adäquates 
-Mittel, um die Verhältnisse aufzuklären und solches zu verhindern&quot;, bezeichnet hat? 
+Conrad Ahlers, die eingeleiteten Strafverfahren für „unangebracht" gehalten und den aus der Zeit des Hitler-Regimes stammenden § 353 c des Strafgesetzbuches als „kein adäquates 
+Mittel, um die Verhältnisse aufzuklären und solches zu verhindern", bezeichnet hat? 
 Der Abgeordnete ist im Saal. — Herr Staatssekretär! 
 Moersch, Parlamentarischer Staatssekretär beim 
 Bundesminister des Auswärtigen: Herr Präsident, 
@@ -1089,7 +1023,7 @@ durch Bruch des Dienstgeheimnisses verletzt wird.
 Die Bundesregierung hat daher in diesem gravierenden Fall dem Antrag der Staatsanwaltschaft 
 nach den §§ 353 b ff. des Strafgesetzbuchs entsprochen. 
 Die Stellungnahme von Herrn Staatssekretär 
-Ahlers in der Sendung „Report&quot; vom 25. Oktober 
+Ahlers in der Sendung „Report" vom 25. Oktober 
 1971 ist mir bekannt. Herr Ahlers hat sich auf eine 
 Frage zu dem § 353 c des Strafgesetzbuchs wie folgt 
 geäußert — ich zitiere —: 
@@ -1103,58 +1037,36 @@ in dieses politische Spiel wirklich einzugreifen.
 So weit das Zitat von Staatssekretär Ahlers. 
 Durch diese Stellungnahme wird die von mir soeben gegebene Antwort der Bundesregierung auf 
 Ihre Frage, Herr Abgeordneter, nicht berührt. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Schmid</name><public_office>Vizepräsident</public_office>
-</speaker>
- Zusatzfrage? 
-</speech>
-<speech>
-<speaker>
-<name>Engelsberger</name><party>CDU/CSU</party>
-</speaker>
- Herr Staatssekretär, 
+Vizepräsident Dr. Schmid: Zusatzfrage? 
+Engelsberger (CDU/CSU) : Herr Staatssekretär, 
 wie läßt sich die Einleitung des Ermittlungsverfahrens gegen Journalisten, die es gewagt haben, hinter die Kulissen zu leuchten, mit der Äußerung des 
 Herrn Bundeskanzlers in der Regierungserklärung 
 vom 28. Oktober 1969 vereinbaren, daß diese Bundesregierung — ich zitiere — mehr Demokratie 
 wagen, ihre Arbeitsweise öffnen und dem kritischen Bedürfnis nach Information Genüge tun wolle 
 — Ende des Zitats —, während es vergleichsweise 
-den Regierungen von Adenauer bis Kiesinger niemals eingefallen wäre, wegen „Spiegel&quot;-Indiskretionen zum Kadi zu laufen, andererseits aber die 
-Ermittlungen der Staatsanwaltschaft wegen schweren Verdachts auf Landesverrat als „faschistisch&quot; 
+den Regierungen von Adenauer bis Kiesinger niemals eingefallen wäre, wegen „Spiegel"-Indiskretionen zum Kadi zu laufen, andererseits aber die 
+Ermittlungen der Staatsanwaltschaft wegen schweren Verdachts auf Landesverrat als „faschistisch" 
 denunziert worden sind? 
-<interjection>
 (Abg. Hansen: Das hätten Sie lieber nicht 
 gefragt!) 
-</interjection>
 Moersch, Parlamentarischer Staatssekretär beim 
 Bundesminister des Auswärtigen: Herr Abgeordneter, ich glaube nicht, daß es meine Aufgabe ist, in 
 der Fragestunde ein historisches Kolleg über die 
 Maßnahmen früherer Regierungen zu halten. Sonst 
 müßten wir einige sehr detaillierte Bekenntnisse 
 ablegen. Ich darf Ihnen aber sagen, daß die Worte 
-„mehr Demokratie wagen&quot; in der Regierungserklärung auch bedeuten, daß gegen Gesetzwidrigkeiten, 
+„mehr Demokratie wagen" in der Regierungserklärung auch bedeuten, daß gegen Gesetzwidrigkeiten, 
 Gesetzlosigkeiten und Verletzung der Interessen der 
 Bundesrepublik Deutschland in der Weise vorgegangen wird, wie es auf Grund der Gesetze, die 
 von diesem Hohen Hause beschlossen worden sind, 
 notwendig und geboten erscheint. Das ist doch eine 
 Selbstverständlichkeit und kein Widerspruch. Die 
 Voraussetzung für mehr Demokratie ist die Respektierung demokratischer Gesetze durch Demokraten. 
-<interjection>(Beifall bei der SPD.) </interjection>
+(Beifall bei der SPD.) 
 Hier geht es darum, daß gegen die Interessen der 
 Bundesrepublik Deutschland verstoßen worden ist. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Schmid</name><public_office>Vizepräsident</public_office>
-</speaker>
- Zweite Zusatzfrage! 
-</speech>
-<speech>
-<speaker>
-<name>Engelsberger</name><party>CDU/CSU</party>
-</speaker>
- Herr Staatssekretär, 
+Vizepräsident Dr. Schmid: Zweite Zusatzfrage! 
+Engelsberger (CDU/CSU) : Herr Staatssekretär, 
 will die Bundesregierung den von Ihnen zitierten 
 § 353 c des Strafgesetzbuchs, der von einem totalitären Regime für ein totalitäres Regime geschaffen 
 
@@ -1175,28 +1087,13 @@ die der Meinung war, daß sie zu weit ausgelegt
 werden könnten. Das ist der wirkliche Sachverhalt; 
 das hat mit dem Dritten Reich überhaupt nichts zu 
 tun. 
-<interjection>(Beifall bei der SPD.) </interjection>
-</speech>
-<speech>
-<speaker>
-<name>Dr. Schmid</name><public_office>Vizepräsident</public_office>
-</speaker>
- Herr Abgeordneter Schulze-Vorberg! 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Schulze-Vorberg</name><party>CDU/CSU</party>
-</speaker>
- Herr Staatssekretär, wenn Sie soeben behaupten, die Journalisten hätten gegen die Interessen der Bundesrepublik verstoßen, — 
+(Beifall bei der SPD.) 
+Vizepräsident Dr. Schmid: Herr Abgeordneter Schulze-Vorberg! 
+Dr. Schulze -Vorberg (CDU/CSU) : Herr Staatssekretär, wenn Sie soeben behaupten, die Journalisten hätten gegen die Interessen der Bundesrepublik verstoßen, — 
 Moersch, Parlamentarischer Staatssekretär beim 
 Bundesminister des Auswärtigen: Das habe ich nicht 
 behauptet, Herr Abgeordneter. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Schulze-Vorberg</name><party>CDU/CSU</party>
-</speaker>
- — hier sei 
+Dr. Schulze -Vorberg (CDU/CSU) : — hier sei 
 gegen die Interessen der Bundesrepublik verstoßen 
 worden: Liegt dieser Interessenverstoß Ihrer Meinung nach darin, daß diese Journalisten Tatsachen 
 an die Öffentlichkeit gebracht haben, während hier, 
@@ -1218,20 +1115,14 @@ vorgenommen wird, wie man es von demokratisch
 gesinnten Presseorganen erwarten kann, gibt es 
 meiner Ansicht nach keine Differenzen zwischen uns, 
 was die Behandlung solcher Fragen betrifft. 
-<interjection>
 (Abg. Dr. Schulze-Vorberg: Nur daß es hier 
-nicht um ein Staatsgeheimnis geht, Herr Staatssekretär!) 
-</interjection>
-</speech>
-<speech>
-<speaker>
-<name>Dr. Schmid</name><public_office>Vizepräsident</public_office>
-</speaker>
- Ich rufe die 
+nicht um ein Staatsgeheimnis geht, Herr 
+Staatssekretär!) 
+Vizepräsident Dr. Schmid: Ich rufe die 
 Frage 95 des Abgeordneten Engelsberger auf: 
 Wie ist nach Ansicht der Bundesregierung die angebliche Entspannungsbereitsdiaft der Sowjetunion in Einklang zu bringen 
 mit der Tatsache, daß der Verteidigungsminister der UdSSR, 
-Marschall Gretschko, die „fortwährende Steigerung der Kampfkraft und Einsatzbereitschaft&quot; der Sowjet-Armee als „vornehmliche Aufgabe&quot; und die außenpolitische Aktivität der sowjetischen Regierung als dienlich für die „Machtausweitung und Zusammenschweißung der sozialistischen Staaten&quot; bezeichnet hat, 
+Marschall Gretschko, die „fortwährende Steigerung der Kampfkraft und Einsatzbereitschaft" der Sowjet-Armee als „vornehmliche Aufgabe" und die außenpolitische Aktivität der sowjetischen Regierung als dienlich für die „Machtausweitung und Zusammenschweißung der sozialistischen Staaten" bezeichnet hat, 
 und welche Konsequenzen für die NATO era chtet auf Grund 
 solcher Zielvorstellungen die Bundesregierung für nötig? 
 Moersch, Parlamentarischer Staatssekretär beim 
@@ -1242,7 +1133,7 @@ Tagung der politischen Offiziere der Sowjetarmee
 gehalten hat, die vom 13. bis 16. Oktober 1971 in 
 Moskau stattfand. Diese Ansprache ist nicht im vollen Wortlaut veröffentlicht worden bzw. liegt nicht 
 in vollem Wortlaut für uns erreichbar vor. Die ausführlichste Wiedergabe, die wir finden konnten, befindet sich in der sowjetischen Armeezeitung 
-„Krasnaja Swesda&quot; vom 17. Oktober 1971. Die hier 
+„Krasnaja Swesda" vom 17. Oktober 1971. Die hier 
 für Ihre Frage wichtigen Passagen lauten — darauf 
 bitte ich besonders zu achten, auch im Zusammenhang mit dem, was Sie in der Frage hier festgestellt haben. Ich zitiere: 
 Marschall der Sowjetunion A. Gretschko 
@@ -1275,31 +1166,16 @@ der Sowjetunion und ihrer Verbündeten werden von
 der Atlantischen Allianz mit großer Aufmerksamkeit registriert. Die Notwendigkeit unverminderter 
 westlicher Verteidigungsanstrengungen zur Verhinderung eines Übergewichts der anderen Seite ist in 
 eindrucksvoller Weise in der im Dezember 1970 
-verabschiedeten Studie über die „Verteidigungsprobleme der Allianz in den 70er Jahren&quot; niedergelegt worden. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Schmid</name><public_office>Vizepräsident</public_office>
-</speaker>
- Eine Zusatzfrage. 
-</speech>
-<speech>
-<speaker>
-<name>Engelsberger</name><party>CDU/CSU</party>
-</speaker>
- Herr Staatssekretär, 
+verabschiedeten Studie über die „Verteidigungsprobleme der Allianz in den 70er Jahren" niedergelegt worden. 
+Vizepräsident Dr. Schmid: Eine Zusatzfrage. 
+Engelsberger (CDU/CSU) : Herr Staatssekretär, 
 teilt die Bundesregierung die Meinung des NATO-
 Oberbefehlshabers General Goodpaster, daß die 
 Sowjetunion ihre militärische Präsenz in den strategisch wichtigen Räumen der Welt verstärke und daß 
 der Ausbau der russischen Streitkräfte weit über die 
 Verteidigungsnotwendigkeiten hinausgehe und damit in auffälligem Gegensatz zu der sowjetischen 
 Entspannungsdiplomatie stehe? 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Schmid</name><public_office>Vizepräsident</public_office>
-</speaker>
- Herr Staatssekretär, Sie brauchen die Strategie der NATO und der 
+Vizepräsident Dr. Schmid: Herr Staatssekretär, Sie brauchen die Strategie der NATO und der 
 Gegenseite nicht im einzelnen zu erläutern. 
 Moersch, Parlamentarischer Staatssekretär beim 
 Bundesminister des Auswärtigen: Herr Präsident, 
@@ -1329,12 +1205,7 @@ schon vor vier Jahren zum Ausdruck gebracht worden ist — sozusagen auch die zw
 der Sicherheit, nämlich den Abbau der Konfrontation 
 durch politische Maßnahmen, in gleicher Weise zu 
 berücksichtigen. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Schmid</name><public_office>Vizepräsident</public_office>
-</speaker>
- Die Frage 96 des 
+Vizepräsident Dr. Schmid: Die Frage 96 des 
 Abgeordneten Gierenstein ist vom Bundesminister 
 der Verteidigung schon beantwortet worden. 
 Die Frage 97 des Abgeordneten Pfeifer wird auf 
@@ -1352,43 +1223,28 @@ ausgeführt habe — ich wiederhole es , wird die
 Bundesregierung durch die Verletzung der Vertraulichkeit internationaler Verhandlungen in ihrer 
 außenpolitischen Arbeitsfähigkeit erheblich beeinträchtigt. Sie hat deshalb in dem von Ihnen angezogenen Fall dem Antrag der Staatsanwaltschaft 
 auf Ermächtigung zur Strafverfolgung entsprochen. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Schmid</name><public_office>Vizepräsident</public_office>
-</speaker>
- Zusatzfrage. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Schulze-Vorberg</name><party>CDU/CSU</party>
-</speaker>
- Herr Staatssekretär, Sie haben vorhin festgestellt, daß Ihnen 
+Vizepräsident Dr. Schmid: Zusatzfrage. 
+Dr. Schulze-Vorberg (CDU/CSU) : Herr Staatssekretär, Sie haben vorhin festgestellt, daß Ihnen 
 die Ermächtigung zur Strafverfolgung nach § 353 
 StGB zu weit gegangen ist. 
-<interjection>(Zurufe von der SPD: Sie haben nicht zugehört! — Nein, richtig zitieren!) </interjection>
+(Zurufe von der SPD: Sie haben nicht zugehört! — Nein, richtig zitieren!) 
 — Sie haben eben vor zwei Minuten festgestellt, 
 daß Ihnen diese Ermächtigung, als das Gesetz hier 
 im Hohen Haus beraten wurde, zu weit gegangen 
 sei. 
-<interjection>(Widerspruch bei der SPD.) </interjection>
+(Widerspruch bei der SPD.) 
 — Gut, 
-<interjection>(Abg. Wehner: Nicht gut!) </interjection>
+(Abg. Wehner: Nicht gut!) 
 dann formuliere ich meine Frage wie folgt. Teilen 
 Sie die Auffassung, daß es sich — ausgehend von 
-dem Wort „Schreibtischtäter&quot; des Herrn Bundeskanzlers, das immer noch im Raum steht, denn wir 
+dem Wort „Schreibtischtäter" des Herrn Bundeskanzlers, das immer noch im Raum steht, denn wir 
 wissen immer noch nicht, welche Journalisten gemeint waren, bis hin zu den Strafverfolgungen in 
 einem Fall, in dem es sich keinesfalls um ein Staatsgeheimnis handeln kann, weil die Errichtung dieses 
 Generalkonsulats ja inzwischen von den Alliierten 
 vereinbart worden ist— hier um eine massive Einschüchterung der Journalisten handelt, die Kritik 
 an dieser Bundesregierung üben, also ihre eigentliche Aufgabe wahrnehmen? 
 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Schmid</name><public_office>Vizepräsident</public_office>
-</speaker>
- Herr Abgeordneter, Sie haben hier ein Werturteil verlangt. Auf 
+Vizepräsident Dr. Schmid: Herr Abgeordneter, Sie haben hier ein Werturteil verlangt. Auf 
 Fragen nach Werturteilen braucht die Regierung 
 nicht zu antworten. 
 Moersch, Parlamentarischer Staatssekretär beim 
@@ -1398,22 +1254,10 @@ antworten. Die eine heißt: Wer halb zitiert, hat ganz
 gewonnen. Das trifft hier zu. Das andere Zitat ist 
 von Johann Peter Hebel und heißt: Und wer sich 
 getroffen fühlt, der ist gemeint. 
-<interjection>
 (Heiterkeit. — Abg. Windelen: Das ist doch 
 unglaublich!) 
-</interjection>
-</speech>
-<speech>
-<speaker>
-<name>Dr. Schmid</name><public_office>Vizepräsident</public_office>
-</speaker>
- Letzte Zusatzfrage. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Schulze-Vorberg</name><party>CDU/CSU</party>
-</speaker>
- Wir sind in 
+Vizepräsident Dr. Schmid: Letzte Zusatzfrage. 
+Dr. Schulze-Vorberg (CDU/CSU) : Wir sind in 
 der Fragestunde gehalten, kurz zu fragen. Dadurch 
 ist, wie ich zugebe, die Gefahr gegeben, Zitate nicht 
 in vollem Wortlaut bringen zu können. Ich werde 
@@ -1421,65 +1265,38 @@ das aber gern in anderer Form nachholen. Herr
 Staatssekretär, werden Sie zu dem Teil der Kabinettsmitglieder gehören, die sich im Kabinett bemühen, 
 diese Ermächtigung zur Strafverfolgung zurückzunehmen, wie das früher einmal im Kabinett Adenauer durch den damaligen Justizminister Dehler 
 geschehen ist? 
-<interjection>(Abg. Wehner: Der arme Dehler!) </interjection>
-</speech>
-<speech>
-<speaker>
-<name>Dr. Schmid</name><public_office>Vizepräsident</public_office>
-</speaker>
- Herr Abgeordneter, ich lasse diese Frage nicht zu, und zwar aus 
+(Abg. Wehner: Der arme Dehler!) 
+Vizepräsident Dr. Schmid: Herr Abgeordneter, ich lasse diese Frage nicht zu, und zwar aus 
 zwei Gründen. Erstens können Sie niemanden fragen, was er in Zukunft tun wird. Zum zweiten können Sie durch eine Frage nicht feststellen lassen, 
 was im Kabinett geschieht. Diese Sitzungen sind 
 vertraulich. 
-<interjection>
 (Abg. Dr. Apel: Das meine ich aber auch! 
-— Widerspruch bei der CDU/CSU. — Abg. Windelen: Was dürfen wir denn überhaupt noch fragen? — Weitere Zurufe von der CDU/CSU.) 
-</interjection>
-</speech>
-<speech>
-<speaker>
-<name>Dr. Schulze-Vorberg</name><party>CDU/CSU</party>
-</speaker>
- Herr Präsident, darf ich versuchen, die Frage so zu stellen, daß 
+— Widerspruch bei der CDU/CSU. — Abg. 
+Windelen: Was dürfen wir denn überhaupt 
+noch fragen? — Weitere Zurufe von der 
+CDU/CSU.) 
+Dr. Schulze-Vorberg (CDU/CSU) : Herr Präsident, darf ich versuchen, die Frage so zu stellen, daß 
 sie vielleicht zugelassen werden kann? 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Schmid</name><public_office>Vizepräsident</public_office>
-</speaker>
- Bitte! 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Schulze-Vorberg</name><party>CDU/CSU</party>
-</speaker>
- Herr Staatssekretär, gibt es Bestrebungen in der Bundesregierung, diese Ermächtigung zur Strafverfolgung zurückzunehmen, so wie das mi Kabinett Adenauer 
+Vizepräsident Dr. Schmid: Bitte! 
+Dr. Schulze -Vorberg (CDU/CSU) : Herr Staatssekretär, gibt es Bestrebungen in der Bundesregierung, diese Ermächtigung zur Strafverfolgung zurückzunehmen, so wie das mi  Kabinett Adenauer 
 seinerzeit Justizminister Dehler getan hat? 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Schmid</name><public_office>Vizepräsident</public_office>
-</speaker>
- Herr Abgeordneter, ich kann auch diese Frage nicht zulassen. 
+Vizepräsident Dr. Schmid: Herr Abgeordneter, ich kann auch diese Frage nicht zulassen. 
 Eine Frage nach Bestrebungen innerhalb der Bundesregierung ist keine Frage nach Ereignissen. Die 
 Bundesregierung hat sich lediglich über Dinge, die 
 sie getan oder unterlassen hat, zu äußern. 
-<interjection>
 (Zustimmung bei der SPD. — Unruhe bei 
-der CDU/CSU. — Abg. Brück [Köln] : Dann können wir ja aufhören! — Abg. Windelen: Dann lassen Sie uns die Fragestunde abschaffen! Was darf man dann noch fragen? — Abg. Dr. Schulze-Vorberg: Journalisten dürfen fragen, Parlamentarier nicht mehr?!) 
-</interjection>
+der CDU/CSU. — Abg. Brück [Köln] : Dann 
+können wir ja aufhören! — Abg. Windelen: Dann lassen Sie uns die Fragestunde abschaffen! Was darf man dann 
+noch fragen? — Abg. Dr. Schulze-Vorberg: 
+Journalisten dürfen fragen, Parlamentarier 
+nicht mehr?!) 
 Es bleibt bei meiner Entscheidung. Im übrigen 
 gibt es genügend Fakten, nach denen gefragt werden könnte. So sieht die Geschäftsordnung es vor. 
-<interjection>(Fortgesetzte Zurufe von der CDU/CSU.) </interjection>
+(Fortgesetzte Zurufe von der CDU/CSU.) 
 — Wirklich, Herr Kollege. Daran kann auch Ihr 
 Kopfschütteln nichts ändern. 
 Bitte, Herr Abgeordneter! 
-</speech>
-<speech>
-<speaker>
-<name>Mursch (Soltau-Harburg)</name><party>CDU/CSU</party>
-</speaker>
- Herr Kollege Moersch, worin sehen Sie eigentlich heute noch 
+Mursch (Soltau-Harburg) (CDU/CSU) : Herr Kollege Moersch, worin sehen Sie eigentlich heute noch 
 dieses großartige Staatsgeheimnis, von dem Sie 
 vorhin sprachen? 
 Moersch, Parlamentarischer Staatssekretär beim 
@@ -1496,44 +1313,22 @@ klarstellen, daß mein Angriff auf die damalige Fassung des Gesetzes dahin ging,
 Praktikabilität der Bestimmung überzeugt war. Herr 
 Abgeordneter, ofensichtlich sind Sie heute mit 
 Ihrer Frage dieser Überzeugung gefolgt. 
-</speech>
-<speech>
-<speaker>
-<name>Mursch (Soltau-Harburg)</name><party>CDU/CSU</party>
-</speaker>
- Ich habe 
+Mursch (Soltau-Harburg) (CDU/CSU) : Ich habe 
 doch etwas ganz anderes gefragt! 
-<interjection>
 (Abg. Wehner: Legen Sie mal eine andere 
 Platte auf!) 
-</interjection>
-</speech>
-<speech>
-<speaker>
-<name>Dr. Schmid</name><public_office>Vizepräsident</public_office>
-</speaker>
- Haben Sie noch 
+Vizepräsident Dr. Schmid: Haben Sie noch 
 eine Zusatzfrage? — Nicht. 
 Herr Abgeordneter Zander! 
 Zander (SPD:) Herr Staatssekretär, stimmen Sie 
 mir zu, wenn ich meine, daß die Bezeichnung eines 
 Vorgangs als Staatsgeheimnis eine Frage des jeweiligen Zeitpunktes ist? 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Schmid</name><public_office>Vizepräsident</public_office>
-</speaker>
- Auch diese sehr 
+Vizepräsident Dr. Schmid: Auch diese sehr 
 allgemeine, abstrakte Frage lasse ich nicht zu. 
 (Zurufe.)Vizepräsident Dr. Schmid 
 — Ob die Frage mit Ja oder Nein beantwortet werden kann, ändert an der Situation ja nichts. 
 Herr Abgeordneter! 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Wittmann (München)</name><party>CDU/CSU</party>
-</speaker>
- Herr 
+Dr. Wittmann (München) (CDU/CSU) : Herr 
 Staatssekretär, ist nicht der Ermächtigung zur Strafverfolgung seitens der Bundesregierung und der 
 vorhergehenden Einleitung der Vorermittlungen 
 irgend etwas wie eine Anzeige oder eine Mitteilung 
@@ -1544,31 +1339,16 @@ des § 353 StGB gegeben ist?
 Moersch, Parlamentarischer Staatssekretär beim 
 Bundesminister des Auswärtigen: Herr Abgeordneter, das Verfahren ist im Gesetz genau vorgeschrieben. Danach muß die Staatsanwaltschaft in solchen Fällen bei den zuständigen Behörden selbstverständlich nachfragen, wieweit der Tatbestand erfüllt ist. Die Staatsanwaltschaft handelt hier wie immer pflichtgemäß, und die Bundesregierung hat 
 ebenfalls pflichtgemäß gehandelt. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Schmid</name><public_office>Vizepräsident</public_office>
-</speaker>
- Zusatzfrage. 
-</speech>
-<speech>
-<speaker>
-<name>Engelsberger</name><party>CDU/CSU</party>
-</speaker>
- Herr Staatssekretär, 
-trifft die Meldung des „Spiegel&quot; dieser Woche zu, 
+Vizepräsident Dr. Schmid: Zusatzfrage. 
+Engelsberger (CDU/CSU) : Herr Staatssekretär, 
+trifft die Meldung des „Spiegel" dieser Woche zu, 
 daß es trotz der verteufelten Situation nach der bisherigen Rechtslage nicht möglich wäre, die Strafermittlungen zurückzunehmen, wie sich Staatssekretär Ahlers ausgedrückt hat, d. h., daß die Bundesregierung nicht bereit ist, diese Ermächtigung zur Ermittlung zurückzuziehen? 
 Moersch, Parlamentarischer Staatssekretär beim 
 Bundesminister des Auswärtigen: Herr Abgeordneter, ich bedauere, Ihnen nicht die von Ihnen gewünschte Antwort geben zu können, weil Sie offensichtlich verkennen, daß wir in einem Staat mit Gewaltenteilung leben. Die Frage, die Sie gestellt 
 haben, ist eine Frage an die Justizbehörden, die damit befaßt sind. Es steht der Bundesregierung nicht 
 zu, in dieser Form in ein schwebendes Verfahren 
 einzugreifen. 
-</speech>
-<speech>
-<speaker>
-<name>Engelsberger</name><party>CDU/CSU</party>
-</speaker>
- Herr Staatssekretär, 
+Engelsberger (CDU/CSU) : Herr Staatssekretär, 
 trägt die Bundesregierung — nachdem sie die Ermittlungsermächtigung erteilt hat — nicht trotzdem 
 die Verantwortung für alle Konsequenzen, die aus 
 diesem Verfahren entstehen? 
@@ -1579,12 +1359,7 @@ freigegeben hat — und das mußte sie nach Auffassung derjenigen, die das entsc
 daß sie Herr des Verfahrens sei. Das ist nun wirklich eine Sache der Justizbehörden. Was Sie in Ihrer 
 Frage dabei offensichtlich verlangen, können Sie 
 auch den Justizbehörden nicht antun. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Schmid</name><public_office>Vizepräsident</public_office>
-</speaker>
- Sind noch Zusatzfragen gewünscht? -- Offenbar nicht. Damit ist dieser Geschäftsbereich in der Fragestunde abgeschlossen. 
+Vizepräsident Dr. Schmid: Sind noch Zusatzfragen gewünscht? -- Offenbar nicht. Damit ist dieser Geschäftsbereich in der Fragestunde abgeschlossen. 
 Geschäftsbereich des Bundesministers für Verkehr, Post- und Fernmeldewesen! Frage 54, Frau 
 Abgeordnete Dr. Walz: 
 Ist die Bundesregierung der Ansicht, daß die ursprünglich für 
@@ -1606,18 +1381,8 @@ und Neuregelung des Besoldungsrechts in Bund und
 Ländern geschaffenen Verbesserungen der Stellenverhältnisse sind im Rahmen der von Meteorologen 
 im Deutschen Wetterdienst ausgeübten Funktionen 
 voll ausgeschöpft worden. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Schmid</name><public_office>Vizepräsident</public_office>
-</speaker>
- Eine Zusatzfrage. 
-</speech>
-<speech>
-<speaker>
-<name>Frau Dr. Walz</name><party>CDU/CSU</party>
-</speaker>
- Ist sich die Bundesregierung der Tatsache bewußt, Herr Staatssekretär, 
+Vizepräsident Dr. Schmid: Eine Zusatzfrage. 
+Frau Dr. Walz (CDU/CSU) : Ist sich die Bundesregierung der Tatsache bewußt, Herr Staatssekretär, 
 daß der hauptsächlich in der angewandten Forschung 
 beratend tätige Meteorologe den sich steigernden 
 und wandelnden Kundenansprüchen in Zukunft 
@@ -1631,18 +1396,8 @@ Bundesminister für Verkehr und für das Post- und
 Fernmeldewesen: Frau Kollegin, die Bundesregierung ist der Meinung, daß die Tatbestände, die Sie 
 soeben aufgezeigt haben, durch die Ausschöpfung 
 der Möglichkeiten des von mir vorhin zitierten Gesetzes gewahrt bleiben. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Schmid</name><public_office>Vizepräsident</public_office>
-</speaker>
- Eine letzte Zusatzfrage. 
-</speech>
-<speech>
-<speaker>
-<name>Frau Dr. Walz</name><party>CDU/CSU</party>
-</speaker>
- Sie sind also nicht 
+Vizepräsident Dr. Schmid: Eine letzte Zusatzfrage. 
+Frau Dr. Walz (CDU/CSU) : Sie sind also nicht 
 der Meinung, Herr Staatssekretär, daß an der bestehenden Sachlage irgend etwas geändert werden 
 und die Bundesregierung mit der Leitung des Deutschen Wetterdienstes in Verhandlungen über eine 
 Änderung eintreten sollte? 
@@ -1651,12 +1406,7 @@ Börner, Pa rlamentarischer Staatssekretär beim
 Bundesminister für Verkehr und für das Post- und 
 Fernmeldewesen: Die Bundesregierung hat nicht in 
 Verhandlungen einzutreten. Der Deutsche Wetterdienst ist eine nachgeordnete Behörde des Verkehrsministeriums. Wir sind dabei, die gegebenen gesetzlichen Voraussetzungen auszuschöpfen. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Schmid</name><public_office>Vizepräsident</public_office>
-</speaker>
- Die Fragen 55 
+Vizepräsident Dr. Schmid: Die Fragen 55 
 und 56 des Abgeordneten Wohlrabe sind vom Fragesteller zurückgezogen worden. 
 Wir kommen zur Frage 57 des Abgeordneten 
 Lemmrich. — Der Fragesteller ist nicht im Hause; 
@@ -1677,25 +1427,15 @@ Börner, Parlamentarischer Staatssekretär beim
 Bundesminister für Verkehr und für das Post- und 
 Fernmeldewesen: Herr Kollege, eine Aktualisierung 
 der Wirtschaftlichkeitsberechnungen der Deutschen 
-Bundesbahn ist so lange nicht notwendig, wie die 
+Bundesbahn ist so  lange nicht notwendig, wie die 
 Relation zwischen Aufwand und Ersparnissen erhalten bleibt. Ich darf darauf hinweisen, daß ein Mitglied des Vorstandes der Deutschen Bundesbahn in 
 der 13. Sitzung des Verkehrsausschusses am 23. Juli 
 1970 erklärt hat, daß die ursprüngliche Relation 
 auch heute noch besteht. Nach neuen überschlägigen 
 Berechnungen der Deutschen Bundesbahn hat sich 
 die Schere zwischen einmaligem Aufwand und jährlichen Einsparungen sogar noch vergrößert. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Schmid</name><public_office>Vizepräsident</public_office>
-</speaker>
- Eine Zusatzfrage. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Jobst</name><party>CDU/CSU</party>
-</speaker>
- Herr Staatssekretär, sind 
+Vizepräsident Dr. Schmid: Eine Zusatzfrage. 
+Dr. Jobst (CDU/CSU) : Herr Staatssekretär, sind 
 Sie bereit, aus der heutigen Sicht der Dinge Aufschluß darüber zu geben, wie hoch der Aufwand 
 der Deutschen Bundesbahn für den Bau und die 
 Anmietung von Geschäftsgebäuden und Wohnungen 
@@ -1715,18 +1455,8 @@ erfüllt werden. Ich habe nicht den Eindruck, daß die
 Lage des Unternehmens heute Anlaß dazu bietet, 
 mit Rationalisierungsmaßnahmen in irgendeiner 
 Form zurückhaltend zu sein. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Schmid</name><public_office>Vizepräsident</public_office>
-</speaker>
- Eine weitere Zusatzfrage. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Jobst</name><party>CDU/CSU</party>
-</speaker>
- Herr Staatssekretär, sind 
+Vizepräsident Dr. Schmid: Eine weitere Zusatzfrage. 
+Dr. Jobst (CDU/CSU) : Herr Staatssekretär, sind 
 der Bundesregierung die von der Bundesbahndirektion Regensburg gegenüber dem Vorstand der Deutschen Bundesbahn eingehend dargelegten Gründe 
 für eine Zurückstellung der Auflösung der Bundesbahndirektion Regensburg bekannt, nämlich daß das 
 Streckennetz in der Nord-Süd-Verbindung zusammenbleiben sollte und daß, wenn schon aufgelöst 
@@ -1749,11 +1479,7 @@ daß auch die Frage der Auflösung der Direktion
 Regensburg in einem Verfassungsgerichtsprozeß 
 eine Rolle gespielt hat. Ich habe nicht die Absicht, 
 auf getroffene Entscheidungen hier noch einmal einzugehen. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Schmid</name><public_office>Vizepräsident</public_office>
-</speaker>
+Vizepräsident Dr. Schmid: Frage 62 des Abgeordneten Dr. Jobst: 
 Hat die Aufklärungsaktion der Bundesregierung, für die 13 
 Millionen DM aufgewendet wurden, erreicht, daß die neue 
 Straßenverkehrs-Ordnung ins Bewußtsein der Verkehrsteilnehmer gedrungen ist? 
@@ -1761,18 +1487,8 @@ Börner, Parlamentarischer Staatssekretär beim
 Bundesminister für Verkehr und für das Post- und 
 Fernmeldewesen: Herr Kollege, die Frage wird mit 
 Ja beantwortet. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Schmid</name><public_office>Vizepräsident</public_office>
-</speaker>
- Zusatzfrage. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Jobst</name><party>CDU/CSU</party>
-</speaker>
- Herr Staatssekretär, läßt 
+Vizepräsident Dr. Schmid: Zusatzfrage. 
+Dr. Jobst (CDU/CSU) : Herr Staatssekretär, läßt 
 sich bereits heute sagen, daß die neue Straßenverkehrs-Ordnung Wirkungen im täglichen Verkehr, 
 also in der Verkehrsabwicklung zeitigt?Börner, Parlamentarischer Staatssekretär beim 
 Bundesminister für Verkehr und für das Post- und 
@@ -1781,18 +1497,8 @@ einer der Gesichtspunkte der Einführung der neuen
 StVO die europäische Harmonisierung des Straßenverkehrsrechts war. Wir haben den Eindruck, daß 
 sich diese europäisierte Regelung nach der Aufklärungsaktion, die vom Bundesminister für Verkehr 
 durchgeführt wurde, in diesem Urlaubssommer bewährt hat. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Schmid</name><public_office>Vizepräsident</public_office>
-</speaker>
- Zusatzfrage. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Jobst</name><party>CDU/CSU</party>
-</speaker>
- Herr Staatssekretär, wie 
+Vizepräsident Dr. Schmid: Zusatzfrage. 
+Dr. Jobst (CDU/CSU) : Herr Staatssekretär, wie 
 beurteilen Sie die Auffassung, die in einer maßgeblichen Verkehrszeitung vertreten wurde, daß 
 diese aufwendige Aufklärungsaktion ein Schlag ins 
 Wasser gewesen sei? 
@@ -1801,16 +1507,11 @@ Bundesminister für Verkehr und für das Post- und
 Fernmeldewesen: Ich kann mir nicht vorstellen, 
 daß die Mitteilung in der betreffenden Zeitung, die 
 Sie soeben erwähnt haben, von sehr viel Sachkenntnis getragen war. 
-<interjection>
-(Abg. Dr. Jobst: Es war die „DVZ&quot; ! — 
-Abg. Dr. Apel: Na, und? Glauben Sie alles, was in Zeitungen steht? — Abg. Dr. Jobst meldet sich zu einer weiteren Zusatzfrage.) 
-</interjection>
-</speech>
-<speech>
-<speaker>
-<name>Dr. Schmid</name><public_office>Vizepräsident</public_office>
-</speaker>
- Sie haben keine 
+(Abg. Dr. Jobst: Es war die „DVZ" ! — 
+Abg. Dr. Apel: Na, und? Glauben Sie alles, 
+was in Zeitungen steht? — Abg. Dr. Jobst 
+meldet sich zu einer weiteren Zusatzfrage.) 
+Vizepräsident Dr. Schmid: Sie haben keine 
 Zusatzfrage mehr. 
 Frage 63 des Abgeordneten Becker (Nienberge) : 
 Über welche Erfahrungen verfügt die Bundesregierung bei der 
@@ -1826,11 +1527,7 @@ Nach dem Bericht des Vorstandes der Deutschen
 Bundesbahn über die Erfahrungen bei der Durchführung der ersten Stufe der Neuorganisation der Mittelinstanz haben sich die gewählten Lösungen bewährt, so daß eine Änderung der bisherigen Regelung nicht für erforderlich gehalten wird. Nach allem 
 sieht der Vorstand der Deutschen Bundesbahn den 
 Vollzug der ersten Stufe als vollen Erfolg an. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Schmid</name><public_office>Vizepräsident</public_office>
-</speaker>
+Vizepräsident Dr. Schmid: Frage 64 des Abgeoidneten Becker (Nienberge) : 
 Werden beim Gesamtprogramm der Auflösung von sechs 
 Bundesbahndirektionen von Stufe zu Stufe Wirtschaftlichkeitsrechnungen aufgestellt und die sich ändernden Marktstrukturen 
 sowie der technische Fortschritt berücksichtigt? 
@@ -1842,12 +1539,7 @@ Es kann nur nach Abschluß der Auflösung der sechs
 Bundesbahndirektionen eine wirtschaftliche Gesamtbilanz aufgestellt werden. Alle mit der Straffung der 
 Organisation der Deutschen Bundesbahn zusammenhängenden Daten werden von der Deutschen Bundesbahn gesammelt und stehen für die Endabrechnung zur Verfügung. Die Marktstrukturen und der 
 technische Fortschritt sind bei den bisherigen Maßnahmen beachtet worden. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Schmid</name><public_office>Vizepräsident</public_office>
-</speaker>
- Frage 65 des Abgeordneten Weigl. — Der Abgeordnete ist nicht im 
+Vizepräsident Dr. Schmid: Frage 65 des Abgeordneten Weigl. — Der Abgeordnete ist nicht im 
 Saal, die Frage wird schriftlich beantwortet. Die 
 Antwort wird als Anlage abgedruckt. 
 Das gleiche gilt für die Frage 66 des Abgeordneten Weigl. 
@@ -1862,18 +1554,8 @@ Stahlindustrie folgende Walzstahlfertigerzeugnisse
 bezogen: im Jahre 1969 479 000 t, im Jahre 1970 
 623 000 t; für 1971 liegt bisher eine geschätzte Zahl 
 von 525 000 t vor. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Schmid</name><public_office>Vizepräsident</public_office>
-</speaker>
- Zusatzfrage. 
-</speech>
-<speech>
-<speaker>
-<name>Zander</name><party>SPD</party>
-</speaker>
- Herr Staatssekretär, können Sie 
+Vizepräsident Dr. Schmid: Zusatzfrage. 
+Zander (SPD) : Herr Staatssekretär, können Sie 
 sagen, in welchem Umfange in diesem Zeitraum 
 Auslandslieferungen von der Bundesbahn hereingenommen wurden? 
 Börner, Parlamentarischer Staatssekretär beim 
@@ -1884,11 +1566,7 @@ Information des Unternehmens brauche. Ich bin aber
 gern bereit, Ihnen diese Zahl nachzuliefern. Es kann 
 sich aber nur um einen geringen Prozentanteil handeln, da es langjährige Geschäftspolitik der Deutschen Bundesbahn ist, das Angebot der deutschen 
 Stahlindustrie wesentlich zu berücksichtigen. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Schmid</name><public_office>Vizepräsident</public_office>
-</speaker>
+Vizepräsident Dr. Schmid: Frage 68 des Abgeordneter Zander: 
 Inwieweit hat sie dabei die unterschiedlichen konjunkturellen 
 Gegebenheiten in diesem Wirtschaftszweig berücksichtigt? 
 Börner, Parlamentarischer Staatssekretär beim 
@@ -1903,12 +1581,7 @@ Bundesbahn wenig Spielraum. Eine antizyklische
 
 Parlamentarischer Staatssekretär Börner 
 Beschaffungspolitik wäre daher von der Bereitstellung zusätzlicher Mittel durch den Bund abhängig. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Schmid</name><public_office>Vizepräsident</public_office>
-</speaker>
- Frage 69 des Herrn 
+Vizepräsident Dr. Schmid: Frage 69 des Herrn 
 Abgeordneten Josten: 
 Aus welchen Gründen beabsichtigt die Bundesregierung, als 
 Gesellschafter aus der Nürburgring GmbH auszuscheiden, an der 
@@ -1917,15 +1590,10 @@ Börner, Parlamentarischer Staatssekretär beim
 Bundesminister für Verkehr und für das Post- und 
 Fernmeldewesen: Herr Präsident, ich bitte die beiden Fragen zusammen beantworten zu dürfen, wenn 
 Herr Kollege Josten einverstanden ist. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Schmid</name><public_office>Vizepräsident</public_office>
-</speaker>
- Sind Sie einverstanden? 
-<interjection>(Abg. Josten: Einverstanden!) </interjection>
+Vizepräsident Dr. Schmid: Sind Sie einverstanden? 
+(Abg. Josten: Einverstanden!) 
 — Ich rufe zusätzlich die Frage 70 des Herrn Abgeordneten Josten auf: 
-Ist der Bundesregierung bekannt, daß im Fall eines Ausscheidens des Bundes aus der Nürburgring GmbH der Mitgesellschafter, das Land Rheinland-Pfalz, nicht in der Lage ist, die 
+Ist der Bundesregierung bekannt, daß im Fall eines Ausscheidens  des Bundes aus der Nürburgring GmbH der Mitgesellschafter, das Land Rheinland-Pfalz, nicht in der Lage ist, die 
 Belastungen der Nürburgring GmbH allein zu tragen und damit 
 die Existenz der Gesellschaft in Frage gestellt wird? 
 Börner, Parlamentarischer Staatssekretär beim 
@@ -1939,18 +1607,8 @@ das zu verneinen, müßte der Bund aus der Gesellschaft ausscheiden.
 Im Falle seines Ausscheidens würde der Bund einvernehmlich mit dem Mitgesellschafter Rheinland-
 Pfalz eine finanzielle Regelung anstreben, die die 
 Existenz der Gesellschaft nicht in Frage stellt. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Schmid</name><public_office>Vizepräsident</public_office>
-</speaker>
- Zusatzfrage. 
-</speech>
-<speech>
-<speaker>
-<name>Josten</name><party>CDU/CSU</party>
-</speaker>
- Herr Staatssekretär, ist Ihnen 
+Vizepräsident Dr. Schmid: Zusatzfrage. 
+Josten (CDU/CSU): Herr Staatssekretär, ist Ihnen 
 bekannt, daß die bisherige Haltung der Bundesregierung hinsichtlich des Ausbaus und der Verbesserung des Nürburgrings in weiten Kreisen der Bevölkerung Befremden hervorgerufen hat, was ja 
 aus den Tageszeitungen, zumindest in dem betreffenden Bereich des Landes Rheinland-Pfalz, zu entnehmen ist? 
 Börner, Parlamentarischer Staatssekretär beim 
@@ -1962,12 +1620,7 @@ mußten. Diese Prüfung ist, wie Sie wissen, noch
 nicht abgeschlossen. Ich habe aber angedeutet, daß 
 wir einvernehmlich mit dem Mitgesellschafter die 
 Regelung dieser Frage erstreben. 
-</speech>
-<speech>
-<speaker>
-<name>Josten</name><party>CDU/CSU</party>
-</speaker>
- Herr Staatssekretär, kann ich 
+Josten (CDU/CSU): Herr Staatssekretär, kann ich 
 also aus Ihren Ausführungen entnehmen und können Sie praktisch hier verbindlich erklären, daß 
 Sie in Verbindung mit der Landesregierung Rheinland-Pfalz für die Erhaltung dieser bedeutendsten 
 deutschen Rennstrecke Sorge tragen werden? 
@@ -1982,12 +1635,7 @@ Risiken sehen und daß wir versuchen werden -
 vorausgesetzt, die Entwicklung würde so laufen , 
 mit Rheinland-Pfalz zu einer harmonischen Lösung 
 zu kommen. 
-</speech>
-<speech>
-<speaker>
-<name>Dr. Schmid</name><public_office>Vizepräsident</public_office>
-</speaker>
- Wir kommen zu 
+Vizepräsident Dr. Schmid: Wir kommen zu 
 den Fragen 71 und 72 des Herrn Abgeordneten 
 Metzger. — Der Fragesteller ist nicht da. Die Fragen werden schriftlich beantwortet. Die Antworten 
 werden als Anlage abgedruckt. 
@@ -2003,12 +1651,17 @@ Damit ist die Fragestunde beendet.
 Ich berufe die nächste Sitzung des Bundestages 
 ein auf Mittwoch, den 10. November 1971, 9 Uhr. 
 Die Sitzung ist geschlossen. 
-</speech>
-<attachement>
-<item id="1" >
-zurückgezogen&quot;.Anlage 1 
+(Schluß der Sitzung: 10.23 Uhr.) 
+Berichtigung 
+144. Sitzung, Seite 8223 A, zweiter Abschnitt: Der 
+Abgeordnete Looft hat die Mitgliedschaft im Deutschen Bundestag nicht am 19. Oktober 1971, sondern 
+am 15. Oktober 1971 erworben. 
+148. Sitzung, Seite 8541 B, Zeile 6 von unten, ist zu 
+lesen statt: „werden auf Wunsch des Fragestellers 
+schriftlich beantwortet" : „wurden vom Fragesteller 
+zurückgezogen".Anlage 1 
 Liste der beurlaubten Abgeordneten 
-Abgeordnete(r) beurlaubt bis einschließlich 
+Abgeordnete(r) 	 beurlaubt bis einschließlich 
 Dr. Aigner * 5. 11. 
 von Alten-Nordheim 5. 11. 
 Dr. Arndt * 5. 11. 
@@ -2067,7 +1720,7 @@ Dr. Schröder (Düsseldorf) 5. 11.
 * Für die Teilnahme an Sitzungen des Europäischen 
 Parlaments 
 Anlagen zum Stenographischen Bericht 
-Abgeordnete(r) beurlaubt bis einschließlich 
+Abgeordnete(r)  beurlaubt bis einschließlich 
 Schulhoff 5. 11. 
 Schwabe * 5. 11. 
 Dr. Schwörer * 5. 11. 
@@ -2081,9 +1734,6 @@ Dr. Warnke 8. 11.
 Winkelheide 5. 11. 
 Weber (Heidelberg) 5. 11. 
 Wolfram * 5. 11. 
-</item>
-
-<item id="2" >
 Anlage 2 
 Schriftliche Antwort 
 des Parlamentarischen Staatssekretärs Rosenthal 
@@ -2094,7 +1744,7 @@ Trifft es zu, daß ein Gerichtsurteil zum Bankgeheimnis dahin
 ergangen ist, daß „eine Bank grundsätzlich nur dann Auskünfte 
 erteilen soll, wenn sie vorher das Einverständnis des Kunden 
 erhielt oder dieses Einverständnis stillschweigend voraussetzen 
-könne&quot;? 
+könne"? 
 Wird die Bundesregierung Maßnahmen ergreifen, die den 
 durch den letzten Halbsatz dieses Urteils sehr zweifelhaft gewordenen Schutz des Bankgeheimnisses wieder unantastbar 
 sicherstellt? 
@@ -2128,22 +1778,19 @@ Das Bankgeheimnis ist demnach durch das Urteil
 eindeutig bestätigt worden, und das Urteil gibt 
 keinen Anlaß, gesetzliche Maßnahmen zum Schutze 
 des Bankgeheimnisses zu erwägen. 
-</item>
-
-<item id="3" >
 Anlage 3 
 Schriftliche Antwort 
 des Parlamentarischen Staatssekretärs Rosenthal 
 vom 4. November 1971 auf die Mündlichen Fragen 
 des Abgeordneten Ott (CDU/CSU) (Drucksache 
-VI/2775 Fragen A 17 und 18) : 
+VI/2775  Fragen A 17 und 18) : 
 Inwieweit war die Annahme der Bundesregierung über eine 
-„Senkung der Preissteigerungsrate auf drei Prozent&quot; im Jahr 
+„Senkung der Preissteigerungsrate auf drei Prozent" im Jahr 
 1971 beeinflußt von einer Prognose des Wirtschaftswissenschaftlichen Instituts der Gewerkschaften, wonach 1971 mit einer 
-„echten Preissteigerung von nur 2 Prozent gerechnet werden&quot; 
+„echten Preissteigerung von nur 2 Prozent gerechnet werden" 
 müsse? 
 Gingen der Entschluß der Bundesregierung im Frühjahr 1970, 
-entgegen den Empfehlungen des Sachverständigenrates auf konjunkturdämpfende Maßnahmen zu verzichten, und die wiederholten Erklärungen des Bundeskanzlers über eine „bevorstehende Abschwächung des Preisauftriebs und eine Normalisierung der Konjunktur&quot; auf die Prognose des WWI vom 
+entgegen den Empfehlungen des Sachverständigenrates auf konjunkturdämpfende Maßnahmen zu verzichten, und die wiederholten Erklärungen des Bundeskanzlers über eine „bevorstehende Abschwächung des Preisauftriebs und eine Normalisierung der Konjunktur" auf die Prognose des WWI vom 
 21. Januar 1970 über ein Nachlassen der konjunkturellen 
 Überbeanspruchung zurück? 
 Die Bundesregierung zieht zu ihrer Urteilsbildung stets alle Informationen heran, die ihr zur Verfügung stehen. Die Prognose eines einzelnen Instituts kann dabei sicherlich keine ausschlaggebende 
@@ -2153,7 +1800,7 @@ dem Wirtschaftswissenschaftlichen Institut der Gewerkschaften in der Beurteilung
 Das WWI stand insofern mit seiner Prognose einer 
 3 1 /2%igen Verbraucherpreisrate keineswegs allein. 
 Bei einem Überhang von etwa 1 1/2 % aus dem Vorjahr hätte dies eine — in Ihrer Frage als „echte 
-Preissteigerung&quot; bezeichnete — Zunahme der Verbraucherpreise von 2 °/o im Verlaufe des Jahres 1971 
+Preissteigerung" bezeichnete — Zunahme der Verbraucherpreise von 2 °/o im Verlaufe des  Jahres 1971 
 bedeutet. 
 Wie der Sachverständigenrat hielt die Bundesregierung allerdings die diesen Preisprognosen zugrunde liegenden Verhaltensweisen nicht für 
 zwangsläufig. In Übereinstimmung mit der Projektion des Sachverständigenrates strebte die Bundesregierung daher eine Begrenzung der Verbraucherpreisrate auf 3 % an, wobei sie allerdings die vom 
@@ -2176,20 +1823,17 @@ WWI — Sie sprechen von der Prognose vom
 21. Januar 1970, gemeint ist wohl die im Februar-
 Heft 1970 der WWI-Mitteilungen veröffentlichte 
 Revision der Mitte 1969 ausgearbeiteten WWI-
-Prognose — in diesem Zusammenhang für Ihre 
+Prognose  — in diesem Zusammenhang für Ihre 
 Argumentation benutzen. Das WWI kommt nämlich 
 beim Vergleich der zu diesem Zeitpunkt vorliegenden Prognose für 1970 (Sachverständigenrat, Gemeinschaftsprognose, DIW) zu dem Schluß, daß es 
-„deutlich über den anderen Prognosedaten&quot; (Seite 
+„deutlich über den anderen Prognosedaten" (Seite 
 46 a. a. O.) liegt. Während z. B. der Sachverständigenrat in seinem Jahresgutachten 1969 (BT-Drucksache VI/600 vom 1. Dezember 1969, Seite 72, Textziffer 212) feststellt: so ist vor allem für das 
 zweite Halbjahr (1970) nicht ausgeschlossen, daß es 
 zu einer Konjunkturabschwächung kommt, die über 
 jenes Maß hinausgeht, das zur Normalisierung der 
-Kapazitätsauslastung durchaus wünschenswert erscheint&quot;, kommt das WWI im Vergleich zu allen 
+Kapazitätsauslastung durchaus wünschenswert erscheint", kommt das WWI im Vergleich zu allen 
 anderen Prognosen zu einer optimistischeren Wachstumseinschätzung. Diese Prognose sprach daher eher 
 für konjunkturpolitische Dämpfungsmaßnahmen. 
-</item>
-
-<item id="4" >
 Anlage 4 
 Schriftliche Antwort 
 des Parlamentarischen Staatssekretärs Rosenthal 
@@ -2248,9 +1892,6 @@ durch spekulative Zuflüsse und damit inflationäre Übersteigerung der Binnenna
 — Devisenbannwirtschaft und damit die Einführung 
 eines Kontrollsystems, das die marktwirtschaftlichen Kräfte außer Kraft gesetzt hätte 
 Änderung des Außenwertes der DM durch Wechselkursfreigabe. 
-</item>
-
-<item id="5" >
 Anlage 5 
 Schriftliche Antwort 
 des Parlamentarischen Staatssekretärs Hermsdorf 
@@ -2258,7 +1899,7 @@ vom 4. November 1971 auf die Mündliche Frage der
 Abgeordneten Frau Funcke (FDP) (Drucksache 
 VI/2775 Frage A 29) : 
 Gibt es Überlegungen, in welcher Weise verhindert werden 
-kann, daß geringfügige Beteiligungen von Arbeitnehmern an 
+kann, daß geringfügige Beteiligungen von  Arbeitnehmern an 
 einer Personengesellschaft (Mitunternehmer) dazu führen, daß 
 deren volle Löhne und Gehälter dem zu versteuernden Gewerbeertrag zugerechnet werden und damit eine unverhältnismäßig hohe Gewerbesteuerbelastung entsteht? 
 Die Bundesregierung bereitet zwar ein Gesetz 
@@ -2273,9 +1914,6 @@ Ihnen angedeuteten Sinn zu ändern. Dies gilt um so
 mehr, als der Arbeitgeber seine Arbeitnehmer als 
 stille Gesellschafter am Betrieb beteiligen und damit 
 die in der Anfrage aufgezeigten gewerbesteuerrechtlichen Folgen vermeiden kann. 
-</item>
-
-<item id="6" >
 Anlage 6 
 Schriftliche Antwort 
 des Parlamentarischen Staatssekretärs Hermsdorf 
@@ -2311,9 +1949,6 @@ ermäßigten Steuersatz von 5,5 % nach § 12 Abs. 2
 Nr. 4 UStG 1967 in Anspruch nehmen. 
 Aus meinen Ausführungen ergibt sich, daß die 
 persönlichen Verhältnisse sowie der förderungswürdige Zweck im Gesetz ausreichend berücksichtigt sind. 
-</item>
-
-<item id="7" >
 Anlage 7 
 Schriftliche Antwort 
 des Parlamentarischen Staatssekretärs Börner vom 
@@ -2338,9 +1973,6 @@ von rd. 600 im Juni 1970 und auch noch Anfang 1971
 z. Z. rd. 2000 angestiegen. Diese ungewöhnliche 
 Zunahme der Langsamfahrstellen ist eine Folge der 
 Überlastung des Oberbaus und der deshalb notwendig gewordenen Gleisbauarbeiten. 
-</item>
-
-<item id="8" >
 Anlage 8 
 Schriftliche Antwort 
 des Parlamentarischen Staatssekretärs Börner vom 
@@ -2349,12 +1981,12 @@ Abgeordneten Dr. Aigner (CDU/CSU) (Drucksache
 1/1/2775 Fragen A 59 und 60) : 
 Ist der Bundesregierung bekannt, daß in Bayern die höchstzulässige Rehwilddichte 8 Stück pro 100 ha beträgt und daß 
 nach den vorläufigen Richtlinien des Bundesverkehrsministeriums 
-vom 28. Januar 1971, die eine Rehdichte von 12 Stü ck vorsehen, 
+vom 28. Januar 1971, die eine Rehdichte von 12 Stü ck  vorsehen, 
 in Bayern keinerlei Schutzzäune errichtet werden könnten, obwohl gerade Bayern die stärkste Unfallziffer auch in Rehwildgebieten aufweist? 
 Stimmt die Bundesregierung der Auffassung zu, daß das entscheidende Kriterium für die Unfallhäufigkeit nicht die allgemeine Wilddichte, sondern die Art der Streckenführung ist, beispielsweise die Abtrennung von Einstands- und Äsungsflächen, 
 und ist die Bundesregierung infolgedessen bereit, die vorläufigen 
 Richtlinien entsprechend abzuändern? 
-Nach den „Vorläufigen Richtlinien für die Anordnung von Wildsperrzäunen an Bundesfernstraßen&quot; 
+Nach den „Vorläufigen Richtlinien für die Anordnung von Wildsperrzäunen an Bundesfernstraßen" 
 ist für die finanzielle Beteiligung des Bundes in erster Linie der Grad der Gefährdung des Straßenverkehrs maßgebend. Die Wilddichte ist hierbei neben 
 anderen nur ein Hilfskriterium. Die Finanzierung 
 von Wildsperrzäunen mit Bundesmitteln in Bayern 
@@ -2368,9 +2000,6 @@ getroffenen Regelungen bzw. über Anregungen zur
 Verbesserung der Richtlinien zu berichten. Erst dann 
 können Überlegungen über etwaige Änderungen 
 angestellt werden. 
-</item>
-
-<item id="9" >
 Anlage 9 
 Schriftliche Antwort 
 des Parlamentarischen Staatssekretärs Börner vom 
@@ -2388,10 +2017,10 @@ im 1. Fünfjahresplan folgende größere Bundesfern
 -
 Straßenprojekte vorgesehen: 
 1. B 15 Neubau von Weiden bis Neustadt a. cl. 
-Waldnaab (Kz. 1264 lt d. Nr. 44) 
-2. BAB-Neubaustrecke Nürnberg—Amberg/Ost 
+Waldnaab (Kz. 1264 lt d.  Nr. 44) 
+2. BAB-Neubaustrecke 	 Nürnberg—Amberg/Ost 
 (Kz. 1263 lfd. Nr. 19) 
-3. BAB-Neubaustrecke Regensburg—Pfreimd 
+3. BAB-Neubaustrecke 	 Regensburg—Pfreimd 
 (Kz. 1263 lfd. Nr. 43) 
 Neben diesen aus dem 1. Fünfjahresplan ersichtlichen größeren Baumaßnahmen sind bis 1975 in der 
 nördlichen Oberpfalz eine Reihe von weiteren Ausbau- und Neubaumaßnahmen — z. B. auf der B 22 
@@ -2402,9 +2031,6 @@ Neuauflage eines Strukturprogrammes sind vorerst
 nicht vorgesehen. Jedoch werden einige Projekte in 
 der Oberpfalz — z. B. Verlegung der B 15 Weiden—Neustadt und Ausbau der B 22 Weiden-
 Erbendorf — besonders gefördert. 
-</item>
-
-<item id="10" >
 Anlage 10 
 Schriftliche Antwort 
 des Parlamentarischen Staatssekretärs Börner vom 
@@ -2429,9 +2055,6 @@ und Architekten werden ebenso wie die des Auftraggebers Deutsche Bundespost gena
 festgelegt. Damit werden Leistungen, die Kräfte 
 der Deutschen Bundespost für freischaffende Ingenieure und Architekten erbringen, grundsätzlich 
 kostenmäßig entsprechend berücksichtigt. 
-</item>
-
-<item id="11" >
 Anlage 11 
 Schriftliche Antwort 
 des Parlamentarischen Staatssekretärs Börner vom 
@@ -2447,7 +2070,7 @@ Teilt die Bundesregierung die Ansicht des Fragestellers, daß
 dieses von der Praxis in anderen Behörden abweichende Verfahren nicht hinreichend begründet ist, dem Grundsatz der 
 Gleichbehandlung widerspricht und zu Ungerechtigkeiten bei der 
 Behandlung bisheriger Stelleninhaber führen kann, zumal die 
-bisherige Bewährung auf einem angehobenen Dienstposten „gebührend berücksichtigt&quot; wird und damit hinsichtlich ihrer Bewertung von Ermessensentscheidungen abhängig gemacht wird? 
+bisherige Bewährung auf einem angehobenen Dienstposten „gebührend berücksichtigt" wird und damit hinsichtlich ihrer Bewertung von Ermessensentscheidungen abhängig gemacht wird? 
 Das trifft mit Ausnahme der nach Besoldungsgruppe A 16 und höher bewerteten Abteilungsleiterdienstposten zu. Das Verfahren ist mit den Personalvertretungen abgestimmt und bei einer so 
 personalintensiven Betriebsverwaltung wie der 
 Deutschen Bundespost geboten, um bei der Vielzahl 
@@ -2456,9 +2079,6 @@ treffen zu können. Die Auswahl unter den verschiedenen Bewerbern um einen Diens
 und Lebensalter ebenso berücksichtigt wie langjährige Erfahrung auf dem zwischenzeitlich angehobenen Dienstposten. Die Bundesregierung teilt 
 daher nicht Ihre Auffassung, das Verfahren sei nicht 
 hinreichend begründet. 
-</item>
-
-<item id="12" >
 Anlage 12 
 Schriftliche Antwort 
 des Parlamentarischen Staatssekretärs Börner vom 
@@ -2482,9 +2102,6 @@ neben den Nachrichtenagenturen auch die Zeitungen
 von der Ausgleichsgebühr zu befreien, kein geeignetes Mittel, der Presse insgesamt zu helfen. Diese 
 Befreiung käme nur bestimmten Unternehmen zugute. Sie wäre damit nicht wettbewerbsneutral, 
 sondern würde unerwünschte Konzentrationstendenzen fördern. 
-</item>
-
-<item id="13" >
 Anlage 13 
 Schriftliche Antwort 
 des Parlamentarischen Staatssekretärs Dr. von Dohnanyi vom 4. November 1971 auf die Mündlichen 
@@ -2493,8 +2110,8 @@ Fragen des Abgeordneten Dr. Jahn (Braunschweig)
 und 79) : 
 Kann die Bundesregierung Auskunft darüber geben, ob und in 
 welchem Umfang die ELDO-Versuchsanlagen im Rahmen der 
-„Deutsche Forschungs- und Versuchsanstalt für Luft- und Raumfahrt e. V.&quot; in der Außenstelle Trauen Entwicklungsarbeit für 
-den Satellitenträger „Europa II&quot; ihre Arbeit fortsetzen können, 
+„Deutsche Forschungs- und Versuchsanstalt für Luft- und Raumfahrt e. V." in der Außenstelle Trauen Entwicklungsarbeit für 
+den Satellitenträger „Europa II" ihre Arbeit fortsetzen können, 
 und damit die Arbeitsplätze der dort tätigen Mannschaft gesichert sind? 
 Kann die Bundesregierung bestätigen, daß sie erwägt, die zur 
 Zeit der ELDO gehörenden Anlagen zu erwerben, um sie einer 
@@ -2516,9 +2133,6 @@ Die Bundesregierung beabsichtigt, diese Anlagen
 zu erwerben. Die Verhandlungen mit der ELDO über 
 den Ankauf wurden bereits eingeleitet. Der Vorstand der DFVLR hat sich bereit erklärt, diese Einrichtungen zu übernehmen und dem Raumfahrttechnischen Bereich anzugliedern. Sie sollen als Dienstleistungsbereich den interessierten Ressorts zur 
 Durchführung entsprechender Programme zur Verfügung stehen. 
-</item>
-
-<item id="14" >
 Anlage 14 
 Schriftliche Antwort 
 des Parlamentarischen Staatssekretärs Dr. von 
@@ -2526,15 +2140,12 @@ Dohnanyi vom 4. November 1971 auf die Mündliche
 Frage des Abgeordneten Dr. Kotowski (CDU/CSU) 
 (Drucksache VI/2775 Frage A 83) : 
 Wie beurteilt die Bundesregierung den in der „Frankfurter 
-Allgemeinen Zeitung&quot; vom Freitag, dem 22. Oktober 1971, veröffentlichten Bericht von Ernst-Otto Maetzke: „Marxistische Vergatterung von Erstsemestern. Die Studienberatung bei den Marburger Basisgruppen&quot;? 
+Allgemeinen Zeitung" vom Freitag, dem 22. Oktober 1971, veröffentlichten Bericht von Ernst-Otto Maetzke: „Marxistische Vergatterung von Erstsemestern. Die Studienberatung bei den Marburger Basisgruppen"? 
 Die Bundesregierung mißbilligt jede einseitige 
 Beratung unter dogmatisch-marxistischen Vorzeichen. 
 Im übrigen weise ich darauf hin, daß die Praxis 
 der Studienberatung an den Hochschulen nicht in 
 die Zuständigkeit des Bundes fällt. 
-</item>
-
-<item id="15" >
 Anlage 15 
 Schriftliche Antwort 
 des Staatssekretärs Ahlers vom 4. November 1971 
@@ -2542,11 +2153,11 @@ auf die Mündliche Frage des Abgeordneten Höcherl
 (CDU/CSU) (Drucksache VI/2775 Frage A 87): 
 Welche Gründe hatte das Presse- und Informationsamt der 
 Bundesregierung, in dem von ihm herausgegebenen Dienst 
-„Ostinformation&quot; für das Weglassen gefährlicher Passagen des 
+„Ostinformation" für das Weglassen gefährlicher Passagen des 
 Artikels des Vorsitzenden des außenpolitischen Ausschusses des 
-Obersten Sowjet, Juri Schukow, in der „Prawda&quot; vom 22. September 1971? 
+Obersten Sowjet, Juri Schukow, in der „Prawda" vom 22. September 1971? 
 Ihre Frage geht von falschen Voraussetzungen 
-aus. Die „Ost-Informationen&quot; haben in Nr. 181 vom 
+aus. Die „Ost-Informationen" haben in Nr. 181 vom 
 23. September ungekürzt den TASS-Auszug und in 
 Nr. 182 vom 24. September ebenfalls ungekürzt den 
 von Radio Moskau in erheblicher Länge gesendeten 
@@ -2554,7 +2165,7 @@ Auszug des Artikels von Herrn Shukow gebracht.
 Der volle Text des Artikels lag der Redaktion erst 
 später vor, nämlich nachdem die Zeitung PRAWDA 
 im Presse- und Informationsamt eingetroffen war. 
-Da die „Ost-Informationen&quot; ein aktueller Nachrichtendienst sind, kann die Redaktion sich nur auf das 
+Da die „Ost-Informationen" ein aktueller Nachrichtendienst sind, kann die Redaktion sich nur auf das 
 jeweils ihr vorliegende Material stützen. 
 Ich benutze diese Gelegenheit, um zu erklären, 
 daß alle Redaktionen des Bundespresseamtes in voller Unabhängigkeit arbeiten und ohne Rücksicht 
@@ -2563,9 +2174,6 @@ auf den Inhalt keinerlei Einfluß, auch dann nicht,
 wenn sie selbst betroffen ist. Darin unterscheiden 
 wir uns positiv von manchen Verlagshäusern in der 
 Bundesrepublik. 
-</item>
-
-<item id="16" >
 Anlage 16 
 Schriftliche Antwort 
 des Parlamentarischen Staatssekretärs Moersch vom 
@@ -2577,7 +2185,7 @@ kann?
 Die Bundesregierung sieht im Augenblick nur sehr 
 begrenzte Möglichkeiten, die Sichtvermerkstelle in 
 Prag so einzurichten, daß sie ihre Aufgaben befriedigend erfüllen kann. Diese Sichtvermerkstelle, 
-hervorgegangen aus dem „Bureau de Circulation&quot; 
+hervorgegangen aus dem „Bureau de Circulation" 
 der dortigen französischen Botschaft, mußte von der 
 Handelsvertretung im Februar 1969 mit allen Mängeln ihrer Unterbringung übernommen werden. Es 
 handelt sich hierbei um eine Etagenwohnung, die 
@@ -2612,9 +2220,6 @@ Die Bundesregierung hat daher in den Verhandlungen klargestellt, daß die Bundes
 Friedensregelung für ganz Deutschland durch den 
 Warschauer Vertrag weder vorweggenommen noch 
 ersetzt werden kann. 
-</item>
-
-<item id="17" >
 Anlage 18 
 Schriftliche Antwort 
 des Parlamentarischen Staatssekretärs Moersch vom 
@@ -2632,9 +2237,6 @@ Hilfsmaßnahmen für pakistanische Flüchtlinge in
 Indien bereits mit einem Beitrag von 16,7 Millionen 
 DM unterstützt. Im Sinne der Empfehlung 648 werden zur Zeit substantiell vermehrte beschleunigte 
 weitere Maßnahmen zur Unterstützung der VN Aktion für die ostpakistanischen Flüchtlinge eingeleitet. 
-</item>
-
-<item id="18" >
 Anlage 19 
 Schriftliche Antwort 
 des Parlamentarischen Staatssekretärs Moersch vorn 
@@ -2642,33 +2244,30 @@ des Parlamentarischen Staatssekretärs Moersch vorn
 Frage A 92) : 
 Treffen Pressemeldungen zu, daß jugoslawische Stellen in Split 
 die Entfernung einer Abbildung des Brandenburger Tores und der 
-Leuchtschrift mit den Buchstaben „BERLIN&quot;, die auf einer Ausstellung über die deutsche Hauptstadt gezeigt wurden, verlangt 
+Leuchtschrift mit den Buchstaben „BERLIN", die auf einer Ausstellung über die deutsche Hauptstadt gezeigt wurden, verlangt 
 haben, und daß daraufhin das Bild des Brandenburger Tores 
 durch das des Ernst-Reuter-Platzes ersetzt worden ist, und wie 
 beurteilt die Bundesregierung das Eingehen der Berliner Vertreter auf das jugoslawische Ansinnen? 
 In der jugoslawischen Stadt Split fand vom 
 17. September bis 3. Oktober 1971 eine Ausstellung 
-unter dem Titel „Berlin stellt sich vor&quot; statt, die 
+unter dem Titel „Berlin stellt sich vor" statt, die 
 beim Publikum großes Interesse fand. Am Eingang 
 dieser vorn Berliner Senat organisierten Ausstellung 
-wurde ein Großfoto des im Ostsektor der Stadt gelegenen Brandenburger Tores gezeigt. Diese Abbildung sowie eine große Leuchtschrift „BERLIN&quot; 
+wurde ein Großfoto des im Ostsektor der Stadt gelegenen Brandenburger Tores gezeigt. Diese Abbildung sowie eine große Leuchtschrift „BERLIN" 
 wurden zwei Tage vor der Beendigung der Ausstellung von jugoslawischer Seite beanstandet. Um den 
 großen Erfolg der Ausstellung nicht zu gefährden, 
 entschloß sich der verantwortliche Ausstellungsleiter, die Abbildung des Brandenburger Tores von 
 ihrer exponierten Stelle und eine Schrifttafel mit 
-der Aufschrift „Berlin&quot; zu entfernen. 
+der Aufschrift „Berlin" zu entfernen. 
 Die Bundesregierung bedauert, daß dieser Vorfall nicht durch vorherige Abstimmung zwischen der 
 Ausstellungsleitung und den jugoslawischen Behörden über den Aufbau und den nicht-politischen Charakter der Ausstellung vermieden werden konnte. 
-</item>
-
-<item id="19" >
 Anlage 20 
 Schriftliche Antwort 
 des Parlamentarischen Staatssekretärs Moersch vom 
 3. November 1971 auf die Mündliche Frage des 
 Abgeordneten Dr. Wittmann (München) (CDU/CSU) 
 (Drucksache VI/2775 Frage A 93) : 
-Trifft die Meldung der „Frankfurter Allgemeinen Zeitung&quot; 
+Trifft die Meldung der „Frankfurter Allgemeinen Zeitung" 
 vom 26. Oktober 1971 zu, daß mehr als die Hälfte der Anträge 
 auf Umsiedlung in die Bundesrepublik Deutschland von den 
 polnischen Behörden abgelehnt wurde, obwohl die Antragsteller 
@@ -2679,7 +2278,7 @@ zu tun, um die polnische Seite zur Einhaltung ihrer Zusage zu
 bewegen? 
 Die Bundesregierung hält an der Überzeugung 
 fest, daß die polnische Regierung nach wie vor entschlossen ist, die in der „Information der Regierung 
-der Volksrepublik Polen&quot; gemachten Zusagen einzuhalten und zu verwirklichen. Es ist allerdings zutreffend, daß sich die Mitteilungen von Antragstellern über Ablehnungen von Ausreiseanträgen mehren. Wie hoch der Anteil der abgelehnten Anträge 
+der Volksrepublik Polen" gemachten Zusagen einzuhalten und zu verwirklichen. Es ist allerdings zutreffend, daß sich die Mitteilungen von Antragstellern über Ablehnungen von Ausreiseanträgen mehren. Wie hoch der Anteil der abgelehnten Anträge 
 im Verhältnis zur Gesamtzahl ist, läßt sich von hier 
 aus naturgemäß kaum feststellen, da diese Anträge 
 bei polnischen Behörden gestellt und von polnischen Behörden entschieden werden. Die Bundesregierung hat die aufgetretenen Probleme wiederholt gegenüber der polnischen Regierung zur 
@@ -2691,15 +2290,12 @@ der deutsch-polnischen Rotkreuz-Verhandlungen
 Rotkreuz-Gespräche sind für die Zeit vom 18. bis 
 20. November 1971 in Warschau vorgesehen. 
 
-</item>
-
-<item id="20" >
 Anlage 21 
 Schriftliche Antwort 
 des Parlamentarischen Staatssekretärs Berkhan vom 
 5. November 1971 auf die Mündliche Frage des Abgeordneten Gierenstein (CDU/CSU) (Drucksache 
 W2775 Frage A 96) : 
-Trifft die in der „Frankfurter Allgemeinen Zeitung&quot; vom 
+Trifft die in der „Frankfurter Allgemeinen Zeitung" vom 
 26. Oktober 1971 aufgestellte Behauptung zu, die Bundesregierung sei damit einverstanden, daß Abstriche an den in Europa 
 lagernden taktischen Atomwaffen vorgenommen werden könnten, 
 oder ist die Bundesregierung nicht vielmehr der Auffassung, 
@@ -2707,13 +2303,10 @@ daß darüber nur im Zusammenhang eines umfassenden Konzepts
 gesprochen werden dürfte? 
 Die Antwort auf den ersten Teil Ihrer Frage lautet 
 nein. Unter dem seit Jahren gültigen Strategischen 
-Konzept der „Flexible Response&quot;, ist das in Westeuropa lagernde nukleare Potential ein unverzichtbarer Teil im Spektrum der Abschreckung. 
+Konzept der „Flexible Response", ist das in Westeuropa lagernde nukleare Potential ein unverzichtbarer Teil im Spektrum der Abschreckung. 
 Zur zweiten Teilfrage: Nur eine Änderung der 
 Gesamtkonzeption der militärischen Strategie der 
 NATO könnte eine Änderung rechtfertigen. 
-</item>
-
-<item id="21" >
 Anlage 22 
 Schriftliche Antwort 
 des Parlamentarischen Staatssekretärs Moersch vom 
@@ -2745,16 +2338,13 @@ hat folgenden Wortlaut:
 der Südwestpresse war ich zu angeblichen Äußerungen meines Parteifreundes Rudigier über NPD 
 und CDU gefragt worden. Da ich den Sachverhalt 
 nicht kannte, lehnte ich eine Stellungnahme ab. Daraus wurde in einem Bericht Ihres Blattes der Satz: 
-,Moersch war nicht geneigt, Rudigier zu widersprechen.&apos; Sie sind sicher mit mir der Ansicht, daß 
+,Moersch war nicht geneigt, Rudigier zu widersprechen.' Sie sind sicher mit mir der Ansicht, daß 
 dies eine recht freie Art der Berichterstattung ist. 
 Tatsächlich habe ich in dem Telefongespräch sinngemäß gesagt, in einer liberalen Partei habe der 
 Vorsitzende die Meinungsfreiheit eines Abgeordneten zu respektieren. Wenn Rudigier, was ich nur 
 vermuten kann, gemeint habe, es sei äußerst bedenklich, falls die CDU, um eine absolute Mehrheit 
 mit Hilfe von bisherigen NPD-Wählern zu erhalten, 
-die Politik der NPD übernehme, so wäre das sicherlich keine sensationelle Feststellung gewesen.&quot; 
-</item>
-
-<item id="22" >
+die Politik der NPD übernehme, so wäre das sicherlich keine sensationelle Feststellung gewesen." 
 Anlage 23 
 Schriftliche Antwort 
 des Staatssekretärs Ahlers vom 29. Oktober 1971 
@@ -2772,10 +2362,10 @@ DM aufgewendet werden sollen.
 Zu Frage 1: 
 Die Bundesregierung teilt die Auffassung nicht. 
 Die Öffentlichkeitsarbeit der Bundesregierung hat 
-mit „Propaganda&quot; nichts zu tun; sie erfüllt die Aufgabe der werbenden Information. Auch für das Jahr 
-1972 werden der Bundesregierung somit keine Haushaltsmittel für „Propaganda&quot;, sondern für ihre Öffentlichkeitsarbeit zur Verfügung stehen. Meldungen, daß für diesen Zweck Ausgaben in Höhe von 
+mit „Propaganda" nichts zu tun; sie erfüllt die Aufgabe der werbenden Information. Auch für das Jahr 
+1972 werden der Bundesregierung somit keine Haushaltsmittel für „Propaganda", sondern für ihre Öffentlichkeitsarbeit zur Verfügung stehen. Meldungen, daß für diesen Zweck Ausgaben in Höhe von 
 mehr als 210 Millionen DM eingeplant seien, treffen nicht zu. 
-Die Bundesregierung hat im „Finanzplan des Bundes 1971 bis 1975&quot;, der mit Schreiben des Herrn 
+Die Bundesregierung hat im „Finanzplan des Bundes 1971 bis 1975", der mit Schreiben des Herrn 
 Bundeskanzlers vom 8. Oktober 1971 an den Herrn 
 Präsidenten des Deutschen Bundestages als Drucksache VI/2651 veröffentlicht worden ist, unter Nr. 
 5.01 ausgeführt, daß für den Aufgabenbereich des 
@@ -2785,13 +2375,13 @@ entfallen allein 72 Millionen DM auf die Öffentlichkeitsarbeit Ausland und 3 Mi
 Öffentlichkeitsarbeit für die Olympischen Spiele 
 1972. 
 Mit dem Ausgabensoll für das Informationswesen 
-sind die Aufwendungen für „Innere Sicherheit&quot; und„Volksgesundheit&quot; von der Sache her und den Ansätzen nach nicht vergleichbar. Die Bundesregierung hat gerade das Gesundheitswesen zu einem 
+sind die Aufwendungen für „Innere Sicherheit" und„Volksgesundheit" von der Sache her und den Ansätzen nach nicht vergleichbar. Die Bundesregierung hat gerade das Gesundheitswesen zu einem 
 Schwerpunkt ihrer Reformausgaben gemacht und im 
 Bereich der inneren Sicherheit ihre Anstrengungen 
 für 1972 erheblich verstärkt. Nach dem „Finanzplan 
-des Bundes 1971 bis 1975&quot; sind unter Nr. 5.06 für 
+des Bundes 1971 bis 1975" sind unter Nr. 5.06 für 
 „Öffentliche Sicherheit und Ordnung (einschließlich 
-Bundesgrenzschutz) und Rechtsschutz&quot; 687,3 Millionen DM eingeplant, das sind 92,1 Millionen DM 
+Bundesgrenzschutz) und Rechtsschutz" 687,3 Millionen DM eingeplant, das sind 92,1 Millionen DM 
 mehr als im Jahre 1971. Vor allem werden im Rahmen des Sofortprogrammes der Bundesregierung zur 
 Modernisierung und Intensivierung der Verbrechensbekämpfung die Aufwendungen für das Bundeskriminalamt gegenüber 1971 um knapp 50 v. H. 
 erhöht. 
@@ -2826,9 +2416,6 @@ gestiegen. Das Bundespresseamt mußte sich im gleichen Zeitraum mit einer Steige
 453,5 % gestiegen. Die Steigerungsrate des Ansatzes 
 für das Bundespresseamt beträgt demgegenüber 
 lediglich 59,3 % . 
-</item>
-
-<item id="23" >
 Anlage 24 
 Schriftliche Antwort 
 des Staatssekretärs Ahlers vom 29. Oktober 1971 
@@ -2841,9 +2428,6 @@ zur Verfügung stellen?
 Nach Eingang Ihrer Anfrage habe ich mich fernschriftlich an alle Ministerien mit der Bitte um Beantwortung Ihrer Anfrage gewandt. Sobald mir die 
 Beiträge der Ministerien vorliegen, werde ich 
 Ihnen schriftlich das Ergebnis mitteilen. 
-</item>
-
-<item id="24" >
 Anlage 25 
 Schriftliche Antwort 
 des Parlamentarischen Staatssekretärs Moersch vom 
@@ -2852,7 +2436,7 @@ Abgeordneten Dr. Geßner (SPD) (Drucksache VI/2775
 Fragen B 4 und 5) : 
 Trifft es zu, daß der deutsche Botschafter in Griechenland 
 schriftlich gegen die Erklärung der griechischen Regierung 
-protestiert hat, Kontakte zwischen in Athen ackreditierten Botschaftern und ehemaligen griechischen Politikern seien „unannehmbar&quot;? 
+protestiert hat, Kontakte zwischen in Athen ackreditierten Botschaftern und ehemaligen griechischen Politikern seien „unannehmbar"? 
 Wie gedenkt die Bundesregierung für den Fall zu reagieren, 
 daß die griechische Regierung versuchen würde, derartige Kontakte zu behindern bzw. zu unterbinden? 
 Nein, sicherlich nicht in dieser Form. Botschafter 
@@ -2864,9 +2448,6 @@ allen demokratischen Regierungen abgelehnt würden.
 Die Bundesregierung hat keine Veranlassung zu 
 der Annahme, daß die griechische Regierung ernsthaft versuchen wird, die Kontaktmöglichkeiten der 
 in Griechenland ackreditierten Botschafter zu beschränken, zumal sie ja der von Botschafter Limbourg vertretenen Auffassung grundsätzlich zugestimmt hat. 
-</item>
-
-<item id="25" >
 Anlage 26 
 Schriftliche Antwort 
 des Parlamentarischen Staatssekretärs Moersch vom 
@@ -2874,7 +2455,7 @@ des Parlamentarischen Staatssekretärs Moersch vom
 
 Abgeordneten Engelsberger (CDU/CSU) (Drucksache 
 VI/2775 Frage B 6) : 
-Trifft die Meldung des „Spiegel&quot; vom 18. Oktober 1971 zu, 
+Trifft die Meldung des „Spiegel" vom 18. Oktober 1971 zu, 
 daß die Bundesregierung über die geplante Moskau-Reise des 
 amerikanischen Präsidenten lediglich eine Stunde früher als die 
 Öffentlichkeit unterrichtet worden ist, und teilt bejahendenfalls 
@@ -2892,9 +2473,6 @@ Anfrage enthaltenen Folgerungen nicht zutreffen.
 Die Bundesregierung hat keinen Anlaß, über die 
 Zusammenarbeit mit der amerikanischen Regierung 
 zu klagen. 
-</item>
-
-<item id="26" >
 Anlage 27 
 Schriftliche Antwort 
 des Bundesministers Genscher vom 3. November 
@@ -2940,13 +2518,10 @@ alle Säumigen im eigenen Interesse den Bau der
 fehlenden Kläranlagen beschleunigt in die Wege 
 leiten. Durch diese Initiative der Verursacher würden auch die Maßnahmen zur Reinhaltung des Bodensees wesentlich und auf zumutbare Weise beschleunigt. 
 Am Bodensee ist jedoch über den sonst erforderlichen Umfang der vollbiologischen Abwasserreinigung hinaus noch die Beseitigung der Pflanzennährstoffe erforderlich, die eine schädliche Eutrophierung des Sees verursachen. Zu diesem Zweck sollen vollbiologische Kläranlagen im Bodenseegebiet um eine chemische Behandlungsstufe erweitert 
-werden. Wenn der See rechtzeitig vor dem „Umkippen&quot; bewahrt werden soll, müssen diese Maßnahmen sehr bald in Angriff genommen werden. Die 
+werden. Wenn der See rechtzeitig vor dem „Umkippen" bewahrt werden soll, müssen diese Maßnahmen sehr bald in Angriff genommen werden. Die 
 Bundesregierung beabsichtigt deshalb, mit dem im 
-Haushaltsgesetz 1972 vorgeschlagenen Fünfjahresleitprogramm zur „Förderung von Abwasserreinigungsanlagen von überregionaler Bedeutung am Bodensee und am Rhein&quot; die wichtigsten Anlagen mit 
+Haushaltsgesetz 1972 vorgeschlagenen Fünfjahresleitprogramm zur „Förderung von Abwasserreinigungsanlagen von überregionaler Bedeutung am Bodensee und am Rhein" die wichtigsten Anlagen mit 
 Zuschüssen zu fördern. 
-</item>
-
-<item id="27" >
 Anlage 28 
 Schriftliche Antwort 
 des Bundesministers Genscher vom 3. November 
@@ -2979,9 +2554,6 @@ besonders herausgestellt worden. Hinsichtlich der
 Verrottbarkeit von Plastikfolien und allgemein von 
 Kunststoffen ist jedoch zunächst einmal wissenschaftlich nachzuprüfen, ob die vorgenannten Untersuchungsergebnisse bestätigt werden können. Die 
 Bundesregierung läßt diese Untersuchungen durchführen. 
-</item>
-
-<item id="28" >
 Anlage 29 
 Schriftliche Antwort 
 des Parlamentarischen Staatssekretärs Dr. Bayerl 
@@ -3016,9 +2588,6 @@ im Rahmen des Europarates zu behandeln; die Vorbereitungen sind inzwischen so we
 eine Sachverständigengruppe dieses Thema voraussichtlich im Jahre 1972 beraten kann. Auch im 
 Rahmen der Europäischen Wirtschaftsgemeinschaft 
 geplante Richtlinien über den Verkehr mit Arzneimitteln können Auswirkungen auf das Haftungsrecht haben. 
-</item>
-
-<item id="29" >
 Anlage 30 
 Schriftliche Antwort 
 des Parlamentarischen Staatssekretärs Dr. Bayerl 
@@ -3080,11 +2649,8 @@ hierfür vorliegen. Weitere gesetzliche Maßnahmen
 hat die Bundesregierung in dieser Hinsicht zur Zeit 
 nicht vorgesehen. 
 Aus Ihrer zweiten Frage ist nicht zu ersehen, auf 
-welches „Gesetz gegen den Mißbrauch von Kleinstsendern&quot; sie sich beziehen soll. Sofern der erwähnte 
+welches „Gesetz gegen den Mißbrauch von Kleinstsendern" sie sich beziehen soll. Sofern der erwähnte 
 neue § 298 StGB gemeint sein soll, glaubt die Bundesregierung, daß der durch diese Vorschrift angestrebte Schutz der Privatsphäre durch die allgemeinen Mittel der Strafverfolgung in wirtschaftlich vertretbarer Weise sichergestellt ist. 
-</item>
-
-<item id="30" >
 Anlage 31 
 Schriftliche Antwort 
 des Parlamentarischen Staatssekretärs Rosenthal 
@@ -3095,7 +2661,7 @@ Hält es die Bundesregierung für notwendig, durch entsprechende Anweisungen an 
 noch nicht in ihrem Typ registrierte Waffe dem nächsten Landeskriminalamt zur Beschußprüfung zuzuleiten, und welche Maßnahmen gedenkt sie hier zu unternehmen? 
 Wennn ich Ihre Frage richtig verstehe, kommt es 
 Ihnen darauf an, zu erfahren, ob Modelle von 
-Schußwaffen, die erstmalig in die Bundesrepublik 
+Schußwaffen, die erstmalig in  die  Bundesrepublik 
 eingeführt werden, von einem Landeskriminalamt 
 überprüft werden sollten. Überlegungen in dieser 
 Richtung sind bei der Vorbereitung des vom Bundesrat inzwischen beschlossenen Entwurfs eines 
@@ -3143,9 +2709,6 @@ versetzt, nachzuprüfen, ob die einzelnen Waffen in
 das nach dem Bundeswaffengesetz vorgeschriebene 
 Waffenhandelsbuch eingetragen worden und wo sie 
 verblieben sind. 
-</item>
-
-<item id="31" >
 Anlage 32 
 Schriftliche Antwort 
 des Parlamentarischen Staatssekretärs Rosenthal 
@@ -3162,13 +2725,13 @@ Für die Förderung der marktnahen Entwicklung
 der Datenverarbeitung hat mein Haus die „Richtlinien über die Gewährung von Zuschüssen aus 
 Mitteln des Bundeshaushalts zur Förderung der 
 marktnahen technischen Entwicklung auf dem Gebiete der Elektronischen Datenverarbeitung in 
-der Bundesrepublik Deutschland&quot; Aktenzeichen — 
+der Bundesrepublik Deutschland" Aktenzeichen — 
 IV B 4 — 40 71 10/1 — vom 7. Juli 1969 und die 
 „Richtlinien über die Gewährung von Zuschüssen 
 aus Mitteln des Bundeshaushalts zur Förderung der 
 Anwendung der Elektronischen Datenverarbeitung 
 in der gewerblichen Wirtschaft der Bundesrepublik 
-Deutschland&quot; Aktenzeichen — IV A 6 — 40 71 50/21 
+Deutschland" Aktenzeichen — IV A 6 — 40 71 50/21 
 — vom 23. Juli 1970 erlassen. Der Inhalt der Richtlinien ist das Ergebnis intensiver Beratungen mit 
 sachverständigen Fachleuten aus Wirtschaft und 
 Wissenschaft. Das Bewilligungsverfahren hat sich 
@@ -3177,9 +2740,9 @@ und zukunftsorientierten Entwicklung durch den
 Bundesminister für Bildung und Wissenschaft erfolgt 
 nach den im 2. Datenverarbeitungsprogramm der 
 Bundesregierung aufgestellten Grundsätzen. 
-Der Antrag der Firma „Information durch Datenverarbeitung GmbH, 3353 Bad Gandersheim&quot; wurde 
+Der Antrag der Firma „Information durch Datenverarbeitung GmbH, 3353 Bad Gandersheim" wurde 
 im Rahmen der „Förderung der Anwendung der 
-Elektronischen Datenverarbeitung in der gewerblichen Wirtschaft&quot; gestellt. 
+Elektronischen Datenverarbeitung in der gewerblichen Wirtschaft" gestellt. 
 Dem Antrag wurde aus drei Gründen nicht stattgegeben: 
 1. Es werden nur Programmsysteme gefördert, die 
 noch nicht realisiert sind und die den Förderungszielen entsprechen. Um dieses zu erreichen, sind 
@@ -3207,20 +2770,17 @@ unzureichend.
 Ich darf in diesem Zusammenhang darauf hinweisen, daß dem o. g. Unternehmen der Rechtsweg 
 offensteht. 
 
-</item>
-
-<item id="32" >
 Anlage 33 
 Schriftliche Antwort 
 des Parlamentarischen Staatssekretärs Rosenthal 
 vom 4. November 1971 auf die Schriftliche Frage 
-des Abgeordneten Dr. Schulze-Vorberg (CDU &apos;CSU) 
+des Abgeordneten Dr. Schulze-Vorberg (CDU 'CSU) 
 (Drucksache VI/2775 Frage B 18) : 
 Kann die Bundesregierung mitteilen, welche Maßnahmen sie 
 ergriffen hat, um der wiederholt erhobenen Forderung des 
 ganzen Bundestages zu entsprechen, die der Bundeskanzler in 
 diesen Tagen erneut darstellte: „Es bleibt das Problem, daß die 
-Erhaltung der Pressefreiheit auch die Erhaltung einer ausreichenden Meinungsvielfalt notwendig macht&quot; — zumal bisher 
+Erhaltung der Pressefreiheit auch die Erhaltung einer ausreichenden Meinungsvielfalt notwendig macht" — zumal bisher 
 z. B. durch die für eine Reihe von kleinen und mittleren Zeitungsverlagen tatsächlich existenzgefährdende Erhöhung für die 
 Fernschreibstandleitungen um bis zu 500 Prozent eher der Eindruck bestehen mußte, die Konzentration im Pressewesen werde 
 von der derzeitigen Regierung gefördert? 
@@ -3245,9 +2805,6 @@ der äußeren Pressefreiheit und Sicherung der inneren Pressefreiheit unterstric
 eines Presserechtsrahmengesetzes auch einen Beitrag zur Sicherung der inneren Pressefreiheit und 
 damit zur Wahrung einer ausreichenden Meinungsvielfalt zu leisten. 
 Die Bundesregierung ist nach wie vor der Meinung, daß die Gebührenerhöhung für Fernschreibstandleitungen die Existenz von kleineren und mittleren Zeitungsverlagen nicht gefährdet. 
-</item>
-
-<item id="33" >
 Anlage 34 
 Schriftliche Antwort 
 des Parlamentarischen Staatssekretärs Logemann 
@@ -3274,9 +2831,6 @@ der Landwirtschaft nicht für die Ablieferung, sondern von vornherein für die V
 von der Prämie auf diese Weise Gebrauch machen, 
 würden nicht tragbare finanzielle Belastungen auf 
 den EWG-Haushalt zukommen. 
-</item>
-
-<item id="34" >
 Anlage 35 
 Schriftliche Antwort 
 des Parlamentarischen Staatssekretärs Logemann 
@@ -3304,9 +2858,6 @@ EWG-Ländern von Juni bis September 1971 gegenüber dem gleichen Zeitraum des Vo
 worden wäre. 
 Die Ausfuhr von Ernährungsgütern stieg im Zeitraum Juni bis August 1971 gegenüber dem Vorjahr 
 um 11 v. H. Im Vergleich dazu erhöhte sich die Ausfuhr im gewerblichen Bereich nur um 8 v. H. 
-</item>
-
-<item id="35" >
 Anlage 36 
 Schriftliche Antwort 
 des Staatssekretärs Dr. von Manger-Koenig vom 
@@ -3330,9 +2881,6 @@ ist vorgesehen, die Voraussetzungen für den Betrieb von Altenheimen in bauliche
 wirtschaftlicher Hinsicht zu regeln, eine Anzeigepflicht für alle Altenheime und eine Erlaubnispflicht 
 für Altenheime bestimmter Träger einzuführen und 
 die behördliche Überwachung sicherzustellen. 
-</item>
-
-<item id="36" >
 Anlage 37 
 Schriftliche Antwort 
 des Staatssekretärs Dr. von Manger-Koenig vom 
@@ -3345,13 +2893,10 @@ Jungmann in der Fragestunde des Deutschen Bundestages am
 22. September 1971 — Stenographischer Bericht der 134. Sitzung, 
 Seite 7857 — noch für erforderlich, nachdem auch die Deutsche 
 Krankenhausgesellschaft „die in der Öffentlichkeit genannten 
-Zahlen über die Einkommen der Oberärzte und der Assistenzärzte als nicht immer präzise wiedergegeben&quot; bezeichnet hat? 
+Zahlen über die Einkommen der Oberärzte und der Assistenzärzte als nicht immer präzise wiedergegeben" bezeichnet hat? 
 Die Antwort auf die Frage des Herrn Abgeordneten Dr. Jungmann enthielt keine Aussage darüber, 
 ob die in der Presse genannten Zahlen über Einkommensgrößen bei Assistenzärzten und Oberärzten zutreffend sind. Eine Überprüfung der Antwort 
 erscheint mir deshalb nicht notwendig. 
-</item>
-
-<item id="37" >
 Anlage 38 
 Schriftliche Antwort 
 des Staatssekretärs Dr. von Manger-Koenig vom 
@@ -3402,9 +2947,6 @@ Untersuchung des in das Zollgebiet eingehenden
 Fleisches auf Hormone und Antibiotika vorsehen. 
 Entsprechende Vorschriften zur Untersuchung der 
 Milch auf Antibiotika sind ebenfalls in Vorbereitung. 
-</item>
-
-<item id="38" >
 Anlage 39 
 Schriftliche Antwort 
 des Parlamentarischen Staatssekretärs Börner vom 
@@ -3419,7 +2961,7 @@ zu erweitern?
 Nein. Über derartige statistische Unterlagen verfügt die Bundesregierung nicht. 
 Der Bundesminister für Verkehr ist bereit, diesbezügliche Schritte einzuleiten. Ein erster Schritt 
 ist bereits unternommen. Auf Anregung des Bundesministers für Verkehr hat nämlich der Arbeitskreis 
-,, Straßenverkehrsunfallstatistik&quot; beim Statistischen 
+,, Straßenverkehrsunfallstatistik" beim Statistischen 
 Bundesamt am 12. Oktober 1971 getagt. Hierbei 
 waren auch Vertreter der Statistischen Landesämter, 
 der Innenminister der Bundesländer, des Städte- und 
@@ -3432,13 +2974,10 @@ Erweiterung des Unfallursachenkataloges durchzuführen, sie werden sonstige Verb
 Änderungen des Meldeblattes, Aufnahme der An- 
 gaben der Straßendatenbank usw. am 2./3. Dezember 1971 erörtern. 
 Bei dieser Überarbeitung könnte auch eine Erweiterung der Daten über das Kraftfahrzeug und 
-deren Aufbereitung besprochen werden. Einer endgültigen Änderung der Angaben der Straßenverkehrsunfallstatistik müssen abschließend der Arbeitskreis II „Öffentliche Sicherheit und Ordnung&quot; 
+deren Aufbereitung besprochen werden. Einer endgültigen Änderung der Angaben der Straßenverkehrsunfallstatistik müssen abschließend der Arbeitskreis II „Öffentliche Sicherheit und Ordnung" 
 (AK II) der Arbeitsgemeinschaft der Innenminister 
 der Bundesländer, d. h. letztlich die Innenminister 
 der Länder, zustimmen. 
-</item>
-
-<item id="39" >
 Anlage 40 
 Schriftliche Antwort 
 des Parlamentarischen Staatssekretärs Börner vom 
@@ -3490,9 +3029,6 @@ von hier aus vermag — für eine beschleunigte
 Durchführung des Grunderwerbs auf dem ersten 
 Streckenabschnitt der neuen Straßenverbindung 
 zwischen Echterdingen und Aich einsetzen. 
-</item>
-
-<item id="40" >
 Anlage 42 
 Schriftliche Antwort 
 des Parlamentarischen Staatssekretärs Börner vom 
@@ -3507,7 +3043,7 @@ auf meine diesen Gegenstand betreffenden Fragen am 5. Februar
 folgendes geantwortet hat: „Sie ist der Auffassung, daß mit der 
 in Wien im November 1970 getroffenen Absprache, die Revisionsarbeiten innerhalb eines Jahres zum Abschluß zu bringen, sehr 
 viel erreicht ist und eine kürzere Frist wegen des Umfangs 
-der Arbeiten nicht einzuhalten wäre.&quot;? 
+der Arbeiten nicht einzuhalten wäre."? 
 In welchen Sachbereichen liegen besondere Schwierigkeiten, 
 die zu diesen kaum verständlichen Verzögerungen geführt haben, 
 wenn man die immer unerträglicher werdenden Verhältnisse am 
@@ -3541,9 +3077,6 @@ vorhanden. Eine weitere Beschleunigung der Arbeiten — über den in meinen Ausf
 Frage B 33 angegebenen Zeitplan hinaus — wird 
 sich bei dem Umfang der zu regelnden Materie nicht 
 erreichen lassen. 
-</item>
-
-<item id="41" >
 Anlage 43 
 Schriftliche Antwort 
 des Parlamentarischen Staatssekretärs Börner vorn 
@@ -3564,9 +3097,6 @@ ist, können über den Zeitpunkt der Fertigstellung
 der B 10 bis zum Anschluß an die B 38 südlich Landau und an die B 272 noch keine Angaben gemacht 
 werden. 
 
-</item>
-
-<item id="42" >
 Anlage 44 
 Schriftliche Antwort 
 des Parlamentarischen Staatssekretärs Börner vom 
@@ -3589,9 +3119,6 @@ sich, den manchmal widerstreitenden Interessen des
 Bezirksverkehrs und des Fernverkehrs mit den Bindungen besonders in den Knoten Karlsruhe Mannheim aber auch in Neustadt (Weinstr.) und Landau 
 zu entsprechen. Sie wird darüber hinaus zum Jahresfahrplan 1972/73 prüfen, ob und welche Möglichkeiten bestehen, die Pfalz noch besser als bisher an den 
 Knoten Mannheim anzuschließen. 
-</item>
-
-<item id="43" >
 Anlage 45 
 Schriftliche Antwort 
 des Parlamentarischen Staatssekretärs Börner vom 
@@ -3610,9 +3137,6 @@ vier auf sechs Spuren die derzeitigen Immissionen
 keine Änderung erfahren werden. Bei der erforderlichen neuen Bepflanzung der Autobahnböschungen 
 wird jedoch auch auf die Belange des Immissionsschutzes Rücksicht genommen werden. Es dürfte somit zu erwarten sein, daß der Gemeinde Weilbach 
 keine neuen unzumutbaren Lärmbelästigungen entstehen. 
-</item>
-
-<item id="44" >
 Anlage 46 
 Schriftliche Antwort 
 des Parlamentarischen Staatssekretärs Börner vom 
@@ -3627,7 +3151,7 @@ derartig geförderten Straßenbaumaßnahmen in den genannten
 drei Landkreisen des Regierungsbezirks Südwürttemberg-Hohenzollern (Sitz Tübingen) können namentlich mit Angabe der Höhe 
 der anteiligen Bundesfördermittel aus dem Mineralölsteueraufkommen benannt werden? 
 Aus der Fragestellung scheint es ersichtlich zu 
-sein, daß es sich hier nicht um den sog. „Leberpfennig&quot; (= Einnahmen des Bundes aus der Straßengüterverkehrssteuer), sondern um Bundeszuwendungen für Straßenbaumaßnahmen nach Artikel 8 § 4 Steueränderungsgesetz 1966 bzw. Finanzhilfen nach dem Gemeindeverkehrsfinanzierungsgesetz handelt. 
+sein, daß es sich hier nicht um den sog. „Leberpfennig" (= Einnahmen des Bundes aus der Straßengüterverkehrssteuer), sondern um Bundeszuwendungen für Straßenbaumaßnahmen nach Artikel 8 § 4 Steueränderungsgesetz 1966 bzw. Finanzhilfen nach dem Gemeindeverkehrsfinanzierungsgesetz handelt. 
 Danach wurden seit Bestehen dieser Möglichkeit 
 an die Landkreise, Städte und Gemeinden in Baden-
 Württemberg von 1967 bis einschließlich 1971 insgesamt 357 087 000 DM für kommunalen Straßenbau aus Zuwendungen des Bundes gezahlt. 
@@ -3652,9 +3176,6 @@ Ausbau der Kreisstraße K 33:
 2 150 000 DM Gesamtkosten, 
 davon 
 Bundesanteil 1 075 000 DM 
-</item>
-
-<item id="45" >
 Anlage 47 
 Schriftliche Antwort 
 des Parlamentarischen Staatssekretärs Börner vom 
@@ -3674,15 +3195,12 @@ mit einer durch die Bauart bestimmten Höchstgeschwindigkeit von nicht mehr als 
 20 km/h) zugestimmt. Die Änderung soll im Rahmen 
 einer größeren Änderungsverordnung zur Straßenverkehrs-Zulassungs-Ordnung, die z. Z. vorbereitet 
 wird, erfolgen. 
-</item>
-
-<item id="46" >
 Anlage 48 
 Schriftliche Antwort 
 des Parlamentarischen Staatssekretärs Börner vom 
 3. November 1971 auf die Schriftlichen Fragen des 
 Abgeordneten Pfeifer (CDU/CSU) (Drucksache 
-VI/2775 Fragen B 41 und 42) : 
+VI/2775 Fragen B 41 und 42) :  
 Ist die Bundesregierung angesichts der zunehmend gefährlicher werdenden Verkehrsverhältnisse auf der B 312 zwischen 
 Reutlingen und Stuttgart bereit, ihre auf meine schriftliche 
 Frage vom 16./18. September 1970 geäußerte Haltung zu überprüfen und entsprechend den Äußerungen des Innenministers 
@@ -3710,9 +3228,6 @@ schwierigen Gelände außerordentlich hohe Aufwendungen erforderlich machen wür
 Die von Ihnen zitierten Äußerungen von Herrn 
 Innenminister Krause machten deutlich, daß die 
 Straßenbauverwaltung im Rahmen der ihr zur Verfügung stehenden Mittel alle Möglichkeiten ausschöpfen wird, um den Verkehrsablauf auf der bestehenden Bundesstraße 312 reibungsloser zu gestalten. 
-</item>
-
-<item id="47" >
 Anlage 49 
  Schriftliche Antwort 
 des Parlamentarischen Staatssekretärs Börner vom 
@@ -3735,9 +3250,6 @@ Bundesbahn auf Einstellung des Gesamtbetriebes
 der Strecke Bad Aibling—Feilnbach ist wegen der 
 besonderen Situation noch nicht entschieden. Auch 
 die in Ihren Fragen vorgebrachten Argumente müssen vor einer abschließenden Entscheidung noch besonders geprüft werden. 
-</item>
-
-<item id="48" >
 Anlage 50 
 Schriftliche Antwort 
 des Parlamentarischen Staatssekretärs Dr. von 
@@ -3756,10 +3268,7 @@ vorgelegt. Ohne diese Unterlagen und zugeordnete
 Gutachten sowie ein Votum der Reaktor-Sicherheitskommission kann im einzelnen nichts zu den 
 möglichen Auflagen gesagt werden. Allerdings ist 
 jetzt schon abzusehen, daß die zuständigen Wasserbehörden zur Vermeidung einer unzulässigen 
-Erwärmung des Mainwassers eine&quot; Rücckühlmöglichkeit über Kühltürme fordern werden. 
-</item>
-
-<item id="49" >
+Erwärmung des Mainwassers eine" Rücckühlmöglichkeit über Kühltürme fordern werden. 
 Anlage 51 
 Schriftliche Antwort 
 des Parlamentarischen Staatssekretärs Dr. von Dohnanyi vom 4. November 1971 auf die Schriftlichen 
@@ -3798,7 +3307,3 @@ hat die 150 freien Stellen zusätzlich gesperrt, da sie
 der Umstrukturierung der Forschungsanstalt große 
 Bedeutung zumißt. 
 
-</item>
-</attachement>
-</session>
-</protocol>
