@@ -2,11 +2,19 @@ package org.openlegislature.process;
 
 import static javax.xml.parsers.DocumentBuilderFactory.newInstance;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+import java.io.PrintWriter;
+import java.io.Writer;
+import java.util.Date;
 import java.util.List;
-import java.util.Map;
 import java.util.Vector;
-import java.util.concurrent.ConcurrentHashMap;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -23,7 +31,7 @@ import javax.xml.xpath.XPathExpression;
 import javax.xml.xpath.XPathExpressionException;
 import javax.xml.xpath.XPathFactory;
 
-import com.sun.org.apache.xml.internal.serialize.OutputFormat;
+import org.apache.commons.io.IOUtils;
 import org.openlegislature.util.OpenLegislatureConstants;
 import org.w3c.dom.Document;
 import org.w3c.dom.NodeList;
@@ -52,6 +60,8 @@ public class XPathQueryEngine {
     private XPathFactory xPathfactory = XPathFactory.newInstance();
     private Transformer nodePrinter;
 
+    private Writer stream;
+    
     @Inject
     public XPathQueryEngine(OpenLegislatureConstants constants) throws ParserConfigurationException, TransformerConfigurationException {
         this.constants = constants;
@@ -80,10 +90,11 @@ public class XPathQueryEngine {
         return db.parse(source);
     }
 
-    public void query(String xpath) throws XPathExpressionException, TransformerException, SAXException, IOException, ParserConfigurationException {
+    public void query(String xpath) throws Exception {
         System.out.println(fileList.size());
         XPath xpathExpr = xPathfactory.newXPath();
         XPathExpression expr = xpathExpr.compile(xpath);
+        stream = new BufferedWriter(new OutputStreamWriter(new FileOutputStream("query-results" + new Date() + ".txt", true), constants.getEncoding()));
         if (constants.isXpathInMemory()) {
             for (Document doc : docList) {
                 try {
@@ -95,6 +106,7 @@ public class XPathQueryEngine {
         } else {
             for (File file : fileList) {
                 try {
+                	stream.append(file.getName() + "\n");
                     Document doc;
                     doc = parseDocument(FACTORY.newDocumentBuilder(), file);
                     applyXPathExpression(expr, doc);
@@ -103,13 +115,16 @@ public class XPathQueryEngine {
                 }
             }
         }
+        IOUtils.closeQuietly(stream);
+        System.out.println("processing finished");
     }
 
-    private void applyXPathExpression(XPathExpression expr, Document doc) throws XPathExpressionException, TransformerException {
+    private void applyXPathExpression(XPathExpression expr, Document doc) throws XPathExpressionException, TransformerException, IOException {
         NodeList nodeList = (NodeList) expr.evaluate(doc, XPathConstants.NODESET);
         for (int i = 0; i < nodeList.getLength(); i++) {
-            nodePrinter.transform(new DOMSource(nodeList.item(i)), new StreamResult(new BufferedWriter(new PrintWriter(System.out))));
+			nodePrinter.transform(new DOMSource(nodeList.item(i)), new StreamResult(stream));
         }
+        stream.append("\n\n");
     }
 
 }
