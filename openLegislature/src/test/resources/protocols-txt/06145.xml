@@ -3,7 +3,7 @@
 Bonn, Donnerstag, den 21. Oktober 1971 
 </header>
 <agenda>
-<item id="0" >
+<item id="1" >
 Inhalt: 
 Erweiterung der Tagesordnung . . . . . 8311 A 
 Amtliche Mitteilungen . . . . . . . . 8311 B 
@@ -5056,7 +5056,7 @@ Fragestunde ist damit beendet, zugleich die heutige
 Sitzung. Ich berufe das Haus auf Freitag, den 22. Oktober, 9 Uhr. 
 Die Sitzung ist geschlossen. 
 </speech>
-<attachement>
+<attachment>
 <item id="1" >
 (Schluß der Sitzung: 14.21 Uhr.)Anlage 1 
 Liste der beurlaubten Abgeordneten 
@@ -5264,7 +5264,11 @@ Geht man von den genannten Zahlen aus, so ergibt sich für die betreffende Groß
 Spielfläche /Kind. 
 Abgesehen davon, daß bei der zitierten Quelle 
 offensichtlich nicht hinreichend zwischen Spielplätzen auf privatem Grund und auf öffentlichem Grund 
-innerhalb und außerhalb des Stadtbereiches unterschieden wird, ist somit auch durch eine Vergleichsregelung innerhalb der gleichen Quelle die Haltlosigkeit derartiger „Vergleiche&quot; eindeutig bewiesen.Anlage 3 
+innerhalb und außerhalb des Stadtbereiches unterschieden wird, ist somit auch durch eine Vergleichsregelung innerhalb der gleichen Quelle die Haltlosigkeit derartiger „Vergleiche" eindeutig bewiesen.
+</item>
+
+<item id="3" >
+Anlage 3 
 Schriftliche Antwort 
 des Parlamentarischen Staatssekretärs Dr. von 
 Dohnanyi vom 21. Oktober 1971 auf die Mündlichen 
@@ -5295,7 +5299,7 @@ den Ländern zustande kommt und hat deshalb auch
 für diesen Zweck in den Entwurf des Bundeshaushaltsplans 1972 erneut Mittel eingestellt. 
 </item>
 
-<item id="3" >
+<item id="4" >
 Anlage 4 
 Schriftliche Antwort 
 des Parlamentarischen Staatssekretärs Dr. von 
@@ -5329,7 +5333,7 @@ anbieten, um eine bessere personelle und sachliche
 Ausstattung dieser Stelle zu ermöglichen. 
 </item>
 
-<item id="4" >
+<item id="5" >
 Anlage 5 
 Schriftliche Antwort 
 des Parlamentarischen Staatssekretärs Dr. von 
@@ -5357,7 +5361,7 @@ Zusammenschluß von AVA, DFL und DVL hervorgegangene Großforschungsanstalt DFVL
 bestimmten Umfang fachlich auszubauen, nicht gegeben worden ist. 
 </item>
 
-<item id="5" >
+<item id="6" >
 Anlage 6 
 Schriftliche Antwort 
 des Parlamentarischen Staatssekretärs Dr. von 
@@ -5395,7 +5399,7 @@ Ausarbeitung anerkannte Wissenschaftler und Fachleute aus der Industrie wesentli
 und noch beteiligt sind. 
 </item>
 
-<item id="6" >
+<item id="7" >
 Anlage 7 
 Schriftliche Antwort 
 des Parlamentarischen Staatssekretärs Dr. von Dohnanyi vom 21. Oktober 1971 auf die Mündlichen 
@@ -5424,6 +5428,6 @@ Zulassungsverfahrens kann nur durch eine Vereinbarung zwischen der Kultusministe
 der Westdeutschen Rektorenkonferenz erreicht werden. 
 
 </item>
-</attachement>
+</attachment>
 </session>
 </protocol>

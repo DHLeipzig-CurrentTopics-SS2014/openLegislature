@@ -3,7 +3,7 @@
 Bonn, Donnerstag, den 4. November 1971 
 </header>
 <agenda>
-<item id="0" >
+<item id="1" >
 Inhalt: 
 Große Anfrage betr. Lage der Städte und 
 Gemeinden (Abg. Dr. Schneider [Nürnberg] und Fraktion der CDU/CSU) (Drucksachen VI/2429, VI/2600) — Fortsetzung 
@@ -5584,7 +5584,7 @@ Ich berufe die nächste Sitzung des Deutschen Bundestages auf Freitag, den 5. No
 ein. 
 Die Sitzung ist geschlossen. 
 </speech>
-<attachement>
+<attachment>
 <item id="1" >
 (Schluß der Sitzung: 14.03 Uhr.)Anlage 1 
 Liste der beurlaubten Abgeordneten 
@@ -5765,7 +5765,11 @@ sachdienlichen Hinweisen an Reporter, Korrespondenten und Redakteure von Presse,
 nicht zuletzt aufgrund der Vielzahl von Briefen aus 
 allen Kreisen der Bevölkerung, die mich täglich erreichen , daß unsere Bürger über links- und rechtsradikale Bestrebungen informiert sind. 
 In unserem Bemühen, diese Aufklärungsarbeit 
-fortzusetzen, werden wir nicht nachlassen.Anlage 5 
+fortzusetzen, werden wir nicht nachlassen.
+</item>
+
+<item id="5" >
+Anlage 5 
 Schriftliche Antwort 
 des Parlamentarischen Staatssekretärs Berkhan vom 
 3. November 1971 auf die Mündliche Frage des Abgeordneten Dr. Hauser (Sasbach) (CDU/CSU) (Drucksache VI/2775 Frage A 45) : 
@@ -5800,7 +5804,7 @@ letztlich haben wird. Es ist daher wenig sinnvoll,
 zur Zeit Teilmaßnahmen in Angriff zu nehmen. 
 </item>
 
-<item id="5" >
+<item id="6" >
 Anlage 6 
 Ergänzende Schriftliche Antwort 
 des Bundesministers Genscher vom 21. Oktober 1971 
@@ -5897,6 +5901,6 @@ zweifelhaft, ob er sich für eine Einbringung in diese
 Erzgruben überhaupt eignet.&quot; 
 
 </item>
-</attachement>
+</attachment>
 </session>
 </protocol>
