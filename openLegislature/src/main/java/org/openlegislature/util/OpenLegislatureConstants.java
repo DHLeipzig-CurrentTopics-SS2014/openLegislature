@@ -60,7 +60,7 @@ public class OpenLegislatureConstants {
 		sessionMap.put(15, 187);
 		sessionMap.put(16, 233);
 		sessionMap.put(17, 253);
-		sessionMap.put(18, 33);
+		sessionMap.put(18, 37);
 		this.clean = initBoolean(VM_PARAM_CLEAN, false);
         this.processXml = initBoolean(VM_PARAM_XML, false);
         this.xpathInMemory = initBoolean(VM_XPATH_IN_MEM, false);
