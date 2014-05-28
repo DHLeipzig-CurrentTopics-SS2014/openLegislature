@@ -61,9 +61,9 @@ public class App {
 		PdfToTxtConverterCallback pdf2txtConverter = injector.getInstance(PdfToTxtConverterCallback.class);
 		TxtToXmlConverterCallback txt2xmlConverter = injector.getInstance(TxtToXmlConverterCallback.class);
         XPathQueryEngineCallback xmlQueryEngine = injector.getInstance(XPathQueryEngineCallback.class);
-        futureFile.addCallbacks(pdf2txtConverter, new ErrorCallback("An error occured in the pdf to txt converting stage:"))
-		          .addCallbacks(txt2xmlConverter, new ErrorCallback("An error occured in the txt to xml converting stage:"))
-                  .addCallbacks(xmlQueryEngine, new ErrorCallback("An error occured in the xml query stage"));
+        futureFile.addCallbacks(pdf2txtConverter, new ThrowableCallback("An error occured in the pdf to txt converting stage:"))
+		          .addCallbacks(txt2xmlConverter, new ThrowableCallback("An error occured in the txt to xml converting stage:"))
+                  .addCallbacks(xmlQueryEngine, new ThrowableCallback("An error occured in the xml query stage"));
     }
 
     private static void startCliXPathQueryInterface(Injector injector) {
