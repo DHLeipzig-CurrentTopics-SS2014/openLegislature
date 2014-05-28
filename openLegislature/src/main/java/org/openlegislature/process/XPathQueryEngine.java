@@ -32,6 +32,8 @@ import javax.xml.xpath.XPathExpressionException;
 import javax.xml.xpath.XPathFactory;
 
 import org.apache.commons.io.IOUtils;
+import org.apache.commons.lang3.exception.ExceptionUtils;
+import org.openlegislature.util.Logger;
 import org.openlegislature.util.OpenLegislatureConstants;
 import org.w3c.dom.Document;
 import org.w3c.dom.NodeList;
@@ -91,7 +93,7 @@ public class XPathQueryEngine {
     }
 
     public void query(String xpath) throws Exception {
-        System.out.println(fileList.size());
+        Logger.getInstance().info("count of available files: " + fileList.size());
         XPath xpathExpr = xPathfactory.newXPath();
         XPathExpression expr = xpathExpr.compile(xpath);
         stream = new BufferedWriter(new OutputStreamWriter(new FileOutputStream("query-results" + new Date() + ".txt", true), constants.getEncoding()));
@@ -100,18 +102,24 @@ public class XPathQueryEngine {
                 try {
                     applyXPathExpression(expr, doc);
                 } catch (Exception e) {
-                    e.printStackTrace();
+                    Logger.getInstance().error(ExceptionUtils.getStackTrace(e));
                 }
             }
         } else {
             for (File file : fileList) {
                 try {
-                	stream.append(file.getName() + "\n");
+                	String curFilename = file.getName();
+					stream.append(curFilename + "\n");
                     Document doc;
                     doc = parseDocument(FACTORY.newDocumentBuilder(), file);
                     applyXPathExpression(expr, doc);
                 } catch (Exception e) {
-                    //e.printStackTrace();
+                	PrintWriter pw = new PrintWriter(new FileOutputStream(new File("fail-files-xpath.txt"), true));
+                	pw.println(file.toString());
+                	pw.println(ExceptionUtils.getStackTrace(e));
+                	pw.close();
+                	Logger.getInstance().error(String.format("File %s is not wellformed:", file.getName()));
+                	Logger.getInstance().error(ExceptionUtils.getStackTrace(e));
                 }
             }
         }

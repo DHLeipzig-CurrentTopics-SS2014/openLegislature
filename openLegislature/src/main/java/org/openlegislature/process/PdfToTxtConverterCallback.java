@@ -31,7 +31,7 @@ public class PdfToTxtConverterCallback implements Callback<File, File> {
 		File cleanedTxtFile = null;
 		try {
 			cleanedTxtFile = converter.processPdfWhenNotAlreadyDone(arg);
-			Logger.getInstance().info("Finished file: " + arg);
+			Logger.getInstance().debug("Finished file: " + arg);
 		} catch (IOException e) {
 			Logger.getInstance().error("Error while converting pdf to xml." + arg, e.toString());
 			throw e;
