@@ -3,6 +3,7 @@
 Bonn, Mittwoch, den 10. November 1971 
 </header>
 <agenda>
+<item id="1" >
 Inhalt: 
 Überweisung einer Vorlage an den Auswärtigen Ausschuß . . . . . . . . 8585 A 
 Amtliche Mitteilungen . . . . . . . . 8585 B 
@@ -85,7 +86,7 @@ Frage des Abg. Dr. Riedl (München)
 Wert der Leistungen der Bundeswehr 
 für die Olympischen Spiele 1972 
 Berkhan, Parlamentarischer 
-Staatssekretär . . 	 8622 C, D, 8623 A, B 
+Staatssekretär . . 8622 C, D, 8623 A, B 
 <speaker><name>Dr. Riedl (München)</name><party>CDU/CSU</party></speaker>
 <speaker><name>Wagner (Günzburg)</name><party>CDU/CSU</party></speaker>
 <speaker><name>Wende</name><party>SPD</party></speaker>
@@ -101,14 +102,14 @@ Staatssekretär . 8623 C, D, 8624 A, B, C
 <speaker><name>Dr. Hammans</name><party>CDU/CSU</party></speaker>
 Fachhochschulreife medizinisch-technischer Assistenten 
 Dr. von Dohnanyi, Parlamentarischer 
-Staatssekretär . . . 	 8624 D, 8625 B, C 
+Staatssekretär . . . 8624 D, 8625 B, C 
 <speaker><name>Dr. Hammans</name><party>CDU/CSU</party></speaker>
 <speaker><name>Frau Kalinke</name><party>CDU/CSU</party></speaker>
 <speaker><name>Dr. Jungmann</name><party>CDU/CSU</party></speaker>
 Fragen des Abg. Wolfram (SPD) :   
 Spezialisierung von Staatsanwaltschaften auf Delikte der Umweltverschmutzung 
 Dr. Bayerl, Parlamentarischer 
-Staatssekretär . . 	 8625 D, 8626 A, C, D 
+Staatssekretär . . 8625 D, 8626 A, C, D 
 <speaker><name>Wolfram</name><party>SPD</party></speaker>
 <speaker><name>Dr. Weber (Köln)</name><party>SPD</party></speaker>
 <speaker><name>Dr. Apel</name><party>SPD</party></speaker>
@@ -139,19 +140,19 @@ Fragen des Abg. Dr. Kempfler
 Vermögenswirksame Anlagen von 
 Arbeitslosen 
 Rohde, Parlamentarischer 
-Staatssekretär . . . 	 8629 D, 8630 A, B 
+Staatssekretär . . . 8629 D, 8630 A, B 
 <speaker><name>Dr. Kempfler</name><party>CDU/CSU</party></speaker>
 <speaker><name>Dr. Röhner</name><party>CDU/CSU</party></speaker>
 Vermögenswirksame Leistungen für 
 Schwerkriegsbeschädigte 
 Rohde, Parlamentarischer 
-Staatssekretär . . 	 8630 C, D, 8631 A, B 
+Staatssekretär . . 8630 C, D, 8631 A, B 
 <speaker><name>Röhner</name><party>CDU/CSU</party></speaker>
 <speaker><name>Ott</name><party>CDU/CSU</party></speaker>
 <speaker><name>Dr. Enders</name><party>SPD</party></speaker>
 Inanspruchnahme der Vorsorgeuntersuchung 
 Rohde, Parlamentarischer 
-Staatssekretär . 	 8631 B, C, D, 8632 A, B 
+Staatssekretär . 8631 B, C, D, 8632 A, B 
 <speaker><name>Dr. Enders</name><party>SPD</party></speaker>
 <speaker><name>Wolfram</name><party>SPD</party></speaker>
 Fragen des Abg. Wohlrabe (CDU/CSU) :   
@@ -167,10 +168,10 @@ Gesetz über den Kündigungsschutz für
 Mietverhältnisse über Wohnraum (Drucksache VI/2757) 
 <speaker><name>Wagner (Günzburg)</name><party>CDU/CSU</party></speaker>
 <speaker><name>Dr. Lenz (Bergstraße)</name><party>CDU/CSU</party></speaker>
-Namentliche Abstimmung 	 8674 A 
+Namentliche Abstimmung 8674 A 
 Worte der Anteilnahme für die Opfer des 
 Einsturzes der Rheinbrücke bei Koblenz 8663 B 
-Nächste Sitzung 	 8675 D 
+Nächste Sitzung 8675 D 
 Anlagen 
 Anlage 1 
 Liste der beurlaubten Abgeordneten . . 8677 A 
@@ -199,6 +200,7 @@ Frage des Abg. Dr. Wittmann (München)
 Anlage 13 
 Schriftliche Antwort auf die Mündliche 
 Frage des Abg. Bredl (SPD) betr. Anspruch der Zivildienstleistenden auf Sonderurlaub für Maßnahmen der politischen 
+</item>
 </agenda>
 <session>
 Bildung 8689 C150. Sitzung 
@@ -1479,7 +1481,7 @@ Wir würden es für eine sehr gefährliche Entwicklung halten, wenn jetzt, nachd
 der Integration, von der Sie immer reden, sondern 
 das ist Desintegration. 
 <interjection>
-(Beifall bei der SPD. 	 Abg. Franke [Osnabrück] : Polemisieren Sie gegen den FDP- 
+(Beifall bei der SPD. Abg. Franke [Osnabrück] : Polemisieren Sie gegen den FDP- 
 Parteitag?) 
 </interjection>
 Die anderen meinen — und dazu gehören wir —, 
@@ -1705,7 +1707,7 @@ wie ich glaube, keine Fraktion in diesem Hause so
 klar und eindeutig wie wir von sich behaupten 
 kann, daß sie seit 1945 für diese soziale Marktwirtschaft geschlossen eingetreten ist und die dafür notwendige untenehmerische Entscheidungsfreiheit immer sorgsam bewahrt hat. 
 <interjection>
-(Beifall bei der FDP. 	 Abg. van Delden: 
+(Beifall bei der FDP. Abg. van Delden: 
 Einschließlich Freiburg?) 
 </interjection>
 — Auch in Freiburg. Lesen Sie einmal die Presseberichte, lesen Sie einmal die Protokolle von Freiburg; 
@@ -2151,7 +2153,7 @@ Nein gestimmt. Damit sind die Anträge abgelehnt.
 Ergebnis: 
 Abgegebene Stimmen 481 und 20 Berliner Abgeordnete. 
 Davon 
-Ja: 	 234 und 8 Berliner Abgeordnete 
+Ja: 234 und 8 Berliner Abgeordnete 
 Nein: 247 und 12 Berliner Abgeordnete 
 Ja 
 CDU/CSU 
@@ -3397,7 +3399,7 @@ zum erstenmal in der Geschichte unserer Sozialordnung durchbrechen.
 Meine Damen und Herren, wir haben uns nicht 
 darauf verstehen können, diesen Antrag der Opposition zu akzeptieren. Wir gehen dabei von folgenden Überlegungen und Fragen aus. Wir meinen, daß 
 
-8614 	 Deutscher Bundestag — 6. Wahlperiode — 150, Sitzung. Bonn, Mittwoch, den 10. November 1971 
+8614 Deutscher Bundestag — 6. Wahlperiode — 150, Sitzung. Bonn, Mittwoch, den 10. November 1971 
 Dr. Nölling 
 es nicht im Interesse der leitenden Angestellten 
 läge, wenn als Konsequenz des CDU-Antrags 
@@ -3818,7 +3820,7 @@ mit Ja und 12 mit Nein gestimmt.
 Endgültiges Ergebnis: 
 Abgegebene Stimmen 484 und 20 Berliner Abgeordnete. 
 Davon 
-Ja: 	 236 und 8 Berliner Abgeordnete 
+Ja: 236 und 8 Berliner Abgeordnete 
 Nein: 246 und 12 Berliner Abgeordnete 
 Enthalten: 1 Abgeordneter 
 Ungültig: 1 Abgeordneter 
@@ -4370,7 +4372,7 @@ der Fragestunde.
 wieder eröffnet. 
 Ich rufe Punkt 1 der Tagesordnung auf: 
 Fragestunde 
-— Drucksache VI/2792 	 
+— Drucksache VI/2792 
 Wir beginnen mit den Fragen aus dem Geschäftsbereich des Bundesministers für Ernährung, 
 Landwirtschaft und Forsten. Zur Beantwortung steht 
 der Herr Parlamentarische Staatssekretär Logemann 
@@ -5646,7 +5648,7 @@ Bundesminister für Arbeit und Sozialordnung: Herr
 Kollege Dr. Kempfler, ich würde gern auch Ihre beiden Fragen gemeinsam beantworten. 
 <interjection>(Abg. Dr. Kempfler: Einverstanden!) </interjection>
 
-8630 	 Deutscher Bundestag — 6. Wahlperiode — 150, Sitzung. Bonn, Mittwoch, den 10. November 1971 
+8630 Deutscher Bundestag — 6. Wahlperiode — 150, Sitzung. Bonn, Mittwoch, den 10. November 1971 
 </speech>
 <speech>
 <speaker>
@@ -5773,7 +5775,12 @@ Bundesminister für Arbeit und Sozialordnung: Herr
 Kollege, ich bin auf Ihre konkrete Frage hinsichtlich der Anrechnung der Leistungen des Arbeitgebers eingegangen und habe darauf hingewiesen, 
 daß das in einer Rechtsverordnung geregelt werden 
 soll und daß für die Übergangszeit bis zum Inkrafttreten dieser Rechtsverordnung in einem Rundschreiben an die für die Kriegsopferversorgung zuständigen Landesbehörden das von mir genannte 
-Verfahren empfohlen worden ist.Röhner (CDU/CSU): Das heißt also, daß Sie den 
+</speech>
+<speech>
+<speaker>
+<name>Verfahren empfohlen worden istRöhner</name><party>CDU/CSU</party>
+</speaker>
+ Das heißt also, daß Sie den 
 !bisherigen Zustand als unzureichend, um nicht zu 
 sagen: ungerecht empfunden haben und ihm abhelfen wollen. 
 Darf ich noch zusätzlich danach fragen, ob sich 
@@ -8605,7 +8612,7 @@ Gegenprobe! — Stimmenthaltungen? — Bei wenigen
 Stimmenthaltungen mit großer Mehrheit angenommen.Vizepräsident Dr. Schmitt-Vockenhausen 
 Ich rufe § 85 auf. Hierzu liegt u. a. der Änderungsantrag der Fraktion der CDU/CSU in Ziffer 2 
 des Umdrucks 237 vor, auf den Sie wohl schon eingegangen sind. 
-Aber zunächst hat der Herr Abgeordnete Dichgans das Wort. 	 - 
+Aber zunächst hat der Herr Abgeordnete Dichgans das Wort. - 
 </speech>
 <speech>
 <speaker>
@@ -10410,7 +10417,7 @@ alles ist getragen von dieser Union.
 (Lebhafter Beifall bei der CDU/CSU. — 
 Abg. Dr. Marx [Kaiserslautern]: Die Linke hat ein schlechtes Gedächtnis! — Zurufe von der SPD.) 
 </interjection>
-Wir haben dann 	 übrigens in einer Verabredung 
+Wir haben dann übrigens in einer Verabredung 
 mit Ihnen (zur SPD) in der vorigen Periode — eine 
 Sachverständigenkommission unter dem Vorsitz 
 des Professors Biedenkopf gehabt. Ich kann mich 
@@ -10580,7 +10587,7 @@ hätte.
 -- Ja, meine Damen und Herren, das sind die Tatsachen. Glauben Sie, wir reden jetzt hier gegen unsere Meinung, damit Sie zu dieser Stunde was zum 
 Lachen haben?! Machen Sie dies ruhig, meine Damen 
 und Herren! 
-Wir sehen auch 	 wollen hier aber niemandem 
+Wir sehen auch wollen hier aber niemandem 
 vorgreifen —, daß dieses Gesetzgebungsverfahren 
 heute noch nicht beendet ist. So sagen wir heute 
 aus den genannten Gründen mit überwiegender 
@@ -11395,10 +11402,11 @@ Ich berufe die nächste Sitzung des Deutschen Bundestages auf Donnerstag, den 11
 10 Uhr — nicht 9 Uhr! — vormittags, ein. 
 Die Sitzung ist geschlossen. 
 </speech>
-<attachement>
+<attachment>
+<item id="1" >
 (Schluß der Sitzung: 20.53 Uhr.)Anlage 1 
 Liste der beurlaubten Abgeordneten 
-Abgeordnete (r) 	 beurlaubt bis einschließlich 
+Abgeordnete (r) beurlaubt bis einschließlich 
 Dr. Beermann 3. 12. 
 Dasch 18. 12. 
 Erhard (Bad Schwalbach) 12. 11. 
@@ -11413,7 +11421,10 @@ Strauß 12. 11.
 Dr. Tamblé 29. 11. 
 * Für die Teilnahme an Sitzungen des Europäischen Parlaments 
 ** Für die Teilnahme an Ausschußsitzungen der Beratenden Versammlung des Europarates 
-Anlage 2 	 Umdruck 232 
+</item>
+
+<item id="2" >
+Anlage 2 Umdruck 232 
 Änderungsantrag der Fraktion der CDU/CSU 
 zur zweiten Beratung des Entwurfs eines Betriebs
 -
@@ -11539,7 +11550,10 @@ Folgender Satz wird angefügt: „Der Arbeitnehmer kann verlangen, vom Betriebsr
 dem Arbeitnehmer&quot;. 
 Bonn, den 9. November 1971 
 Dr. Barzel, Stücklen und Fraktion 
-Anlage 3 	 Umdruck 233 
+</item>
+
+<item id="3" >
+Anlage 3 Umdruck 233 
 Änderungsantrag der Fraktion der CDU/CSU 
 zur zweiten Beratung des Entwurfs eines Betriebsverfassungsgesetzes — Drucksachen VI/ 1786, zu 
 VI/ 1786, VI/ 2729, zu VI/ 2729 —.Der Bundestag wolle beschließen: 
@@ -11588,7 +11602,10 @@ des Tarifvertrages eine Betriebsvereinbarung
 treten.&quot; 
 Bonn, den 9. November 1971 
 Dr. Barzel, Stücklen und Fraktion 
-Anlage 4 	 Umdruck 234 (neu) 
+</item>
+
+<item id="4" >
+Anlage 4 Umdruck 234 (neu) 
 Änderungsantrag der Fraktion der CDU/CSU 
 zur zweiten Beratung des Entwurfs eines Betriebsverfassungsgesetzes — Drucksachen VI/ 1786, 
 zu VI/ 1786, VI/ 2729, zu VI/ 2729 —. 
@@ -11680,7 +11697,7 @@ gewählten Vertreter; der Gesamtsprecherausschuß darf nicht mehr als zehn Mitgl
 an Stelle eines Gesamtsprecherausschusses auf 
 Unternehmensebene ein Sprecherausschuß gebildet werden.&quot; 
 Bonn, den 9. November 1971 
-Dr. Barzel, Stücklen und FraktionAnlage 5 	 Umdruck 235 
+Dr. Barzel, Stücklen und FraktionAnlage 5 Umdruck 235 
 Änderungsantrag der Fraktion der CDU/CSU 
 zur zweiten Beratung des Entwurfs eines Betriebsverfassungsgesetzes — Drucksache VI/ 1786, zu 
 V1/1786, VI/ 2729, zu VI/ 2729 —. 
@@ -11701,7 +11718,10 @@ angefügt: „in getrennter, geheimer Wahl nach
 den Grundsätzen der Verhältniswahl.&quot; 
 Bonn, den 9. November 1971 
 Dr. Barzel, Stücklen und Fraktion 
-Anlage 6 	 Umdruck 237 (neu) 
+</item>
+
+<item id="5" >
+Anlage 6 Umdruck 237 (neu) 
 Änderungsantrag der Fraktion der CDU/CSU 
 zur zweiten Beratung des Entwurfs eines Betriebsverfassungsgesetzes — Drucksachen VI/ 1786, zu 
 VI/ l786, VI /2729, zu VI/ 2729. 
@@ -11861,7 +11881,10 @@ ersetzt; hinter das Wort ,als&apos; wird das Wort
 ,nicht&apos; eingefügt.&quot; 
 Bonn, den 9. November 1971 
 Dr. Barzel, Stücklen und Fraktion 
-Anlage 7 	 Umdruck 236 
+</item>
+
+<item id="6" >
+Anlage 7 Umdruck 236 
 Änderungsantrag der Fraktion der CDU/CSU 
 zur zweiten Beratung des Entwurfs eines Betriebsverfassungsgesetzes — Drucksachen VI/ 1786, zu 
 VI/ 1786, VI/ 2729, zu VI/ 2729 — 
@@ -11969,7 +11992,10 @@ gemäß § 107 Abs. 2 bis 4.
 Abs. 7 findet keine Anwendung. 
 Bonn, den 9. November 1971 
 Dr. Barzel, Stücklen und Fraktion 
-Anlage 8 	 Umdruck 238 
+</item>
+
+<item id="7" >
+Anlage 8 Umdruck 238 
 Änderungsantrag der Fraktion der CDU/CSU 
 zur zweiten Beratung des Entwurfs eines Betriebsverfassungsgesetzes — Drucksachen VI/ 1786, zu 
 1786, VI/ 2729, zu VI/ 2729 — 
@@ -12225,6 +12251,9 @@ unterliegenden Unternehmen vom (Bundesgesetzblatt I S. ), bezeichneten Unternehm
 „Gesetz über die Mitbestimmung der Arbeitnehmer in Betrieb und Unternehmen&quot; ersetzt. 
 Bonn, den 9. November 1971 
 Dr. Barzel, Stücklen und Fraktion 
+</item>
+
+<item id="8" >
 Anlage 9 
 Schriftliche Antwort 
 des Parlamentarischen Staatssekretärs Dorn vom 
@@ -12258,6 +12287,9 @@ auch die Frage, ob die Berufsbezeichnung weiterhin
 in die Personenstdndsbücher einzutragen ist, mit 
 den Ländern --- die das Personenstandsgesetz nach 
 Artikel 83 des Grundgesetzes als eigene Angelegenheit ausführen erörtert werden. 
+</item>
+
+<item id="9" >
 Anlage 10 
 Schriftliche Antwort 
 des Parlamentarischen Staatssekretärs Dorn vom 
@@ -12284,6 +12316,9 @@ meinem Hause in Zusammenarbeit mit den Ländern
 angestellten Untersuchungen zur Einführung eines 
 einheitlichen Dienstpostenbewertungsverfahrens 
 auch für die Ämterbewertung verwertbare Erkenntnisse bringen werden. 
+</item>
+
+<item id="10" >
 Anlage 11 
 Schriftliche Antwort 
 des Parlamentarischen Staatsekretärs Dorn vom 
@@ -12317,6 +12352,9 @@ die Entwicklung zwischen Bund und Ländern einerseits wie auch unter den Länder
 die von allen Beteiligten angestrebte Vereinheitlichung sicherlich nicht in einem Schritte, sondern 
 nur in einem längeren Angleichungsprozeß möglich 
 sein wird. 
+</item>
+
+<item id="11" >
 Anlage 12 
 Schriftliche Antwort 
 des Bundesministers Jahn vom 10. November 1971 
@@ -12329,6 +12367,9 @@ Gründen ist dazu nicht erforderlich. Herr Staatssekretär Dr. Maassen hat gebet
 Bundespräsident hat dieser Bitte entsprochen. Ich 
 bedaure das Ausscheiden von Herrn Staatssekretär 
 Dr. Maassen, habe aber seinen Wunsch zu respektieren. 
+</item>
+
+<item id="12" >
 Anlage 13 
 Schriftliche Antwort 
 des Parlamentarischen Staatssekretärs Rohde vom 
@@ -12355,6 +12396,7 @@ dann auch für die Ersatzdienstleistenden gelten.
 
 
 
-</attachement>
+</item>
+</attachment>
 </session>
 </protocol>

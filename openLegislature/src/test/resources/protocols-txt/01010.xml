@@ -3,10 +3,11 @@
 Bonn, Donnerstag, den 29. September 1949. 
 </header>
 <agenda>
-Geschäftliche Mitteilungen 	 175D 
+<item id="1" >
+Geschäftliche Mitteilungen 175D 
 Fortsetzung der Aussprache über die Erklärung der Bundesregierung: 
 <speaker><name>Dr. Schmid</name><party>SPD</party></speaker>
-Unterbrechung der Sitzung . . 	 185D 
+Unterbrechung der Sitzung . . 185D 
 <speaker><name>Dr. Adenauer</name><public_office>Bundeskanzler</public_office></speaker>
 Erklärung der Bundesregierung über die Besprechungen mit den drei Hohen Kommissaren: 
 <speaker><name>Dr. Adenauer</name><public_office>Bundeskanzler</public_office></speaker>
@@ -17,10 +18,10 @@ Ausschuß für innergebietliche Neuordnung:
 <speaker><name>Dr. Falkner</name><party>BP</party></speaker>
 <speaker><name>Dr. Schmid</name><party>SPD</party></speaker>
 Ausschuß für Fragen der öffentlichen 
-Fürsorge 	 189B 
+Fürsorge 189B 
 <speaker><name>Dr. Kleindinst</name><party>CSU</party></speaker>
 <speaker><name>Dr. Goetzendorff</name><party>WAV</party></speaker>
-Ausschuß für Fragen des Gesundheitswesens 	 189D 
+Ausschuß für Fragen des Gesundheitswesens 189D 
 Ausschuß für Fragen der Jugendfürsorge: 
 <speaker><name>Dr. Besold</name><party>BP</party></speaker>
 <speaker><name>Frau Dr. Weber</name><party>CDU</party></speaker>
@@ -28,15 +29,15 @@ Ausschuß für Fragen der Jugendfürsorge:
 Ausschuß für Fragen der Presse, des 
 Rundfunks und des Films: 
 <speaker><name>Dr. Besold</name><party>BP</party></speaker>
-Ausschuß gemäß Artikel 15 des Grundgesetzes 	 191B 
+Ausschuß gemäß Artikel 15 des Grundgesetzes 191B 
 Ausschuß für Bau- und Bodenrecht , 
-	 191B 
+ 191B 
 Ausschuß für Kulturpolitik: 
 <speaker><name>Mayer</name><party>FDP</party></speaker>
 <speaker><name>Dr. Besold</name><party>BP</party></speaker>
 <speaker><name>Dr. Laforet</name><party>CSU</party></speaker>
 <speaker><name>Euler</name><party>FDP</party></speaker>
-Ausschuß zur Förderung von Wissenschaft und Forschung 	 192D 
+Ausschuß zur Förderung von Wissenschaft und Forschung 192D 
 Beschlußfassung über die Mitgliederzahl der 
 Ausschüsse und Verfahren zu ihrer Besetzung (Drucksachen Nr. 48 und 64) . 193A 
 <speaker><name>Schoettle</name><party>SPD</party></speaker>
@@ -44,16 +45,17 @@ Ausschüsse und Verfahren zu ihrer Besetzung (Drucksachen Nr. 48 und 64) . 193A
 <speaker><name>Dr. Miessner</name><party>NR</party></speaker>
 <speaker><name>Dr. Reismann</name><party>Z</party></speaker>
 <speaker><name>Euler</name><party>FDP</party></speaker>
-Dr. von Brentano 	 195B, 198D 
+Dr. von Brentano 195B, 198D 
 <speaker><name>Loritz</name><party>WAIT</party></speaker>
 <speaker><name>Dr. Merkatz</name><party>DP</party></speaker>
 <speaker><name>Renner</name><party>KPD</party></speaker>
 <speaker><name>Dr. Seelos</name><party>BP</party></speaker>
 <speaker><name>Kinat</name><party>SPD</party></speaker>
-Unterbrechung der Sitzung . . 	 202C 
+Unterbrechung der Sitzung . . 202C 
 <speaker><name>Dr. Schäfer</name><party>FDP</party></speaker>
 <speaker><name>Dr. Miessner</name><party>NR</party></speaker>
-Nächste Sitzung 	 202D, 203C, D 
+Nächste Sitzung 202D, 203C, D 
+</item>
 </agenda>
 <session>
 Die Sitzung wird um 14 Uhr 10 Minuten durch 
@@ -792,7 +794,7 @@ anfangen.
 <interjection>(Sehr richtig!) </interjection>
 Wir können auch nichts anfangen mit einer neuesten Tradition des Wilhelmstraßenfortsatzes: mit 
 
-182 	 Deutscher Bundestag — 10. Sitzung. Bonn, Donnerstag, den 29. September 1949 
+182 Deutscher Bundestag — 10. Sitzung. Bonn, Donnerstag, den 29. September 1949 
 <interjection>(Dr. Schmid) </interjection>
 den Abendlandrezepten im Sinne einer Option für 
 die Politik westlicher Staaten, indem man Deutschland zum Instrument dieser Politik anbietet. 
@@ -1115,7 +1117,13 @@ Präsident, ob ich noch weiterreden darf?
 einverstanden, daß der Herr Abgeordnete noch fünf 
 Minuten spricht? 
 <interjection>(Zustimmung.) </interjection>
-— Danke schön.Dr. Schmid (SPD): Danke! 
+— Danke schön.
+</speech>
+<speech>
+<speaker>
+<name>Dr. Schmid</name><party>SPD</party>
+</speaker>
+ Danke! 
 Ich habe zu meinem Bedauern feststellen müssen, 
 daß die Bemerkungen, die der Herr Bundeskanzler 
 über das Saargebiet gemacht hat, in der im Bundesanzeiger abgedruckten Regierungserklärung 
@@ -1564,7 +1572,7 @@ ist nicht der Fall. Dann schließe ich die Beratung.
 Wer für den interfraktionellen Antrag Drucksache Nr. 45, betreffend Einsetzung von Ausschüssen, ist, den bitte ich, die Hand zu erheben. — 
 Danke. Ich bitte um die Gegenprobe. — Mit überwältigender Mehrheit angenommen. 
 Meine Damen und Herren, wir kommen damit 
-zu Punkt 3 der Tagesordnung: 	 
+zu Punkt 3 der Tagesordnung: 
 Anträge der Fraktionen auf Bildung von 
 Ausschüssen. 
 Auf Grund interfraktioneller Besprechungen 
@@ -2516,7 +2524,7 @@ Wer für diesen ersten Teil des Antrags ist, — —
 </speech>
 <speech>
 <speaker>
-<name>Dr. Brentano</name><party>CDU</party>
+<name>Dr. von Brentano</name><party>CDU</party>
 </speaker>
  Zur Abstimmung! Ich 
 glaube, wenn Sie den Antrag halb verlesen, müssen 
@@ -2995,7 +3003,7 @@ Brentano.
 </speech>
 <speech>
 <speaker>
-<name>Dr. Brentano</name><party>CDU</party>
+<name>Dr. von Brentano</name><party>CDU</party>
 </speaker>
  Meine Damen und 
 Herren! Ich glaube, das gesamte Haus hat mit 
@@ -3055,7 +3063,7 @@ Merkatz.
 </speech>
 <speech>
 <speaker>
-<name>Dr. Merkatz</name><party>DP</party>
+<name>Dr. von Merkatz</name><party>DP</party>
 </speaker>
  Namens der Fraktion 
 der Deutschen Partei stelle ich den Antrag auf 
@@ -3709,11 +3717,5 @@ Haben die anderen Fraktionen Wünsche? — Das
 ist nicht der Fall. 
 Die Sitzung ist geschlossen. 
 </speech>
-<attachement>
-(Schluß der Sitzung: 19 Uhr 56 Minuten.) 
-
-
-
-</attachement>
 </session>
 </protocol>

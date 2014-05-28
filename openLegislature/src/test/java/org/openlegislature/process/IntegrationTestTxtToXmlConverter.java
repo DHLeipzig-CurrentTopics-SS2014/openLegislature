@@ -24,6 +24,7 @@ public class IntegrationTestTxtToXmlConverter {
     @Parameterized.Parameters(name = "test for protocol: {0}")
     public static Iterable<Object[]> initParams() {
         return Arrays.asList(new Object[][]{
+                {"src/test/resources/protocols-txt/18023", "target/test-classes/18023.xml"},
                 {"src/test/resources/protocols-txt/01010", "target/test-classes/01010.xml"},
                 {"src/test/resources/protocols-txt/02002", "target/test-classes/02002.xml"},
                 {"src/test/resources/protocols-txt/03006", "target/test-classes/03006.xml"},

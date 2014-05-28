@@ -3,10 +3,12 @@
 Bonn, Montag, den 12. September 1949. 
 </header>
 <agenda>
+<item id="1" >
 Eidesleistung des Bundespräsidenten . . . 9A 
 Ansprache des Bundespräsidenten Dr. Heuss 9C 
 Schlußworte des Präsidenten Dr. Köhler . 11D 
 Die Sitzung wird um 19 Uhr 18 Minuten durch 
+</item>
 </agenda>
 <session>
 den Präsidenten Dr. Köhler eröffnet. 
@@ -123,7 +125,7 @@ Was ist denn das Amt des Präsidenten der Deutschen Bundesrepublik? Es ist bis j
 an ein Amt, das mit einem Menschentum gefüllt 
 ist. Und die Frage ist nun, wie wir, wir alle zu- 
 
-10 	 Deutscher Bundestag — 2. Sitzung. 
+10 Deutscher Bundestag — 2. Sitzung. 
 Bonn, Montag, den 12. September 1949 
 <interjection>(Bundespräsident Dr. Heuss) </interjection>
 asammen, 
@@ -288,10 +290,5 @@ Wir werden nunmehr den Herrn Bundespräsidenten hinausgeleiten.
 Ich schließe die Sitzung. 
 (Schluß der Sitzung: 19 Uhr 43 Minuten.) 
 </speech>
-<attachement>
-
-
-
-</attachement>
 </session>
 </protocol>
