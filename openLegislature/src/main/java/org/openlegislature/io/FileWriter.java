@@ -1,10 +1,13 @@
 package org.openlegislature.io;
 
-import java.io.*;
-import java.util.Collection;
+import java.io.BufferedWriter;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.OutputStreamWriter;
+import java.io.Writer;
 
 import org.apache.commons.io.IOUtils;
-import org.openlegislature.util.Helpers;
 
 /**
  *

@@ -6,9 +6,9 @@ import java.net.MalformedURLException;
 import java.util.concurrent.ExecutorService;
 
 import org.apache.commons.validator.routines.UrlValidator;
-import org.openlegislature.App;
 import org.openlegislature.util.Helpers;
 import org.openlegislature.util.Logger;
+import org.openlegislature.util.OpenLegislatureConstants;
 
 import com.google.inject.Inject;
 import com.stumbleupon.async.Deferred;
@@ -27,6 +27,9 @@ public class BundestagDownloader {
 	
 	@Inject
 	private ExecutorService e;
+	
+	@Inject
+	private OpenLegislatureConstants constants;
 
 	@Inject
 	public BundestagDownloader() {}
@@ -45,7 +48,7 @@ public class BundestagDownloader {
 			public void run() {
 				Thread.currentThread().setName(String.format("DownloaderThread for period %d and session %d", period, session));
 				try {
-					d.callback(downloadProtocols(period, session));
+					d.callback(downloadProtocolIfNotAlreadyDone(period, session));
 					Logger.getInstance().debug("Downloaded successfully finished");
 				} catch (IOException e) {
 					d.callback(e);
@@ -56,10 +59,10 @@ public class BundestagDownloader {
 		return d;
 	}
 	
-	private File downloadProtocols(int period, int session) throws IOException {
+	private File downloadProtocolIfNotAlreadyDone(int period, int session) throws IOException {
 		String p = createPeriodReplaceable(period);
 		String s = createSessionReplaceable(session);
-		String path = Helpers.getUserDir() + App.BUNDESTAG_DEFAULT_DIR + "/" + p;
+		String path = constants.getPersistenceDir() + "/" + p;
 		createPathIfNeeded(path);
 		String filePath = createPdfFilePath(p, s, path);
 		File file = new File(filePath);

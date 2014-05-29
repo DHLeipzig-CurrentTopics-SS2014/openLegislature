@@ -22,7 +22,6 @@ import com.sun.syndication.feed.synd.SyndFeed;
 import com.sun.syndication.io.FeedException;
 import com.sun.syndication.io.SyndFeedInput;
 import com.sun.syndication.io.XmlReader;
-import sun.misc.IOUtils;
 
 /**
  *
@@ -30,9 +29,6 @@ import sun.misc.IOUtils;
  * @version 0.0.2
  */
 public class App {
-	public static final String BUNDESTAG_DEFAULT_DIR = "/data/bundestag";
-	private static final String BUNSTAG_PROTOKOLL_RSS = "http://www.bundestag.de/rss_feeds/plenarprotokolle.rss";
-
 	public static void main(String[] args) throws InterruptedException, IOException {
 		downloadProtocolsIfNeeded();
 		updateProtocols();
@@ -104,14 +100,14 @@ public class App {
 	}
 
 	private static File bundestagDir() {
-		return new File(Helpers.getUserDir() + BUNDESTAG_DEFAULT_DIR);
+		return new File(Helpers.getUserDir() + OpenLegislatureConstants.BUNDESTAG_DEFAULT_DIR);
 	}
 
 	private static List<String> checkBundestagRSS() {
 		List<String> protocols = new ArrayList<>();
 
 		try {
-			XmlReader xmlReader = new XmlReader(new URL(App.BUNSTAG_PROTOKOLL_RSS));
+			XmlReader xmlReader = new XmlReader(new URL(OpenLegislatureConstants.BUNSTAG_PROTOKOLL_RSS));
 			SyndFeed syndFeed = new SyndFeedInput().build(xmlReader);
 
 			Collection<?> syndEntries = syndFeed.getEntries();
