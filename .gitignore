@@ -12,5 +12,12 @@
 *.nav
 *.out
 *.snm
+*.bbl
+*blx.bib
+*.bcf
+*.blg
+*run.xml
+*.bst
+*.tex.blg
 *.synctex.gz
 *.toc
