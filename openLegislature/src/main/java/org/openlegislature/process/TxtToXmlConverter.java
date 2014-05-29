@@ -1,11 +1,22 @@
 package org.openlegislature.process;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+import java.io.Writer;
+import java.util.regex.Pattern;
 
-import com.google.inject.Inject;
 import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang3.StringEscapeUtils;
+import org.openlegislature.util.Logger;
 import org.openlegislature.util.OpenLegislatureConstants;
+
+import com.google.inject.Inject;
 
 public class TxtToXmlConverter {
 	private static final String[] publicoffices = { "sekretär","kanzler", "Präsident", "Schriftführer", "minister", "Staatssekretär", "Berichterstatter",
@@ -297,7 +308,8 @@ public class TxtToXmlConverter {
 			IOUtils.closeQuietly(writer);
 			IOUtils.closeQuietly(in);
 		}
-		System.out.println("File: " + zuparsen + "\n name: " + testname + "\n office: " + testoff + "\n Party: " + testpart + "\n");
+		Logger.getInstance().debug("File: " + zuparsen + "\n name: " + testname + "\n office: " + testoff + "\n Party: " + testpart + "\n");
+		Logger.getInstance().info(String.format("Finished %s successfully", outputFile.getName()));
 		return outputFile;
 	}
 	
@@ -319,9 +331,11 @@ public class TxtToXmlConverter {
 			if(part[0].matches(anhaenge[i])){
 				beginAnhang=2;
 			}
-			if(part[1].matches(anhaenge[i])&&part[0].matches("Der")){
-				beginAnhang=3;
-				break;
+			if(part[0].matches("Der")){
+				if(part.length == 2 && part[1].matches(anhaenge[i])){
+					beginAnhang=3;
+					break;
+				}
 			}
 		}
 		
@@ -340,20 +354,20 @@ public class TxtToXmlConverter {
 				for (int j = beginAnhang; j < part.length; j++) {
 					if (part[j].contains(publicoffices[i])&&found==false) {
 						//writeXml(writer, speakerAtt(teil, part[j]));
-						teil = teil.replaceFirst(part[j], "");
+						teil = teil.replaceFirst(Pattern.quote(part[j]), "");
 						found = true;
 						pub=part[j];
 						index=j;
 						continue;
 					}
 					if(found&&j==index+1&&(part[j].matches("für")||part[j].matches("im")||part[j].matches("des")||part[j].matches("der")||part[j].matches("beim"))){
-						teil = teil.replaceFirst(part[j], "");
+						teil = teil.replaceFirst(Pattern.quote(part[j]), "");
 						pub+=" "+part[j];
 						fur=true;
 						continue;
 					}
 					if(fur&&j>=index+2){
-						teil = teil.replaceFirst(part[j], "");
+						teil = teil.replaceFirst(Pattern.quote(part[j]), "");
 						pub+=" "+part[j];
 						continue;
 					}

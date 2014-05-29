@@ -78,7 +78,7 @@ public class IntegrationTestTxtToXmlConverter {
     @Test
     public void testParseXml() throws Exception {
         DocumentBuilder builder = factory.newDocumentBuilder();
-        System.out.println(builder.parse(new FileInputStream(resultFile)));
+        builder.parse(new FileInputStream(resultFile));
     }
 
 }
