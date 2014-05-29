@@ -288,12 +288,12 @@ public class TxtToXmlConverter {
 		neu = neu.replace(".txt", ".xml");
 		File outputFile = new File(neu);
         if(constants.isProcessXml()){
-            return convertToXml(zuparsen, outputFile);
-        } else if(outputFile.exists()){
-			return outputFile;
-		} else {
-			return convertToXml(zuparsen, outputFile);
-		}
+            outputFile = convertToXml(zuparsen, outputFile);
+        } else if(!outputFile.exists()) {
+			outputFile = convertToXml(zuparsen, outputFile);
+		} 
+        Logger.getInstance().info(String.format("Finished %s successfully", outputFile.getName()));
+        return outputFile;
 	}
 	
 	File convertToXml(File zuparsen, File outputFile) throws IOException {
@@ -309,7 +309,6 @@ public class TxtToXmlConverter {
 			IOUtils.closeQuietly(in);
 		}
 		Logger.getInstance().debug("File: " + zuparsen + "\n name: " + testname + "\n office: " + testoff + "\n Party: " + testpart + "\n");
-		Logger.getInstance().info(String.format("Finished %s successfully", outputFile.getName()));
 		return outputFile;
 	}
 	
