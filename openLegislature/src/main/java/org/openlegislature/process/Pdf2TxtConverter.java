@@ -108,7 +108,7 @@ public class Pdf2TxtConverter {
 	private String clean(String doc) {
 		Matcher m = INDENTION_PATTERN.matcher(doc);
 		while (m.find()) {
-			doc = doc.replaceAll(m.group(), m.group(2));
+			doc = doc.replaceAll(m.group(), m.group(3));
 		}
 		doc = doc.replaceAll("kk", "ck");
 		doc = doc.replaceAll("\\([ABCD]\\)", "");
