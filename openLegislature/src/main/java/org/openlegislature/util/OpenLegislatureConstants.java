@@ -17,6 +17,7 @@ import com.google.inject.Singleton;
 @Singleton
 public class OpenLegislatureConstants {
 	
+	private static final String MONGO_COL_DEFAULT_NAME = "plenarprotokolle";
 	private static final String PREFIX = "openlegislature";
 	private static final String VM_PARAM_CLEAN = PREFIX + ".clean";
 	private static final String VM_PARAM_MAXPERIOD = PREFIX + ".maxPeriod";
@@ -27,6 +28,7 @@ public class OpenLegislatureConstants {
 	private static final String VM_PARAM_ENCODING = PREFIX + ".encoding";
 	private static final String VM_XPATH_IN_MEM = PREFIX + ".xpathinmemory";
 	private static final String VM_PARAM_PERSISTENCE_DIR = PREFIX + ".persistenceDir";
+	private static final String VM_PARAM_MONGO_COL = PREFIX + ".mongoCol";
     
 	private static final String DEFAULT_ENCODING = "UTF-8";
     public static final String BUNDESTAG_DEFAULT_DIR = "/data/bundestag";
@@ -42,7 +44,7 @@ public class OpenLegislatureConstants {
 	private int threadIdleTime;
     private String encodingName;
 	private String persistenceDir;
-    
+    private String collectionName;
     
 	@Inject
 	public OpenLegislatureConstants() {
@@ -72,6 +74,8 @@ public class OpenLegislatureConstants {
         this.xpathInMemory = initBoolean(VM_XPATH_IN_MEM, false);
         String encoding = System.getProperty(VM_PARAM_ENCODING);
         this.encodingName = encoding == null ? DEFAULT_ENCODING : encoding;
+        String col = System.getProperty(VM_PARAM_MONGO_COL);
+        this.collectionName = col == null ? MONGO_COL_DEFAULT_NAME : col;
         initPersistenceDir();
 		maxThreads = Helpers.initparamInt(4, VM_PARAM_MAXTHREADS);
         Logger.getInstance().debug("Constant-Values:");
@@ -137,5 +141,9 @@ public class OpenLegislatureConstants {
 
 	public String getPersistenceDir() {
 		return persistenceDir;
+	}
+	
+	public String getCollectionName() {
+		return collectionName;
 	}
 }

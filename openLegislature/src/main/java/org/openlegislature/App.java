@@ -16,6 +16,7 @@ import org.openlegislature.util.Logger;
 import org.openlegislature.util.OpenLegislatureConstants;
 
 import com.google.inject.Injector;
+import com.stumbleupon.async.Callback;
 import com.stumbleupon.async.Deferred;
 import com.sun.syndication.feed.synd.SyndEntry;
 import com.sun.syndication.feed.synd.SyndFeed;
@@ -57,8 +58,10 @@ public class App {
 		PdfToTxtConverterCallback pdf2txtConverter = injector.getInstance(PdfToTxtConverterCallback.class);
 		TxtToXmlConverterCallback txt2xmlConverter = injector.getInstance(TxtToXmlConverterCallback.class);
         XPathQueryEngineCallback xmlQueryEngine = injector.getInstance(XPathQueryEngineCallback.class);
-        futureFile.addCallbacks(pdf2txtConverter, new ThrowableCallback("An error occured in the pdf to txt converting stage:"))
+        Callback<File, File> xmlToMongo = injector.getInstance(XmlToMongoCallback.class);
+		futureFile.addCallbacks(pdf2txtConverter, new ThrowableCallback("An error occured in the pdf to txt converting stage:"))
 		          .addCallbacks(txt2xmlConverter, new ThrowableCallback("An error occured in the txt to xml converting stage:"))
+		          .addCallbacks(xmlToMongo, new ThrowableCallback("mongo db load failed"))
                   .addCallbacks(xmlQueryEngine, new ThrowableCallback("An error occured in the xml query stage"));
     }
 
