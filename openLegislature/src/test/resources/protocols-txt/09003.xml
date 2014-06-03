@@ -6,9 +6,15 @@ Bonn, Mittwoch, den 5. November 1980
 <item id="1" >
 Inhalt: 
 Eidesleistung des Bundeskanzlers 
-Präsident Stücklen 15A 
+<speaker><name>Stücklen</name><public_office>Präsident</public_office></speaker>
+</item>
+<item id="2" >
 <speaker><name>Schmidt</name><public_office>Bundeskanzler</public_office></speaker>
-Nächste Sitzung 15 D 
+</item>
+<item id="3" >
+Nächste Sitzung 
+</item>
+<item id="4" >
 Anlage 
 </item>
 </agenda>
