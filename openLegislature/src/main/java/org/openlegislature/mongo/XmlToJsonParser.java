@@ -25,12 +25,19 @@ public class XmlToJsonParser {
 		return XML.toJSONObject(content);
 	}
 	
-	public void writeToMongo(String collection, JSONObject json){
-		new MongoCon().insert(collection, json.toString());
+	public void writeToMongo(String collection, JSONObject json) {
+		//new MongoCon().insert(collection, json.toString());
 	}
 	
 	public void process(String colName, File xmlFile) throws JSONException, IOException {
-		writeToMongo(colName, parseXml(xmlFile));
+		if( xmlFile !=null){
+			JSONObject json = parseXml(xmlFile);
+			if(json !=null){
+				//writeToMongo(colName, json);
+				MongoCon.getInstance().insert(colName, json.toString());
+			}
+			
+		}
 	}
 	
 	private String readFile(String filepath){

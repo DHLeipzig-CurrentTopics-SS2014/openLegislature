@@ -9,6 +9,7 @@ import java.util.List;
 import java.util.Scanner;
 
 import org.apache.commons.validator.routines.UrlValidator;
+import org.openlegislature.mongo.MongoCon;
 import org.openlegislature.process.*;
 import org.openlegislature.util.GuiceInjectorRetriever;
 import org.openlegislature.util.Helpers;
@@ -31,8 +32,10 @@ import com.sun.syndication.io.XmlReader;
  */
 public class App {
 	public static void main(String[] args) throws InterruptedException, IOException {
+		MongoCon.getInstance().connect("");
 		downloadProtocolsIfNeeded();
 		updateProtocols();
+		MongoCon.getInstance().disconnect();
 	}
 
 	private static void downloadProtocolsIfNeeded() {

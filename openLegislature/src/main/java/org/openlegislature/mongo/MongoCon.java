@@ -3,6 +3,8 @@ package org.openlegislature.mongo;
 import java.net.UnknownHostException;
 import java.util.ArrayList;
 
+import org.json.JSONObject;
+
 import com.mongodb.BasicDBObject;
 import com.mongodb.DB;
 import com.mongodb.DBCollection;
@@ -13,6 +15,41 @@ import com.mongodb.MongoException;
 import com.mongodb.util.JSON;
 
 public class MongoCon {
+	private static MongoCon instance;
+	private DB db;
+
+	private MongoCon() {}
+
+	public synchronized static MongoCon getInstance() {
+		if ( instance == null )
+			instance = new MongoCon();
+
+		return instance;
+	}
+
+	public synchronized void connect(String host) throws UnknownHostException {
+		if ( this.db != null )
+			return;
+
+		MongoClient mongoClient = new MongoClient( "localhost" , 27017 );
+		this.db = mongoClient.getDB( "local" );
+	}
+
+	public synchronized void disconnect() {
+		if ( this.db == null )
+			return;
+
+		this.db = null;
+	}
+
+	public synchronized void insert( String colname,String json) {
+		if ( this.db == null )
+			return;
+		DBObject dbObject = (DBObject) JSON.parse(json);
+		DBCollection collection = db.getCollection(colname);
+		collection.insert(dbObject);
+
+	}
 
 	public ArrayList<BasicDBObject> query(String collection , BasicDBObject query){
 		ArrayList<BasicDBObject> list = new ArrayList<BasicDBObject>();
@@ -69,7 +106,7 @@ public class MongoCon {
 		return db;
 	}
 	
-	public boolean insert(String col, String json){
+	private boolean insertOld(String col, String json){
 		try {
 			 
 			DB db = createDBConnection();
