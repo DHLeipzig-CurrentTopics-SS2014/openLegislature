@@ -611,7 +611,10 @@ public class TxtToXmlConverter {
 				}
 				String pub=publicoff(zeilevor, false);
 				if(pub.length()>0){
-					writeXml(writer, "</speech>\n"+pub);
+					if(change){
+						writeXml(writer, "</speech>\n"+pub);
+					}
+					else{writeXml(writer, pub);}
 				} else {
 					String scribe = speaker(zeile.substring(0, zeile.indexOf(":")));
 					if (change) {writeXml(writer, "</speech>\n" + scribe);}
