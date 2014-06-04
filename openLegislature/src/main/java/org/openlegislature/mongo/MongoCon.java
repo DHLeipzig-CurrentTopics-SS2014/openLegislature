@@ -19,6 +19,7 @@ public class MongoCon {
 		
 		try {
 			DB db = createDBConnection();
+			
 		
 			DBCollection coll = db.getCollection(collection);
 			DBCursor cursor = coll.find( query);
@@ -86,7 +87,7 @@ public class MongoCon {
 				System.out.println(cursorDoc.next());
 			}
  			*/
-			System.out.println("Done");
+			//System.out.println("Done");
  			
 		} catch (UnknownHostException e) {
 			e.printStackTrace();
