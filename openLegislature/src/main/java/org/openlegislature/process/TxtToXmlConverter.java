@@ -50,6 +50,7 @@ public class TxtToXmlConverter {
     }
 
     private String speakerAtt(String spline) {
+    	
 		return speakerAtt(spline, "");
 	}
 
@@ -78,7 +79,7 @@ public class TxtToXmlConverter {
 		String party = "";
 		line = line.replaceAll(" \\.", "");
 		line = line.replaceAll("   *", " ");
-		line = line.replaceAll("[ ,]?[0-9][0-9][0-9][0-9]* ?[A-ZÖÄÜ]? ?", "");
+		//line = line.replaceAll("[ ,]?[0-9][0-9][0-9][0-9]* ?[A-ZÖÄÜ] ?", "");
 		line = line.replaceAll("\\'", "");
 		line = line.replaceAll("\\s?-\\s?", "-");
 		line = line.replaceAll("Antrag[a-zäöü]*", "");
@@ -395,6 +396,8 @@ public class TxtToXmlConverter {
 		boolean sitzung = false;
 		boolean berichtigung=false;
 		boolean anlage = false;
+		boolean anlageAtt = false;
+
 		while ((zeile = in.readLine()) != null) {
 			zeile = zeile.replaceAll("\\s+", " ");
 			zeile = zeile.replaceAll("Parteilos", "PARTEILOS");
@@ -424,7 +427,7 @@ public class TxtToXmlConverter {
 				count++;
 				continue;
 			}
-
+			
 			if (count == 2 && zeile.matches(".*N.chste Sitzung.*Sitzung.*")) {
 				String part = zeile.substring(0, zeile.lastIndexOf("Sitzung"));
 				String part2 = zeile.substring(zeile.lastIndexOf("Sitzung"), zeile.length());
@@ -438,8 +441,14 @@ public class TxtToXmlConverter {
 				continue;
 			}
 			if (count == 2 && zeile.matches(".*N.chste Sitzung.*")) {
+				zeile = zeile.replaceAll("[1-9][0-9]* ?[A-ZÖÄÜ] ?", "");
+				zeile = zeile.replaceAll(" \\.", " ");
+				zeile = zeile.replaceAll("\\s+", " ");
 				count++;
 				writeXml(writer, escapeString(zeile + "\n"));
+				writeXml(writer, String.format("%s\n", createClosingTagFrom(ITEM))
+						+ String.format("<%s id=\""+id+"\" >\n", ITEM));
+				id++;
 				continue;
 			}
 
@@ -452,7 +461,13 @@ public class TxtToXmlConverter {
 			if (count == 3 && zeile.matches(".*Sitzung.*")) {
 				count++;
 				id=1;
-				writeXml(writer, "</item>\n</agenda>\n<session>\n" + escapeString(zeile) + "\n");
+				if(anlageAtt){
+					writeXml(writer, "</item>\n</attachment>\n</agenda>\n<session>\n" + escapeString(zeile) + "\n");
+					anlageAtt=false;
+				}
+				else{
+					writeXml(writer, "</item>\n</agenda>\n<session>\n" + escapeString(zeile) + "\n");
+				}
 				continue;
 			}
 			if (count == 2 && zeile.matches(".*Sitzung.*")) {
@@ -464,6 +479,55 @@ public class TxtToXmlConverter {
 				writeXml(writer, "</item>\n</agenda>\n<session>\n" + escapeString(zeile) + "\n");
 				continue;
 			}
+			
+			if(count==3 && zeile.matches(".*[Aa]nlage [1-9][0-9]*")&&anlageAtt==false){
+				anlageAtt=true;
+				zeile = zeile.replaceAll("[1-9][0-9]* ?[A-ZÖÄÜ] ?", "");
+				zeile = zeile.replaceAll(" \\.", " ");
+				zeile = zeile.replaceAll("\\s+", " ");
+				id=1;
+				writeXml(writer, "</item>\n<attachment>\n"
+							+ String.format("<%s id=\""+id+"\" >\n", ITEM)
+							+escapeString(zeile)+"\n");
+				id++;
+				continue;
+			}
+			
+			if((count==2||count==3) && zeile.matches(".* [1-9][0-9]* ?[A-ZÄÖÜ] ?")){
+				zeile = zeile.replaceAll("[1-9][0-9]* ?[A-ZÖÄÜ] ?", "");
+				zeile = zeile.replaceAll(" \\.", " ");
+				zeile = zeile.replaceAll("\\s+", " ");
+				if(zeile.length()>1){
+					String pub="";
+					if(zeile.matches("[^\\(\\*\\)a-z]*[A-ZÖÄÜ][a-zöäü]* ?.*[,][ ]?[A-ZÄÖÜ][^,]*")
+							|| zeile.matches("[^\\(\\*\\)a-z]*[A-ZÖÄÜ][a-zöäü\\.]* [A-ZÄÖÜ][a-zäöü]*[,][ ]?[A-ZÄÖÜ].*")
+							||zeile.matches("[A-ZÄÖÜ][a-uäöü]* [A-ZÄÖÜ][a-uäöü]* ?")
+							||zeile.matches("[A-ZÄÖÜ][a-uäöü]* [A-ZÄÖÜ][a-uäöü]*[\\.]? [A-ZÄÖÜ][a-uäöü]* ?")){
+						pub=publicoff(zeile, true);
+					}
+					if(pub.length()>0){
+						writeXml(writer, pub
+									+ String.format("%s\n", createClosingTagFrom(ITEM))
+									+ String.format("<%s id=\""+id+"\" >\n", ITEM));
+					}else{
+						writeXml(writer, speakerAtt(zeile)
+								+ String.format("%s\n", createClosingTagFrom(ITEM))
+								+ String.format("<%s id=\""+id+"\" >\n", ITEM));	
+					}
+				}else{
+					writeXml(writer, String.format("%s\n", createClosingTagFrom(ITEM))
+							+ String.format("<%s id=\""+id+"\" >\n", ITEM));
+				}
+				id++;
+				continue;
+			}
+			
+		//	if(anlage&&count==3 && zeile.matches(".*[Aa]nlage [1-9][0-9]*")){
+		//		writeXml(writer, "</attachment>\n<attachment>");
+		//		id=0;
+		//	}
+
+			
 			if (count == 2
 					&& (zeile.matches("[^\\(\\*\\)a-z]*[A-ZÖÄÜ][a-zöäü]*[,][ ]?[A-ZÄÖÜ][^,]*") || zeile
 							.matches("[^\\(\\*\\)a-z]*[A-ZÖÄÜ][a-zöäü\\.]* [A-ZÄÖÜ][a-zäöü]*[,][ ]?[A-ZÄÖÜ].*"))
@@ -496,8 +560,6 @@ public class TxtToXmlConverter {
 					zeilevor=zeilevor.substring(zeilevor.indexOf(".")+1);
 					zeile=zeile.substring(zeile.indexOf(".")+1);
 				}
-				
-				
 				speech = true;
 				String pub=publicoff(zeilevor, false);
 				if(pub.length()>0){
@@ -549,7 +611,10 @@ public class TxtToXmlConverter {
 				}
 				String pub=publicoff(zeilevor, false);
 				if(pub.length()>0){
-					writeXml(writer, "</speech>\n"+pub);
+					if(change){
+						writeXml(writer, "</speech>\n"+pub);
+					}
+					else{writeXml(writer, pub);}
 				} else {
 					String scribe = speaker(zeile.substring(0, zeile.indexOf(":")));
 					if (change) {writeXml(writer, "</speech>\n" + scribe);}

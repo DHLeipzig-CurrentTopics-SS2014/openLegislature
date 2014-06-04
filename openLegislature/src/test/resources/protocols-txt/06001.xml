@@ -4,15 +4,27 @@ Bonn, den 20. Oktober i 969
 </header>
 <agenda>
 Inhalt: <item id="1" >
-Eröffnung der Sitzung durch den Alterspräsidenten 1 A 
+Eröffnung der Sitzung durch den Alterspräsidenten   
+</item>
+<item id="2" >
 Namensaufruf der Abgeordneten und Wahl 
 des Präsidenten 
-Alterspräsident Borm 3 D 
-Schriftführer Berger 3 D 
+<speaker><name>Borm</name><public_office>Alterspräsident</public_office></speaker>
+</item>
+<item id="3" >
+<speaker><name>Berger</name><public_office>Schriftführer</public_office></speaker>
+</item>
+<item id="4" >
 <speaker><name>Dr. Barzel</name><party>CDU/CSU</party></speaker>
-von Hassel (CDU/CSU) 5 A 
+</item>
+<item id="5" >
+<speaker><name>von Hassel</name><party>CDU/CSU</party></speaker>
+</item>
+<item id="6" >
 Amtsübernahme durch den Präsidenten 
-von Hassel 5 A 
+von Hassel   
+</item>
+<item id="7" >
 Nächste Sitzungen 6 C1. 
 </item>
 </agenda>

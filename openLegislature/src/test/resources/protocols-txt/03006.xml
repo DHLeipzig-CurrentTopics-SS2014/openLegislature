@@ -6,154 +6,300 @@ Bonn, den 12. Dezember 1957
 <item id="1" >
 Inhalt: 
 Glückwünsche zu den Geburtstagen der Abg. 
-Diel (Burg-Leyen), Nieberg und Frau Nadig 161 A 
+Diel (Burg-Leyen), Nieberg und Frau Nadig   
+</item>
+<item id="2" >
 Zur Tagesordnung: 
 <speaker><name>Erler</name><party>SPD</party></speaker>
+</item>
+<item id="3" >
 <speaker><name>Dr. Bucher</name><party>FDP</party></speaker>
+</item>
+<item id="4" >
 <speaker><name>Schneider (Bremerhaven)</name><party>DP</party></speaker>
+</item>
+<item id="5" >
 <speaker><name>Dr. Furler</name><party>CDU/CSU</party></speaker>
+</item>
+<item id="6" >
 Fragestunde (Drucksache 62) : 
 Frage 1 des Abg. Schmitt (Vockenhausen): 
 Benachteiligung von Rentnern des Saarlandes 
 <speaker><name>Blank</name><public_office>Bundesminister</public_office></speaker>
+</item>
+<item id="7" >
 <speaker><name>Schmitt (Vockenhausen)</name><party>SPD</party></speaker>
+</item>
+<item id="8" >
 Frage 2 des Abg. Dr. Friedensburg: Mindestgeschwindigkeit auf Autobahnen 
 <speaker><name>Dr. Seiermann</name><public_office>Staatssekretär</public_office></speaker>
+</item>
+<item id="9" >
 <speaker><name>Dr. Friedensburg</name><party>CDU/CSU</party></speaker>
+</item>
+<item id="10" >
 Frage 3 des Abg. Leonhard: Haftung bei 
 Unfällen in deutschen Atomwerken 
-Dr.-Ing. Balke, Bundesminister . . . . 168 B 
+<speaker><name>Dr. Ing. Ing Balke</name><public_office>Bundesminister</public_office></speaker>
+</item>
+<item id="11" >
 Frage 4 des Abg. Dr. Kohut: Personalpolitik 
 bei der Bundesmonopolverwaltung 
 <speaker><name>Hartmann</name><public_office>Staatssekretär</public_office></speaker>
+</item>
+<item id="12" >
 <speaker><name>Dr. Kohut</name><party>FDP</party></speaker>
+</item>
+<item id="13" >
 Frage 5 des Abg. Dr. Werber: Neugliederung des Bundesgebiets 
 <speaker><name>Dr. Schröder</name><public_office>Bundesminister</public_office></speaker>
+</item>
+<item id="14" >
 <speaker><name>Dr. Werber</name><party>CDU/CSU</party></speaker>
+</item>
+<item id="15" >
 Frage 6 des Abg. Ritzel: Rechtzeitige Freigabe von Haushaltsmitteln für Straßenbauarbeiten 
 <speaker><name>Dr. Seiermann</name><public_office>Staatssekretär</public_office></speaker>
+</item>
+<item id="16" >
 Frage 7 des Abg. Schmitt (Vockenhausen) : 
 Bepflanzung der Grünstreifen auf Autobahnen 
 <speaker><name>Dr. Seiermann</name><public_office>Staatssekretär</public_office></speaker>
+</item>
+<item id="17" >
 Frage 8 des Abg. Lohmar: Ausweitung des 
 Truppenübungsplatzes Senne 
 <speaker><name>Dr. Rust</name><public_office>Staatssekretär</public_office></speaker>
+</item>
+<item id="18" >
 <speaker><name>Lohmar</name><party>SPD</party></speaker>
+</item>
+<item id="19" >
 Frage 9 des Abg. Schmidt (Hamburg) : 
 Angebliche Schweigepflicht des Generalrichters a. D. Roeder im Schörner-Prozeß; Ermittlungsverfahren gegen Zeugen 
 wegen Verdachts der Mittäterschaft 
 <speaker><name>Schäffer</name><public_office>Bundesminister</public_office></speaker>
+</item>
+<item id="20" >
 <speaker><name>Schmidt (Hamburg)</name><party>SPD</party></speaker>
+</item>
+<item id="21" >
 Frage 10 des Abg. Schmitt (Vockenhausen) : 
 Ruhegehalt des früheren Oberreichsanwalts Lautz 
 <speaker><name>Dr. Schröder</name><public_office>Bundesminister</public_office></speaker>
+</item>
+<item id="22" >
 
 IIFrage 11 des Abg. Wittrock: Reform des 
 Strafregisters 
 <speaker><name>Schäffer</name><public_office>Bundesminister</public_office></speaker>
+</item>
+<item id="23" >
 <speaker><name>Wittrock</name><party>SPD</party></speaker>
+</item>
+<item id="24" >
 Frage 12 des Abg. Wittrock: Vorlage von 
 Ehescheidungsakten beim Bundesministerium für Verteidigung 
 <speaker><name>Dr. Rust</name><public_office>Staatssekretär</public_office></speaker>
+</item>
+<item id="25" >
 <speaker><name>Wittrock</name><party>SPD</party></speaker>
+</item>
+<item id="26" >
 Frage 13 des Abg. Dr. Mommer: Ausgabe 
 von Carnets und Triptyks durch die 
 Automobilklubs 
 <speaker><name>Hartmann</name><public_office>Staatssekretär</public_office></speaker>
+</item>
+<item id="27" >
 <speaker><name>Dr. Mommer</name><party>SPD</party></speaker>
+</item>
+<item id="28" >
 Frage 14 des Abg. Dr. Mommer: Rückgang 
 der Unfälle im Straßenverkehr, Herabsetzung der Prämien in der Haftpflichtversicherung für Kraftfahrzeuge 
-Dr. Dr. h. c. Erhard, Bundesminister . . 176 D 
+<speaker><name>Dr. Dr. Erhard</name><public_office>Bundesminister</public_office></speaker>
+</item>
+<item id="29" >
 <speaker><name>Dr. Mommer</name><party>SPD</party></speaker>
+</item>
+<item id="30" >
 Frage 15 des Abg. Rohde: Berechnung 
 der Rentenmehrbeträge für Wanderversicherte 
 <speaker><name>Blank</name><public_office>Bundesminister</public_office></speaker>
+</item>
+<item id="31" >
 <speaker><name>Rohde</name><party>SPD</party></speaker>
+</item>
+<item id="32" >
 Frage 16 des Abg. Dr. Werber: Beseitigung 
 von Munition, Bomben u. dgl. 
 <speaker><name>Hartmann</name><public_office>Staatssekretär</public_office></speaker>
+</item>
+<item id="33" >
 <speaker><name>Dr. Werber</name><party>CDU/CSU</party></speaker>
+</item>
+<item id="34" >
 Wahl der Mitglieder des Wahlmännerausschusses (Drucksache 73), 
 Wahl der Mitglieder kraft Wahl des Richterwahlausschusses (Drucksache 74) 
-Ergebnis 183 A 
+Ergebnis   
+</item>
+<item id="35" >
 Wahl der Vertreter der Bundesrepublik 
 Deutschland zur Beratenden Versammlung 
-des Europarates (Drucksache 75) 171 B 
+des Europarates (Drucksache 75)   
+</item>
+<item id="36" >
 Wahl der Mitglieder des Ausschusses nach 
-Art. 77 Abs. 2 GG (Drucksache 50) . . . . 171 B 
+Art. bs. G (Drucksache 50)   
+</item>
+<item id="37" >
 Wahl der Mitglieder des Kontrollausschusses 
-beim Bundesausgleichsamt (Drucksache 76) 171 C 
-Wahl der Mitglieder des Bundesschuldenausschusses bei der Bundesschuldenverwaltung (Drucksache 77) 171 C 
+beim Bundesausgleichsamt (Drucksache 76)   
+</item>
+<item id="38" >
+Wahl der Mitglieder des Bundesschuldenausschusses bei der Bundesschuldenverwaltung (Drucksache 77)   
+</item>
+<item id="39" >
 Wahl eines Mitglieds des Verwaltungsrates 
-der Lastenausgleichsbank (Drucksache 78) 171 C 
-Nachwahl von Mitgliedern des Wahlprüfungsausschusses (Drucksache 56 [neu]) . . 171 D 
+der Lastenausgleichsbank (Drucksache 78)   
+</item>
+<item id="40" >
+Nachwahl von Mitgliedern des Wahlprüfungsausschusses (Drucksache 56 [neu])   
+</item>
+<item id="41" >
 Antrag der Fraktionen der CDU/CSU, SPD, 
 FDP, DP betr. Durchführung des § 132 
-Abs. 2 der Geschäftsordnung (Drucksache 57) 178 A 
-Entwurf einer Ersten Verordnung zur Änderung des deutschen Zolltarifs 1958; Schriftlicher Bericht des Außenhandelsausschusses (Drucksachen 65, 22) 178 B 
+Abs. 2 der Geschäftsordnung (Drucksache 57)   
+</item>
+<item id="42" >
+Entwurf einer Ersten Verordnung zur Änderung des deutschen Zolltarifs 1958; Schriftlicher Bericht des Außenhandelsausschusses (Drucksachen 65, 22)   
+</item>
+<item id="43" >
 Entwurf eines Gesetzes zur Änderung und 
 Ergänzung des Lebensmittelgesetzes (SPD)   
 (Drucksache 29) - Erste Beratung — 
 <speaker><name>Frau Strobel</name><party>SPD</party></speaker>
+</item>
+<item id="44" >
 <speaker><name>Dr. Schröder</name><public_office>Bundesminister</public_office></speaker>
+</item>
+<item id="45" >
 <speaker><name>Frau Dr. Steinbiß</name><party>CDU/CSU</party></speaker>
+</item>
+<item id="46" >
 <speaker><name>Frau Kalinke</name><party>DP</party></speaker>
+</item>
+<item id="47" >
 <speaker><name>Dr. Stammberger</name><party>FDP</party></speaker>
+</item>
+<item id="48" >
 Entwurf eines Selbstverwaltungs- und Krankenversicherungsangleichungsgesetzes Berlin (CDU/CSU) (Drucksache 14) ; Schriftlicher Bericht des Ausschusses für Sozialpolitik (Drucksachen 64, zu 64) — Zweite   
 und dritte Beratung — 
 <speaker><name>Geiger (Aalen)</name><party>SPD</party><public_office>Berichterstatter</public_office></speaker>
+</item>
+<item id="49" >
 <speaker><name>Rohde</name><party>SPD</party></speaker>
+</item>
+<item id="50" >
 <speaker><name>Arndgen</name><party>CDU/CSU</party></speaker>
+</item>
+<item id="51" >
 <speaker><name>Frau Kalinke</name><party>DP</party></speaker>
+</item>
+<item id="52" >
 <speaker><name>Frau Krappe</name><party>SPD</party></speaker>
+</item>
+<item id="53" >
 <speaker><name>Horn</name><party>CDU/CSU</party></speaker>
+</item>
+<item id="54" >
 <speaker><name>Dr. Will</name><party>FDP</party></speaker>
+</item>
+<item id="55" >
 <speaker><name>Walpert</name><party>SPD</party></speaker>
+</item>
+<item id="56" >
 <speaker><name>Büttner</name><party>SPD</party></speaker>
+</item>
+<item id="57" >
 <speaker><name>Stingl</name><party>CDU/CSU</party></speaker>
+</item>
+<item id="58" >
 <speaker><name>Dr. Bärsch</name><party>SPD</party></speaker>
+</item>
+<item id="59" >
 Entwurf eines Gesetzes zum Schutze der 
 arbeitenden Jugend (SPD) (Drucksache 31 
 [neu]) — Erste Beratung — 
 <speaker><name>Lange (Essen)</name><party>SPD</party></speaker>
+</item>
+<item id="60" >
 <speaker><name>Dürr</name><party>FDP</party></speaker>
+</item>
+<item id="61" >
 <speaker><name>Jahn (Stuttgart)</name><party>CDU/CSU</party></speaker>
+</item>
+<item id="62" >
 Entwurf eines Gesetzes zur Reinhaltung 
 der Bundeswasserstraßen (Drucksache 46) 
 — Erste Beratung — 
 <speaker><name>Dr. Seiermann</name><public_office>Staatssekretär</public_office></speaker>
+</item>
+<item id="63" >
 <speaker><name>Jacobi</name><party>SPD</party></speaker>
+</item>
+<item id="64" >
 <speaker><name>Kraft</name><party>CDU/CSU</party></speaker>
+</item>
+<item id="65" >
 <speaker><name>Dr. Winter</name><party>CDU/CSU</party></speaker>
-Entwurf eines Gesetzes über den zivilen Ersatzdienst (Drucksache 34) — Erste Beratung — 211 D 
+Entwurf eines Gesetzes über den zivilen Ersatzdienst (Drucksache 34) — Erste Beratung —   
+</item>
+<item id="66" >
 Entwurf eines Gesetzes zum Abkommen vom 
 28. Juni 1955 mit dem Königreich Griechenland über Untersuchung und Überwachung 
-von Wein (Drucksache 48) — Erste Beratung — 212 A 
-Entwurf eines Zweiten Gesetzes zur Änderung des Sozialgerichtsgesetzes (Drucksache 36) — Erste Beratung — 212 B 
+von Wein (Drucksache 48) — Erste Beratung —   
+</item>
+<item id="67" >
+Entwurf eines Zweiten Gesetzes zur Änderung des Sozialgerichtsgesetzes (Drucksache 36) — Erste Beratung —   
+</item>
+<item id="68" >
 Entwurf eines Gesetzes zu dem Vertrag vom 
 10. März 1956 mit der Föderativen Volksrepublik Jugoslawien über die Regelung 
-von Forderungen aus der Sozialversicherung (Drucksache 37) — Erste Beratung — 212 B 
+von Forderungen aus der Sozialversicherung (Drucksache 37) — Erste Beratung —   
+</item>
+<item id="69" >
 Entwurf eines Gesetzes über den unmittelbaren Zwang bei Ausübung öffentlicher 
 Gewalt durch Vollzugsbeamte des Bundes 
-(Drucksache 38) — Erste Beratung — . . 212 C 
+(Drucksache 38) — Erste Beratung —   
+</item>
+<item id="70" >
 Entwurf eines Gesetzes zur Wiedergutmachung nationalsozialistischen Unrechts 
 in der Kriegsopferversorgung (Drucksache 
-39) — Erste Beratung — 212 C 
+39) — Erste Beratung —   
+</item>
+<item id="71" >
 Entwurf eines Gesetzes zur Änderung und 
 Ergänzung des Gesetzes zur Wiedergutmachung nationalsozialistischen Unrechts 
 in der Kriegsopferversorgung für Berechtigte im Ausland (Drucksache 40) — Erste 
-Beratung — 212 C 
+Beratung —   
+</item>
+<item id="72" >
 Entwurf eines Gesetzes über die Ausübung 
 der Berufe des Masseurs, des medizinischen 
 Bademeisters und des Krankengymnasten 
-(Drucksache 41) — Erste Beratung — . . . 212 D 
+(Drucksache 41) — Erste Beratung —   
+</item>
+<item id="73" >
 Entwurf eines Gesetzes über die Ausübung 
 des Berufs der medizinisch-technischen 
 Assistentin (Drucksache 42) — Erste Beratung — 
 212 D 
 Entwurf eines Gesetzes zu dem Protokoll 
 vom 1. Dezember 1956 zur Änderung des 
-internationalen Zuckerabkommens (Drucksache 43) — Erste Beratung — 212 D 
+internationalen Zuckerabkommens (Drucksache 43) — Erste Beratung —   
+</item>
+<item id="74" >
 Entwurf eines Gesetzes über die Preisstatistik (Drucksache 44) — Erste Beratung — 
 213 A 
 Entwurf eines Gesetzes zur Vereinbarung 
@@ -163,40 +309,60 @@ vom 31. Oktober 1956 mit der Schweizerischen Eidgenossenschaft über die Zollbeh
 Entwurf eines Gesetzes über das Abkommen 
 vom 15. Mai 1956 mit dem Königreich Belgien über Grenzabfertigungsstellen, Grenzabfertigung in Zügen während der Fahrt 
 und die Bestimmung von Gemeinschafts- 
-und Betriebswechselbahnhöfen im Grenzverkehr (Drucksache 49) — Erste Beratung — 213 B 
+und Betriebswechselbahnhöfen im Grenzverkehr (Drucksache 49) — Erste Beratung —   
+</item>
+<item id="75" >
 Entwurf einer Verwaltungsgerichtsordnung 
 und 
 Entwurf eines Gesetzes über die Beschränkung der Berufung im verwaltungsgerichtlichen Verfahren (Drucksache 55) — Erste 
 Beratung — 
 <speaker><name>Wittrock</name><party>SPD</party></speaker>
+</item>
+<item id="76" >
 <speaker><name>Dr. Anders</name><public_office>Staatssekretär</public_office></speaker>
+</item>
+<item id="77" >
 Entwurf eines Gesetzes zur Änderung und 
 Ergänzung des Mühlengesetzes (Abg. Lücker [München], Kriedemann, Mauk, Dr. 
 Elbrächter u. Gen.) (Drucksache 70) — Erste 
-Beratung — 214 A 
+Beratung —   
+</item>
+<item id="78" >
 Antrag des Bundesministers der Finanzen 
 betr. Vorlage der Bundeshaushaltsrechnung 
 für das Rechnungsjahr 1955 mit Antrag auf 
 nachträgliche Genehmigung der über- und 
 außerplanmäßigen Ausgaben gemäß § 83 
-RHO (Drucksache 17) 214 C 
+RHO (Drucksache 17)   
+</item>
+<item id="79" >
 Antrag der Fraktionen der CDU/CSU, FDP 
 betr. Umbenennung des 24. Ausschusses 
-(Drucksache 67) 214 D 
+(Drucksache 67)   
+</item>
+<item id="80" >
 Beschwerde des Hugo Büttner, Ludwigshafen-
 Maudach, u. Gen. vor dem Bundesverfassungsgericht wegen des Volksbegehrens 
 auf Angliederung des Regierungsbezirks 
 Pfalz an das Land Bayern; Bericht des Ausschusses für Wahlprüfung, Immunität und 
 Geschäftsordnung (Drucksache 68) 
 <speaker><name>Dr. Dittrich</name><party>CDU/CSU</party></speaker>
-Berichterstatter 215 A 
+Berichterstatter   
+</item>
+<item id="81" >
 Interfraktioneller Antrag betr. Ü berweisung 
-von Anträgen an die Ausschüsse (Umdruck 1) 215 B 
+von Anträgen an die Ausschüsse (Umdruck 1)   
+</item>
+<item id="82" >
 Kundgebung gegen Beschlüsse der sowjetzonalen Volkskammer: Erschwerung von 
 Reisen in die Bundesrepublik, Knebelung 
 der Freizügigkeit 
-Vizepräsident Dr. Jaeger 215 C 
-Nächste Sitzung 215 D 
+Vizepräsident Dr. Jaeger   
+</item>
+<item id="83" >
+Nächste Sitzung 
+</item>
+<item id="84" >
 </item>
 </agenda>
 <session>
