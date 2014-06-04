@@ -3,15 +3,12 @@ package org.openlegislature.mongo;
 import java.net.UnknownHostException;
 import java.util.ArrayList;
 
-import org.json.JSONObject;
-
 import com.mongodb.BasicDBObject;
 import com.mongodb.DB;
 import com.mongodb.DBCollection;
 import com.mongodb.DBCursor;
 import com.mongodb.DBObject;
 import com.mongodb.MongoClient;
-import com.mongodb.MongoException;
 import com.mongodb.util.JSON;
 
 public class MongoCon {
@@ -106,34 +103,7 @@ public class MongoCon {
 		return db;
 	}
 	
-	private boolean insertOld(String col, String json){
-		try {
-			 
-			DB db = createDBConnection();
-			DBCollection collection = db.getCollection(col);
- 
-			// convert JSON to DBObject directly
-			DBObject dbObject = (DBObject) JSON.parse(json);
 
-			collection.insert(dbObject);
- 
-			//test output
-			/*
-			DBCursor cursorDoc = collection.find();
-			while (cursorDoc.hasNext()) {
-				System.out.println(cursorDoc.next());
-			}
- 			*/
-			//System.out.println("Done");
- 			
-		} catch (UnknownHostException e) {
-			e.printStackTrace();
-		} catch (MongoException e) {
-			e.printStackTrace();
-		}
-		
-		return true;
-	}
 	
 	
 }
