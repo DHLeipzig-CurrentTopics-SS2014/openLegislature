@@ -1,6 +1,7 @@
 package org.openlegislature.io;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.Reader;
@@ -20,6 +21,17 @@ public class FileReader {
 	 * @throws java.io.IOException
 	 */
 	public static String read(String file) throws FileNotFoundException, IOException {
+		return read(new File(file));
+	}
+
+	/**
+	 * Reads the given file and returns the content.
+	 * @param file path to file
+	 * @return content
+	 * @throws java.io.FileNotFoundException
+	 * @throws java.io.IOException
+	 */
+	public static String read(File file) throws FileNotFoundException, IOException {
 		Reader reader = null;
 		String content = "";
 
