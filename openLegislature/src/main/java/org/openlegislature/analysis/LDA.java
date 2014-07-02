@@ -1,7 +1,17 @@
 package org.openlegislature.analysis;
 
+import cc.mallet.types.InstanceList;
 import com.mongodb.BasicDBObject;
+import java.io.File;
+import java.io.IOException;
+import java.util.Arrays;
 import java.util.Collection;
+import java.util.LinkedHashSet;
+import java.util.Set;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+import org.openlegislature.io.FileReader;
+import org.openlegislature.util.Helpers;
 
 /**
  *
@@ -9,7 +19,47 @@ import java.util.Collection;
  * @version 0.0.1
  */
 public class LDA {
-	public static void analyse(Collection<BasicDBObject> objects) {
+	public static void main(String[] args) throws IOException {
+		String[] xmls = getXMLFiles();
+		InstanceList instances = createInstanceList(xmls);
+	}
+
+	private static String[] getXMLFiles() {
+		Set<String> files = new LinkedHashSet<>();
+		for ( File file : new File(Helpers.getUserDir() + "/data/bundestag/").listFiles() ) {
+			if ( file.isDirectory() )
+				for ( File f : file.listFiles() )
+					if  ( f.getAbsolutePath().endsWith(".xml") )
+						files.add(f.getAbsolutePath());
+		}
+
+		String[] xmls = files.toArray(new String[files.size()]);
+		Arrays.sort(xmls);
+		return xmls;
+	}
+
+	private static InstanceList createInstanceList(String[] xmls) throws IOException {
+		//InstanceList instances = new InstanceList();
+
+		for ( String xml : xmls ) {
+			createInstancesForSpeeches(xml);
+		}
+
+		return null;
+	}
+
+	private static void createInstancesForSpeeches(String xml) throws IOException {
+		String text = FileReader.read(xml);
+
+		Matcher matches = Pattern.compile("<speech>(.+?)</speech>").matcher(text);
+		while ( matches.find() ) {
+			Matcher m = Pattern.compile("<speaker>(.+?)</speaker>").matcher(matches.group(0));
+			String speaker = (m.find() ? m.group(1) : "NO_SPEAKER");
+			String speech = m.group(0).replaceAll("<[^>]+>.+?</[^>]+>", " ").replaceAll("\\s+\n\\s+", " ").replaceAll("\\s\\s+", " ");
+		}
+	}
+
+	private static void analyse(Collection<BasicDBObject> objects) {
 	}
 
 	/*public static void main(String[] args) throws Exception {
