@@ -1,17 +1,27 @@
 package org.openlegislature.analysis;
 
+import cc.mallet.pipe.CharSequenceArray2TokenSequence;
+import cc.mallet.pipe.Pipe;
+import cc.mallet.pipe.SerialPipes;
+import cc.mallet.pipe.TokenSequence2FeatureSequence;
+import cc.mallet.pipe.TokenSequenceRemoveStopwords;
+import cc.mallet.topics.ParallelTopicModel;
+import cc.mallet.types.Instance;
 import cc.mallet.types.InstanceList;
-import com.mongodb.BasicDBObject;
 import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collection;
 import java.util.LinkedHashSet;
+import java.util.LinkedList;
+import java.util.List;
 import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import org.openlegislature.io.FileReader;
+import org.openlegislature.nlp.tokenization.Tokenizer;
 import org.openlegislature.util.Helpers;
+import org.openlegislature.util.Logger;
 
 /**
  *
@@ -19,18 +29,28 @@ import org.openlegislature.util.Helpers;
  * @version 0.0.1
  */
 public class LDA {
+	private static final int NUM_TOPICS = 100;
+
 	public static void main(String[] args) throws IOException {
 		String[] xmls = getXMLFiles();
+
 		InstanceList instances = createInstanceList(xmls);
+		instances.save(new File(Helpers.getUserDir() + "/data/speeches"));
+
+		analyse(instances);
 	}
 
 	private static String[] getXMLFiles() {
 		Set<String> files = new LinkedHashSet<>();
-		for ( File file : new File(Helpers.getUserDir() + "/data/bundestag/").listFiles() ) {
-			if ( file.isDirectory() )
+		for ( File file : new File(Helpers.getUserDir() + "/data/bundestag/17/").listFiles() ) {
+			if ( file.isDirectory() ) {
 				for ( File f : file.listFiles() )
 					if  ( f.getAbsolutePath().endsWith(".xml") )
 						files.add(f.getAbsolutePath());
+			}
+			else
+				if  ( file.getAbsolutePath().endsWith(".xml") )
+					files.add(file.getAbsolutePath());
 		}
 
 		String[] xmls = files.toArray(new String[files.size()]);
@@ -39,27 +59,65 @@ public class LDA {
 	}
 
 	private static InstanceList createInstanceList(String[] xmls) throws IOException {
-		//InstanceList instances = new InstanceList();
+		List<Pipe> pipes = new ArrayList<>();
+		pipes.add(new CharSequenceArray2TokenSequence());
+		pipes.add(new TokenSequenceRemoveStopwords(false).addStopWords(new File(Helpers.getUserDir() + "/data/nlp/stopwordlist_german")));
+		pipes.add(new TokenSequence2FeatureSequence());
 
+		InstanceList instances = new InstanceList(new SerialPipes(pipes));
+
+		int i = 1;
 		for ( String xml : xmls ) {
-			createInstancesForSpeeches(xml);
+			Logger.getInstance().info(LDA.class, "Loading file: " + xml.substring(xml.lastIndexOf("/") + 1, xml.length()));
+			List<Instance> speeches = createInstancesForSpeeches(xml);
+			for ( Instance instance : speeches )
+				instances.addThruPipe(instance);
+
+			if ( i > 10 )
+				break;
+			i++;
 		}
 
-		return null;
+		return instances;
 	}
 
-	private static void createInstancesForSpeeches(String xml) throws IOException {
+	private static List<Instance> createInstancesForSpeeches(String xml) throws IOException {
+		List<Instance> instances = new LinkedList<>();
 		String text = FileReader.read(xml);
 
-		Matcher matches = Pattern.compile("<speech>(.+?)</speech>").matcher(text);
+		Matcher matches = Pattern.compile("<speech>(.+?)</speech>", Pattern.DOTALL | Pattern.MULTILINE).matcher(text);
 		while ( matches.find() ) {
-			Matcher m = Pattern.compile("<speaker>(.+?)</speaker>").matcher(matches.group(0));
+			Matcher m = Pattern.compile("<speaker>.+?<name>(.+?)</name>.+?</speaker>", Pattern.DOTALL | Pattern.MULTILINE).matcher(matches.group(1));
 			String speaker = (m.find() ? m.group(1) : "NO_SPEAKER");
-			String speech = m.group(0).replaceAll("<[^>]+>.+?</[^>]+>", " ").replaceAll("\\s+\n\\s+", " ").replaceAll("\\s\\s+", " ");
+			String speech = matches.group(1).replaceAll("(?s)<[^>]+>[^<]+?</[^>]+>", " ").replaceAll("(?s)<[^>]+>[^<]+?</[^>]+>", " ").replaceAll("\\s+\n\\s+", " ").replaceAll("\\s\\s+", " ").trim();
+			if ( speech.contains(">") || speech.contains("<") ) {
+				System.out.println(matches.group(1));
+				System.exit(1);
+			}
+			String[] tokens = Tokenizer.tokenize(speech);
+
+			instances.add(new Instance(tokens, speaker, xml, speech));
 		}
+
+		return instances;
 	}
 
-	private static void analyse(Collection<BasicDBObject> objects) {
+	private static void analyse(InstanceList instances) throws IOException {
+		Logger.getInstance().info(LDA.class, "Starting LDA.");
+		ParallelTopicModel model = new ParallelTopicModel(LDA.NUM_TOPICS, 1.0, 0.01);
+		model.addInstances(instances);
+		model.setNumThreads(4);
+		model.setNumIterations(50);
+		model.estimate();
+
+		int i = 0;
+		for ( Object[] topic : model.getTopWords(20) ) {
+			System.out.println("topic: " + i++);
+			for ( Object word : topic ) {
+				System.out.println(word);
+			}
+			System.out.println("##################################################");
+		}
 	}
 
 	/*public static void main(String[] args) throws Exception {
