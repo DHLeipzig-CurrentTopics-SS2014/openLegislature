@@ -32,7 +32,6 @@ import weka.core.Instances;
 public class SLDA {
 	private final List<Object[]> speeches = new LinkedList<>();
 	private final FastVector classes = new FastVector();
-	private final Set<String> allTokens = new LinkedHashSet<>();
 	private final StopwordFilter stopwordFilter;
 	private String[] tokens;
 	private FastVector attrs;
@@ -43,7 +42,7 @@ public class SLDA {
 		this.stopwordFilter = new StopwordFilter(Helpers.getUserDir() + "/data/nlp/stopwordlist_german");
 	}
 
-	private synchronized List<Object[]> getSpeeches() {
+	private List<Object[]> getSpeeches() {
 		return this.speeches;
 	}
 
@@ -51,11 +50,7 @@ public class SLDA {
 		return this.classes;
 	}
 
-	private synchronized Set<String> getAllTokens() {
-		return this.allTokens;
-	}
-
-	private synchronized String[] getTokens() {
+	private String[] getTokens() {
 		return this.tokens;
 	}
 
@@ -75,12 +70,12 @@ public class SLDA {
 		SLDA slda = new SLDA();
 		String[] xmls = slda.getXMLFiles();
 
-		slda.createARFF(Arrays.copyOfRange(xmls, 0, 101));
+		String name = slda.createARFF(Arrays.copyOfRange(xmls, 0, 5));
 		/*slda.clear();
 		slda.createARFF(Arrays.copyOfRange(xmls, 6, 10));*/
 		//Instances instances = new Instances(new BufferedReader(new java.io.FileReader(new File(Helpers.getUserDir() + "/data/speeches.arff"))));
 		//instances.setClassIndex(instances.numAttributes() - 1);
-		//slda.analyse();
+		slda.analyse(name);
 	}
 
 	private String[] getXMLFiles() {
@@ -102,7 +97,6 @@ public class SLDA {
 	}
 
 	private void clear() {
-		this.allTokens.clear();
 		this.attrs = null;
 		this.classes.removeAllElements();
 		this.finishedThreads = 0;
@@ -111,7 +105,7 @@ public class SLDA {
 		this.tokens = null;
 	}
 
-	private void createARFF(String[] xmls) throws InterruptedException, IOException {
+	private String createARFF(String[] xmls) throws InterruptedException, IOException, Exception {
 		ExecutorService executorService = Executors.newFixedThreadPool(7);
 		int threads = 0;
 		for ( String xml : xmls ) {
@@ -125,25 +119,49 @@ public class SLDA {
 				this.wait();
 			}
 		Logger.getInstance().info(SLDA.class, "Finished all threads.");
+		Logger.getInstance().info(SLDA.class, "speeches: " + this.speeches.size());
 
 		Logger.getInstance().info(SLDA.class, "Start creating ARFF.");
-		this.tokens = this.allTokens.toArray(new String[this.allTokens.size()]);
-		this.allTokens.clear();
+
+		Set<String> tmp = new LinkedHashSet<>();
+		for ( Object[] s : this.speeches )
+			tmp.addAll(((Map<String, Integer>)s[1]).keySet());
+		this.tokens = tmp.toArray(new String[tmp.size()]);
+		tmp = null;
 		Arrays.sort(this.tokens);
+		Logger.getInstance().info(SLDA.class, "tokens: " + this.tokens.length);
 
 		this.attrs = new FastVector(this.tokens.length + 1);
 		for ( String token : this.tokens )
 			this.attrs.addElement(new Attribute(token));
 		this.attrs.addElement(new Attribute("class_attribute", this.classes));
 
+		/*this.attrs = new FastVector(2);
+		this.attrs.addElement(new Attribute("class_attribute", this.classes));
+		this.attrs.addElement(new Attribute("text", (FastVector)null));*/
+
 		this.instances = new Instances("speeches", this.attrs, this.speeches.size());
-		this.instances.setClassIndex(this.attrs.size() - 1);
+		this.instances.setClassIndex(this.tokens.length);
 
 		threads = 0;
 		this.finishedThreads = 0;
 		for ( Object[] speech : this.speeches ) {
 			executorService.execute(new InstanceCreator(this, speech));
 			threads++;
+
+			/*Instance instance = new Instance(this.attrs.size());
+
+			Map<String, Integer> counts = (Map<String, Integer>)speech[1];
+			for ( int i = 0; i < this.tokens.length; i++ ) {
+				//System.out.println(speech[0] + " - " + i);
+				//System.out.println((Attribute)this.attrs.elementAt(i));
+				//System.out.println((counts.containsKey(this.tokens[i]) ? counts.get(this.tokens[i]) : 0));
+				instance.setValue((Attribute)this.attrs.elementAt(i), (counts.containsKey(this.tokens[i]) ? counts.get(this.tokens[i]) : 0));
+			}
+
+			instance.setValue((Attribute)this.attrs.elementAt(this.tokens.length), speech[0].toString());
+
+			this.instances.add(instance);*/
 		}
 
 		while ( this.finishedThreads != threads )
@@ -153,16 +171,33 @@ public class SLDA {
 			}
 		Logger.getInstance().info(SLDA.class, "Finished all threads.");
 
+		/*StringToWordVector filter = new StringToWordVector();
+		filter.setAttributeNamePrefix("t_");
+		filter.setStopwords(new File(Helpers.getUserDir() + "/data/nlp/stopwordlist_german"));
+		filter.setDoNotOperateOnPerClassBasis(true);
+		filter.setInputFormat(this.instances);
+		filter.setOutputWordCounts(true);
+		filter.setUseStoplist(true);
+		filter.setWordsToKeep(Integer.MAX_VALUE);
+		filter.setLowerCaseTokens(true);
+		filter.setTokenizer(new Tokenizer());
+		filter.setAttributeIndicesArray(new int[]{1});
+		Instances data = Filter.useFilter(this.instances, filter);
+		this.instances = data;*/
+
 		System.out.println("classes: " + instances.numClasses());
 		System.out.println("attributes: " + instances.numAttributes());
 		System.out.println("speeches: " + instances.numInstances());
 
-		String first = xmls[0].substring(xmls[0].lastIndexOf("/") + 1, xmls[0].length());
-		String last = xmls[xmls.length - 1].substring(xmls[xmls.length - 1].lastIndexOf("/") + 1, xmls[xmls.length - 1].length());
-		FileWriter.write(Helpers.getUserDir() + "/data/speeches_" + first + "_" + last + ".arff", this.instances.toString(), "UTF-8");
+		String first = xmls[0].substring(xmls[0].lastIndexOf("/") + 1, xmls[0].indexOf(".", xmls[0].lastIndexOf("/")));
+		String last = xmls[xmls.length - 1].substring(xmls[xmls.length - 1].lastIndexOf("/") + 1, xmls[xmls.length - 1].indexOf(".", xmls[xmls.length - 1].lastIndexOf("/")));
+		FileWriter.write(Helpers.getUserDir() + "/data/speeches_speaker_" + first + "_" + last + ".arff", this.instances.toString(), "UTF-8");
+
+		executorService.shutdown();
+		return "speeches_speaker_" + first + "_" + last;
 	}
 
-	private void analyse() throws IOException, Exception {
+	private void analyse(String name) throws IOException, Exception {
 		Logger.getInstance().info(SLDA.class, "Starting SLDA.");
 		System.out.println("classes: " + this.instances.numClasses());
 		System.out.println("attributes: " + this.instances.numAttributes());
@@ -170,7 +205,7 @@ public class SLDA {
 
 		weka.classifiers.functions.SLDA slda = new weka.classifiers.functions.SLDA();
 		slda.setOptions(new String[]{"-T", "30", "-mstep-iter", "1000", "-var-iter", "200", "-em-iter", "500"});
-		slda.buildClassifier(instances);
+		slda.buildClassifier(this.instances);
 
 		String[][] topWords = slda.getTopWords();
 		for ( String[] words : topWords ) {
@@ -181,7 +216,7 @@ public class SLDA {
 			System.out.println();
 		}
 
-		FileWriter.writeCSV(Helpers.getUserDir() + "/data/topwords.csv", topWords, ";", "UTF-8");
+		FileWriter.writeCSV(Helpers.getUserDir() + "/data/topwords_" + name + ".csv", topWords, ";", "UTF-8");
 	}
 
 	class SpeechLoader implements Runnable {
@@ -214,12 +249,12 @@ public class SLDA {
 
 				String[] tokens = Tokenizer.tokenize(speech.toLowerCase());
 				tokens = this.parent.stopwordFilter.filter(tokens);
-				this.parent.getAllTokens().addAll(Arrays.asList(tokens));
+				//this.parent.getAllTokens().addAll(Arrays.asList(tokens));
 
 				Map<String, Integer> counts = new LinkedHashMap<>();
 				for ( String token : tokens )
 					counts.put(token, (counts.containsKey(token) ? counts.get(token) + 1 : 1));
-				
+
 				this.parent.getSpeeches().add(new Object[]{speaker, counts});
 				if ( !this.parent.getClasses().contains(speaker) )
 					this.parent.getClasses().addElement(speaker);

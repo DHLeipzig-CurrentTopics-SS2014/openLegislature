@@ -7,6 +7,17 @@ import static java.lang.Math.log;
 import static java.lang.Math.max;
 import static java.lang.Math.pow;
 import static java.lang.Math.sqrt;
+import static weka.core.Math.digamma;
+import static weka.core.Math.logGamma;
+import static weka.core.Math.logSum;
+import static weka.core.matrix.Maths.absNorm;
+import static weka.core.matrix.Maths.dotProduct;
+import static weka.core.matrix.Maths.infNorm;
+import static weka.core.matrix.Maths.oneNorm;
+import static weka.core.matrix.Maths.plusEquals;
+import static weka.core.matrix.Maths.smallAbsDiff;
+import static weka.core.matrix.Maths.timesEquals;
+import static weka.core.matrix.Maths.twoNorm;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -30,6 +41,8 @@ import weka.core.TechnicalInformation.Field;
 import weka.core.TechnicalInformation.Type;
 import weka.core.TechnicalInformationHandler;
 import weka.core.Utils;
+import weka.core.optimization.Optimizable;
+import weka.core.optimization.OptimizationException;
 
 /**
  * Supervised Latent Dirichlet Allocation
@@ -431,7 +444,7 @@ public class SLDA extends Classifier implements OptionHandler, TechnicalInformat
 
 		int etaUpdate = 0, i = 1;
 		while ( ((converged < 0) || (converged > this.emConverged) || (i <= this.ldaInitMax + 2)) && (i <= this.emMaxIter) ) {
-			Logger.getLogger(SLDA.class).debug("*****  em iteration " + i + "  *****");
+			Logger.getLogger(SLDA.class).info("*****  em iteration " + i + "  *****");
 			likelihood = 0;
 			ss = zeroInitializeSuffStats(ss);
 
@@ -439,14 +452,14 @@ public class SLDA extends Classifier implements OptionHandler, TechnicalInformat
 				etaUpdate = 1;
 
 			//e-step
-			Logger.getLogger(SLDA.class).debug("*****  e-step  *****");
+			Logger.getLogger(SLDA.class).info("*****  e-step  *****");
 			for ( int d = 0; d < instances.numInstances(); d++ )
 				likelihood += this.docEStep(instances.instance(d), instanceTotal[d], varGamma[d], phi, ss, etaUpdate);
 
 			Logger.getLogger(SLDA.class).debug("likelihood: " + likelihood);
 
 			// m-step
-			Logger.getLogger(SLDA.class).debug("*****  m-step  *****");
+			Logger.getLogger(SLDA.class).info("*****  m-step  *****");
 			mle(ss, etaUpdate);
 
 			// check for convergence
@@ -468,7 +481,7 @@ public class SLDA extends Classifier implements OptionHandler, TechnicalInformat
 	@Override
 	public double classifyInstance(Instance instance) throws Exception {
 		double[] distribution = this.distributionForInstance(instance);
-		double max = Double.NEGATIVE_INFINITY;
+		double max = 0;
 		int label = -1;
 
 		for ( int i = 0; i < distribution.length; i++ ) {
@@ -677,13 +690,19 @@ public class SLDA extends Classifier implements OptionHandler, TechnicalInformat
 
 		double[] x = new double[this.numClasses * this.numTopics];
 		for ( int l = 0; l < this.numClasses; l++ )
-			for ( int k = 0; k < this.numTopics; k++ )
-				x[l * this.numTopics + k] = this.eta[l][k];
+			System.arraycopy(this.eta[l], 0, x, l * this.numTopics, this.numTopics);
 
-		LimitedMemoryBFGS bfgs = new LimitedMemoryBFGS(ss, x);
+		//OptimizeEta optimizable = new OptimizeEta(ss, x);
+		LimitedMemoryBFGS bfgs = new LimitedMemoryBFGS(ss, x);//(optimizable);
 		bfgs.setTolerance(1e-4);
-		bfgs.optimize(this.mstepMaxIter);
+		//try {
+			bfgs.optimize(this.mstepMaxIter);
+		/*}
+		catch ( OptimizationException e ) {
+			Logger.getLogger(SLDA.class).warn(e);
+		}*/
 
+		//bfgs.getOptimizable().getX(x);
 		for ( int l = 0; l < this.numClasses; l++ )
 			for ( int k = 0; k < this.numTopics; k++ )
 				this.eta[l][k] = bfgs.getOptimizedParameter(l * this.numTopics + k);
@@ -993,138 +1012,6 @@ public class SLDA extends Classifier implements OptionHandler, TechnicalInformat
 	}
 
 	/**
-	 * log sum
-	 * @param logA
-	 * @param logB
-	 * @return sum
-	 */
-	private double logSum(double logA, double logB) {
-		if ( logA < logB )
-			return logB + log(1 + exp(logA - logB));
-		else
-			return logA + log(1 + exp(logB - logA));
-	}
-
-	/**
-	 * digamma
-	 * @param x x
-	 * @return digamma
-	 */
-	private double digamma(double x) {
-		x += 6;
-		double p = 1 / (x * x);
-		p = (((0.004166666666667 * p - 0.003968253986254) * p + 0.008333333333333) * p - 0.083333333333333) * p;
-		p = p + log(x) - 0.5 / x - 1 / (x - 1) - 1 / (x - 2) - 1 / (x - 3) - 1 / (x - 4) - 1/ (x - 5) - 1 / (x - 6);
-		return p;
-	}
-
-	/**
-	 * log gamma
-	 * @param x x
-	 * @return log gamma
-	 */
-	private double logGamma(double x) {
-		double result;
-		double d1 = -5.772156649015328605195174e-1;
-		double p1[] = {
-			4.945235359296727046734888e0, 2.018112620856775083915565e2,
-			2.290838373831346393026739e3, 1.131967205903380828685045e4,
-			2.855724635671635335736389e4, 3.848496228443793359990269e4,
-			2.637748787624195437963534e4, 7.225813979700288197698961e3};
-		double q1[] = {
-			6.748212550303777196073036e1, 1.113332393857199323513008e3,
-			7.738757056935398733233834e3, 2.763987074403340708898585e4,
-			5.499310206226157329794414e4, 6.161122180066002127833352e4,
-			3.635127591501940507276287e4, 8.785536302431013170870835e3};
-		double d2 = 4.227843350984671393993777e-1;
-		double p2[] = {
-			4.974607845568932035012064e0, 5.424138599891070494101986e2,
-			1.550693864978364947665077e4, 1.847932904445632425417223e5,
-			1.088204769468828767498470e6, 3.338152967987029735917223e6,
-			5.106661678927352456275255e6, 3.074109054850539556250927e6};
-		double q2[] = {
-			1.830328399370592604055942e2, 7.765049321445005871323047e3,
-			1.331903827966074194402448e5, 1.136705821321969608938755e6,
-			5.267964117437946917577538e6, 1.346701454311101692290052e7,
-			1.782736530353274213975932e7, 9.533095591844353613395747e6};
-		double d4 = 1.791759469228055000094023e0;
-		double p4[] = {
-			1.474502166059939948905062e4, 2.426813369486704502836312e6,
-			1.214755574045093227939592e8, 2.663432449630976949898078e9,
-			2.940378956634553899906876e10, 1.702665737765398868392998e11,
-			4.926125793377430887588120e11, 5.606251856223951465078242e11};
-		double q4[] = {
-			2.690530175870899333379843e3, 6.393885654300092398984238e5,
-			4.135599930241388052042842e7, 1.120872109616147941376570e9,
-			1.488613728678813811542398e10, 1.016803586272438228077304e11,
-			3.417476345507377132798597e11, 4.463158187419713286462081e11};
-		double c[] = {
-			-1.910444077728e-03, 8.4171387781295e-04,
-			-5.952379913043012e-04, 7.93650793500350248e-04,
-			-2.777777777777681622553e-03, 8.333333333333333331554247e-02,
-			5.7083835261e-03};
-		double a = 0.6796875;
-
-		if ( (x <= 0.5) || ((x > a) && (x <= 1.5)) ) {
-			if ( x <= 0.5 ) {
-				result = -log(x);
-				if ( x + 1 == 1 )//Test whether X < machine epsilon.
-					return result;
-			}
-			else {
-				result = 0;
-				x -= 1.0;
-			}
-
-			double xnum = 0.0, xden = 1.0;
-			for ( int i = 0; i < 8; i++ ) {
-				xnum = xnum * x + p1[i];
-				xden = xden * x + q1[i];
-			}
-			result += x * (d1 + x * (xnum / xden));
-		}
-		else if ( (x <= a) || ((x > 1.5) && (x <= 4)) ) {
-			if ( x <= a ) {
-				result = -log(x);
-				x -= 1.0;
-			}
-			else {
-				result = 0;
-				x -= 2;
-			}
-
-			double xnum = 0.0, xden = 1.0;
-			for ( int i = 0; i < 8; i++ ) {
-				xnum = xnum * x + p2[i];
-				xden = xden * x + q2[i];
-			}
-			result += x * (d2 + x * (xnum / xden));
-		}
-		else if ( x <= 12 ) {
-			x -= 4;
-			double xnum = 0.0, xden = -1.0;
-			for ( int i = 0; i < 8; i++ ) {
-				xnum = xnum * x + p4[i];
-				xden = xden * x + q4[i];
-			}
-			result = d4 + x * (xnum / xden);
-		}
-		else {//x > 12
-			double y = log(x);
-			result = x * (y - 1) - y * 0.5 + 0.9189385332046727417803297;
-			x = 1 / x;
-			y = x * x;
-			double xnum = c[6];
-			for ( int i = 0; i < 6; i++ )
-				xnum = xnum * y + c[i];
-			xnum *= x;
-			result += xnum;
-		}
-
-		return result;
-	}
-
-	/**
 	 * Sets all values to zero for the given sufficient statistic.
 	 * @param ss sufficient statistic to set to zero
 	 * @return sufficient statistic with zero values
@@ -1188,6 +1075,139 @@ public class SLDA extends Classifier implements OptionHandler, TechnicalInformat
 
 			this.labels = new int[numDocs];
 			this.totLabels = new int[numClasses];
+		}
+	}
+
+	class OptimizeEta implements Optimizable.ByGradientValue {
+		private SuffStats ss;
+		private double[] x;
+
+		public OptimizeEta(SuffStats ss, double[] x) {
+			this.ss = ss;
+			this.x = x;
+		}
+
+		@Override
+		public int size() { return this.x.length; }
+
+		@Override
+		public void getX(double[] buffer) { System.arraycopy(this.x, 0, buffer, 0, this.x.length); }
+
+		@Override
+		public double getX(int index) { return this.x[index]; }
+
+		@Override
+		public void setX(double[] params) { System.arraycopy(params, 0, this.x, 0, params.length); }
+
+		@Override
+		public void setX(int index, double value) { this.x[index] = value; }
+
+		/**
+		 * Calculates the new gradient values.
+		 * @param buffer store the new gradient values
+		 */
+		@Override
+		public void getValueGradient(double[] buffer) {
+			double[] df = new double[this.x.length];
+			double[] tmp = new double[this.x.length];
+
+			for ( int l = 0; l < numClasses; l++ )
+				for ( int k = 0; k < numTopics; k++ ) {
+					int idx = l * numTopics + k;
+					eta[l][k] = this.x[idx];
+					double g = -penalty * eta[l][k];
+					df[idx] = g;
+				}
+
+			for ( int d = 0; d < this.ss.numDocs; d++ ) {
+				for ( int k = 0; k < numTopics; k++ ) {
+					int l = this.ss.labels[d];
+
+					if ( l < numClasses ) {
+						int idx = l * numTopics + k;
+						double g = df[idx] + this.ss.zBarM[d][k];
+						df[idx] = g;
+					}
+				}
+
+				double t = 0.0;//in log space, 1+exp()+exp()+....
+				System.arraycopy(df, 0, tmp, 0, df.length);
+				Arrays.fill(df, 0);
+
+				for ( int l = 0; l < numClasses; l++ ) {
+					double[] eta_aux = new double[numTopics];
+					double a1 = 0.0;//\eta_k^T * \bar{\phi}_d
+					double a2 = 0.0;//1 + 0.5*\eta_k^T * Var(z_bar)\eta_k
+
+					for ( int k = 0; k < numTopics; k++ ) {
+						a1 += eta[l][k] * this.ss.zBarM[d][k];
+
+						for ( int j = 0; j < numTopics; j++ ) {
+							int idx = mapIdx(k, j, numTopics);
+							a2 += eta[l][k] * ss.zBarVar[d][idx] * eta[l][j];
+							eta_aux[k] += this.ss.zBarVar[d][idx] * eta[l][j];
+						}
+					}
+
+					a2 = 1.0 + 0.5 * a2;
+					t = logSum(t, a1 + log(a2));
+
+					for ( int k = 0; k < numTopics; k++ ) {
+						int idx = l * numTopics + k;
+						double g = df[idx] - exp(a1) * (this.ss.zBarM[d][k] * a2 + eta_aux[k]);
+						df[idx] = g;
+					}
+				}
+
+				for ( int i = 0; i < df.length; i++ )
+					df[i] = df[i] * exp(-t) + tmp[i];
+			}
+
+			System.arraycopy(df, 0, buffer, 0, df.length);
+		}
+
+		/**
+		 * Calculates the gradient value.
+		 * @return gradient value
+		 */
+		@Override
+		public double getValue() {
+			double fRegularization = 0.0;
+			for ( int l = 0; l < numClasses; l++ ) {
+				for ( int k = 0; k < numTopics; k++ ) {
+					eta[l][k] = this.x[l * numTopics + k];
+					fRegularization -= pow(eta[l][k], 2) * penalty / 2.0;
+				}
+			}
+
+			double f = 0.0;//log likelihood
+			for ( int d = 0; d < this.ss.numDocs; d++ ) {
+				for ( int k = 0; k < numTopics; k++ )
+					if ( this.ss.labels[d] < numClasses )
+						f += eta[this.ss.labels[d]][k] * this.ss.zBarM[d][k];
+
+				double t = 0.0;//in log space, 1+exp()+exp()...
+				for ( int l = 0; l < numClasses; l++ ) {
+					double a1 = 0.0;//\eta_k^T * \bar{\phi}_d
+					double a2 = 0.0;//1 + 0.5 * \eta_k^T * Var(z_bar)\eta_k
+
+					for ( int k = 0; k < numTopics; k++ ) {
+						a1 += eta[l][k] * ss.zBarM[d][k];
+						for ( int j = 0; j < numTopics; j++ ) {
+							int idx = mapIdx(k, j, numTopics);
+							a2 += eta[l][k] * this.ss.zBarVar[d][idx] * eta[l][j];
+						}
+					}
+
+					a2 = 1.0 + 0.5 * a2;
+					t = logSum(t, a1 + log(a2));
+				}
+				  f -= t;
+	    }
+
+			double gradient = (f + fRegularization);
+			//Logger.getLogger(LimitedMemoryBFGS.class).info("gradient value: " + gradient);
+			return gradient;
 		}
 	}
 
@@ -1295,19 +1315,19 @@ public class SLDA extends Classifier implements OptionHandler, TechnicalInformat
 			System.arraycopy(g, 0, oldg, 0, g.length);
 			System.arraycopy(g, 0, direction, 0, g.length);
 
-			if ( this.absNorm(direction) == 0 ) {
+			if ( absNorm(direction) == 0 ) {
 				Logger.getLogger(LimitedMemoryBFGS.class).warn("L-BFGS initial gradient is zero; saying converged");
 				this.converged = true;
 				return true;
 			}
 
-			Logger.getLogger(LimitedMemoryBFGS.class).debug("direction.2norm: " + this.twoNorm(direction));
-			this.timesEquals(direction, 1.0 / this.twoNorm(direction));
+			Logger.getLogger(LimitedMemoryBFGS.class).debug("direction.2norm: " + twoNorm(direction));
+			timesEquals(direction, 1.0 / twoNorm(direction));
 			//make initial jump
 			Logger.getLogger(LimitedMemoryBFGS.class).debug("before initial jump:" +
-							"\ndirection.2norm: " + this.twoNorm(direction) +
-							"\ngradient.2norm: " + this.twoNorm(g) +
-							"\nparameters.2norm: " + this.twoNorm(p));
+							"\ndirection.2norm: " + twoNorm(direction) +
+							"\ngradient.2norm: " + twoNorm(g) +
+							"\nparameters.2norm: " + twoNorm(p));
 
 			step = this.optimizeLine(direction, step);
 			if ( step == 0.0 ) {//could not step in this direction.
@@ -1321,14 +1341,14 @@ public class SLDA extends Classifier implements OptionHandler, TechnicalInformat
 			System.arraycopy(this.parameters, 0, p, 0, this.parameters.length);
 			this.getValueGradient(g);
 			Logger.getLogger(LimitedMemoryBFGS.class).debug("after initial jump:" +
-							"\ndirection.2norm: " + this.twoNorm(direction) +
-							"\ngradient.2norm: " + this.twoNorm(g));
+							"\ndirection.2norm: " + twoNorm(direction) +
+							"\ngradient.2norm: " + twoNorm(g));
 
 			for ( int iterationCount = 0; iterationCount < numIterations; iterationCount++ ) {
 				double value = this.getValue();
 				Logger.getLogger(LimitedMemoryBFGS.class).debug("L-BFGS iteration=" + iterationCount +
-								", value=" + value + " g.twoNorm: " + this.twoNorm(g) +
-								" oldg.twoNorm: " + this.twoNorm(oldg));
+								", value=" + value + " g.twoNorm: " + twoNorm(g) +
+								" oldg.twoNorm: " + twoNorm(oldg));
 
 				//get difference between previous 2 gradients and parameters
 				double sy = 0.0;
@@ -1362,13 +1382,13 @@ public class SLDA extends Classifier implements OptionHandler, TechnicalInformat
 
 				//calculate new direction
 				for ( int i = s.size() - 1; i >= 0; i-- ) {
-					alpha[i] = ((Double)rho.get(i)).doubleValue() * this.dotProduct((double[])s.get(i), direction);
-					this.plusEquals(direction, (double[])y.get(i), -1.0 * alpha[i]);
+					alpha[i] = ((Double)rho.get(i)).doubleValue() * dotProduct((double[])s.get(i), direction);
+					plusEquals(direction, (double[])y.get(i), -1.0 * alpha[i]);
 				}
-				this.timesEquals(direction, gamma);
+				timesEquals(direction, gamma);
 				for ( int i = 0; i < y.size(); i++ ) {
-					double beta = (((Double)rho.get(i)).doubleValue()) * this.dotProduct((double[])y.get(i), direction);
-					this.plusEquals(direction, (double[])s.get(i), alpha[i] - beta);
+					double beta = (((Double)rho.get(i)).doubleValue()) * dotProduct((double[])y.get(i), direction);
+					plusEquals(direction, (double[])s.get(i), alpha[i] - beta);
 				}
 
 				for ( int i = 0; i < oldg.length; i++ ) {
@@ -1378,9 +1398,9 @@ public class SLDA extends Classifier implements OptionHandler, TechnicalInformat
 				}
 
 				Logger.getLogger(LimitedMemoryBFGS.class).debug("before linesearch: direction.gradient.dotprod: " +
-								this.dotProduct(direction, g) +
-								"\ndirection.2norm: " +	this.twoNorm(direction) +
-								"\nparameters.2norm: " + this.twoNorm(p));
+								dotProduct(direction, g) +
+								"\ndirection.2norm: " +	twoNorm(direction) +
+								"\nparameters.2norm: " + twoNorm(p));
 
 				step = this.optimizeLine(direction, step);
 				if ( step == 0.0 ) {//could not step in this direction.
@@ -1392,7 +1412,7 @@ public class SLDA extends Classifier implements OptionHandler, TechnicalInformat
 
 				System.arraycopy(this.parameters, 0, p, 0, this.parameters.length);
 				this.getValueGradient(g);
-				Logger.getLogger(LimitedMemoryBFGS.class).debug("after linesearch: direction.2norm: " + this.twoNorm(direction));
+				Logger.getLogger(LimitedMemoryBFGS.class).debug("after linesearch: direction.2norm: " + twoNorm(direction));
 				double newValue = this.getValue();
 
 				//Test for terminations
@@ -1402,7 +1422,7 @@ public class SLDA extends Classifier implements OptionHandler, TechnicalInformat
 					return true;
 				}
 
-				double gg = this.twoNorm(g);
+				double gg = twoNorm(g);
 				if ( gg < this.gradientTolerance ) {
 					Logger.getLogger(LimitedMemoryBFGS.class).debug("Exiting L-BFGS on termination #2:\ngradient=" + gg + " < " + this.gradientTolerance);
 					this.converged = true;
@@ -1584,7 +1604,7 @@ public class SLDA extends Classifier implements OptionHandler, TechnicalInformat
 		 * @return 0.0 if could not step in direction
 		 */
 		public double optimizeLine(double[] line, double initialStep) {
-			int maxLineIterations = 100, iteration;
+			int maxLineIterations = 200, iteration;
 			double slope, temp, test, alamin, alam, alam2, tmplam, rhs1, rhs2, a, b, disc, oldAlam, f, fold, f2;
 			double stpmax = 100;
 			double relTolx = 1e-7;
@@ -1605,16 +1625,16 @@ public class SLDA extends Classifier implements OptionHandler, TechnicalInformat
 
 			Logger.getLogger(LimitedMemoryBFGS.class).debug("Entering backtrack.");
 			Logger.getLogger(LimitedMemoryBFGS.class).debug("Entering backtrack line search, value=" + fold +
-							"\ndirection.oneNorm: " + this.oneNorm(line) +
-							"\ndirection.infNorm: " + this.infNorm(line));
+							"\ndirection.oneNorm: " + oneNorm(line) +
+							"\ndirection.infNorm: " + infNorm(line));
 
-			double sum = this.twoNorm(line);
+			double sum = twoNorm(line);
 			if ( sum > stpmax ) {
 				Logger.getLogger(LimitedMemoryBFGS.class).warn("Attempted step too big. scaling: sum=" + sum + ", stpmax=" + stpmax);
-				this.timesEquals(line, stpmax / sum);
+				timesEquals(line, stpmax / sum);
 			}
 
-			slope = this.dotProduct(g, line);
+			slope = dotProduct(g, line);
 			Logger.getLogger(LimitedMemoryBFGS.class).debug("slope=" + slope);
 
 			if ( slope < 0 )
@@ -1640,14 +1660,14 @@ public class SLDA extends Classifier implements OptionHandler, TechnicalInformat
 				//x = oldParameters + alam * line
 				//initially, alam = 1.0, i.e. take full Newton step
 				Logger.getLogger(LimitedMemoryBFGS.class).debug("BackTrack loop iteration " + iteration + "\nalam=" + alam + ". oldAlam=" + oldAlam);
-				Logger.getLogger(LimitedMemoryBFGS.class).debug("before step, x.1norm: " + this.oneNorm(x) + "\nalam: " + alam + ", oldAlam: " + oldAlam);
+				Logger.getLogger(LimitedMemoryBFGS.class).debug("before step, x.1norm: " + oneNorm(x) + "\nalam: " + alam + ", oldAlam: " + oldAlam);
 
-				this.plusEquals(x, line, alam - oldAlam);//step
-				Logger.getLogger(LimitedMemoryBFGS.class).debug("after step, x.1norm: " + this.oneNorm(x));
+				plusEquals(x, line, alam - oldAlam);//step
+				Logger.getLogger(LimitedMemoryBFGS.class).debug("after step, x.1norm: " + oneNorm(x));
 
 				//check for convergence
 				//convergence on delta x
-				if ( (alam < alamin) || this.smallAbsDiff(oldx, x, absTolx) ) {
+				if ( (alam < alamin) || smallAbsDiff(oldx, x, absTolx) ) {
 					System.arraycopy(oldx, 0, this.parameters, 0, oldx.length);
 					f = this.getValue();
 					Logger.getLogger(LimitedMemoryBFGS.class).debug("Exiting backtrack: Jump too small (alamin=" + alamin + ").\nExiting and using xold. Value=" + f);
@@ -1723,7 +1743,7 @@ public class SLDA extends Classifier implements OptionHandler, TechnicalInformat
 		 * @param oldx old x
 		 * @param absTolx abs tol x
 		 * @return returns true if we've converged based on absolute x difference
-		 */
+		 *
 		private boolean smallAbsDiff(double[] x, double[] oldx, double absTolx) {
 			for (int i = 0; i < x.length; i++)
 				if (abs(x[i] - oldx[i]) > absTolx)
@@ -1735,7 +1755,7 @@ public class SLDA extends Classifier implements OptionHandler, TechnicalInformat
 		 * one norm
 		 * @param m m
 		 * @return one norm
-		 */
+		 *
 		private double oneNorm(double[] m) {
 			double n = 0.0;
 			for ( int i = 0; i < m.length; i++ )
@@ -1747,7 +1767,7 @@ public class SLDA extends Classifier implements OptionHandler, TechnicalInformat
 		 * two norm
 		 * @param m m
 		 * @return two norm
-		 */
+		 *
 		private double twoNorm(double[] m) {
 			double n = 0.0;
 			for ( int i = 0; i < m.length; i++ )
@@ -1759,7 +1779,7 @@ public class SLDA extends Classifier implements OptionHandler, TechnicalInformat
 		 * infinity norm
 		 * @param m m
 		 * @return infinity norm
-		 */
+		 *
 		private double infNorm(double[] m) {
 			double n = Double.NEGATIVE_INFINITY;
 			for ( int i = 0; i < m.length; i++ )
@@ -1772,7 +1792,7 @@ public class SLDA extends Classifier implements OptionHandler, TechnicalInformat
 		 * absolute norm
 		 * @param m m
 		 * @return absolute norm
-		 */
+		 *
 		private double absNorm(double[] m) {
 			double n = 0.0;
 			for ( int i = 0; i < m.length; i++ )
@@ -1788,7 +1808,7 @@ public class SLDA extends Classifier implements OptionHandler, TechnicalInformat
 		 * scalar
 		 * @param m m
 		 * @param factor scalar
-		 */
+		 *
 		private void timesEquals(double[] m, double factor) {
 			for ( int i = 0; i < m.length; i++ )
 				m[i] *= factor;
@@ -1799,7 +1819,7 @@ public class SLDA extends Classifier implements OptionHandler, TechnicalInformat
 		 * @param m1 m1
 		 * @param m2 m2
 		 * @return dot product
-		 */
+		 *
 		private double dotProduct(double[] m1, double[] m2) {
 		 double dot = 0.0;
 		 for ( int i = 0; i < m1.length; i++ )
@@ -1812,7 +1832,7 @@ public class SLDA extends Classifier implements OptionHandler, TechnicalInformat
 		 * @param m1 m1
 		 * @param m2 m2
 		 * @param factor scalar
-		 */
+		 *
 		private void plusEquals(double[] m1, double[] m2, double factor) {
 			for ( int i = 0; i < m1.length; i++ )
 				if ( Double.isInfinite(m1[i]) && Double.isInfinite(m2[i]) && (m1[i] * m2[i] < 0) )
@@ -1822,7 +1842,7 @@ public class SLDA extends Classifier implements OptionHandler, TechnicalInformat
 
 		/**
 		 * optimization exception
-		 */
+		 *
 		class OptimizationException extends RuntimeException {
 			public OptimizationException() {
 				super();
@@ -1839,7 +1859,7 @@ public class SLDA extends Classifier implements OptionHandler, TechnicalInformat
 			public OptimizationException (Throwable cause) {
 				super(cause);
 			}
-		}
+		}*/
 	}
 
 	public static void main(String[] args) throws Exception {
@@ -1887,6 +1907,19 @@ public class SLDA extends Classifier implements OptionHandler, TechnicalInformat
 		instance.setValue((Attribute)atts.elementAt(6), 1);
 		instance.setValue((Attribute)atts.elementAt(7), 0);
 		instance.setValue((Attribute)atts.elementAt(8), 3);
+		instance.setValue((Attribute)atts.elementAt(9), "A");
+		data.add(instance);
+
+		instance = new Instance(atts.size());
+		instance.setValue((Attribute)atts.elementAt(0), 5);
+		instance.setValue((Attribute)atts.elementAt(1), 5);
+		instance.setValue((Attribute)atts.elementAt(2), 5);
+		instance.setValue((Attribute)atts.elementAt(3), 1);
+		instance.setValue((Attribute)atts.elementAt(4), 1);
+		instance.setValue((Attribute)atts.elementAt(5), 1);
+		instance.setValue((Attribute)atts.elementAt(6), 1);
+		instance.setValue((Attribute)atts.elementAt(7), 1);
+		instance.setValue((Attribute)atts.elementAt(8), 6);
 		instance.setValue((Attribute)atts.elementAt(9), "A");
 		data.add(instance);
 
@@ -1943,6 +1976,19 @@ public class SLDA extends Classifier implements OptionHandler, TechnicalInformat
 		data.add(instance);
 
 		instance = new Instance(atts.size());
+		instance.setValue((Attribute)atts.elementAt(0), 5);
+		instance.setValue((Attribute)atts.elementAt(1), 3);
+		instance.setValue((Attribute)atts.elementAt(2), 0);
+		instance.setValue((Attribute)atts.elementAt(3), 0);
+		instance.setValue((Attribute)atts.elementAt(4), 2);
+		instance.setValue((Attribute)atts.elementAt(5), 4);
+		instance.setValue((Attribute)atts.elementAt(6), 4);
+		instance.setValue((Attribute)atts.elementAt(7), 6);
+		instance.setValue((Attribute)atts.elementAt(8), 0);
+		instance.setValue((Attribute)atts.elementAt(9), "C");
+		data.add(instance);
+
+		instance = new Instance(atts.size());
 		instance.setValue((Attribute)atts.elementAt(0), 1);
 		instance.setValue((Attribute)atts.elementAt(1), 1);
 		instance.setValue((Attribute)atts.elementAt(2), 3);
@@ -1973,7 +2019,7 @@ public class SLDA extends Classifier implements OptionHandler, TechnicalInformat
 		System.out.println();
 
 		SLDA slda = new SLDA();
-		slda.setOptions(new String[]{"-T", "3", "-mstep-iter", "200"});
+		slda.setOptions(new String[]{"-T", "3", "-mstep-iter", "10"});
 		slda.buildClassifier(data);
 
 		System.out.println("classifing instances:");
