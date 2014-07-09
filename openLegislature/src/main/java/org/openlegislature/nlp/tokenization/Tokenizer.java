@@ -1,5 +1,8 @@
 package org.openlegislature.nlp.tokenization;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 /**
  *
  * @author jnphilipp
@@ -7,8 +10,21 @@ package org.openlegislature.nlp.tokenization;
  */
 public class Tokenizer {
 	public static String[] tokenize(String text) {
-		String s = text.replaceAll("[!\"§$%&/\\(\\)=?\\\\\\}\\]\\[\\{+*#';,.:_<>|]", " ");
-		s = s.replaceAll("\n", " ").replaceAll("\\s\\s+", " ");
-		return s.split("\\s+");
+		text = replace("[!\"§$%&/\\(\\)=?\\\\\\}\\]\\[\\{+*#';,.:_<>|–“”„]", " ", text);
+		text = replace("\\s*\n\\s*", " ", text);
+		text = replace("\\s(\\d+|-)\\s", " ", text);
+		text = replace("\\s\\s+", " ", text);
+
+		return text.trim().split("\\s+");
+	}
+
+	private static String replace(String pattern, String replacement, String text) {
+		Matcher m = Pattern.compile(pattern).matcher(text);
+		while ( m.find() ) {
+			text = m.replaceAll(replacement);
+			m = Pattern.compile(pattern).matcher(text);
+		}
+
+		return text;
 	}
 }
