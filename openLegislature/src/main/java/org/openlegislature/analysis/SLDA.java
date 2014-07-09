@@ -1,5 +1,6 @@
 package org.openlegislature.analysis;
 
+import java.io.BufferedReader;
 import java.io.File;
 import java.io.IOException;
 import java.util.Arrays;
@@ -70,12 +71,14 @@ public class SLDA {
 		SLDA slda = new SLDA();
 		String[] xmls = slda.getXMLFiles();
 
-		String name = slda.createARFF(Arrays.copyOfRange(xmls, 0, 5));
+		//String name = slda.createARFF(xmls);
+		//String name = slda.createARFF(Arrays.copyOfRange(xmls, 0, 5));
 		/*slda.clear();
 		slda.createARFF(Arrays.copyOfRange(xmls, 6, 10));*/
-		//Instances instances = new Instances(new BufferedReader(new java.io.FileReader(new File(Helpers.getUserDir() + "/data/speeches.arff"))));
-		//instances.setClassIndex(instances.numAttributes() - 1);
-		slda.analyse(name);
+		slda.instances = new Instances(new BufferedReader(new java.io.FileReader(new File(Helpers.getUserDir() + "/data/speeches_speaker_17001_17005.arff"))));
+		slda.instances.setClassIndex(slda.instances.numAttributes() - 1);
+		slda.analyse("speeches_speaker_17001_17002");
+		//slda.analyse(name);
 	}
 
 	private String[] getXMLFiles() {
@@ -136,10 +139,6 @@ public class SLDA {
 			this.attrs.addElement(new Attribute(token));
 		this.attrs.addElement(new Attribute("class_attribute", this.classes));
 
-		/*this.attrs = new FastVector(2);
-		this.attrs.addElement(new Attribute("class_attribute", this.classes));
-		this.attrs.addElement(new Attribute("text", (FastVector)null));*/
-
 		this.instances = new Instances("speeches", this.attrs, this.speeches.size());
 		this.instances.setClassIndex(this.tokens.length);
 
@@ -148,20 +147,6 @@ public class SLDA {
 		for ( Object[] speech : this.speeches ) {
 			executorService.execute(new InstanceCreator(this, speech));
 			threads++;
-
-			/*Instance instance = new Instance(this.attrs.size());
-
-			Map<String, Integer> counts = (Map<String, Integer>)speech[1];
-			for ( int i = 0; i < this.tokens.length; i++ ) {
-				//System.out.println(speech[0] + " - " + i);
-				//System.out.println((Attribute)this.attrs.elementAt(i));
-				//System.out.println((counts.containsKey(this.tokens[i]) ? counts.get(this.tokens[i]) : 0));
-				instance.setValue((Attribute)this.attrs.elementAt(i), (counts.containsKey(this.tokens[i]) ? counts.get(this.tokens[i]) : 0));
-			}
-
-			instance.setValue((Attribute)this.attrs.elementAt(this.tokens.length), speech[0].toString());
-
-			this.instances.add(instance);*/
 		}
 
 		while ( this.finishedThreads != threads )
@@ -170,20 +155,6 @@ public class SLDA {
 				this.wait();
 			}
 		Logger.getInstance().info(SLDA.class, "Finished all threads.");
-
-		/*StringToWordVector filter = new StringToWordVector();
-		filter.setAttributeNamePrefix("t_");
-		filter.setStopwords(new File(Helpers.getUserDir() + "/data/nlp/stopwordlist_german"));
-		filter.setDoNotOperateOnPerClassBasis(true);
-		filter.setInputFormat(this.instances);
-		filter.setOutputWordCounts(true);
-		filter.setUseStoplist(true);
-		filter.setWordsToKeep(Integer.MAX_VALUE);
-		filter.setLowerCaseTokens(true);
-		filter.setTokenizer(new Tokenizer());
-		filter.setAttributeIndicesArray(new int[]{1});
-		Instances data = Filter.useFilter(this.instances, filter);
-		this.instances = data;*/
 
 		System.out.println("classes: " + instances.numClasses());
 		System.out.println("attributes: " + instances.numAttributes());
@@ -204,7 +175,7 @@ public class SLDA {
 		System.out.println("speeches: " + this.instances.numInstances());
 
 		weka.classifiers.functions.SLDA slda = new weka.classifiers.functions.SLDA();
-		slda.setOptions(new String[]{"-T", "30", "-mstep-iter", "1000", "-var-iter", "200", "-em-iter", "500"});
+		slda.setOptions(new String[]{"-T", "30", "-mstep-iter", "100"});//, "-var-iter", "200", "-em-iter", "500"});
 		slda.buildClassifier(this.instances);
 
 		String[][] topWords = slda.getTopWords();
@@ -244,12 +215,14 @@ public class SLDA {
 			Matcher matches = Pattern.compile("<speech>(.+?)</speech>", Pattern.DOTALL | Pattern.MULTILINE).matcher(text);
 			while ( matches.find() ) {
 				Matcher m = Pattern.compile("<speaker>.+?<name>(.+?)</name>.+?</speaker>", Pattern.DOTALL | Pattern.MULTILINE).matcher(matches.group(1));
-				String speaker = (m.find() ? m.group(1) : "NO_SPEAKER");
+				String speaker = (m.find() ? m.group(1) : null);
 				String speech = matches.group(1).replaceAll("(?s)<[^>]+>[^<]+?</[^>]+>", " ").replaceAll("(?s)<[^>]+>[^<]+?</[^>]+>", " ").replaceAll("\\s+\n\\s+", " ").replaceAll("\\s\\s+", " ").trim();
 
 				String[] tokens = Tokenizer.tokenize(speech.toLowerCase());
 				tokens = this.parent.stopwordFilter.filter(tokens);
-				//this.parent.getAllTokens().addAll(Arrays.asList(tokens));
+
+				if ( speaker == null || tokens.length == 0 )
+					continue;
 
 				Map<String, Integer> counts = new LinkedHashMap<>();
 				for ( String token : tokens )

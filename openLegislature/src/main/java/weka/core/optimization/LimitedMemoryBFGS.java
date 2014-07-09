@@ -25,6 +25,7 @@ public class LimitedMemoryBFGS {
 	 * maximum iterations
 	 */
 	private final int MAX_ITER = 1000;
+	private final int MAX_LINE_ITERATIONS = 200;
 	/**
 	 * logger
 	 */
@@ -138,14 +139,18 @@ public class LimitedMemoryBFGS {
 			return true;
 		}
 
-		this.logger.debug("direction.2norm: " + twoNorm(direction));
-		timesEquals(direction, 1.0 / twoNorm(direction));
-		//make initial jump
-		this.logger.debug("before initial jump:" +
-						"\ndirection.2norm: " + twoNorm(direction) +
-						"\ngradient.2norm: " + twoNorm(g) +
-						"\nparameters.2norm: " + twoNorm(p));
+		if ( Logger.getRootLogger().isDebugEnabled() )
+			this.logger.debug("direction.2norm: " + twoNorm(direction));
 
+		timesEquals(direction, 1.0 / twoNorm(direction));
+
+		if ( Logger.getRootLogger().isDebugEnabled() )
+			this.logger.debug("before initial jump:" +
+							"\ndirection.2norm: " + twoNorm(direction) +
+							"\ngradient.2norm: " + twoNorm(g) +
+							"\nparameters.2norm: " + twoNorm(p));
+
+		//make initial jump
 		step = this.optimizeLine(direction, step);
 		if ( step == 0.0 ) {//could not step in this direction.
 			//give up and say converged.
@@ -155,25 +160,29 @@ public class LimitedMemoryBFGS {
 
 		this.optimizable.getX(p);
 		this.optimizable.getValueGradient(g);
-		this.logger.debug("after initial jump:" +
-						"\ndirection.2norm: " + twoNorm(direction) +
-						"\ngradient.2norm: " + twoNorm(g));
+		if ( Logger.getRootLogger().isDebugEnabled() )
+			this.logger.debug("after initial jump:" +
+							"\ndirection.2norm: " + twoNorm(direction) +
+							"\ngradient.2norm: " + twoNorm(g));
 
 		for ( int iterationCount = 0; iterationCount < numIterations; iterationCount++ ) {
 			double value = this.optimizable.getValue();
-			this.logger.debug("L-BFGS iteration=" + iterationCount + ", value=" + value + " g.twoNorm: " + twoNorm(g) + " oldg.twoNorm: " + twoNorm(oldg));
+
+			if ( Logger.getRootLogger().isDebugEnabled() )
+				this.logger.debug("L-BFGS iteration=" + iterationCount +
+								", value=" + value + " g.twoNorm: " + twoNorm(g) +
+								" oldg.twoNorm: " + twoNorm(oldg));
 
 			//get difference between previous 2 gradients and parameters
-			double sy = 0.0;
-			double yy = 0.0;
+			double sy = 0.0, yy = 0.0;
 			for ( int i = 0; i < oldp.length; i++ ) {
-				oldp[i] = Double.isInfinite(p[i]) && Double.isInfinite(oldp[i]) && (p[i] * oldp[i] > 0) ? 0.0 : p[i] - oldp[i];
 				/*if ( Double.isInfinite(p[i]) && Double.isInfinite(oldp[i]) && (p[i] * oldp[i] > 0) )
 					oldp[i] = 0.0;
 				else
-					oldp[i] = p[i] - oldp[i];
+					oldp[i] = p[i] - oldp[i];*/
+				oldp[i] = Double.isInfinite(p[i]) && Double.isInfinite(oldp[i]) && (p[i] * oldp[i] > 0) ? 0.0 : p[i] - oldp[i];
 
-				if ( Double.isInfinite(g[i]) && Double.isInfinite(oldg[i]) && (g[i] * oldg[i] > 0) )
+				/*if ( Double.isInfinite(g[i]) && Double.isInfinite(oldg[i]) && (g[i] * oldg[i] > 0) )
 					oldg[i] = 0.0;
 				else
 					oldg[i] = g[i] - oldg[i];*/
@@ -197,13 +206,11 @@ public class LimitedMemoryBFGS {
 
 			//calculate new direction
 			for ( int i = s.size() - 1; i >= 0; i-- ) {
-				//alpha[i] = ((Double)rho.get(i)).doubleValue() * dotProduct((double[])s.get(i), direction);
 				alpha[i] = ((Double)rho.get(i)) * dotProduct((double[])s.get(i), direction);
 				plusEquals(direction, (double[])y.get(i), -1.0 * alpha[i]);
 			}
 			timesEquals(direction, gamma);
 			for ( int i = 0; i < y.size(); i++ ) {
-				//double beta = (((Double)rho.get(i)).doubleValue()) * dotProduct((double[])y.get(i), direction);
 				double beta = (((Double)rho.get(i))) * dotProduct((double[])y.get(i), direction);
 				plusEquals(direction, (double[])s.get(i), alpha[i] - beta);
 			}
@@ -214,24 +221,26 @@ public class LimitedMemoryBFGS {
 				direction[i] *= -1.0;
 			}
 
-			this.logger.debug("before linesearch: direction.gradient.dotprod: " + dotProduct(direction, g) +
-							"\ndirection.2norm: " +	twoNorm(direction) +
-							"\nparameters.2norm: " + twoNorm(p));
+			if ( Logger.getRootLogger().isDebugEnabled() )
+				this.logger.debug("before linesearch: direction.gradient.dotprod: " + dotProduct(direction, g) +
+								"\ndirection.2norm: " +	twoNorm(direction) +
+								"\nparameters.2norm: " + twoNorm(p));
 
 			step = this.optimizeLine(direction, step);
-			if ( step == 0.0 ) {//could not step in this direction.#
+			if ( step == 0.0 ) {//could not step in this direction.
 				step = 1.0;
 				throw new OptimizationException("Line search could not step in the current direction. (This is not necessarily cause for alarm. Sometimes this happens close to the maximum, where the function may be very flat.)");
-				}
+			}
 
-			//System.arraycopy(this.parameters, 0, p, 0, this.parameters.length);
 			this.optimizable.getX(p);
 			this.optimizable.getValueGradient(g);
-			this.logger.debug("after linesearch: direction.2norm: " + twoNorm(direction));
-			double newValue = this.optimizable.getValue();
+
+			if ( Logger.getRootLogger().isDebugEnabled() )
+				this.logger.debug("after linesearch: direction.2norm: " + twoNorm(direction));
 
 			//Test for terminations
-			if ( 2.0 * abs(newValue-value) <= this.tolerance * (abs(newValue) + abs(value) + this.eps) ) {
+			double newValue = this.optimizable.getValue();
+			if ( 2.0 * abs(newValue - value) <= this.tolerance * (abs(newValue) + abs(value) + this.eps) ) {
 				this.logger.debug("Exiting L-BFGS on termination #1:\nvalue difference below tolerance (oldValue: " + value + " newValue: " + newValue);
 				this.converged = true;
 				return true;
@@ -252,7 +261,7 @@ public class LimitedMemoryBFGS {
 
 			this.logger.debug("Gradient = " + gg);
 			this.iterations++;
-			if ( this.iterations > this.MAX_ITER ) {
+			if ( this.iterations > numIterations ) {
 				this.logger.error("Too many iterations in L-BFGS.java. Continuing with current parameters.");
 				this.converged = true;
 				return true;
@@ -269,8 +278,8 @@ public class LimitedMemoryBFGS {
 	 * @return 0.0 if could not step in direction
 	 */
 	public double optimizeLine(double[] line, double initialStep) {
-		int maxLineIterations = 200, iteration;
-		double slope, temp, test, alamin, alam, alam2, tmplam, rhs1, rhs2, a, b, disc, oldAlam, f, fold, f2;
+		int iteration;
+		double slope, disc, f, fold, f2;
 		double stpmax = 100;
 		double relTolx = 1e-7;
 		double absTolx = 1e-4;//tolerance on absolute value difference
@@ -281,17 +290,18 @@ public class LimitedMemoryBFGS {
 		x = new double[this.optimizable.size()];//parameters
 		oldx = new double[this.optimizable.size()];
 
+		//System.arraycopy(this.parameters, 0, x, 0, this.parameters.length);
 		this.optimizable.getX(x);
 		System.arraycopy(x, 0, oldx, 0, x.length);
 
 		this.optimizable.getValueGradient(g);
-		alam2 = tmplam = 0.0;
 		f2 = fold = this.optimizable.getValue();
 
 		this.logger.debug("Entering backtrack.");
-		this.logger.debug("Entering backtrack line search, value=" + fold +
-						"\ndirection.oneNorm: " + oneNorm(line) +
-						"\ndirection.infNorm: " + infNorm(line));
+		if ( Logger.getRootLogger().isDebugEnabled() )
+			this.logger.debug("Entering backtrack line search, value=" + fold +
+							"\ndirection.oneNorm: " + oneNorm(line) +
+							"\ndirection.infNorm: " + infNorm(line));
 
 		double sum = twoNorm(line);
 		if ( sum > stpmax ) {
@@ -304,42 +314,44 @@ public class LimitedMemoryBFGS {
 
 		if ( slope < 0 )
 			throw new OptimizationException("Slope = " + slope + " is negative");
-		else if ( slope == 0 )
+		if ( slope == 0 )
 			throw new OptimizationException("Slope = " + slope + " is zero");
 
 		//find maximum lambda
 		//converge when (delta x) / x < REL_TOLX for all coordinates.
 		//the largest step size that triggers this threshold is
 		//precomputed and saved in alamin
-		test = 0.0;
+		double test = 0.0;
 		for ( int i = 0; i < oldx.length; i++ ) {
-			temp = abs(line[i]) / max(abs(oldx[i]), 1.0);
-			if ( temp > test )
-				test = temp;
+			double tmp = abs(line[i]) / max(abs(oldx[i]), 1.0);
+			if ( tmp > test )
+				test = tmp;
 		}
 
-		alamin = relTolx / test;
-		alam = 1.0;
-		oldAlam = 0.0;
-		for ( iteration = 0; iteration < maxLineIterations; iteration++ ) {//look for step size in direction given by "line"
+		double alamin = relTolx / test;
+		double alam = 1.0, alam2 = 0.0, oldAlam = 0.0, tmplam = 0.0;
+		for ( iteration = 0; iteration < this.MAX_LINE_ITERATIONS; iteration++ ) {//look for step size in direction given by "line"
 			//x = oldParameters + alam * line
 			//initially, alam = 1.0, i.e. take full Newton step
+
 			this.logger.debug("BackTrack loop iteration " + iteration + "\nalam=" + alam + ". oldAlam=" + oldAlam);
-			this.logger.debug("before step, x.1norm: " + oneNorm(x) + "\nalam: " + alam + ", oldAlam: " + oldAlam);
+			if ( Logger.getRootLogger().isDebugEnabled() )
+				this.logger.debug("before step, x.1norm: " + oneNorm(x) + 	"\nalam: " + alam + ", oldAlam: " + oldAlam);
 
 			plusEquals(x, line, alam - oldAlam);//step
-			this.logger.debug("after step, x.1norm: " + oneNorm(x));
+			if ( Logger.getRootLogger().isDebugEnabled() )
+				this.logger.debug("after step, x.1norm: " + oneNorm(x));
 
 			//check for convergence
 			//convergence on delta x
 			if ( (alam < alamin) || smallAbsDiff(oldx, x, absTolx) ) {
-				this.optimizable.getX(oldx);
+				this.optimizable.setX(oldx);
 				f = this.optimizable.getValue();
 				this.logger.debug("Exiting backtrack: Jump too small (alamin=" + alamin + ").\nExiting and using xold. Value=" + f);
 				return 0.0;
 			}
 
-			this.optimizable.getX(x);
+			this.optimizable.setX(x);
 			oldAlam = alam;
 			f = this.optimizable.getValue();
 			this.logger.debug("value=" + f);
@@ -356,7 +368,7 @@ public class LimitedMemoryBFGS {
 				this.logger.debug("Value is infinite after jump " + oldAlam + ". f=" + f + ", f2=" + f2 + ". Scaling back step size...");
 				tmplam = 0.2 * alam;
 				if ( alam < alamin ) {//convergence on delta x
-					this.optimizable.getX(oldx);
+					this.optimizable.setX(oldx);
 					f = this.optimizable.getValue();
 					this.logger.debug("Exiting backtrack: Jump too small. Exiting and using xold. Value=" + f);
 					return 0.0;
@@ -366,11 +378,11 @@ public class LimitedMemoryBFGS {
 				if ( alam == 1.0 )//first time through
 					tmplam = -slope / (2.0 * (f - fold - slope));
 				else {
-					rhs1 = f - fold - alam * slope;
-					rhs2 = f2 - fold - alam2 * slope;
+					double rhs1 = f - fold - alam * slope;
+					double rhs2 = f2 - fold - alam2 * slope;
 
-					a = (rhs1 / (alam * alam) - rhs2 / (alam2 * alam2)) / (alam - alam2);
-					b = (-alam2 * rhs1 / (alam * alam) + alam * rhs2 / (alam2 * alam2)) / (alam - alam2);
+					double a = (rhs1 / (alam * alam) - rhs2 / (alam2 * alam2)) / (alam - alam2);
+					double b = (-alam2 * rhs1 / (alam * alam) + alam * rhs2 / (alam2 * alam2)) / (alam - alam2);
 
 					if ( a == 0.0 )
 						tmplam = -slope / (2.0 * b);
@@ -382,7 +394,7 @@ public class LimitedMemoryBFGS {
 							tmplam = (-b + sqrt(disc)) / (3.0 * a);
 						else
 							tmplam = -slope / (b + sqrt(disc));
-						}
+					}
 
 					if ( tmplam > 0.5 * alam )
 						tmplam = 0.5 * alam;//lambda <= 0.5 lambda_1
@@ -396,10 +408,10 @@ public class LimitedMemoryBFGS {
 			alam = max(tmplam, 0.1 * alam);//lambda >= 0.1 * lambda_1
 		}
 
-		if ( iteration >= maxLineIterations )
+		if ( iteration >= this.MAX_LINE_ITERATIONS )
 			throw new IllegalStateException("Too many iterations.");
 
-		return 0.0; 
+		return 0.0;
 	}
 
 	/**
