@@ -23,8 +23,18 @@ $sname="";
 $result = $speaker->findOne($query);
 $words=array();
 $top50words=array();
+$top50wordsWithoutStoppwords=array();
 if($result){
 		
+	//read stoppwords
+	$stoppwords = array();
+	$handle = fopen("./csv/stopwordlist_german","r");
+	while(!feof($handle)){
+		$buffer = fgets($handle);
+		$stoppwords[] = trim(preg_replace('/\s+/', '', $buffer));
+	}
+	fclose($handle);
+
 	//var_dump($result);
 	$docid = $result["docid"];
 	$sname=$result["speaker"];
@@ -44,9 +54,21 @@ if($result){
 		$top50words[$key]=$val;
 		echo $key." ".$val."<br/>";
 		$counter++;
-		if($counter>=50)break;
+		if($counter>=75)break;
 	}
 
+//top50 wo sw
+	echo "<br/>Top 75 words without stoppwords<br />";
+	$counter=0;
+	foreach($words as $key => $val){
+		if(in_array($key, $stoppwords)){}
+		else{
+				$top50wordsWithoutStoppwords[$key]=$val;
+				echo $key." ".$val."<br/>";
+				$counter++;
+		}
+		if($counter>=75)break;
+	}
 }
 
 
@@ -59,16 +81,28 @@ foreach($top50words as $key => $val){
     $cc++;
 }
 
+//bar2 top50 words without stoppwords
+	$tw5ws=array();
+	$cc=0;
+	foreach($top50wordsWithoutStoppwords as $key => $val){
+		$tw5ws[$cc] = array();
+	    $tw5ws[$cc][0]=$key;
+	    $tw5ws[$cc][1]=$val; echo $top50wordsWithoutStoppwords[$cc];
+	    $cc++;
+	}
 
 ?>
 
 <hr />
 <div id="bar1"></div>
+<div id="bar2"></div>
 <script>
  	var tw5 = <?php echo json_encode($tw5); ?>;
+ 	var tw5ws = <?php echo json_encode($tw5ws); ?>;
   	
 
-render(tw5,"","count","500","1500","Top 50 words", ["words"],"#bar1");
+render(tw5,"","count","500","1500","Top 75 words", ["words"],"#bar1");
+render(tw5ws,"","count","500","1500","Top 75 words without stoppwords", ["words"],"#bar2");
 </script>
 
 

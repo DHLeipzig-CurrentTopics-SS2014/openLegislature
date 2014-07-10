@@ -29,6 +29,7 @@ if($result){
 
 	    echo "Sprecher: <br />";
 	    echo "<div style=\"width:500px;max-height:400px;overflow-y:scroll;margin:10px;\" >";
+	    sort($result["member"]);
 	    foreach($result["member"] as $lmem){
 	    	echo "<a href=\"speaker.php?sp=".$lmem."\" >".$lmem . "</a><br /> ";	
 	    }

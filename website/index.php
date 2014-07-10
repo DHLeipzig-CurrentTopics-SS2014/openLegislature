@@ -23,6 +23,7 @@ echo "<div style=\"width:500px;height:400px;overflow-y:scroll;margin:10px;\" >";
 
 if($result){ 
 	foreach ($result as $document) {
+		ksort($document);
 		foreach ($document as $key => $val) {
 			if($key !="_id"){
 				echo "<a href=\"speaker.php?sp=".$key."\" >".$key . "</a> ";	
@@ -44,6 +45,7 @@ echo "Parteien:<br/>";
 echo "<div style=\"width:500px;height:400px;overflow-y:scroll;margin:10px;\" >";
 
 if($result){
+	$result->sort(array("name" => 1));
 	foreach ($result as $document) {
 		if($document["name"]==""){
 			$pname="none";
