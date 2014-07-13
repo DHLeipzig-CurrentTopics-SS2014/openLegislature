@@ -176,16 +176,7 @@ public class LimitedMemoryBFGS {
 			//get difference between previous 2 gradients and parameters
 			double sy = 0.0, yy = 0.0;
 			for ( int i = 0; i < oldp.length; i++ ) {
-				/*if ( Double.isInfinite(p[i]) && Double.isInfinite(oldp[i]) && (p[i] * oldp[i] > 0) )
-					oldp[i] = 0.0;
-				else
-					oldp[i] = p[i] - oldp[i];*/
 				oldp[i] = Double.isInfinite(p[i]) && Double.isInfinite(oldp[i]) && (p[i] * oldp[i] > 0) ? 0.0 : p[i] - oldp[i];
-
-				/*if ( Double.isInfinite(g[i]) && Double.isInfinite(oldg[i]) && (g[i] * oldg[i] > 0) )
-					oldg[i] = 0.0;
-				else
-					oldg[i] = g[i] - oldg[i];*/
 				oldg[i] = Double.isInfinite(g[i]) && Double.isInfinite(oldg[i]) && (g[i] * oldg[i] > 0) ? 0.0 : g[i] - oldg[i];
 
 				sy += oldp[i] * oldg[i];//si * yi
@@ -290,7 +281,6 @@ public class LimitedMemoryBFGS {
 		x = new double[this.optimizable.size()];//parameters
 		oldx = new double[this.optimizable.size()];
 
-		//System.arraycopy(this.parameters, 0, x, 0, this.parameters.length);
 		this.optimizable.getX(x);
 		System.arraycopy(x, 0, oldx, 0, x.length);
 
