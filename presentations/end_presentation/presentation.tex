@@ -92,43 +92,58 @@
 \textbf{Why this questions?}\\
 We want more transparency! The answers are there, but too difficult to reach for all other people. That will be changed!
 \end{frame}
+
 \section{Methods} 
-\subsection{Vorgehensweise}
-\begin{frame}
-\frametitle{Methoden 1}
+\subsection{Methods}
+\begin{frame}{Methods}
 \textbf{Preprocessing:}
 \begin{itemize}
-\item Lemmatizing
-\item ggfs. Part of Speech Analyse  
-\item Vergleichen von N-Grammen zur Ähnlichkeitsüberprüfung
-\item Keine Stopwortentfernung, da dadurch Informationen verloren gehen!
+\item stop word filter
+\item lower case transformation
+\item word count for SLDA
+\item tf-idf for log-likelihood
+\item cooccurrences per speaker
 \end{itemize}
 \end{frame}
 
 \begin{frame}
-\frametitle{Methoden 2}
-\textbf{IR Methoden:}
+\frametitle{Methods}
+\textbf{Algorithms:}
 \begin{itemize}
-\item Kookkurrenz auf verschiedenen Ebenen (Reden per Partei, Redner, Gesammt)
-\item Clustering
-\end{itemize}
-\textbf{IR Algorithmen}
-\begin{itemize}
-\item Ähnlichkeitsmaße berechen und vergleichen 
-\item Topic Modell / LDA 
+\item Log-likelihood
+\item Topic Modell / SLDA
 \end{itemize}
 \textit {"Latent Dirichlet allocation (LDA) is a generative probabilistic
 	model of a corpus. The basic idea is that documents are represented as
  	random mixtures over latent topics, where each topic is characterized by a
  	distribution over words."}, siehe \cite{blatent}
 %  	
-\end{frame} 
+
+\textit{In supervised latent Dirichlet allocation (sLDA), we add to LDA a response variable associated with each document}, \cite{BleiSupervisedTopicModels}
+\end{frame}
+
+\begin{frame}{SLDA Methods}
+\begin{enumerate}
+\item single step approach
+\begin{itemize}
+\item create single dataset for an election period
+\item calculate top words for each speaker
+\end{itemize}
+\item two step approach
+\begin{itemize}
+\item create dataset for each protocol
+\item calculate top words for each speaker
+\item merge results for an election period
+\item calculate top words for each speaker
+\end{itemize}
+\end{enumerate}
+\end{frame}
 
 \begin{frame}
-  \frametitle{Architektur Prozess Datenextraktion und -aufbereitung }
+  \frametitle{Architectural process for data extraction and preparation}
   \begin{itemize}
-  \item Nutzung des Listener Patterns \cite{javainsel9}
-  \item Verwendung der Github-Library Async \cite{async} zur einfachen Erstellung Nebenläufiger Prozessketten
+  \item Usage of Listener Patterns \cite{javainsel9}
+  \item Usage of Github-Library Async \cite{async} for easy creation of concurrent process chains
   \end{itemize}  
   \begin{center}
     \includegraphics[width=1\textwidth]{../../doc/process-overview.png}
