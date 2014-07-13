@@ -1,33 +1,21 @@
-package weka.classifiers.functions;
+package weka.classifiers.topicmodelling;
 
 import static java.lang.Math.abs;
 import static java.lang.Math.exp;
 import static java.lang.Math.floor;
 import static java.lang.Math.log;
-import static java.lang.Math.max;
 import static java.lang.Math.pow;
-import static java.lang.Math.sqrt;
 import static weka.core.Math.digamma;
 import static weka.core.Math.logGamma;
 import static weka.core.Math.logSum;
-import static weka.core.matrix.Maths.absNorm;
-import static weka.core.matrix.Maths.dotProduct;
-import static weka.core.matrix.Maths.infNorm;
-import static weka.core.matrix.Maths.oneNorm;
-import static weka.core.matrix.Maths.plusEquals;
-import static weka.core.matrix.Maths.smallAbsDiff;
-import static weka.core.matrix.Maths.timesEquals;
-import static weka.core.matrix.Maths.twoNorm;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.Enumeration;
-import java.util.LinkedList;
 import java.util.List;
 import java.util.Random;
 import org.apache.log4j.Logger;
-import weka.classifiers.Classifier;
 import weka.core.Attribute;
 import weka.core.Capabilities;
 import weka.core.Capabilities.Capability;
@@ -88,7 +76,7 @@ import weka.core.optimization.OptimizationException;
  * @author jnphilipp
  * @version 1.0.0
  */
-public class SLDA extends Classifier implements OptionHandler, TechnicalInformationHandler {
+public class SLDA extends TopicModel implements OptionHandler, TechnicalInformationHandler {
 	/**
 	 * random start method
 	 */
@@ -454,21 +442,19 @@ public class SLDA extends Classifier implements OptionHandler, TechnicalInformat
 
 		switch ( this.startMethod ) {
 			case "seeded":
-				corpusInitializeSS(ss, instances, instanceTotal);
-				mle(ss, 0);
+				this.corpusInitializeSS(ss, instances, instanceTotal);
+				this.mle(ss, 0);
 				break;
 			case "random":
-				randomInitializeSS(ss, instances, instanceTotal);
-				mle(ss, 0);
-				break;
-			default:
+				this.randomInitializeSS(ss, instances, instanceTotal);
+				this.mle(ss, 0);
 		}
 
 		int etaUpdate = 0, i = 1;
 		while ( ((converged < 0) || (converged > this.emConverged) || (i <= this.ldaInitMax + 2)) && (i <= this.emMaxIter) ) {
 			logger.info("*****  em iteration " + i + "  *****");
 			likelihood = 0;
-			ss = zeroInitializeSuffStats(ss);
+			ss = this.zeroInitializeSuffStats(ss);
 
 			if ( i > this.ldaInitMax )
 				etaUpdate = 1;
@@ -482,7 +468,7 @@ public class SLDA extends Classifier implements OptionHandler, TechnicalInformat
 
 			// m-step
 			logger.info("*****  m-step  *****");
-			mle(ss, etaUpdate);
+			this.mle(ss, etaUpdate);
 
 			// check for convergence
 			converged = abs((oldLikelihood - likelihood) / (oldLikelihood));
@@ -491,7 +477,7 @@ public class SLDA extends Classifier implements OptionHandler, TechnicalInformat
 		}
 
 		for ( int d = 0; d < instances.numInstances(); d++ )//final inference
-			likelihood += sldaInference(instances.instance(d), instanceTotal[d], varGamma[d], phi);
+			likelihood += this.sldaInference(instances.instance(d), instanceTotal[d], varGamma[d], phi);
 	}
 
 	/**
@@ -559,6 +545,7 @@ public class SLDA extends Classifier implements OptionHandler, TechnicalInformat
 	 * Returns the top words for each class. First word is the class name.
 	 * @return 
 	 */
+	@Override
 	public String[][] getTopWords() {
 		double[][] wordScores = new double[this.numClasses][this.sizeVocab];
 		for ( int i = 0; i < this.numClasses; i++ )
@@ -631,11 +618,7 @@ public class SLDA extends Classifier implements OptionHandler, TechnicalInformat
 				for ( int j = k; j < this.numTopics; j++ ) {
 					int idx = this.mapIdx(k, j, this.numTopics);
 
-					if ( j == k )
-						ss.zBarVar[d][idx] = ss.zBarM[d][k] / instanceTotal[d];
-					else
-						ss.zBarVar[d][idx] = 0.0;
-
+					ss.zBarVar[d][idx] = j == k ? ss.zBarM[d][k] / instanceTotal[d] : 0.0;
 					ss.zBarVar[d][idx] -= ss.zBarM[d][k] * ss.zBarM[d][j] / instanceTotal[d];
 				}
 			}
@@ -682,12 +665,7 @@ public class SLDA extends Classifier implements OptionHandler, TechnicalInformat
 			for ( int k = 0; k < this.numTopics; k++ ) {
 				for ( int j = k; j < this.numTopics; j++ ) {
 					int idx = this.mapIdx(k, j, this.numTopics);
-
-					if ( j == k )
-						ss.zBarVar[d][idx] = ss.zBarM[d][k] / instance_total[d];
-					else
-						ss.zBarVar[d][idx] = 0.0;
-
+					ss.zBarVar[d][idx] = j == k ? ss.zBarM[d][k] / instance_total[d] : 0.0;
 					ss.zBarVar[d][idx] -= ss.zBarM[d][k] * ss.zBarM[d][j] / instance_total[d];
 				}
 			}
@@ -714,7 +692,6 @@ public class SLDA extends Classifier implements OptionHandler, TechnicalInformat
 		for ( int l = 0; l < this.numClasses; l++ )
 			System.arraycopy(this.eta[l], 0, x, l * this.numTopics, this.numTopics);
 
-		//LimitedMemoryBFGS bfgs = new LimitedMemoryBFGS(ss, x);
 		OptimizeEta optimizable = new OptimizeEta(ss, x);
 		weka.core.optimization.LimitedMemoryBFGS bfgs = new weka.core.optimization.LimitedMemoryBFGS(optimizable);
 		bfgs.setTolerance(1e-4);
@@ -731,7 +708,6 @@ public class SLDA extends Classifier implements OptionHandler, TechnicalInformat
 		for ( int l = 0; l < this.numClasses; l++ )
 			for ( int k = 0; k < this.numTopics; k++ )
 				this.eta[l][k] = x[l * this.numTopics + k];
-				//this.eta[l][k] = bfgs.getOptimizedParameter(l * this.numTopics + k);
 	}
 
 	/**
@@ -745,11 +721,7 @@ public class SLDA extends Classifier implements OptionHandler, TechnicalInformat
 	 * @return likelihood
 	 */
 	private double docEStep(Instance instance, double instanceTotal, double[] gamma, double[][] phi, SuffStats ss, int etaUpdate) {
-		double likelihood;
-		if ( etaUpdate == 1 )
-			likelihood = sldaInference(instance, instanceTotal, gamma, phi);
-		else
-			likelihood = ldaInference(instance, instanceTotal, gamma, phi);
+		double likelihood = etaUpdate == 1 ? this.sldaInference(instance, instanceTotal, gamma, phi) : this.ldaInference(instance, instanceTotal, gamma, phi);
 
 		//update sufficient statistics
 		for ( int n = 0; n < this.sizeVocab; n++ ) {
@@ -766,7 +738,6 @@ public class SLDA extends Classifier implements OptionHandler, TechnicalInformat
 					int idx = this.mapIdx(k, i, this.numTopics);
 					if ( i == k )
 						ss.zBarVar[ss.numDocs][idx] += instance.value(this.attributes[n]) * instance.value(this.attributes[n]) * phi[n][k];
-
 					ss.zBarVar[ss.numDocs][idx] -= instance.value(this.attributes[n]) * instance.value(this.attributes[n]) * phi[n][k] * phi[n][i];
 				}
 			}
@@ -778,7 +749,7 @@ public class SLDA extends Classifier implements OptionHandler, TechnicalInformat
 		for ( int i = 0; i < (this.numTopics * (this.numTopics + 1) / 2); i++ )
 			ss.zBarVar[ss.numDocs][i] /= (instanceTotal * instanceTotal);
 
-		ss.numDocs = ss.numDocs + 1;//because we need it for store statistics for each docs
+		ss.numDocs++;//because we need it for store statistics for each docs
 		return likelihood;
 	}
 
@@ -824,7 +795,7 @@ public class SLDA extends Classifier implements OptionHandler, TechnicalInformat
 				}
 			}
 
-			likelihood = ldaComputeLikelihood(instance, phi, varGamma);
+			likelihood = this.ldaComputeLikelihood(instance, phi, varGamma);
 			logger.debug("lda inference likelihood: " + likelihood);
 			converged = (oldLikelihood - likelihood) / oldLikelihood;
 			oldLikelihood = likelihood;
@@ -930,12 +901,8 @@ public class SLDA extends Classifier implements OptionHandler, TechnicalInformat
 				}
 			}
 
-			likelihood = sldaComputeLikelihood(instance, instanceTotal, phi, varGamma);
+			likelihood = this.sldaComputeLikelihood(instance, instanceTotal, phi, varGamma);
 			logger.debug("slda inference likelihood: " + likelihood);
-			if ( Double.isNaN(likelihood) ) {
-				System.out.println(instance);
-				System.exit(1);
-			}
 			converged = abs((oldLikelihood - likelihood) / oldLikelihood);
 			oldLikelihood = likelihood;
 		}
@@ -1109,8 +1076,8 @@ public class SLDA extends Classifier implements OptionHandler, TechnicalInformat
 	}
 
 	class OptimizeEta implements Optimizable.ByGradientValue {
-		private SuffStats ss;
-		private double[] x;
+		private final SuffStats ss;
+		private final double[] x;
 
 		public OptimizeEta(SuffStats ss, double[] x) {
 			this.ss = ss;
@@ -1216,518 +1183,6 @@ public class SLDA extends Classifier implements OptionHandler, TechnicalInformat
 	    }
 
 			return (f + fRegularization);
-		}
-	}
-
-	/**
-	 * Limited Memory BFGS
-	 */
-	class LimitedMemoryBFGS {
-		/**
-		 * maximum iterations
-		 */
-		private final int MAX_ITER = 1000;
-
-		//options
-		/**
-		 * The number of corrections used in BFGS update ideally 3 <= m <= 7. Larger m means more cpu time, memory.
-		 */
-		private final int M = 5;
-		/**
-		 * converged
-		 */
-		private boolean converged = false;
-		/**
-		 * tolerance
-		 */
-		private double tolerance = 0.0001;
-		/**
-		 * gradient tolerance
-		 */
-		private double gradientTolerance = 0.001;
-		/**
-		 * eps
-		 */
-		private double eps = 1.0e-5;
-
-		//attributes
-		/**
-		 * parameters
-		 */
-		private double[] parameters;
-		/**
-		 * sufficient statistic
-		 */
-		private SuffStats ss;
-
-		/**
-		 * Creates a new limited memory BFGS.
-		 * @param ss sufficient statistic
-		 * @param parameters parameters to optimize
-		 */
-		public LimitedMemoryBFGS(SuffStats ss, double[] parameters) {
-			this.ss = ss;
-			this.parameters = parameters;
-		}
-
-		/**
-		 * @return <code>true</code> if converged
-		 */
-		public boolean isConverged () {
-			return this.converged;
-		}
-
-		/**
-		 * Returns the optimized parameter
-		 * @param index index
-		 * @return optimized value
-		 */
-		public double getOptimizedParameter(int index) {
-			return this.parameters[index];
-		}
-
-		/**
-		 * @param tolerance tolerance to set
-		 */
-		public void setTolerance(double tolerance) {
-			this.tolerance = tolerance;
-		}
-
-		/**
-		 * Runs the optimization.
-		 * @param numIterations number of iterations.
-		 * @return <code>true</code> if converged
-		 */
-		public boolean optimize(int numIterations) {
-			int iterations = 0;
-			double initialValue = this.getValue(), step = 1.0;
-			double[] alpha, g, oldg, direction, p, oldp;
-			LinkedList s = new LinkedList();
-			LinkedList y = new LinkedList();
-			LinkedList rho = new LinkedList();
-
-			Logger.getLogger(LimitedMemoryBFGS.class).debug("Entering L-BFGS.optimize(). Initial Value=" + initialValue );
-			Logger.getLogger(LimitedMemoryBFGS.class).debug("First time through L-BFGS");
-			alpha = new double[this.M];
-
-			p = new double[this.parameters.length];
-			oldp = new double[this.parameters.length];
-			g = new double[this.parameters.length];
-			oldg = new double[this.parameters.length];
-			direction = new double[this.parameters.length];
-
-			System.arraycopy(this.parameters, 0, p, 0, this.parameters.length);
-			System.arraycopy(p, 0, oldp, 0, p.length);
-
-			this.getValueGradient(g);
-			System.arraycopy(g, 0, oldg, 0, g.length);
-			System.arraycopy(g, 0, direction, 0, g.length);
-
-			if ( absNorm(direction) == 0 ) {
-				Logger.getLogger(LimitedMemoryBFGS.class).warn("L-BFGS initial gradient is zero; saying converged");
-				this.converged = true;
-				return true;
-			}
-
-			if ( Logger.getRootLogger().isDebugEnabled() )
-				Logger.getLogger(LimitedMemoryBFGS.class).debug("direction.2norm: " + twoNorm(direction));
-			timesEquals(direction, 1.0 / twoNorm(direction));
-			//make initial jump
-			if ( Logger.getRootLogger().isDebugEnabled() )
-				Logger.getLogger(LimitedMemoryBFGS.class).debug("before initial jump:" +
-								"\ndirection.2norm: " + twoNorm(direction) +
-								"\ngradient.2norm: " + twoNorm(g) +
-								"\nparameters.2norm: " + twoNorm(p));
-
-			step = this.optimizeLine(direction, step);
-			if ( step == 0.0 ) {//could not step in this direction.
-				//give up and say converged.
-				step = 1.0;
-				throw new OptimizationException("Line search could not step in the current direction. " +
-								"(This is not necessarily cause for alarm. Sometimes this happens close to the maximum," +
-								" where the function may be very flat.)");
-			}
-
-			System.arraycopy(this.parameters, 0, p, 0, this.parameters.length);
-			this.getValueGradient(g);
-			if ( Logger.getRootLogger().isDebugEnabled() )
-				Logger.getLogger(LimitedMemoryBFGS.class).debug("after initial jump:" +
-								"\ndirection.2norm: " + twoNorm(direction) +
-								"\ngradient.2norm: " + twoNorm(g));
-
-			for ( int iterationCount = 0; iterationCount < numIterations; iterationCount++ ) {
-				double value = this.getValue();
-				if ( Logger.getRootLogger().isDebugEnabled() )
-					Logger.getLogger(LimitedMemoryBFGS.class).debug("L-BFGS iteration=" + iterationCount +
-									", value=" + value + " g.twoNorm: " + twoNorm(g) +
-									" oldg.twoNorm: " + twoNorm(oldg));
-
-				//get difference between previous 2 gradients and parameters
-				double sy = 0.0;
-				double yy = 0.0;
-				for ( int i = 0; i < oldp.length; i++ ) {
-					if ( Double.isInfinite(p[i]) && Double.isInfinite(oldp[i]) && (p[i] * oldp[i] > 0) )
-						oldp[i] = 0.0;
-					else
-						oldp[i] = p[i] - oldp[i];
-
-					if ( Double.isInfinite(g[i]) && Double.isInfinite(oldg[i]) && (g[i] * oldg[i] > 0) )
-						oldg[i] = 0.0;
-					else
-						oldg[i] = g[i] - oldg[i];
-
-					sy += oldp[i] * oldg[i];//si * yi
-					yy += oldg[i] * oldg[i];
-					direction[i] = g[i];
-				}
-
-				if ( sy > 0 )
-					throw new OptimizationException("sy = " + sy + " > 0");
-
-				double gamma = sy / yy;//scaling factor
-				if ( gamma > 0 )
-					throw new OptimizationException("gamma = " + gamma + " > 0");
-
-				this.push(rho, 1.0 / sy);
-				this.push(s, oldp);
-				this.push(y, oldg);
-
-				//calculate new direction
-				for ( int i = s.size() - 1; i >= 0; i-- ) {
-					alpha[i] = ((Double)rho.get(i)) * dotProduct((double[])s.get(i), direction);
-					plusEquals(direction, (double[])y.get(i), -1.0 * alpha[i]);
-				}
-				timesEquals(direction, gamma);
-				for ( int i = 0; i < y.size(); i++ ) {
-					double beta = (((Double)rho.get(i))) * dotProduct((double[])y.get(i), direction);
-					plusEquals(direction, (double[])s.get(i), alpha[i] - beta);
-				}
-
-				for ( int i = 0; i < oldg.length; i++ ) {
-					oldp[i] = p[i];
-					oldg[i] = g[i];
-					direction[i] *= -1.0;
-				}
-
-				if ( Logger.getRootLogger().isDebugEnabled() )
-					Logger.getLogger(LimitedMemoryBFGS.class).debug("before linesearch: direction.gradient.dotprod: " + dotProduct(direction, g) +
-									"direction.2norm: " +	twoNorm(direction) +
-									"parameters.2norm: " + twoNorm(p));
-
-				step = this.optimizeLine(direction, step);
-				if ( step == 0.0 ) {//could not step in this direction.
-					step = 1.0;
-					throw new OptimizationException("Line search could not step in the current direction. " +
-									"(This is not necessarily cause for alarm. Sometimes this happens close to the maximum," +
-									" where the function may be very flat.)");
-				}
-
-				System.arraycopy(this.parameters, 0, p, 0, this.parameters.length);
-				this.getValueGradient(g);
-				if ( Logger.getRootLogger().isDebugEnabled() )
-					Logger.getLogger(LimitedMemoryBFGS.class).debug("after linesearch: direction.2norm: " + twoNorm(direction));
-				double newValue = this.getValue();
-
-				//Test for terminations
-				if ( 2.0 * abs(newValue-value) <= this.tolerance * (abs(newValue) + abs(value) + this.eps) ) {
-					Logger.getLogger(LimitedMemoryBFGS.class).debug("Exiting L-BFGS on termination #1:\nvalue difference below tolerance (oldValue: " + value + " newValue: " + newValue);
-					this.converged = true;
-					return true;
-				}
-
-				double gg = twoNorm(g);
-				if ( gg < this.gradientTolerance ) {
-					Logger.getLogger(LimitedMemoryBFGS.class).debug("Exiting L-BFGS on termination #2:\ngradient=" + gg + " < " + this.gradientTolerance);
-					this.converged = true;
-					return true;
-				}
-
-				if ( gg == 0.0 ) {
-					Logger.getLogger(LimitedMemoryBFGS.class).debug("Exiting L-BFGS on termination #3:\ngradient==0.0");
-					this.converged = true;
-					return true;
-				}
-
-				Logger.getLogger(LimitedMemoryBFGS.class).debug("Gradient = " + gg);
-				iterations++;
-				if ( iterations > this.MAX_ITER ) {
-					Logger.getLogger(LimitedMemoryBFGS.class).error("Too many iterations in L-BFGS.java. Continuing with current parameters.");
-					this.converged = true;
-					return true;
-				}
-			}
-
-			return false;
-		}
-
-		/**
-		 * Pushes a new object onto the queue l
-		 * @param l linked list queue of Matrix obj's
-		 * @param toadd matrix to push onto queue
-		 */
-		private void push(LinkedList l, double[] toadd) {
-			if( l.size() == this.M ) {
-				//remove oldest matrix and add newset to end of list.
-				//to make this more efficient, actually overwrite#
-				//memory of oldest matrix
-
-				//this overwrites the oldest matrix
-				double[] last = (double[])l.get(0);
-				System.arraycopy(toadd, 0, last, 0, toadd.length);
-				Object ptr = last;
-				//this readjusts the pointers in the list
-				for ( int i = 0; i < l.size() - 1; i++ )
-					l.set(i, (double[])l.get(i + 1));
-				l.set(this.M - 1, ptr);
-			}
-			else {
-				double[] newArray = new double[toadd.length];
-				System.arraycopy(toadd, 0, newArray, 0, toadd.length);
-				l.addLast(newArray);
-			}
-		}
-	
-		/**
-		 * Pushes a new object onto the queue l
-		 * @param l linked list queue of Double obj's
-		 * @param toadd double value to push onto queue
-		 */
-		private void push(LinkedList l, double toadd) {
-			if ( l.size() == this.M ) {//pop old double and add new
-				l.removeFirst();
-				l.addLast(toadd);
-			}
-			else
-				l.addLast(toadd);
-		}
-
-		/**
-		 * Calculates the new gradient values.
-		 * @param buffer store the new gradient values
-		 */
-		public void getValueGradient(double[] buffer) {
-			double[] df = new double[this.parameters.length];
-			double[] tmp = new double[this.parameters.length];
-
-			for ( int l = 0; l < numClasses; l++ )
-				for ( int k = 0; k < numTopics; k++ )
-					df[l * numTopics + k] = -penalty * this.parameters[l * numTopics + k];
-
-			for ( int d = 0; d < this.ss.numDocs; d++ ) {
-				for ( int k = 0; k < numTopics; k++ )
-					df[this.ss.labels[d] * numTopics + k] += this.ss.zBarM[d][k];
-
-				double t = 0.0;//in log space, 1+exp()+exp()+....
-				System.arraycopy(df, 0, tmp, 0, df.length);
-				Arrays.fill(df, 0);
-
-				for ( int l = 0; l < numClasses; l++ ) {
-					double[] eta_aux = new double[numTopics];
-					double a1 = 0.0;//\eta_k^T * \bar{\phi}_d
-					double a2 = 0.0;//1 + 0.5*\eta_k^T * Var(z_bar)\eta_k
-
-					for ( int k = 0; k < numTopics; k++ ) {
-						a1 += this.parameters[l * numTopics + k] * this.ss.zBarM[d][k];
-
-						for ( int j = 0; j < numTopics; j++ ) {
-							a2 += this.parameters[l * numTopics + k] * ss.zBarVar[d][mapIdx(k, j, numTopics)] * this.parameters[l * numTopics + j];
-							eta_aux[k] += this.ss.zBarVar[d][mapIdx(k, j, numTopics)] * this.parameters[l * numTopics + j];
-						}
-					}
-
-					a2 = 1.0 + 0.5 * a2;
-					t = logSum(t, a1 + log(a2));
-
-					for ( int k = 0; k < numTopics; k++ )
-						df[l * numTopics + k] -= exp(a1) * (this.ss.zBarM[d][k] * a2 + eta_aux[k]);
-				}
-
-				for ( int i = 0; i < df.length; i++ )
-					df[i] = df[i] * exp(-t) + tmp[i];
-			}
-
-			System.arraycopy(df, 0, buffer, 0, df.length);
-		}
-
-		/**
-		 * Calculates the gradient value.
-		 * @return gradient value
-		 */
-		public double getValue() {
-			double fRegularization = 0.0;
-			for ( int l = 0; l < numClasses; l++ )
-				for ( int k = 0; k < numTopics; k++ )
-					fRegularization -= pow(this.parameters[l * numTopics + k], 2) * penalty / 2.0;
-
-			double f = 0.0;//log likelihood
-			for ( int d = 0; d < this.ss.numDocs; d++ ) {
-				for ( int k = 0; k < numTopics; k++ )
-					if ( this.ss.labels[d] < numClasses )
-						f += this.parameters[this.ss.labels[d] * numTopics + k] * this.ss.zBarM[d][k];
-
-				double t = 0.0;//in log space, 1+exp()+exp()...
-				for ( int l = 0; l < numClasses; l++ ) {
-					double a1 = 0.0;//\eta_k^T * \bar{\phi}_d
-					double a2 = 0.0;//1 + 0.5 * \eta_k^T * Var(z_bar)\eta_k
-
-					for ( int k = 0; k < numTopics; k++ ) {
-						a1 += this.parameters[l * numTopics + k] * ss.zBarM[d][k];
-						for ( int j = 0; j < numTopics; j++ )
-							a2 += this.parameters[l * numTopics + k] * this.ss.zBarVar[d][mapIdx(k, j, numTopics)] * this.parameters[l * numTopics + j];
-					}
-
-					a2 = 1.0 + 0.5 * a2;
-					t = logSum(t, a1 + log(a2));
-				}
-				  f -= t;
-	    }
-
-			return (f + fRegularization);
-		}
-
-		/**
-		 * Line search and backtracking.
-		 * @param line line
-		 * @param initialStep initial step
-		 * @return 0.0 if could not step in direction
-		 */
-		public double optimizeLine(double[] line, double initialStep) {
-			int maxLineIterations = 200, iteration;
-			double slope, temp, test, alamin, alam, alam2, tmplam, rhs1, rhs2, a, b, disc, oldAlam, f, fold, f2;
-			double stpmax = 100;
-			double relTolx = 1e-7;
-			double absTolx = 1e-4;//tolerance on absolute value difference
-			double ALF = 1e-4;
-			double[] g, x, oldx;
-
-			g = new double[this.parameters.length];//gradient
-			x = new double[this.parameters.length];//parameters
-			oldx = new double[this.parameters.length];
-
-			System.arraycopy(this.parameters, 0, x, 0, this.parameters.length);
-			System.arraycopy(x, 0, oldx, 0, x.length);
-
-			this.getValueGradient(g);
-			alam2 = tmplam = 0.0;
-			f2 = fold = this.getValue();
-
-			Logger.getLogger(LimitedMemoryBFGS.class).debug("Entering backtrack.");
-			if ( Logger.getRootLogger().isDebugEnabled() )
-				Logger.getLogger(LimitedMemoryBFGS.class).debug("Entering backtrack line search, value=" + fold +
-								"\ndirection.oneNorm: " + oneNorm(line) +
-								"\ndirection.infNorm: " + infNorm(line));
-
-			double sum = twoNorm(line);
-			if ( sum > stpmax ) {
-				Logger.getLogger(LimitedMemoryBFGS.class).warn("Attempted step too big. scaling: sum=" + sum + ", stpmax=" + stpmax);
-				timesEquals(line, stpmax / sum);
-			}
-
-			slope = dotProduct(g, line);
-			Logger.getLogger(LimitedMemoryBFGS.class).debug("slope=" + slope);
-
-			if ( slope < 0 )
-				throw new OptimizationException("Slope = " + slope + " is negative");
-			if ( slope == 0 )
-				throw new OptimizationException("Slope = " + slope + " is zero");
-
-			//find maximum lambda
-			//converge when (delta x) / x < REL_TOLX for all coordinates.
-			//the largest step size that triggers this threshold is
-			//precomputed and saved in alamin
-			test = 0.0;
-			for ( int i = 0; i < oldx.length; i++ ) {
-				temp = abs(line[i]) / max(abs(oldx[i]), 1.0);
-				if ( temp > test )
-					test = temp;
-			}
-
-			alamin = relTolx / test;
-			alam = 1.0;
-			oldAlam = 0.0;
-			for ( iteration = 0; iteration < maxLineIterations; iteration++ ) {//look for step size in direction given by "line"
-				//x = oldParameters + alam * line
-				//initially, alam = 1.0, i.e. take full Newton step
-				Logger.getLogger(LimitedMemoryBFGS.class).debug("BackTrack loop iteration " + iteration +
-								"\nalam=" + alam + ". oldAlam=" + oldAlam);
-				if ( Logger.getRootLogger().isDebugEnabled() )
-					Logger.getLogger(LimitedMemoryBFGS.class).debug("before step, x.1norm: " + oneNorm(x) +
-									"\nalam: " + alam + ", oldAlam: " + oldAlam);
-
-				plusEquals(x, line, alam - oldAlam);//step
-				if ( Logger.getRootLogger().isDebugEnabled() )
-					Logger.getLogger(LimitedMemoryBFGS.class).debug("after step, x.1norm: " + oneNorm(x));
-
-				//check for convergence
-				//convergence on delta x
-				if ( (alam < alamin) || smallAbsDiff(oldx, x, absTolx) ) {
-					System.arraycopy(oldx, 0, this.parameters, 0, oldx.length);
-					f = this.getValue();
-					Logger.getLogger(LimitedMemoryBFGS.class).debug("Exiting backtrack: Jump too small (alamin=" + alamin + ").\nExiting and using xold. Value=" + f);
-					return 0.0;
-				}
-
-				System.arraycopy(x, 0, this.parameters, 0, x.length);
-				oldAlam = alam;
-				f = this.getValue();
-				Logger.getLogger(LimitedMemoryBFGS.class).debug("value=" + f);
-
-				//sufficient function increase (Wolf condition)
-				if ( f >= (fold + ALF * alam * slope) ) {
-					Logger.getLogger(LimitedMemoryBFGS.class).debug("Exiting backtrack: value=" + f);
-
-					if ( f < fold )
-						throw new IllegalStateException("Function did not increase: f = " + f + " < " + fold + " = fold");
-					return alam;
-				}
-				else if ( Double.isInfinite(f) || Double.isInfinite(f2) ) {
-					Logger.getLogger(LimitedMemoryBFGS.class).debug("Value is infinite after jump " + oldAlam + ". f=" + f + ", f2=" + f2 + ". Scaling back step size...");
-					tmplam = 0.2 * alam;
-					if ( alam < alamin ) {//convergence on delta x
-						System.arraycopy(oldx, 0, this.parameters, 0, oldx.length);
-						f = this.getValue();
-						Logger.getLogger(LimitedMemoryBFGS.class).debug("Exiting backtrack: Jump too small. Exiting and using xold. Value=" + f);
-						return 0.0;
-					}
-				}
-				else {//backtrack
-					if ( alam == 1.0 )//first time through
-						tmplam = -slope / (2.0 * (f - fold - slope));
-					else {
-						rhs1 = f - fold - alam * slope;
-						rhs2 = f2 - fold - alam2 * slope;
-
-						a = (rhs1 / (alam * alam) - rhs2 / (alam2 * alam2)) / (alam - alam2);
-						b = (-alam2 * rhs1 / (alam * alam) + alam * rhs2 / (alam2 * alam2)) / (alam - alam2);
-
-						if ( a == 0.0 )
-							tmplam = -slope / (2.0 * b);
-						else {
-							disc = b * b - 3.0 * a * slope;
-							if ( disc < 0.0 )
-								tmplam = 0.5 * alam;
-							else if ( b <= 0.0 )
-								tmplam = (-b + sqrt(disc)) / (3.0 * a);
-							else
-								tmplam = -slope / (b + sqrt(disc));
-						}
-
-						if ( tmplam > 0.5 * alam )
-							tmplam = 0.5 * alam;//lambda <= 0.5 lambda_1
-					}
-				}
-
-				alam2 = alam;
-				f2 = f;
-
-				Logger.getLogger(LimitedMemoryBFGS.class).debug("tmplam:" + tmplam);
-				alam = max(tmplam, 0.1 * alam);//lambda >= 0.1 * lambda_1
-			}
-
-			if ( iteration >= maxLineIterations )
-				throw new IllegalStateException("Too many iterations.");
-
-			return 0.0; 
 		}
 	}
 
@@ -1933,10 +1388,10 @@ public class SLDA extends Classifier implements OptionHandler, TechnicalInformat
 
 		System.out.println("top words:");
 		String[][] topWords = slda.getTopWords();
-		for ( int i = 0; i < topWords.length; i++ ) {
-			System.out.print("class " + topWords[i][0] + ": ");
-			for ( int j = 1; j < topWords[i].length; j++ )
-				System.out.print(topWords[i][j] + " ");
+		for ( String[] topWord : topWords ) {
+			System.out.print("class " + topWord[0] + ": ");
+			for (int j = 1; j < topWord.length; j++)
+				System.out.print(topWord[j] + " ");
 			System.out.println();
 		}
 	}
