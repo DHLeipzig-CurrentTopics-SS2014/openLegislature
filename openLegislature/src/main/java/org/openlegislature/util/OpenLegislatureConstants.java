@@ -1,10 +1,9 @@
 package org.openlegislature.util;
 
-import java.util.HashMap;
-import java.util.Map;
-
 import com.google.inject.Inject;
 import com.google.inject.Singleton;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * Simple constants class to be used by the main application. 
@@ -68,7 +67,7 @@ public class OpenLegislatureConstants {
 		sessionMap.put(15, 187);
 		sessionMap.put(16, 233);
 		sessionMap.put(17, 253);
-		sessionMap.put(18, 37);
+		sessionMap.put(18, 47);
 		this.clean = initBoolean(VM_PARAM_CLEAN, false);
         this.processXml = initBoolean(VM_PARAM_XML, false);
         this.xpathInMemory = initBoolean(VM_XPATH_IN_MEM, false);

@@ -1,5 +1,6 @@
 package org.openlegislature.process;
 
+import com.google.inject.Inject;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
@@ -10,47 +11,43 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.io.Writer;
 import java.util.regex.Pattern;
-
 import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang3.StringEscapeUtils;
 import org.openlegislature.util.Logger;
 import org.openlegislature.util.OpenLegislatureConstants;
 
-import com.google.inject.Inject;
-
 public class TxtToXmlConverter {
-	private static final String[] publicoffices = { "sekretär","kanzler", "Präsident", "Schriftführer", "minister", "Staatssekretär", "Berichterstatter",
-			"berichterstatter", "präsident" };
+	private static final String[] publicoffices = { "sekretär","kanzler", "Präsident", "Schriftführer", "minister", "Staatssekretär", "Berichterstatter", "berichterstatter", "präsident" };
 	private static final String[] anhaenge = { "Frau", "Herr", "Fräulein", "herr", "Dr.", "Dr ", "von", "Abgeordnet" };
 	// private static final String[] partys = { "Parteilos", "CDU", "Z", "NR",
 	// "FDP", "SPD", "PDS", "WAV", "BP", "NR", "KPD" };
 
-    private final String PROTOCOL = "protocol";
-    private final String AGENDA = "agenda";
-    private final String PARTY = "party";
-    private final String SPEAKER = "speaker";
-    private final String SPEECH = "speech";
-    private final String NAME = "name";
-    private final String HEADER = "header";
-    private final String SESSION = "session";
-    private final String PUBLIC_OFFICE = "public_office";
-    private final String INTERJECTION = "interjection";
-    private final String ITEM ="item";
+	private final String PROTOCOL = "protocol";
+	private final String AGENDA = "agenda";
+	private final String PARTY = "party";
+	private final String SPEAKER = "speaker";
+	private final String SPEECH = "speech";
+	private final String NAME = "name";
+	private final String HEADER = "header";
+	private final String SESSION = "session";
+	private final String PUBLIC_OFFICE = "public_office";
+	private final String INTERJECTION = "interjection";
+	private final String ITEM ="item";
 
 	private String testpart = "";
 	private String testoff = "";
 	private String testname = "";
-	Boolean change = false;
-	Boolean inPub=false;
-    private OpenLegislatureConstants constants;
+	private String filename = "";
+	private boolean change = false;
+	private boolean inPub = false;
+	private OpenLegislatureConstants constants;
 
-    @Inject
-    public TxtToXmlConverter(OpenLegislatureConstants constants) {
-        this.constants = constants;
-    }
+	@Inject
+	public TxtToXmlConverter(OpenLegislatureConstants constants) {
+		this.constants = constants;
+	}
 
-    private String speakerAtt(String spline) {
-    	
+	private String speakerAtt(String spline) {
 		return speakerAtt(spline, "");
 	}
 
@@ -288,13 +285,16 @@ public class TxtToXmlConverter {
 		String neu = zuparsen.getPath();
 		neu = neu.replace(".txt", ".xml");
 		File outputFile = new File(neu);
-        if(constants.isProcessXml()){
-            outputFile = convertToXml(zuparsen, outputFile);
-        } else if(!outputFile.exists()) {
+
+		this.filename = zuparsen.getName();
+		if ( constants.isProcessXml() )
 			outputFile = convertToXml(zuparsen, outputFile);
-		} 
-        Logger.getInstance().info(String.format("Finished %s successfully", outputFile.getName()));
-        return outputFile;
+		else if ( !outputFile.exists() )
+			outputFile = convertToXml(zuparsen, outputFile);
+
+		Logger.getInstance().info(String.format("Finished %s successfully", outputFile.getName()));
+
+		return outputFile;
 	}
 	
 	File convertToXml(File zuparsen, File outputFile) throws IOException {
@@ -402,9 +402,9 @@ public class TxtToXmlConverter {
 			zeile = zeile.replaceAll("\\s+", " ");
 			zeile = zeile.replaceAll("Parteilos", "PARTEILOS");
 			if (count == 0 && zeile.matches(".*[0-9]\\. Sitzung.*")) {
-				writeXml(writer, String.format("<%s session_number=\"", PROTOCOL)
+				writeXml(writer, String.format("<%s session_number=\"%s\">\n", PROTOCOL, this.filename.substring(0, 5))
                                 + escapeString(zeile.substring(0, zeile.indexOf("Sitzung") + 7))
-                                + String.format("\" >\n%s\n", createTagFrom(HEADER)));
+                                + String.format("%s\n", createTagFrom(HEADER)));
 				count++;
 				continue;
 			}
