@@ -4,6 +4,7 @@
 		<script src="./js/jquery-2.1.1.min.js"></script>
 		<script src="./js/d3.min.js" charset="utf-8"></script>
 		<script src="./js/bar.js" charset="utf-8"></script>
+		<script src="./js/bubble.js"></script>
 	</head>
 
 	<body>
@@ -156,8 +157,22 @@ if($result){//var_dump($result);
 	    $ttpersp[$i][1]=$result['tokenscount'][$i]/count($result['speeches'][$i]);
 	}
 
-
-
+//bar7
+	$bubble1=array();
+	$cc1=0;
+	foreach($words as $key => $val){
+		if(in_array($key, $stoppwords2)){
+			
+		}
+		else{
+			if($val>10){
+				$bubble1[$cc1] = array();
+		    	$bubble1[$cc1][0]=$key;
+		    	$bubble1[$cc1][1]=$val; 
+		    	$cc1++;	
+			}
+		}
+	}
 }
 
 
@@ -175,7 +190,8 @@ if($result){//var_dump($result);
 <div id="bar5"></div>
 <hr />
 <div id="bar6"></div>
-
+<hr />
+<div id="bar7"></div>
 
 <script>
 var tw5 = <?php echo json_encode($tw5); ?>;
@@ -185,6 +201,9 @@ var speeches = <?php echo json_encode($speeches); ?>;
 var ttpersp = <?php echo json_encode($ttpersp); ?>;
 var tw5ws2 = <?php echo json_encode($tw5ws2); ?>;
 
+var bubble1 = <?php echo json_encode($bubble1); ?>;
+
+
 render(tw5,"legislaturperiode","count","500","1500","Top 75 words", ["words"],"#bar1");
 render(tw5ws,"legislaturperiode","count","500","1500","Top 75 words without stoppwords", ["words"],"#bar2");
 render(tw5ws2,"legislaturperiode","count","500","1500","Top 75 words without stoppwords", ["words"],"#bar3");
@@ -192,8 +211,29 @@ render(tt,"legislaturperiode","anzahl","500","1500","Tokens / Types pro Legislat
 render(speeches,"legislaturperiode","anzahl","500","1500","Speechcount", ["speeches"],"#bar5");
 render(ttpersp,"legislaturperiode","anzahl","500","1500","Avg. Tokens per Speech pro Legislaturperiode", ["tokens"],"#bar6");
 
+//build json
+var json= { "name": "flare", "children": [  ]};	
+json.children[0] = { };
+json.children[0].name = 'words';
+json.children[0].children = [];
 
 
+
+
+
+
+var counter =0;
+for(b in bubble1){
+	var cluster =0;
+
+	json.children[cluster].children[counter] = {};
+	json.children[cluster].children[counter].name =  bubble1[b][0];
+	json.children[cluster].children[counter].size = ""+bubble1[b][1];
+	counter++;
+}
+
+
+bubble(json, "top words, without stoppwords2 and min occur > 10","#bar7")
 </script>
 
 
