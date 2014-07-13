@@ -124,16 +124,6 @@ We want more transparency! The answers are there, but too difficult to reach for
 %  	
 \end{frame} 
 
-\subsection{Ergebnisse}
-\begin{frame}
-\frametitle{Vorläufige Ergebnisse}
-\begin{itemize}
-\item Unstrukturierte Textdateien liegen vor (PDF / TXT)
-\item Semistrukturierte XML Dateien aus TXT erzeugt
-\item Metadatenbank angelegt
-\item Erste einfache XPath Anfragen auf Dateien realisiert 
-\end{itemize}
-\end{frame}
 \begin{frame}
   \frametitle{Architektur Prozess Datenextraktion und -aufbereitung }
   \begin{itemize}
@@ -146,25 +136,36 @@ We want more transparency! The answers are there, but too difficult to reach for
 \end{frame}
 
 
+\section{Results}
+\begin{frame}
+\frametitle{temporary results}
+\begin{itemize}
+\item unstructured Textfiles avaiable (PDF / TXT)
+\item semi-structured XML files processed from PDF
+\item Metadatabase
+\item XPath query's on XML-Files
+\item NoSQL Database:
+\begin{itemize}
+\item all speeches
+\item Speaker with all Speeches
+\item appearance of words by speech
+\item Speakerstatistics over all election periods
+\item Partystatistics over all election periods
+\end{itemize}
+\end{itemize}
+\end{frame}
+
+
 \section{Outlook}
 
-\subsection{Anstehende Aufgaben}
+\subsection{next Steps}
 \begin{frame}
-\frametitle{Ausblick I: nächste Schritte}
-Nächste Schritte:
+\frametitle{Outlook I: next Steps}
+Next Steps:
 \begin{itemize}
-	\item  erweitern der Metadaten-Datenbank mit Metadaten:
-		\begin{itemize}
-			\item aus bestehenden XML Files
-			\item aus zusätzlichen Quellen (z.B. Sitzverteilungen)
-	 	\end{itemize}
-	\item  Überführen der Strukturierten Daten im XML-Format in einen Document Store
-	\item  Analyse der Daten: 
-		\begin{itemize}
-			\item Clustering (Top-Down, Bottom-Up)
-			\item LDA (Latend Dirichlet Allocation)
-	 	\end{itemize}
-	\end{itemize}
+	\item Clustering (Top-Down, Bottom-Up)
+	\item LDA (Latend Dirichlet Allocation)
+\end{itemize}
 \end{frame}
 
 \subsection{Ziele}
