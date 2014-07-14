@@ -4,6 +4,37 @@
 			<script src="./js/jquery-2.1.1.min.js"></script>
 			<script src="./js/d3.min.js" charset="utf-8"></script>
 			<script src="./js/bar.js" charset="utf-8"></script>
+
+			<style type="text/css">
+			table {
+			  border-collapse: collapse;
+			}
+			table th {
+			  border: 1px solid black;
+			  padding-left:10px;
+			  padding-right: 10px;
+			}
+			table td {
+			  border-right: 1px solid black;
+			  padding-left:10px;
+			  padding-right: 10px;
+			}
+			table tr:first-child th {
+			  border-top: 0;
+			}
+			table tr:last-child td {
+			  border-bottom: 0;
+			}
+			table tr td:first-child,
+			table tr th:first-child {
+			  border-left: 0;
+
+			}
+			table tr td:last-child,
+			table tr th:last-child {
+			  border-right: 0;
+			}
+			</style>
 	</head>
 
 	<body>
@@ -36,10 +67,22 @@ if($result){
 	    echo "</div>";
 
 
-	    echo "tokens / types by election period: <br />";
+	    //echo "tokens / types by election period: <br />";
+	    echo "<table style=\"margin:3px;\">";
+	    echo "<thead><th>period</th><th>tokens</th><th>types</th><th>speeches</th>";
+	    echo "<tbody >";
 	    for($i=1;$i<19;$i++){
-	    	echo $i.": tokens: ".$result['tokens'][$i].", types: ".$result['types'][$i]." speeches: ".count($result['speeches'][$i])."<br/>";
+
+	    	echo "<tr>";
+	    	echo "<td>".$i."</td>";
+	    	echo "<td>".$result['tokens'][$i]."</td>";
+	    	echo "<td>".$result['types'][$i]."</td>";
+	    	echo "<td>".count($result['speeches'][$i])."</td>";
+	    	//echo $i.": tokens: ".$result['tokens'][$i].", types: ".$result['types'][$i]." speeches: ".count($result['speeches'][$i])."<br/>";
+	    	echo "</tr>";
 	    }
+	    echo "</tbody>";
+	    echo "</table>";
 /*
 	    echo "Speeches: <br />";
 	    echo "<div style=\"width:500px;max-height:400px;overflow-y:scroll;margin:10px;\" >";
