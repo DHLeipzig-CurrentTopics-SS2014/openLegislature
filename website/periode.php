@@ -82,7 +82,7 @@ echo "number of speeches with party: ".$numberofspeeches2."<br />";
 	
 	
 	
-	donut(speeches,"700","500","Speeches per Party", "#bar1");
+	donut(speeches,"700","500","Speeches by Party", "#bar1");
 	bubble(json, "","#bar2")
 </script>
 

@@ -28,16 +28,16 @@ $top50wordsWithoutStoppwords2 = array();
 if($result){//var_dump($result);
 	
 	
-	echo( "Name: ".$result["name"]."<br/>");
-	echo( "Partei: <a href=\"party.php?pt=".$result["party"]."\" >".$result["party"]."</a><br/>");
-	echo( "erste Rede: ".$result["legfrom"]."<br/>");
-	echo( "letzte Rede: ".$result["legto"]."<br/>");
-	echo( "Anzahl Reden: ".$result["speechcount"]."<br/>");
-	echo( "Anzahl Tokens: ".$result["tokencount"]."<br/>");
-	echo( "Anzahl Types: ".$result["typecount"]."<br/>");
+	echo( "name: ".$result["name"]."<br/>");
+	echo( "party: <a href=\"party.php?pt=".$result["party"]."\" >".$result["party"]."</a><br/>");
+	echo( "first speech: ".$result["legfrom"]."<br/>");
+	echo( "last speech: ".$result["legto"]."<br/>");
+	echo( "number of speeches: ".$result["speechcount"]."<br/>");
+	echo( "tokencount: ".$result["tokencount"]."<br/>");
+	echo( "typecount: ".$result["typecount"]."<br/>");
 	echo "<hr><br />";
 	
-	echo "Speeches:<br />";
+	echo "speeches:<br />";
 	foreach($result["speeches"] as $lspeeches){
 		foreach ($lspeeches as $spkey => $spvalue) {
 			echo "<a href=\"speech.php?sp=".$spvalue."\" >".$spvalue."</a><br />";
@@ -206,10 +206,10 @@ var bubble1 = <?php echo json_encode($bubble1); ?>;
 
 render(tw5,"legislaturperiode","count","500","1500","Top 75 words", ["words"],"#bar1");
 render(tw5ws,"legislaturperiode","count","500","1500","Top 75 words without stoppwords", ["words"],"#bar2");
-render(tw5ws2,"legislaturperiode","count","500","1500","Top 75 words without stoppwords", ["words"],"#bar3");
-render(tt,"legislaturperiode","anzahl","500","1500","Tokens / Types pro Legislaturperiode", ["tokens","types"],"#bar4");
-render(speeches,"legislaturperiode","anzahl","500","1500","Speechcount", ["speeches"],"#bar5");
-render(ttpersp,"legislaturperiode","anzahl","500","1500","Avg. Tokens per Speech pro Legislaturperiode", ["tokens"],"#bar6");
+render(tw5ws2,"legislaturperiode","count","500","1500","Top 75 words without stoppwords2", ["words"],"#bar3");
+render(tt,"legislaturperiode","count","500","1500","Tokens / Types by Legislaturperiode", ["tokens","types"],"#bar4");
+render(speeches,"legislaturperiode","count","500","1500","Speechcount", ["speeches"],"#bar5");
+render(ttpersp,"legislaturperiode","count","500","1500","Avg. Tokens per Speech by Legislaturperiode", ["tokens"],"#bar6");
 
 //build json
 var json= { "name": "flare", "children": [  ]};	

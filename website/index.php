@@ -19,7 +19,7 @@ $db = $m->local;
 $speaker = $db->speakerlist;
 $result = $speaker->find();
 
-echo "Sprecher:<br/>";
+echo "speaker:<br/>";
 echo "<div style=\"width:500px;height:400px;overflow-y:scroll;margin:10px;\" >";
 
 if($result){ 
@@ -42,7 +42,7 @@ echo "</div><br />";
 $partys = $db->partystats;
 $result = $partys->find();
 
-echo "Parteien:<br/>";
+echo "partys:<br/>";
 echo "<div style=\"width:500px;height:400px;overflow-y:scroll;margin:10px;\" >";
 
 if($result){
@@ -61,14 +61,12 @@ echo "</div><br />";
 ?>
 
 <?php
-echo "Perioden:<br />";
+echo "election periods:<br />";
 for($i=1;$i<19;$i++){
 	echo "<a href=\"periode.php?lp=".$i."\" >Periode ".$i."</a><br />";
 }
 
 ?>
-
-
 
 	</body>
 </html>

@@ -23,11 +23,11 @@ $result = $partystats->findOne($query);
 if($result){
 	
 	    echo "Name: ".$result["name"] . "<br/>";
-	    echo "Anzahl Sprecher: ".sizeof($result["member"]) . "<br/>";
-	    echo "Anzahl Types: ".$result["typecount"] . "<br/>";
-	    echo "Anzahl Tokens: ".$result["tokencount"] . "<br/>";
+	    echo "number of speaker: ".sizeof($result["member"]) . "<br/>";
+	    echo "typecount: ".$result["typecount"] . "<br/>";
+	    echo "tokencount: ".$result["tokencount"] . "<br/>";
 
-	    echo "Sprecher: <br />";
+	    echo "speaker: <br />";
 	    echo "<div style=\"width:500px;max-height:400px;overflow-y:scroll;margin:10px;\" >";
 	    sort($result["member"]);
 	    foreach($result["member"] as $lmem){
@@ -36,9 +36,9 @@ if($result){
 	    echo "</div>";
 
 
-	    echo "Tokens / Types pro Legislaturperiode: <br />";
+	    echo "tokens / types by election period: <br />";
 	    for($i=1;$i<19;$i++){
-	    	echo $i.": Tokens: ".$result['tokens'][$i].", Types: ".$result['types'][$i]." Speeches: ".count($result['speeches'][$i])."<br/>";
+	    	echo $i.": tokens: ".$result['tokens'][$i].", types: ".$result['types'][$i]." speeches: ".count($result['speeches'][$i])."<br/>";
 	    }
 /*
 	    echo "Speeches: <br />";
@@ -96,9 +96,9 @@ if($result){
   	var ttpersp = <?php echo json_encode($ttpersp); ?>;
   	
 
-render(periods,"legislaturperiode","anzahl","500","1500","Tokens / Types pro Legislaturperiode", ["tokens","types"],"#bar1");
-render(speeches,"legislaturperiode","anzahl","500","1500","Speechcount", ["speeches"],"#bar2");
-render(ttpersp,"legislaturperiode","anzahl","500","1500","Avg. Tokens per Speech pro Legislaturperiode", ["tokens"],"#bar3");
+render(periods,"legislaturperiode","count","500","1500","tokens / types by election period", ["tokens","types"],"#bar1");
+render(speeches,"legislaturperiode","count","500","1500","speechcount", ["speeches"],"#bar2");
+render(ttpersp,"legislaturperiode","count","500","1500","avg. tokens per Speech by election period", ["tokens"],"#bar3");
 </script>
 
 
