@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<xs:element name="birth" type="xs:positiveInteger"/>
+	<xs:element name="party" type="xs:string"/>
+	<xs:element name="land" type="xs:string"/>
+
+	<xs:attribute name="id">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:pattern value="[0-9]+"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:attribute>
+
+	<xs:element name="name">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:string">
+					<xs:attribute name="wikipedia" type="xs:string"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="constituency">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:string">
+					<xs:attribute name="wikipedia" type="xs:string"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="session">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="party"/>
+				<xs:element ref="land"/>
+				<xs:element ref="constituency"/>
+			</xs:sequence>
+			<xs:attribute name="id" type="xs:positiveInteger"/>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="sessions">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="session" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="member">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="name"/>
+				<xs:element ref="birth"/>
+				<xs:element ref="sessions"/>
+			</xs:sequence>
+			<xs:attribute ref="id"/>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="members">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="member" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
