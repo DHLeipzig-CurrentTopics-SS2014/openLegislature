@@ -18,7 +18,6 @@ import java.util.Collection;
 import java.util.Locale;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
 import org.apache.commons.io.IOUtils;
 
 /**
@@ -27,10 +26,8 @@ import org.apache.commons.io.IOUtils;
  * @version 0.4.5
  */
 public class Helpers {
-	
 	/**
 	 * Extracts an int property from the VM parameters.
-	 * 
 	 * @param defaultValue The value which should be used if not other specified
 	 * @param propertyName The property name used to refer the System.getProperty
 	 * @return An integer representing the property
@@ -50,15 +47,15 @@ public class Helpers {
 	public static String getUserDir() {
 		return System.getProperty("user.dir");
 	}
-	
+
 	/**
 	 * Tags the content with the tag name.
-	 * @param tagname tag name
+	 * @param tag tag name
 	 * @param content content
 	 * @return tagged content
 	 */
-	public static String tag_with_content(String tagname, String content) {
-		return (content != null && !content.isEmpty() ? "<" + tagname + ">" + content + "</" + tagname + ">" : "");
+	public static String tagContent(String tag, String content) {
+		return (content != null && !content.isEmpty() ? String.format("<%s>%s</%s>", tag, content, tag) : "");
 	}
 
 	/**

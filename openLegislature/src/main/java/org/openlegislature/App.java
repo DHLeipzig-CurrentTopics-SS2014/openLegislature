@@ -1,21 +1,5 @@
 package org.openlegislature;
 
-import java.io.File;
-import java.io.IOException;
-import java.net.URL;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.List;
-import java.util.Scanner;
-
-import org.apache.commons.validator.routines.UrlValidator;
-import org.openlegislature.mongo.MongoCon;
-import org.openlegislature.process.*;
-import org.openlegislature.util.GuiceInjectorRetriever;
-import org.openlegislature.util.Helpers;
-import org.openlegislature.util.Logger;
-import org.openlegislature.util.OpenLegislatureConstants;
-
 import com.google.inject.Injector;
 import com.stumbleupon.async.Callback;
 import com.stumbleupon.async.Deferred;
@@ -24,6 +8,27 @@ import com.sun.syndication.feed.synd.SyndFeed;
 import com.sun.syndication.io.FeedException;
 import com.sun.syndication.io.SyndFeedInput;
 import com.sun.syndication.io.XmlReader;
+import java.io.File;
+import java.io.IOException;
+import java.net.URL;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
+import java.util.Scanner;
+import org.apache.commons.validator.routines.UrlValidator;
+import org.openlegislature.mongo.MongoCon;
+import org.openlegislature.process.BundestagDownloader;
+import org.openlegislature.process.Pdf2TxtConverter;
+import org.openlegislature.process.PdfToTxtConverterCallback;
+import org.openlegislature.process.ThrowableCallback;
+import org.openlegislature.process.TxtToXmlConverterCallback;
+import org.openlegislature.process.XPathQueryEngine;
+import org.openlegislature.process.XPathQueryEngineCallback;
+import org.openlegislature.process.XmlToMongoCallback;
+import org.openlegislature.util.GuiceInjectorRetriever;
+import org.openlegislature.util.Helpers;
+import org.openlegislature.util.Logger;
+import org.openlegislature.util.OpenLegislatureConstants;
 
 /**
  *
@@ -58,14 +63,17 @@ public class App {
     private static void downloadAndConvertIfNeeded(BundestagDownloader downloader, int period, int session) {
 		Deferred<File> futureFile = downloader.downloadProtocolAsynchronously(period, session);
 		Injector injector = GuiceInjectorRetriever.getInjector();
+
+		
 		PdfToTxtConverterCallback pdf2txtConverter = injector.getInstance(PdfToTxtConverterCallback.class);
 		TxtToXmlConverterCallback txt2xmlConverter = injector.getInstance(TxtToXmlConverterCallback.class);
-        XPathQueryEngineCallback xmlQueryEngine = injector.getInstance(XPathQueryEngineCallback.class);
-        Callback<File, File> xmlToMongo = injector.getInstance(XmlToMongoCallback.class);
+		XPathQueryEngineCallback xmlQueryEngine = injector.getInstance(XPathQueryEngineCallback.class);
+		Callback<File, File> xmlToMongo = injector.getInstance(XmlToMongoCallback.class);
+
 		futureFile.addCallbacks(pdf2txtConverter, new ThrowableCallback("An error occured in the pdf to txt converting stage:"))
-		          .addCallbacks(txt2xmlConverter, new ThrowableCallback("An error occured in the txt to xml converting stage:"))
-		          .addCallbacks(xmlToMongo, new ThrowableCallback("mongo db load failed"))
-                  .addCallbacks(xmlQueryEngine, new ThrowableCallback("An error occured in the xml query stage"));
+						.addCallbacks(txt2xmlConverter, new ThrowableCallback("An error occured in the txt to xml converting stage:"))
+						.addCallbacks(xmlToMongo, new ThrowableCallback("mongo db load failed"))
+						.addCallbacks(xmlQueryEngine, new ThrowableCallback("An error occured in the xml query stage"));
     }
 
     private static void startCliXPathQueryInterface(Injector injector) {
