@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<timeline>
+  <version>1.3.0</version>
+  <timetype>gregoriantime</timetype>
+  <categories>
+    <category>
+      <name>Document Pipeline</name>
+      <color>255,165,0</color>
+      <font_color>0,0,0</font_color>
+    </category>
+    <category>
+      <name>SLDA Classification</name>
+      <color>30,144,255</color>
+      <font_color>0,0,0</font_color>
+    </category>
+    <category>
+      <name>Data visualization</name>
+      <color>255,0,0</color>
+      <font_color>0,0,0</font_color>
+    </category>
+    <category>
+      <name>Project initialization</name>
+      <color>231,208,165</color>
+      <font_color>0,0,0</font_color>
+    </category>
+  </categories>
+  <events>
+    <event>
+      <start>2014-04-01 00:00:00</start>
+      <end>2014-04-29 00:00:00</end>
+      <text>Data collection</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Project initialization</category>
+    </event>
+    <event>
+      <start>2014-04-29 00:00:00</start>
+      <end>2014-04-29 00:00:00</end>
+      <text>Created Project repository</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Project initialization</category>
+    </event>
+    <event>
+      <start>2014-05-03 00:00:00</start>
+      <end>2014-05-03 00:00:00</end>
+      <text>Decision on OCR Framework</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Document Pipeline</category>
+    </event>
+    <event>
+      <start>2014-04-20 00:00:00</start>
+      <end>2014-05-09 13:41:00</end>
+      <text>Download Bundestag PDF protocols</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Document Pipeline</category>
+    </event>
+    <event>
+      <start>2014-05-10 00:00:00</start>
+      <end>2014-05-12 00:00:00</end>
+      <text>Parallelization</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Document Pipeline</category>
+    </event>
+    <event>
+      <start>2014-05-10 00:00:00</start>
+      <end>2014-06-21 00:00:00</end>
+      <text>Text to XML Converter</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Document Pipeline</category>
+    </event>
+    <event>
+      <start>2014-05-24 00:00:00</start>
+      <end>2014-06-04 00:00:00</end>
+      <text>Xml To Mongo DB</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Document Pipeline</category>
+    </event>
+    <event>
+      <start>2014-06-10 00:00:00</start>
+      <end>2014-06-24 00:00:00</end>
+      <text>Cooccurence Calc.</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Data visualization</category>
+    </event>
+    <event>
+      <start>2014-06-27 00:00:00</start>
+      <end>2014-07-13 00:00:00</end>
+      <text>LDA / SLDA Impl.</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>SLDA Classification</category>
+    </event>
+    <event>
+      <start>2014-06-24 00:00:00</start>
+      <end>2014-07-14 00:00:00</end>
+      <text>Result website</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Data visualization</category>
+    </event>
+    <event>
+      <start>2014-05-06 00:00:00</start>
+      <end>2014-05-06 00:00:00</end>
+      <text>Create XSD</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Document Pipeline</category>
+    </event>
+  </events>
+  <view>
+    <hidden_categories>
+    </hidden_categories>
+  </view>
+</timeline>
