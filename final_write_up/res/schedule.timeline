@@ -137,6 +137,10 @@
     </event>
   </events>
   <view>
+    <displayed_period>
+      <start>2014-03-21 14:18:49</start>
+      <end>2014-08-04 19:04:44</end>
+    </displayed_period>
     <hidden_categories>
     </hidden_categories>
   </view>
