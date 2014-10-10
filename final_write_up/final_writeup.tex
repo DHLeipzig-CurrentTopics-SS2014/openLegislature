@@ -15,17 +15,17 @@
 \setcounter{page}{1} 
 \chapter{Introduction}
 In this essay the project work 'Open Legislature' will be discussed, which was
-created during the subject 'Digital Philology' in the summer term 2014.
+created during the course 'Digital Philology' in the summer term 2014.
 The goal of this essay is to present our results in an understandable fashion,
 reflecting the way we produced our results. 
-In course of this work all our created (software) artifacts and analysed results
-regarding politicians of the german Bundestag should be presented.
+In the course of this work all our created (software) artifacts and analysed results
+regarding politicians of the german Bundestag will be presented.
 We begin with a short introduction of our posed questions and the corpus which
 was used trying to answer them. Afterwards we talk about simple
 misunderstandings of the problem space. 
 In the next chapter we will talk
 about our methodology, software artifacts and achieved results.
-Finally, we conclude this work with a critical reflection of your own research
+Finally, we conclude this work with a critical reflection of our own research
 process, namely what we did right and wrong during the last term.
 \section{Questions}
 At first we wanted to know: Can it be detected, if some politicians
@@ -36,7 +36,7 @@ seems kind of easy to copy the work of others or even assign someone else to do
 your work. For reference, this article \cite{plagiat_1} of a german online newspaper 
 summarises current plagiarism cases of many german politicians. 
 Even Wladimir Putin, the current president of the Russian Federation, has been
-suspected cheating in his dissertation \cite{plagiat_2}. This has been in
+suspected cheating in his dissertation \cite{plagiat_2}, back in
 2006. \\
 Another interesting story can be told of an software developer from the USA,
 who 'outsourced' all of his personal work to a company in china
@@ -94,7 +94,7 @@ not answerable easily. That is most likely one of the reasons we came up with
 typical data and statistical results (like for decision support systems in an enterprise). 
 Another point is that computer scientists produce software and tools sometimes
 way too early. They should concentrate on their goals, achieving results (so in
-this case the answers of our questions) in the most simple fashion. I think we
+this case the answers of our questions) in the most simple fashion. We think we
 did use too complicated approaches, which did not show any results so quickly,
 frustating the whole team. For example, we had a document pipeline to extract
 all Bundestag protocols from the internet. Instead of reducing the dataset by
@@ -155,7 +155,7 @@ Roughly speaking we spent more than the half of the term on implementing
 the document pipeline, followed in terms of effort by our result visualization
 module and the LDA / SDLA calculation. Alone judging by the time taken, it was
 most complicated to transfer the unstructured PDF protocols into a more machine
-readable format. We will talk about this process in the next part of this essay. 
+readable format. We will talk about this process in the next part of this essay.
 
 \section{Document Pipeline} 
 From the perspective of our project github repository, we are now going to
@@ -398,12 +398,12 @@ too inconcrete. Instead of asking 'Which speeches are similar to others?' we
 should have asked something like 'How differ speeches by Angela Merkel to Peer
 Steinbrück? What do they tell us, what promises do they make? Are they
 contradicting theirselfs ragarding their election promises?'. 
-I think with those different questions our project would be a much greater success. What we did right is the creation of a
+We think with those different questions our project would be a much greater success. What we did right is the creation of a
 (structured) dataset. We performed simple cooccurence calculations and word
 counting on it, but we really need to advance our methology. As an asset, we
 did the similarity match using the SLDA algorthm. It performed not too well in
 terms of speed, but we were able to use it for the 18th election period. It told
-us, Nathanel TODO
+us, which words are most significant for a speaker. We calculated for each speaker in our set of protocols from the 18th election period the 30 words that as a set distinguish the speakers from each other.
 
 
 
